@@ -1,7 +1,7 @@
 # Studio Magic
-Studio Magic is a **Dutch** podcast about everything related to Magic: the Gathering.
+Studio Magic is a _Dutch_ podcast about everything related to Magic: the Gathering.
 
-Listen to us on _[Buzzsprout](https://www.buzzsprout.com/133608)_ or on _[iTunes](https://itunes.apple.com/us/podcast/studio-magic/id1309473851)_.
+Listen to us on [Buzzsprout](https://www.buzzsprout.com/133608) or on [iTunes](https://itunes.apple.com/us/podcast/studio-magic/id1309473851).
 
 And connect with us on:
 * Facebook ([@StudioMagicNL](https://www.facebook.com/studiomagicnl/))
@@ -11,4 +11,4 @@ And connect with us on:
 
 This repository is the code base for the Studio Magic website (http://studiomagicpodcast.nl/).
 
-For contact concerning the repository, please e-mail to dave.weijgertse@gmail.com
+For contact concerning the repository, please e-mail to dave.weijgertse@gmail.com.
