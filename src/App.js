@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import PageLanding from './Pages/Landing/PageLanding';
 
-import './App.css';
+import './App.scss';
 
 
 class App extends React.Component {
