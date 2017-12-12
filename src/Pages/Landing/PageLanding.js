@@ -9,6 +9,7 @@ class PageLanding extends React.Component {
             <div className="buzzsprout-container">
                 <iframe
                     className="buzzsprout"
+                    title="Studio Magic op Buzzsprout"
                     src="http://www.buzzsprout.com/133608"
                 />
             </div>
