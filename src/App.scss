@@ -10,6 +10,8 @@ body,
 }
 
 .container {
+    width: 100%;
+    max-width: 100%;
     height: calc(100% - 105px);
     padding: 0;
 }
