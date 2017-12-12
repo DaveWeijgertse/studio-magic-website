@@ -1,9 +1,16 @@
 import React from 'react';
 
+import './PageLanding.scss';
+
+
 class PageLanding extends React.Component {
     render() {
         return (
-            <div>
+            <div className="buzzsprout-container">
+                <iframe
+                    className="buzzsprout"
+                    src="http://www.buzzsprout.com/133608"
+                />
             </div>
         )
     }
