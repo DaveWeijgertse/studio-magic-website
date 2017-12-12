@@ -9,3 +9,7 @@ body,
     width: 100%;
 }
 
+.container {
+    height: calc(100% - 105px);
+    padding: 0;
+}
