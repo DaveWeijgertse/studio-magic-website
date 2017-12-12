@@ -1,9 +1,11 @@
 import React from 'react';
 
+import './HeaderBar.scss';
+
 class HeaderBar extends React.Component {
     render() {
         return (
-            <div>
+            <div className="header-bar">
             </div>
         )
     }
