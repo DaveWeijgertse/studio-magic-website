@@ -1,17 +1,17 @@
 import React from 'react';
 
+// Subcomponent imports
+import Logo from './Subcomponents/Logo';
+
+// Styling import
 import './HeaderBar.scss';
-import logo from './logo.png';
+
 
 class HeaderBar extends React.Component {
     render() {
         return (
             <div className="header-bar">
-                <img
-                    className="logo"
-                    alt="Studio Magic"
-                    src={logo}
-                />
+                <Logo />
             </div>
         )
     }
