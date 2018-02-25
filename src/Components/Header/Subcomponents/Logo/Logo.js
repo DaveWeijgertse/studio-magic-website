@@ -18,11 +18,12 @@ class Logo extends React.Component {
                     alt="Studio"
                     src={logoStudio}
                 />
-                <img
-                    className="logo emblem"
-                    alt="Emblem"
-                    src={logoEmblem}
-                />
+                <div className="logo emblem">
+                    <img
+                        alt="Emblem"
+                        src={logoEmblem}
+                    />
+                </div>
                 <img
                     className="logo magic"
                     alt="Magic"
