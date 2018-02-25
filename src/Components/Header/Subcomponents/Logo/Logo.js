@@ -1,17 +1,34 @@
 import React from 'react';
 
+// Logo imports
+import logoStudio from './images/logo-studio_magic-STUDIO_wit.png';
+import logoEmblem from './images/logo-studio_magic-LOGO_EMBLEEM.png';
+import logoMagic from './images/logo-studio_magic-MAGIC_wit.png';
+
+// Styling imports
 import './Logo.scss';
-import logo from './logo.png';
 
 
 class Logo extends React.Component {
     render() {
         return (
-            <img
-                className="logo"
-                alt="Studio Magic"
-                src={logo}
-            />
+            <div className="logo-container">
+                <img
+                    className="logo studio"
+                    alt="Studio"
+                    src={logoStudio}
+                />
+                <img
+                    className="logo emblem"
+                    alt="Emblem"
+                    src={logoEmblem}
+                />
+                <img
+                    className="logo magic"
+                    alt="Magic"
+                    src={logoMagic}
+                />
+            </div>
         );
     }
 }

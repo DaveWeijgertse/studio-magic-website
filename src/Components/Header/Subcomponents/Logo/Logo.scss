@@ -1,4 +1,20 @@
-.header-bar .logo {
+.header-bar .logo-container {
     height: 100%;
-    padding: 25px 0 15px;
+
+    .logo {
+        display: inline-block;
+        vertical-align: top;
+        height: 65px;
+        &.studio {
+            height: 50px;
+            margin-top: 18px;
+        }
+        &.emblem {
+            height: 50px;
+            margin: 20px 10px 0;
+        }
+        &.magic {
+            margin-top: 23px;
+        }
+    }
 }
