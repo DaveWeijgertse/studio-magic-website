@@ -1,5 +1,8 @@
 import React from 'react';
 
+// Styling imports
+import './SocialMediaButtons.scss';
+
 
 class SocialMediaButtons extends React.Component {
     render() {
