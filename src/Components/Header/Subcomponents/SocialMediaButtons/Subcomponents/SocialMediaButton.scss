@@ -1,0 +1,25 @@
+$button-size: 50px;
+$image-size: 40px;
+
+a.social-media-button {
+    display: inline-block;
+    height: $button-size;
+    width: $button-size;
+    padding: 5px;
+    text-align: center;
+    &:not(:last-child) {
+        border-right: 1px solid #616161;
+    }
+
+    > img {
+        max-height: $image-size;
+        max-width: $image-size;
+    }
+
+    &.itunes {
+        background: white;
+        &:hover {
+            background: darken(white, 10%);
+        }
+    }
+}
