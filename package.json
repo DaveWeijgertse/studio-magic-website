@@ -30,6 +30,7 @@
     "i18n-react": "^0.6.3",
     "jest": "20.0.4",
     "jquery": "^3.2.1",
+    "lodash": "^4.17.5",
     "node-sass": "^4.7.2",
     "object-assign": "4.1.1",
     "popper.js": "^1.12.9",
