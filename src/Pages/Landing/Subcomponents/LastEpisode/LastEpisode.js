@@ -13,6 +13,7 @@ const LastEpisode = ({lastEpisode}) => {
     const {
         date,
         id,
+        name,
     } = lastEpisode;
 
     return (
@@ -23,7 +24,9 @@ const LastEpisode = ({lastEpisode}) => {
                     number={id}
                     date={date}
                 />
-                <EpisodeName />
+                <EpisodeName
+                    name={name}
+                />
             </div>
             <div className="background" />
         </div>

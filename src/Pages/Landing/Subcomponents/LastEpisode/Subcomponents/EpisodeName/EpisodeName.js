@@ -4,9 +4,9 @@ import React from 'react';
 import './EpisodeName.scss';
 
 
-const EpisodeName = () => (
+const EpisodeName = ({name}) => (
     <div className="episode-name">
-        Jace, the Mind Sculptor: Beter dan alles?
+        {name}
     </div>
 );
 
