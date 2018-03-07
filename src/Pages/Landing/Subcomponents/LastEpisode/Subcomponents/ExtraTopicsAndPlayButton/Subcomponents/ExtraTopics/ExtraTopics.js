@@ -12,9 +12,11 @@ const ExtraTopics = ({extraTopics}) => (
         </div>
         <ul className="extra-topics-list">
             {extraTopics.map(
-                (extraTopic) => {
+                (extraTopic, i) => {
                     return (
-                        <li>{extraTopic}</li>
+                        <li key={i}>
+                            {extraTopic}
+                        </li>
                     );
                 }
             )}

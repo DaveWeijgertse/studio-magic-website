@@ -16,7 +16,10 @@ class SocialMediaButton extends React.Component {
             <a className={"social-media-button " + type}
                href={getSocialMediaHref(type)}
             >
-                <img src={getSocialMediaIcon(type)} />
+                <img
+                    src={getSocialMediaIcon(type)}
+                    alt={type}
+                />
             </a>
         );
     }
