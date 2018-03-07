@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Subcomponent imports
+import LastEpisode from './Subcomponents/LastEpisode';
 import PayOffText from './Subcomponents/PayOffText';
 
 // Styling imports
@@ -12,6 +13,7 @@ class PageLanding extends React.Component {
         return (
             <div>
                 <PayOffText />
+                <LastEpisode />
             </div>
         )
     }
