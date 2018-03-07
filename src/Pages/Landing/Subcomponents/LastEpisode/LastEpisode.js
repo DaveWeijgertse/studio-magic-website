@@ -15,6 +15,7 @@ const LastEpisode = ({lastEpisode}) => {
         date,
         id,
         name,
+        'extra-topics': extraTopics,
     } = lastEpisode;
 
     return (
@@ -29,6 +30,7 @@ const LastEpisode = ({lastEpisode}) => {
                     name={name}
                 />
                 <ExtraTopics
+                    extraTopics={extraTopics}
                 />
             </div>
             <div className="background" />

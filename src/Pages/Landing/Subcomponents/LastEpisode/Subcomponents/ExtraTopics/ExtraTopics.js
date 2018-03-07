@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const ExtraTopics = () => (
+const ExtraTopics = ({extraTopics}) => (
     <div>
     </div>
 );
