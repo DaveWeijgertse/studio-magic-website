@@ -1,11 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // Translations import
 import i18n from 'i18n-react';
 import NL from './utils/translations/nl-NL.json';
 
 // Pages imports
+import PageEpisodesList from './Pages/EpisodesList/PageEpisodesList';
 import PageLanding from './Pages/Landing/PageLanding';
 
 // Component imports
@@ -27,9 +28,14 @@ class App extends React.Component {
                 <HeaderBar />
                 <div className="container">
                     <Router>
-                        <Route path="/"
-                               component={PageLanding}
-                        />
+                        <Switch>
+                            <Route exact path="/"
+                                component={PageLanding}
+                            />
+                            <Route path="/afleveringen"
+                                component={PageEpisodesList}
+                            />
+                        </Switch>
                     </Router>
                 </div>
             </div>
