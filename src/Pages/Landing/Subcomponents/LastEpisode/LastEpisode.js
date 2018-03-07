@@ -3,7 +3,7 @@ import React from 'react';
 // Subcomponent imports
 import EpisodeName from './Subcomponents/EpisodeName';
 import EpisodeNumberAndDate from './Subcomponents/EpisodeNumberAndDate';
-import ExtraTopics from './Subcomponents/ExtraTopics';
+import ExtraTopicsAndPlayButton from './Subcomponents/ExtraTopicsAndPlayButton';
 import LatestEpisodeText from './Subcomponents/LatestEpisodeText';
 
 // Styling imports
@@ -29,7 +29,7 @@ const LastEpisode = ({lastEpisode}) => {
                 <EpisodeName
                     name={name}
                 />
-                <ExtraTopics
+                <ExtraTopicsAndPlayButton
                     extraTopics={extraTopics}
                 />
             </div>
