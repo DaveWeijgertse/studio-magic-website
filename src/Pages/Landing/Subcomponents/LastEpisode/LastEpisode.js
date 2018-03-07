@@ -4,7 +4,6 @@ import React from 'react';
 import EpisodeName from './Subcomponents/EpisodeName';
 import EpisodeNumberAndDate from './Subcomponents/EpisodeNumberAndDate';
 import ExtraTopics from './Subcomponents/ExtraTopics';
-import LatestEpisodeText from './Subcomponents/LatestEpisodeText';
 import PlayButton from './Subcomponents/PlayButton';
 
 // Styling imports
@@ -23,7 +22,6 @@ const LastEpisode = ({lastEpisode}) => {
     return (
         <div className="last-episode-container">
             <div className="content">
-                <LatestEpisodeText />
                 <EpisodeNumberAndDate
                     number={id}
                     date={date}

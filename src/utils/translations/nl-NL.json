@@ -4,8 +4,7 @@
     "extra-topics": "En verder bespreken we",
     "listen": "Luisteren",
     "episode": {
-        "singular": "Aflevering",
-        "latest": "De nieuwste aflevering"
+        "singular": "Aflevering"
     },
     "months": {
         "january": "Januari",
