@@ -5,10 +5,10 @@ import ExtraTopics from './Subcomponents/ExtraTopics';
 import PlayButton from './Subcomponents/PlayButton';
 
 
-const ExtraTopicsAndPlayButton = ({extraTopics}) => (
+const ExtraTopicsAndPlayButton = ({extraTopics, url}) => (
     <div className="extra-topics-and-play-button-container">
         <ExtraTopics extraTopics={extraTopics} />
-        <PlayButton />
+        <PlayButton url={url} />
     </div>
 );
 

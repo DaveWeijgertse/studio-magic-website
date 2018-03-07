@@ -1,8 +1,9 @@
 import React from 'react';
 
 
-const PlayButton = () => (
+const PlayButton = ({url}) => (
     <div>
+
     </div>
 );
 

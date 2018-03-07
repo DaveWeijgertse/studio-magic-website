@@ -13,9 +13,10 @@ import './LastEpisode.scss';
 const LastEpisode = ({lastEpisode}) => {
     const {
         date,
+        'extra-topics': extraTopics,
         id,
         name,
-        'extra-topics': extraTopics,
+        url,
     } = lastEpisode;
 
     return (
@@ -31,6 +32,7 @@ const LastEpisode = ({lastEpisode}) => {
                 />
                 <ExtraTopicsAndPlayButton
                     extraTopics={extraTopics}
+                    url={url}
                 />
             </div>
             <div className="background" />
