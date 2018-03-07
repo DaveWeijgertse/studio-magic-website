@@ -1,6 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+// Translations import
+import i18n from 'i18n-react';
+import NL from './utils/translations/nl-NL.json';
+
 // Pages imports
 import PageLanding from './Pages/Landing/PageLanding';
 
@@ -13,6 +17,10 @@ import './App.scss';
 
 
 class App extends React.Component {
+    componentWillMount() {
+        i18n.setTexts(NL);
+    }
+
     render() {
         return (
             <div className="App">
