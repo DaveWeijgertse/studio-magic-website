@@ -11,6 +11,7 @@ import './LastEpisode.scss';
 
 const LastEpisode = ({lastEpisode}) => {
     const {
+        date,
         id,
     } = lastEpisode;
 
@@ -20,6 +21,7 @@ const LastEpisode = ({lastEpisode}) => {
                 <LatestEpisodeText />
                 <EpisodeNumberAndDate
                     number={id}
+                    date={date}
                 />
                 <EpisodeName />
             </div>

@@ -4,9 +4,9 @@ import React from 'react';
 import './EpisodeDate.scss';
 
 
-const EpisodeDate = () => (
+const EpisodeDate = ({date}) => (
     <div className="episode-date">
-        23 februari 2018
+        {date}
     </div>
 );
 

@@ -5,10 +5,10 @@ import EpisodeDate from './Subcomponents/EpisodeDate';
 import EpisodeNumberLabel from './Subcomponents/EpisodeNumberLabel';
 
 
-const EpisodeNumberAndDate = ({number}) => (
+const EpisodeNumberAndDate = ({number, date}) => (
     <div>
         <EpisodeNumberLabel number={number} />
-        <EpisodeDate />
+        <EpisodeDate date={date} />
     </div>
 );
 
