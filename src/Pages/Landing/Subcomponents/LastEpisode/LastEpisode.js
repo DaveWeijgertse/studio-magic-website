@@ -9,15 +9,23 @@ import LatestEpisodeText from './Subcomponents/LatestEpisodeText';
 import './LastEpisode.scss';
 
 
-const LastEpisode = () => (
-    <div className="last-episode-container">
-        <div className="content">
-            <LatestEpisodeText />
-            <EpisodeNumberAndDate />
-            <EpisodeName />
+const LastEpisode = ({lastEpisode}) => {
+    const {
+        id,
+    } = lastEpisode;
+
+    return (
+        <div className="last-episode-container">
+            <div className="content">
+                <LatestEpisodeText />
+                <EpisodeNumberAndDate
+                    number={id}
+                />
+                <EpisodeName />
+            </div>
+            <div className="background" />
         </div>
-        <div className="background" />
-    </div>
-);
+    );
+}
 
 export default LastEpisode;

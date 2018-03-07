@@ -5,9 +5,9 @@ import EpisodeDate from './Subcomponents/EpisodeDate';
 import EpisodeNumberLabel from './Subcomponents/EpisodeNumberLabel';
 
 
-const EpisodeNumberAndDate = () => (
+const EpisodeNumberAndDate = ({number}) => (
     <div>
-        <EpisodeNumberLabel />
+        <EpisodeNumberLabel number={number} />
         <EpisodeDate />
     </div>
 );

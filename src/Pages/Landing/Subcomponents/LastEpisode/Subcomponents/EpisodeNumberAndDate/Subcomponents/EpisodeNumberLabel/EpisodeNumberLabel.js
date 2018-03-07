@@ -5,9 +5,9 @@ import i18n from 'i18n-react';
 import './EpisodeNumberLabel.scss';
 
 
-const EpisodeNumberLabel = () => (
+const EpisodeNumberLabel = ({number}) => (
     <div className="episode-number-label">
-        {i18n.translate('episode.singular')} #009
+        {i18n.translate('episode.singular') + " #" + number.toString()}
     </div>
 );
 
