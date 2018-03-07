@@ -7,7 +7,7 @@ import './LatestEpisodeText.scss';
 
 const LatestEpisodeText = () => (
     <div className="latest-episode-text">
-        {i18n.translate('episode.latest')}
+        {i18n.translate('episode.latest')}!
     </div>
 );
 
