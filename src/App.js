@@ -29,7 +29,7 @@ class App extends React.Component {
                 <div className="container">
                     <Router>
                         <Switch>
-                            <Route exact path="/"
+                            <Route path="/"
                                 component={PageLanding}
                             />
                             <Route path="/afleveringen"
