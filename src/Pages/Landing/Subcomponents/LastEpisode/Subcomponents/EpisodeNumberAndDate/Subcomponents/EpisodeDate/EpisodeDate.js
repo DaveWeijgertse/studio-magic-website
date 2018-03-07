@@ -1,9 +1,10 @@
 import React from 'react';
 
 
-const EpisodeDate = () => (
-    <div>
 
+const EpisodeDate = () => (
+    <div className="episode-date">
+        23 februari 2018
     </div>
 );
 
