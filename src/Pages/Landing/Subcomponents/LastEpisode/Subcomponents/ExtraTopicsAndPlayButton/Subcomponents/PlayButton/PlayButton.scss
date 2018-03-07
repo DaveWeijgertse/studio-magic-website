@@ -1,0 +1,22 @@
+@import '~appUtils/styling/colors';
+
+.play-button {
+    display: inline-block;
+    height: 46px;
+    padding: 6px 15px 6px 0;
+    color: white;
+    font-size: 22px;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    background: $main-color;
+    &:hover {
+        color: white;
+        text-decoration: none;
+        background: $main-color-dark;
+    }
+    &:before {
+        content: "\f144";
+        padding: 0 15px 0 15px;
+        font-family: "FontAwesome";
+    }
+}
