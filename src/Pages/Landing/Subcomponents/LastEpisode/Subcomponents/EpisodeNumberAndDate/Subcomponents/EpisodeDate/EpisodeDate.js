@@ -1,12 +1,15 @@
 import React from 'react';
 
+// Formatters import
+import formatDate from './formatters/formatDate';
+
 // Styling import
 import './EpisodeDate.scss';
 
 
 const EpisodeDate = ({date}) => (
     <div className="episode-date">
-        {date}
+        {formatDate(date)}
     </div>
 );
 
