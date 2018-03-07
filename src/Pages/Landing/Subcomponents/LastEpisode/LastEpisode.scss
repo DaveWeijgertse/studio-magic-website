@@ -1,0 +1,9 @@
+@import '~appUtils/styling/colors';
+
+.last-episode-container {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 134px); // 100% of the viewport, minus the height of the header + pay-off text
+    background: url('./images/lastepisodebg.jpg');
+    background-size: cover;
+}

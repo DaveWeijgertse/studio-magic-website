@@ -1,8 +1,11 @@
 import React from 'react';
 
+// Styling imports
+import './LastEpisode.scss';
+
 
 const LastEpisode = () => (
-    <div>
+    <div className="last-episode-container">
 
     </div>
 );
