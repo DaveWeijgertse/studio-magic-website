@@ -1,9 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import HeaderBar from './Components/Header/HeaderBar';
+// Pages imports
 import PageLanding from './Pages/Landing/PageLanding';
 
+// Component imports
+import HeaderBar from './Components/Header/HeaderBar';
+
+// Styling imports
 import 'bootstrap';
 import './App.scss';
 
