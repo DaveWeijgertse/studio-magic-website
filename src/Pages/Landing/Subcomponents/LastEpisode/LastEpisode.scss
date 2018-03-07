@@ -4,6 +4,17 @@
     position: relative;
     width: 100vw;
     height: calc(100vh - 134px); // 100% of the viewport, minus the height of the header + pay-off text
+
+    .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        z-index: 300;
+    }
+
     .background {
         position: absolute;
         top: 0;
@@ -12,6 +23,7 @@
         bottom: 0;
         background: url('./images/lastepisodebg.jpg');
         background-size: cover;
+        z-index: 250;
         &:after {
             content: '';
             position: absolute;
@@ -20,6 +32,7 @@
             left: 0;
             bottom: 0;
             background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.15));
+            z-index: 251;
         }
     }
 }
