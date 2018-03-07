@@ -1,4 +1,7 @@
 {
     "studio-magic": "Studio Magic",
-    "pay-off": "De Nederlandstalige podcast over alle aspecten van Magic: The Gathering!"
+    "pay-off": "De Nederlandstalige podcast over alle aspecten van Magic: The Gathering!",
+    "episode": {
+        "latest": "Laatste aflevering"
+    }
 }
