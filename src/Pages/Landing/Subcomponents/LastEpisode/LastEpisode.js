@@ -6,7 +6,7 @@ import './LastEpisode.scss';
 
 const LastEpisode = () => (
     <div className="last-episode-container">
-
+        <div className="background" />
     </div>
 );
 
