@@ -10,6 +10,15 @@ const ExtraTopics = ({extraTopics}) => (
         <div className="extra-topics-title">
             {i18n.translate('extra-topics')}:
         </div>
+        <ul className="extra-topics-list">
+            {extraTopics.map(
+                (extraTopic) => {
+                    return (
+                        <li>{extraTopic}</li>
+                    );
+                }
+            )}
+        </ul>
     </div>
 );
 
