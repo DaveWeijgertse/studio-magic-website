@@ -3,6 +3,11 @@
         {
             "id": 1,
             "name": "Is Iconic Masters de moeite waard? | Hype! 5c Humans in Modern",
+            "extra-topics": [
+                "Voorstelrondje. Wie zijn wij eigenlijk?",
+                "Vier nieuwe promo's",
+                "Pro Tour Ixalan: onze verwachtingen"
+            ],
             "date": "2017-11-02",
             "url": "http://www.buzzsprout.com/133608/591357-is-iconic-masters-de-moeite-waard-hype-5c-humans-in-modern-001",
             "description": [
@@ -53,6 +58,10 @@
         {
             "id": 2,
             "name": "Aflevering DOS!: Studio Magic op de Dutch Open Series",
+            "extra-topics": [
+                "Interviews met de spelers op de DOS",
+                "Tip: Magic Rules Chat with Judges"
+            ],
             "date": "2017-11-19",
             "url": "http://www.buzzsprout.com/133608/596971-aflevering-dos-studio-magic-op-de-dutch-open-series-002",
             "description": [
@@ -102,6 +111,7 @@
         {
             "id": 3,
             "name": "All is Dustin: Interview met Magic Judge Dustin de Leeuw",
+            "extra-topics": [],
             "date": "2017-11-28",
             "url": "",
             "description": [
@@ -168,6 +178,11 @@
         {
             "id": 4,
             "name": "Half-Unstable, Half-Team Unified Modern Grand Prix",
+            "extra-topics": [
+                "Onze persoonlijke top 3's van Unstable",
+                "Voorbereiding van Dave op GP Madrid (Team Unified Modern)",
+                "De Magic World Cup 2017"
+            ],
             "date": "2017-12-06",
             "url": "http://www.buzzsprout.com/133608/606613-half-unstable-half-team-unified-modern-grand-prix-004",
             "description": [
@@ -236,6 +251,11 @@
         {
             "id": 5,
             "name": "Daan Pruijt en de weg naar de World Magic Cup",
+            "extra-topics": [
+                "Daan over de bannings in Standard",
+                "Daan over de Pro Tour en geld verdienen met Magic",
+                "Daan over het worden van een betere speler"
+            ],
             "date": "2017-12-21",
             "url": "http://www.buzzsprout.com/133608/613535-daan-pruijt-en-de-weg-naar-de-world-magic-cup-005",
             "description": [
@@ -284,6 +304,11 @@
         {
             "id": 6,
             "name": "Flashback 2017: Terugblik op het Magicjaar",
+            "extra-topics": [
+                "Bespreking van alle sets die zijn uitgekomen dit jaar",
+                "De 2017-top 3's van Jeroen, Arjan en Dave",
+                "De goede Magic-voornemens van Jeroen, Arjan en Dave"
+            ],
             "date": "2017-12-30",
             "url": "http://www.buzzsprout.com/133608/616986-flashback-2017-terugblik-op-het-magicjaar-006",
             "description": [
@@ -325,6 +350,11 @@
         {
             "id": 7,
             "name": "Rivals of Ixalan: Eerste indrukken vanaf de prerelease",
+            "extra-topics": [
+                "2HJ (Two-Headed Jeroen): Terugblikken op de rondes van de pre-release",
+                "Bespreking van de set: De nieuwe mechanic en bijzondere kaarten",
+                "Impressie van Sven Dijt over de set"
+            ],
             "date": "2018-01-18",
             "url": "http://www.buzzsprout.com/133608/626829-rivals-of-ixalan-eerste-indrukken-vanaf-de-prerelease-007",
             "description": [
@@ -373,6 +403,10 @@
         {
             "id": 8,
             "name": "De Modern Pro Tour: (Weer) terug van weggeweest",
+            "extra-topics": [
+                "Nieuwe indrukken van Rivals of Ixalan",
+                "Historie van Modern"
+            ],
             "date": "2018-02-01",
             "url": "",
             "description": [
@@ -435,6 +469,11 @@
         {
             "id": 9,
             "name": "Jace, the Mind Sculptor: Beter dan alles?",
+            "extra-topics": [
+                "Standard, een maand na de bans",
+                "2HG-set Battlebond aangekondigd",
+                "Nieuwe Commanderproducten aangekondigd"
+            ],
             "date": "2018-02-23",
             "url": "http://www.buzzsprout.com/133608/649166-jace-the-mind-sculptor-beter-dan-alles-009",
             "description": [
