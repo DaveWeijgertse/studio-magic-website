@@ -7,7 +7,7 @@ import PlayButton from './Subcomponents/PlayButton';
 
 const ExtraTopicsAndPlayButton = ({extraTopics, url}) => (
     <div className="extra-topics-and-play-button-container">
-        <ExtraTopics extraTopics={extraTopics} />
+        {extraTopics.length > 0 ? <ExtraTopics extraTopics={extraTopics} /> : null}
         <PlayButton url={url} />
     </div>
 );
