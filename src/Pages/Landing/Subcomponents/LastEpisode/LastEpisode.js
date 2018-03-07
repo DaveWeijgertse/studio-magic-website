@@ -3,8 +3,9 @@ import React from 'react';
 // Subcomponent imports
 import EpisodeName from './Subcomponents/EpisodeName';
 import EpisodeNumberAndDate from './Subcomponents/EpisodeNumberAndDate';
-import ExtraTopicsAndPlayButton from './Subcomponents/ExtraTopicsAndPlayButton';
+import ExtraTopics from './Subcomponents/ExtraTopics';
 import LatestEpisodeText from './Subcomponents/LatestEpisodeText';
+import PlayButton from './Subcomponents/PlayButton';
 
 // Styling imports
 import './LastEpisode.scss';
@@ -30,10 +31,10 @@ const LastEpisode = ({lastEpisode}) => {
                 <EpisodeName
                     name={name}
                 />
-                <ExtraTopicsAndPlayButton
-                    extraTopics={extraTopics}
-                    url={url}
-                />
+
+                {extraTopics.length > 0 ? <ExtraTopics extraTopics={extraTopics} /> : null}
+
+                <PlayButton url={url} />
             </div>
             <div className="background" />
         </div>
