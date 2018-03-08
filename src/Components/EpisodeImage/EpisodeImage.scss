@@ -17,4 +17,33 @@
         background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.15));
         z-index: 251;
     }
+
+    // Episodes image
+    &.episode-1 {
+        background-image: url('./images/1.jpg');
+    }
+    &.episode-2 {
+        background-image: url('./images/2.jpg');
+    }
+    &.episode-3 {
+        background-image: url('./images/3.jpg');
+    }
+    &.episode-4 {
+        background-image: url('./images/4.jpg');
+    }
+    &.episode-5 {
+        background-image: url('./images/5.jpg');
+    }
+    &.episode-6 {
+        background-image: url('./images/6.jpg');
+    }
+    &.episode-7 {
+        background-image: url('./images/7.jpg');
+    }
+    &.episode-8 {
+        background-image: url('./images/8.jpg');
+    }
+    &.episode-9 {
+        background-image: url('./images/9.jpg');
+    }
 }
