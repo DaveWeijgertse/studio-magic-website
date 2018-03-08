@@ -1,6 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
+// Routes import
+import {
+    ROUTE_ROOT,
+    ROUTE_EPISODES_LIST,
+} from 'appUtils/routes/paths';
+
 // Translations import
 import i18n from 'i18n-react';
 import NL from './utils/translations/nl-NL.json';
@@ -29,10 +35,10 @@ class App extends React.Component {
                 <div className="container">
                     <Router>
                         <Switch>
-                            <Route path="/"
+                            <Route path={ROUTE_ROOT}
                                 component={PageLanding}
                             />
-                            <Route path="/afleveringen"
+                            <Route path={ROUTE_EPISODES_LIST}
                                 component={PageEpisodesList}
                             />
                         </Switch>
