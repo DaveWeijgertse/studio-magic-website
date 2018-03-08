@@ -4,8 +4,8 @@ import React from 'react';
 import './EpisodeImage.scss';
 
 
-const EpisodeImage = () => (
-    <div className="episode-image" />
+const EpisodeImage = ({episodeNumber}) => (
+    <div className={"episode-image episode-" + episodeNumber} />
 );
 
 export default EpisodeImage;

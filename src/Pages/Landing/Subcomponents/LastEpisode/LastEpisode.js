@@ -37,7 +37,9 @@ const LastEpisode = ({lastEpisode}) => {
                     url={url}
                 />
             </div>
-            <EpisodeImage />
+            <EpisodeImage
+                episodeNumber={id}
+            />
         </div>
     );
 }
