@@ -2,6 +2,7 @@ import React from 'react';
 
 // Subcomponent imports
 import Description from './Subcomponents/Description';
+import EpisodeImage from '../../../../Components/EpisodeImage';
 import EpisodeName from './Subcomponents/EpisodeName';
 import EpisodeNumberAndDate from './Subcomponents/EpisodeNumberAndDate';
 import PlayButton from './Subcomponents/PlayButton';
@@ -36,7 +37,7 @@ const LastEpisode = ({lastEpisode}) => {
                     url={url}
                 />
             </div>
-            <div className="background" />
+            <EpisodeImage />
         </div>
     );
 }
