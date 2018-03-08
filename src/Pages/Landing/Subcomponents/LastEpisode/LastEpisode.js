@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Subcomponent imports
+import Description from './Subcomponents/Description';
 import EpisodeName from './Subcomponents/EpisodeName';
 import EpisodeNumberAndDate from './Subcomponents/EpisodeNumberAndDate';
 import ExtraTopics from './Subcomponents/ExtraTopics';
@@ -13,6 +14,7 @@ import './LastEpisode.scss';
 const LastEpisode = ({lastEpisode}) => {
     const {
         date,
+        shortDescription,
         'extra-topics': extraTopics,
         id,
         name,
@@ -28,6 +30,9 @@ const LastEpisode = ({lastEpisode}) => {
                 />
                 <EpisodeName
                     name={name}
+                />
+                <Description
+                    description={shortDescription}
                 />
 
                 {extraTopics.length > 0 ? <ExtraTopics extraTopics={extraTopics} /> : null}
