@@ -1,7 +1,10 @@
+$image-height: 200px;
+
 .episode-tile-info {
     position: relative;
+    height: $image-height;
 
     .episode-image {
-        height: 200px;
+        height: $image-height;
     }
 }
