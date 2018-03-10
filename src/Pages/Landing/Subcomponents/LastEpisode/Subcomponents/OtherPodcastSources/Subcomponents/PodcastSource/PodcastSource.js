@@ -4,6 +4,9 @@ import React from 'react';
 import getPodcastSourceHref from '../../utils/getPodcastSourceHref';
 import getPodcastSourceIcon from '../../utils/getPodcastSourceIcon';
 
+// Styling import
+import './PodcastSource.scss';
+
 
 const PodcastSource = ({source}) => (
     <div className="podcast-source-container">
