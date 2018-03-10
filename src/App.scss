@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~appUtils/styling/colors";
+@import "~appUtils/styling/placeholders";
 
 html, body {
     min-height: 100vh;
@@ -24,10 +25,7 @@ html, body {
             background: $background;
 
             div[class^="page-"]:not(.page-landing) {
-                width: auto;
-                max-width: 1080px;
-                margin: auto;
-                padding: 40px 20px;
+                @extend %page-container;
             }
 
             h1 {
