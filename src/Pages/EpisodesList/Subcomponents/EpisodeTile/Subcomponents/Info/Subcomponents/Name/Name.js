@@ -1,9 +1,10 @@
 import React from 'react';
 
 
-const Name = () => (
-    <div className="episode-tile-info-name">
 
+const Name = ({name}) => (
+    <div className="episode-tile-info-name">
+        {name}
     </div>
 );
 
