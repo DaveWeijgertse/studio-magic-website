@@ -5,6 +5,7 @@
     "listen": "Luisteren",
     "episode": {
         "singular": "Aflevering",
+        "plural": "Afleveringen",
         "all": "Alle afleveringen"
     },
     "months": {
