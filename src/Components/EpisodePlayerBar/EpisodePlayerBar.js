@@ -13,11 +13,11 @@ class EpisodePlayerBar extends React.Component {
             id,
         } = this.props;
 
-        const isPlayingEpisode = typeof id !== 'undefined' && id !== null;
+        const hasEpisodeId = typeof id !== 'undefined' && id !== null;
 
         return (
             <div className="episode-player-bar-container">
-                {isPlayingEpisode ? (
+                {hasEpisodeId ? (
                     <div className="episode-player-bar">
                         <ReactPlayer url={getBuzzsproutMp3Link(id, episodes) + ".mp3"} playing />
                     </div>
