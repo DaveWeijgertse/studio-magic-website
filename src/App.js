@@ -40,8 +40,24 @@ const PropsRoute = ({ component, ...rest }) => {
 }
 
 class App extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            playingEpisodeId: null
+        }
+
+        this.playEpisodeInEpisodeBar = this.playEpisodeInEpisodeBar.bind(this);
+    }
+
     componentWillMount() {
         i18n.setTexts(NL);
+    }
+
+    playEpisodeInEpisodeBar(playingEpisodeId) {
+        this.setState({
+            playingEpisodeId
+        });
     }
 
     render() {
