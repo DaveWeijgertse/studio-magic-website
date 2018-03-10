@@ -1,8 +1,10 @@
 import React from 'react';
 
 
-const Description = () => (
-    <div className="">
+
+const Description = ({description}) => (
+    <div className="episode-tile-description">
+        {description}
     </div>
 );
 
