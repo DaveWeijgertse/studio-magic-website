@@ -7,10 +7,12 @@ import Info from './Subcomponents/Info';
 import './EpisodeTile.scss';
 
 
-const EpisodeTile = ({id}) => (
+const EpisodeTile = ({id, date, name}) => (
     <div className="episode-tile">
         <Info
             id={id}
+            date={date}
+            name={name}
         />
     </div>
 );

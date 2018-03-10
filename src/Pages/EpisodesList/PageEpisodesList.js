@@ -18,13 +18,17 @@ class PageEpisodesList extends React.Component {
                     {episodes.map(
                         (episode) => {
                             const {
+                                date,
                                 id,
+                                name,
                             } = episode;
 
                             return (
                                 <EpisodeTile
                                     key={id}
+                                    date={date}
                                     id={id}
+                                    name={name}
                                 />
                             );
                         }
