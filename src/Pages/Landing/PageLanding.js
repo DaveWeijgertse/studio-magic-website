@@ -27,7 +27,7 @@ class PageLanding extends React.Component {
         } = this.state;
 
         return (
-            <div>
+            <div className="page-landing">
                 <PayOffText />
                 <LastEpisode
                     lastEpisode={lastEpisode}

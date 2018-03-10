@@ -13,7 +13,7 @@ import './PageEpisodesList.scss';
 class PageEpisodesList extends React.Component {
     render() {
         return (
-            <div>
+            <div className="page-all-episodes">
                 <div className="all-episode-container">
                     {episodes.map(
                         (episode) => {

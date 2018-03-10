@@ -18,4 +18,10 @@ body,
     height: calc(100% - 105px);
     padding: 0;
     background: $background;
+
+    div[class^="page-"]:not(.page-landing) {
+        width: auto;
+        max-width: 1080px;
+        margin: auto;
+    }
 }
