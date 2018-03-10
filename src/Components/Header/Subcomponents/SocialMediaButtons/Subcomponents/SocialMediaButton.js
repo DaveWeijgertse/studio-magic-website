@@ -15,7 +15,8 @@ class SocialMediaButton extends React.Component {
             <a
                 className={"social-media-button " + type}
                 href={getSocialMediaHref(type)}
-            />
+            >
+            </a>
         );
     }
 }
