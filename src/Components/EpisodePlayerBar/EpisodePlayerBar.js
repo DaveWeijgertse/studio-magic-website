@@ -9,6 +9,7 @@ import getBuzzsproutMp3Link from './utils/getBuzzsproutMp3Link';
 
 // Subcomponent import
 import PlayPauseButton from './Subcomponents/PlayPauseButton';
+import TimerDisplay from './Subcomponents/TimerDisplay';
 
 // Styling import
 import './EpisodePlayerBar.scss';
@@ -79,7 +80,9 @@ class EpisodePlayerBar extends React.Component {
         } = this.props;
 
         const {
+            currentTime,
             isPlaying,
+            maxDuration,
         } = this.state;
 
         const hasEpisodeId = typeof id !== 'undefined' && id !== null;
@@ -92,6 +95,10 @@ class EpisodePlayerBar extends React.Component {
                             isPlaying={isPlaying}
                             onClick={togglePlay}
                         />
+                        <div>
+                            <TimerDisplay time={currentTime} />
+                            <TimerDisplay time={maxDuration} />
+                        </div>
 
                         <ReactPlayer
                             className="sound-source"
