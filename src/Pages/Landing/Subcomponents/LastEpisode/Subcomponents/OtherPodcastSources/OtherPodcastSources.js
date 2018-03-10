@@ -1,5 +1,8 @@
 import React from 'react';
 
+// Styling import
+import './OtherPodcastSources.scss';
+
 
 const OtherPodcastSources = () => {
     return (
