@@ -4,6 +4,8 @@ import i18n from 'i18n-react';
 // Utils imports
 import formatEpisodeNumber from 'appUtils/formatters/formatEpisodeNumber';
 
+// Styling imports
+import './EpisodeInfo.scss';
 
 
 const EpisodeInfo = ({id, name}) => (

@@ -1,0 +1,19 @@
+@import "~appUtils/styling/colors";
+
+.episode-info {
+    margin-left: 15px;
+
+    .episode-info-number,
+    .episode-info-name {
+        color: white;
+        font-size: 0.8em;
+    }
+
+    .episode-info-number {
+        text-transform: uppercase;
+    }
+
+    .episode-info-name {
+        font-weight: 500;
+    }
+}
