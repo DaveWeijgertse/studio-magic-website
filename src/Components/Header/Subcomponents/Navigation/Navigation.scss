@@ -1,5 +1,7 @@
-.social-media-button-container {
+.navigation-container {
     display: flex;
+    align-items: flex-end;
     justify-content: flex-end;
+    flex-grow: 1;
     width: 100%;
 }

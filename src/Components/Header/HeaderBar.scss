@@ -2,8 +2,19 @@
 
 .header-bar {
     position: relative;
+    display: flex;
     width: 100%;
     height: 100px;
     padding: 0 20px;
     background: $main-color;
+
+    .logo-container,
+    .social-navigation-container {
+        flex-basis: 50%;
+    }
+
+    .social-navigation-container {
+        display: flex;
+        flex-direction: column;
+    }
 }

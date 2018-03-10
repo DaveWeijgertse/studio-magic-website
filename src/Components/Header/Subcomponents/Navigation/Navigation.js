@@ -6,6 +6,8 @@ import {
     ROUTE_EPISODES_LIST,
 } from 'appUtils/routes/paths';
 
+// Styling import
+import './Navigation.scss';
 
 
 const Navigation = () => (

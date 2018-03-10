@@ -14,8 +14,10 @@ class HeaderBar extends React.Component {
         return (
             <div className="header-bar">
                 <Logo />
-                <SocialMediaButtons />
-                <Navigation />
+                <div className="social-navigation-container">
+                    <SocialMediaButtons />
+                    <Navigation />
+                </div>
             </div>
         )
     }
