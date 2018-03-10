@@ -61,6 +61,10 @@ class App extends React.Component {
     }
 
     render() {
+        const {
+            playingEpisodeId,
+        } = this.state;
+
         return (
             <div className="App">
                 <HeaderBar />
@@ -77,7 +81,7 @@ class App extends React.Component {
                         />
                     </Switch>
                 </div>
-                <EpisodePlayerBar />
+                <EpisodePlayerBar id={playingEpisodeId} />
             </div>
         );
     }
