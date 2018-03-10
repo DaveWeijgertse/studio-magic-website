@@ -1,7 +1,25 @@
+@import "~appUtils/styling/colors";
+
 .navigation-container {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     flex-grow: 1;
     width: 100%;
+
+    a {
+        display: inline-block;
+        padding: 12px 3px 7px;
+        color: $background;
+        font-weight: 900;
+        font-size: 0.9em;
+        text-transform: uppercase;
+        line-height: 1em;
+        border-bottom: 5px solid transparent;
+        &:hover {
+            color: $background;
+            text-decoration: none;
+            border-color: $background;
+        }
+    }
 }
