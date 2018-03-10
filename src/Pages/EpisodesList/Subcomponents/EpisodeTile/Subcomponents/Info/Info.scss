@@ -7,7 +7,7 @@ $image-height: 200px;
     align-items: flex-start;
     position: relative;
     height: $image-height;
-    padding: 10px 15px;
+    padding: 10px 15px 15px;
 
     > *:not(.episode-image) {
         position: relative;
