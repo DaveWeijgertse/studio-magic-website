@@ -1,0 +1,26 @@
+@import '~appUtils/styling/colors';
+
+.episode-tile-play-button {
+    position: relative;
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 3px 8px 3px 28px;
+    color: $main-color;
+    font-size: 1em;
+    font-weight: 500;
+    border: 2px solid $main-color;
+    text-align: center;
+    &:hover {
+        color: white;
+        text-decoration: none;
+        background: $main-color;
+    }
+    &:before {
+        content: "\f144";
+        position: absolute;
+        top: 2px;
+        left: 7px;
+        font-size: 1.1em;
+        font-family: "FontAwesome";
+    }
+}
