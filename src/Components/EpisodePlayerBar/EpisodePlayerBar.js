@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 
 // Data import
 import { episodes } from 'appUtils/episodes/episodes.json';
@@ -18,13 +19,7 @@ class EpisodePlayerBar extends React.Component {
             <div className="episode-player-bar-container">
                 {isPlayingEpisode ? (
                     <div className="episode-player-bar">
-                        <iframe
-                            src={getBuzzsproutMp3Link(id, episodes)}
-                            width="100%"
-                            height="73"
-                            frameborder="0"
-                            scrolling="no"
-                        />
+                        <ReactPlayer url={getBuzzsproutMp3Link(id, episodes) + ".mp3"} playing />
                     </div>
                 ) : null}
             </div>
