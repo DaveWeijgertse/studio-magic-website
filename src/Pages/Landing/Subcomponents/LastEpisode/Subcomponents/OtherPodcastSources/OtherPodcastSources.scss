@@ -15,7 +15,9 @@
         padding: 0 20px;
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
-        background: rgba($background, 0.8);
+        color: white;
+        background: rgba($text-color, 0.8);
+
         .podcast-sources-container {
             display: flex;
             align-items: center;
