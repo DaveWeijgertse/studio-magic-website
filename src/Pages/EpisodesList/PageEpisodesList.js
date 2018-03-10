@@ -1,5 +1,6 @@
 import React from 'react';
 import i18n from 'i18n-react';
+import { reverse } from 'lodash';
 
 // Data imports
 import { episodes } from 'appUtils/episodes/episodes.json';
@@ -17,7 +18,7 @@ class PageEpisodesList extends React.Component {
             <div className="page-all-episodes">
                 <h1>{i18n.translate('episode.all')}</h1>
                 <div className="all-episode-container">
-                    {episodes.map(
+                    {reverse(episodes).map(
                         (episode) => {
                             const {
                                 date,
