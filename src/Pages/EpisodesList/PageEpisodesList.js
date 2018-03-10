@@ -13,12 +13,24 @@ import './PageEpisodesList.scss';
 
 
 class PageEpisodesList extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            episodesList: JSON.parse(JSON.stringify(episodes))
+        }
+    }
+
     render() {
+        const {
+            episodesList,
+        } = this.state;
+
         return (
             <div className="page-all-episodes">
                 <h1>{i18n.translate('episode.all')}</h1>
                 <div className="all-episode-container">
-                    {reverse(episodes).map(
+                    {reverse(episodesList).map(
                         (episode) => {
                             const {
                                 date,
