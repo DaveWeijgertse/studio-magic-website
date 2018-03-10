@@ -7,6 +7,9 @@ import { episodes } from 'appUtils/episodes/episodes.json';
 // Utils import
 import getBuzzsproutMp3Link from './utils/getBuzzsproutMp3Link';
 
+// Subcomponent import
+import PlayPauseButton from './Subcomponents/PlayPauseButton';
+
 class EpisodePlayerBar extends React.Component {
     render() {
         const {
@@ -19,7 +22,13 @@ class EpisodePlayerBar extends React.Component {
             <div className="episode-player-bar-container">
                 {hasEpisodeId ? (
                     <div className="episode-player-bar">
-                        <ReactPlayer url={getBuzzsproutMp3Link(id, episodes) + ".mp3"} playing />
+                        <PlayPauseButton
+                        />
+
+                        <ReactPlayer
+                            url={getBuzzsproutMp3Link(id, episodes) + ".mp3"}
+                            playing={isPlaying}
+                        />
                     </div>
                 ) : null}
             </div>
