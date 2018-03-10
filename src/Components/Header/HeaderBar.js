@@ -2,6 +2,7 @@ import React from 'react';
 
 // Subcomponent imports
 import Logo from './Subcomponents/Logo';
+import Navigation from './Subcomponents/Navigation';
 import SocialMediaButtons from './Subcomponents/SocialMediaButtons';
 
 // Styling import
@@ -14,6 +15,7 @@ class HeaderBar extends React.Component {
             <div className="header-bar">
                 <Logo />
                 <SocialMediaButtons />
+                <Navigation />
             </div>
         )
     }
