@@ -17,7 +17,7 @@ class PageEpisodesList extends React.Component {
         super(props);
 
         this.state = {
-            episodesList: JSON.parse(JSON.stringify(episodes))
+            episodesList: JSON.parse(JSON.stringify(reverse(episodes)))
         }
     }
 
@@ -34,7 +34,7 @@ class PageEpisodesList extends React.Component {
             <div className="page-all-episodes">
                 <h1>{i18n.translate('episode.all')}</h1>
                 <div className="all-episode-container">
-                    {reverse(episodesList).map(
+                    {episodesList.map(
                         (episode) => {
                             const {
                                 date,
