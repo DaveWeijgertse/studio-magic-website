@@ -21,6 +21,7 @@ class PageEpisodesList extends React.Component {
                             return (
                                 <EpisodeTile
                                     key={id}
+                                    id={id}
                                 />
                             );
                         }
