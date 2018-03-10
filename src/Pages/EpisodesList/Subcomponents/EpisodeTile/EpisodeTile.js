@@ -3,6 +3,7 @@ import React from 'react';
 // Subcomponent imports
 import Description from './Subcomponents/Description';
 import Info from './Subcomponents/Info';
+import MoreInfo from './Subcomponents/MoreInfo';
 import PlayButton from './Subcomponents/PlayButton';
 
 // Styling import
@@ -17,7 +18,10 @@ const EpisodeTile = ({id, date, name, description, url}) => (
             name={name}
         />
         <Description description={description} />
-        <PlayButton url={url} />
+        <div className="play-button-more-info-container">
+            <PlayButton url={url} />
+            <MoreInfo url={url} />
+        </div>
     </div>
 );
 
