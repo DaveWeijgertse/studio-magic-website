@@ -35,10 +35,13 @@ class App extends React.Component {
                 <div className="container">
                     <Router>
                         <Switch>
-                            <Route path={ROUTE_ROOT}
+                            <Route
+                                exact
+                                path={ROUTE_ROOT}
                                 component={PageLanding}
                             />
-                            <Route path={ROUTE_EPISODES_LIST}
+                            <Route
+                                path={ROUTE_EPISODES_LIST}
                                 component={PageEpisodesList}
                             />
                         </Switch>
