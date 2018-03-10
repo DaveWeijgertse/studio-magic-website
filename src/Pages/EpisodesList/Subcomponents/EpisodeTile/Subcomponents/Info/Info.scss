@@ -1,12 +1,20 @@
 $image-height: 200px;
 
 .episode-tile-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
     position: relative;
     height: $image-height;
     > *:not(.episode-image) {
         position: relative;
         width: 100%;
         z-index: 260;
+    }
+
+    .episode-number-name {
+        align-self: flex-end;
     }
 
     .episode-image {

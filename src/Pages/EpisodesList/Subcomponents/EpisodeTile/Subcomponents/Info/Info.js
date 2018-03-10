@@ -15,12 +15,14 @@ const Info = ({id, date, name}) => (
         <AiringDate
             date={date}
         />
-        <EpisodeNumber
-            number={id}
-        />
-        <Name
-            name={name}
-        />
+        <div className="episode-number-name">
+            <EpisodeNumber
+                number={id}
+            />
+            <Name
+                name={name}
+            />
+        </div>
         <EpisodeImage
             episodeNumber={id}
         />
