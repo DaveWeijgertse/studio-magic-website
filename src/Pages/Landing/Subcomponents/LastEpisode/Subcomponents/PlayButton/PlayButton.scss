@@ -1,11 +1,13 @@
 @import '~appUtils/styling/colors';
 
+$font-size: 1.5em;
+
 .play-button {
     position: relative;
     display: inline-block;
     padding: 6px 15px 6px 55px;
     color: white;
-    font-size: 22px;
+    font-size: $font-size;
     border: 5px solid white;
     background: transparent;
     &:hover {
@@ -16,9 +18,9 @@
     &:before {
         content: "\f144";
         position: absolute;
-        top: 1px;
+        top: -3px;
         left: 15px;
-        font-size: 30px;
+        font-size: $font-size;
         font-family: "FontAwesome";
     }
 }
