@@ -1,0 +1,11 @@
+@import '~appUtils/styling/colors';
+
+.episode-tile-info-episode-number  .episode-number-label {
+    display: inline-block;
+    padding: 1px 4px 2px;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 1em;
+    font-weight: 500;
+    background: $secondary-color;
+}
