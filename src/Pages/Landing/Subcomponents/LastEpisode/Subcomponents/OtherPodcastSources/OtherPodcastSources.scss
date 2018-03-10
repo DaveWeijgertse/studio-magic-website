@@ -10,5 +10,8 @@
     .other-podcast-sources {
         width: 100%;
         height: 50px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        background: rgba($background, 0.8);
     }
 }
