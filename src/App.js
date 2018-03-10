@@ -16,6 +16,7 @@ import PageEpisodesList from './Pages/EpisodesList/PageEpisodesList';
 import PageLanding from './Pages/Landing/PageLanding';
 
 // Component imports
+import EpisodePlayerBar from './Components/EpisodePlayerBar';
 import HeaderBar from './Components/Header/HeaderBar';
 
 // Styling imports
@@ -45,6 +46,7 @@ class App extends React.Component {
                         />
                     </Switch>
                 </div>
+                <EpisodePlayerBar />
             </div>
         );
     }
