@@ -1,4 +1,5 @@
 @import "~appUtils/styling/colors";
+@import '~appUtils/styling/mediaQueries';
 
 .header-bar {
     position: relative;
@@ -11,10 +12,16 @@
     .logo-container,
     .social-navigation-container {
         flex-basis: 50%;
+        @media screen and (max-width: $phone) {
+            flex-basis: 100%;
+        }
     }
 
     .social-navigation-container {
         display: flex;
         flex-direction: column;
+        @media screen and (max-width: $phone) {
+            display: none;
+        }
     }
 }
