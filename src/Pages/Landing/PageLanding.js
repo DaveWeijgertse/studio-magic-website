@@ -6,7 +6,6 @@ import {
 
 // Subcomponent imports
 import LastEpisode from './Subcomponents/LastEpisode';
-import PayOffText from './Subcomponents/PayOffText';
 
 // Data imports
 import { episodes } from 'appUtils/episodes/episodes.json';
@@ -28,7 +27,6 @@ class PageLanding extends React.Component {
 
         return (
             <div className="page-landing">
-                <PayOffText />
                 <LastEpisode
                     lastEpisode={lastEpisode}
                 />
