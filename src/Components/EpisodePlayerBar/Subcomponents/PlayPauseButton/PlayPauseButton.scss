@@ -1,0 +1,23 @@
+@import "~appUtils/styling/colors";
+
+$button-size: 40px;
+
+.play-pause-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $button-size;
+    height: $button-size;
+    cursor: pointer;
+    &:before {
+        font-family: "FontAwesome";
+        color: white;
+        font-size: 20px;
+    }
+    &.playing:before {
+        content: "\f04c";
+    }
+    &.paused:before {
+        content: "\f04b";
+    }
+}
