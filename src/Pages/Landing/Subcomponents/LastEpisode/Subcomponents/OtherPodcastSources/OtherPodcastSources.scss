@@ -1,10 +1,15 @@
 @import '~appUtils/styling/colors';
+@import '~appUtils/styling/mediaQueries';
 
 .other-podcast-sources-container {
     display: flex;
     align-items: flex-end;
     align-self: flex-end;
     flex-grow: 1;
+    @media screen and (max-width: $phone) {
+        align-items: center;
+        align-self: center;
+    }
 
     .other-podcast-sources {
         display: flex;
