@@ -1,4 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
+import {
+    ROUTE_ROOT,
+} from 'appUtils/routes/paths';
 
 // Logo imports
 import logoStudio from './images/logo-studio_magic-STUDIO_wit.png';
@@ -13,22 +18,24 @@ class Logo extends React.Component {
     render() {
         return (
             <div className="logo-container">
-                <img
-                    className="logo studio"
-                    alt="Studio"
-                    src={logoStudio}
-                />
-                <div className="logo emblem">
+                <Link to={ROUTE_ROOT}>
                     <img
-                        alt="Emblem"
-                        src={logoEmblem}
+                        className="logo studio"
+                        alt="Studio"
+                        src={logoStudio}
                     />
-                </div>
-                <img
-                    className="logo magic"
-                    alt="Magic"
-                    src={logoMagic}
-                />
+                    <div className="logo emblem">
+                        <img
+                            alt="Emblem"
+                            src={logoEmblem}
+                        />
+                    </div>
+                    <img
+                        className="logo magic"
+                        alt="Magic"
+                        src={logoMagic}
+                    />
+                </Link>
             </div>
         );
     }
