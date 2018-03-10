@@ -5,15 +5,14 @@ import i18n from 'i18n-react';
 import './PlayButton.scss';
 
 
-const PlayButton = ({url}) => (
+const PlayButton = ({id, playEpisodeInEpisodeBar}) => (
     <div className="play-button-container">
-        <a
+        <div
             className="play-button"
-            href={url}
-            target="_blank"
+            onClick={() => playEpisodeInEpisodeBar(id)}
         >
             {i18n.translate('listen')}
-        </a>
+        </div>
     </div>
 );
 

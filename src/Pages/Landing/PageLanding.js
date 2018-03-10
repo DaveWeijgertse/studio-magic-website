@@ -28,10 +28,15 @@ class PageLanding extends React.Component {
             lastEpisode,
         } = this.state;
 
+        const {
+            playEpisodeInEpisodeBar,
+        } = this.props;
+
         return (
             <div className="page-landing">
                 <LastEpisode
                     lastEpisode={lastEpisode}
+                    playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                 />
             </div>
         )

@@ -62,6 +62,10 @@ class App extends React.Component {
 
     render() {
         const {
+            playEpisodeInEpisodeBar,
+        } = this;
+
+        const {
             playingEpisodeId,
         } = this.state;
 
@@ -70,10 +74,11 @@ class App extends React.Component {
                 <HeaderBar />
                 <div className="container">
                     <Switch>
-                        <Route
+                        <PropsRoute
                             exact
                             path={ROUTE_ROOT}
                             component={PageLanding}
+                            playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                         />
                         <Route
                             path={ROUTE_EPISODES_LIST}
