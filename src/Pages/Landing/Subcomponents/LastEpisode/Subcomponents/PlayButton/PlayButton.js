@@ -6,13 +6,15 @@ import './PlayButton.scss';
 
 
 const PlayButton = ({url}) => (
-    <a
-        className="play-button"
-        href={url}
-        target="_blank"
-    >
-        {i18n.translate('listen')}
-    </a>
+    <div className="play-button-container">
+        <a
+            className="play-button"
+            href={url}
+            target="_blank"
+        >
+            {i18n.translate('listen')}
+        </a>
+    </div>
 );
 
 export default PlayButton;
