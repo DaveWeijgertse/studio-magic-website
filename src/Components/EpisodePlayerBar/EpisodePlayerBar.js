@@ -56,6 +56,7 @@ class EpisodePlayerBar extends React.Component {
                         />
 
                         <ReactPlayer
+                            className="sound-source"
                             url={getBuzzsproutMp3Link(id, episodes) + ".mp3"}
                             playing={isPlaying}
                         />

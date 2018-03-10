@@ -15,5 +15,9 @@ $bar-height: 60px;
 
     .episode-player-bar {
         height: $bar-height;
+
+        .sound-source {
+            display: none;
+        }
     }
 }
