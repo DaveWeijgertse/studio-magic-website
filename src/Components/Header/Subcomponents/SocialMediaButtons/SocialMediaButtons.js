@@ -11,9 +11,6 @@ class SocialMediaButtons extends React.Component {
     render() {
         return (
             <div className="social-media-button-container">
-                <SocialMediaButton type="itunes" />
-                <SocialMediaButton type="stitcher" />
-                <SocialMediaButton type="tunein" />
             </div>
         );
     }

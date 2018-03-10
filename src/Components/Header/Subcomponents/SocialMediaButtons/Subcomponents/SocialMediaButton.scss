@@ -16,22 +16,6 @@ a.social-media-button {
         max-width: $image-size;
     }
 
-    &.itunes {
-        background: white;
-        &:hover {
-            background: darken(white, 10%);
-        }
     }
-    &.stitcher {
-        background: black;
-        &:hover {
-            background: lighten(black, 25%);
-        }
-    }
-    &.tunein {
-        background: black;
-        &:hover {
-            background: lighten(black, 25%);
-        }
     }
 }
