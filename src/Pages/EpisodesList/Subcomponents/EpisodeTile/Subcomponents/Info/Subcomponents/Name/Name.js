@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Styling imports
+import './Name.scss';
 
 
 const Name = ({name}) => (
