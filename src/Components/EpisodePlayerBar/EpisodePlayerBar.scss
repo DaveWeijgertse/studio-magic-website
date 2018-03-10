@@ -1,0 +1,19 @@
+@import "~appUtils/styling/colors";
+
+$bar-height: 60px;
+
+.episode-player-bar-container {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: $bar-height;
+    background: $background-dark;
+    z-index: 9999;
+
+    .episode-player-bar {
+        height: $bar-height;
+    }
+}

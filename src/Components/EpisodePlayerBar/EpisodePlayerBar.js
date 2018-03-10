@@ -10,6 +10,10 @@ import getBuzzsproutMp3Link from './utils/getBuzzsproutMp3Link';
 // Subcomponent import
 import PlayPauseButton from './Subcomponents/PlayPauseButton';
 
+// Styling import
+import './EpisodePlayerBar.scss';
+
+
 class EpisodePlayerBar extends React.Component {
     constructor(props) {
         super(props);
