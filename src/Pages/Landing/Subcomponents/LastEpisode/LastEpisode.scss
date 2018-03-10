@@ -1,18 +1,18 @@
 @import '~appUtils/styling/colors';
+@import "~appUtils/styling/placeholders";
+
+$container-height: calc(100vh - 134px); // 100% of the viewport, minus the height of the header + pay-off text
 
 .last-episode-container {
-    position: relative;
-    width: 100vw;
-    height: calc(100vh - 134px); // 100% of the viewport, minus the height of the header + pay-off text
-
     .content {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        height: 100%;
-        padding: 5%;
+        @extend %page-container;
+        position: relative;
+        height: $container-height;
         z-index: 300;
+    }
+
+    .episode-image {
+        height: $container-height;
+        width: 100%;
     }
 }

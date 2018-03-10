@@ -10,6 +10,9 @@ import LastEpisode from './Subcomponents/LastEpisode';
 // Data imports
 import { episodes } from 'appUtils/episodes/episodes.json';
 
+// Styling import
+import './PageLanding.scss';
+
 
 class PageLanding extends React.Component {
     constructor(props) {
