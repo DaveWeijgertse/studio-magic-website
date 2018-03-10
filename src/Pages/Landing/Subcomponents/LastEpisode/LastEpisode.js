@@ -5,6 +5,7 @@ import Description from './Subcomponents/Description';
 import EpisodeImage from '../../../../Components/EpisodeImage';
 import EpisodeName from './Subcomponents/EpisodeName';
 import EpisodeNumberAndDate from './Subcomponents/EpisodeNumberAndDate';
+import OtherPodcastSources from './Subcomponents/OtherPodcastSources';
 import PlayButton from './Subcomponents/PlayButton';
 
 // Styling imports
@@ -36,6 +37,7 @@ const LastEpisode = ({lastEpisode}) => {
                 <PlayButton
                     url={url}
                 />
+                <OtherPodcastSources />
             </div>
             <EpisodeImage
                 episodeNumber={id}
