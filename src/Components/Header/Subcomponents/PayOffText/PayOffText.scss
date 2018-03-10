@@ -1,4 +1,5 @@
 @import '~appUtils/styling/colors';
+@import '~appUtils/styling/mediaQueries';
 
 .pay-off-text-container {
     width: 100%;
@@ -7,4 +8,8 @@
     color: white;
     font-weight: 500;
     background: $main-color-light;
+    @media screen and (max-width: $phone) {
+        height: auto;
+        text-align: center;
+    }
 }
