@@ -1,5 +1,6 @@
 @import '~appUtils/styling/colors';
 @import "~appUtils/styling/placeholders";
+@import '~appUtils/styling/mediaQueries';
 
 $container-height: calc(100vh - 134px); // 100% of the viewport, minus the height of the header + pay-off text
 
@@ -9,10 +10,18 @@ $container-height: calc(100vh - 134px); // 100% of the viewport, minus the heigh
         position: relative;
         height: $container-height;
         z-index: 300;
+        @media screen and (max-width: $phone) {
+            min-height: $container-height;
+            height: 100%;
+        }
     }
 
     .episode-image {
         height: $container-height;
         width: 100%;
+        @media screen and (max-width: $phone) {
+            min-height: $container-height;
+            height: 100%;
+        }
     }
 }
