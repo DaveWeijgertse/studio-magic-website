@@ -6,6 +6,9 @@ import { episodes } from 'appUtils/episodes/episodes.json';
 // Subcomponent imports
 import EpisodeTile from './Subcomponents/EpisodeTile';
 
+// Styling imports
+import './PageEpisodesList.scss';
+
 
 class PageEpisodesList extends React.Component {
     render() {
