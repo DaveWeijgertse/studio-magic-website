@@ -17,7 +17,7 @@ class PageEpisodesList extends React.Component {
         super(props);
 
         this.state = {
-            episodesList: JSON.parse(JSON.stringify(reverse(episodes)))
+            episodesList: reverse(JSON.parse(JSON.stringify(episodes)))
         }
     }
 
