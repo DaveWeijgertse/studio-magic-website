@@ -4,7 +4,7 @@ import React from 'react';
 import { episodes } from 'appUtils/episodes/episodes.json';
 
 // Utils import
-import getBuzzsproutIframeUrl from './utils/getBuzzsproutIframeUrl';
+import getBuzzsproutMp3Link from './utils/getBuzzsproutMp3Link';
 
 class EpisodePlayerBar extends React.Component {
     render() {
@@ -19,7 +19,7 @@ class EpisodePlayerBar extends React.Component {
                 {isPlayingEpisode ? (
                     <div className="episode-player-bar">
                         <iframe
-                            src={getBuzzsproutIframeUrl(id, episodes)}
+                            src={getBuzzsproutMp3Link(id, episodes)}
                             width="100%"
                             height="73"
                             frameborder="0"
