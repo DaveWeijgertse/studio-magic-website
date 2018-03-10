@@ -3,6 +3,8 @@ import React from 'react';
 // Formatters import
 import formatDate from 'appUtils/formatters/formatDate';
 
+// Styling imports
+import './AiringDate.scss';
 
 
 const AiringDate = ({date}) => (
