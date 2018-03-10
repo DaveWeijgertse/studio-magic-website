@@ -10,7 +10,7 @@ import PlayButton from './Subcomponents/PlayButton';
 import './EpisodeTile.scss';
 
 
-const EpisodeTile = ({id, date, name, description, url}) => (
+const EpisodeTile = ({id, date, name, description, url, playEpisodeInEpisodeBar}) => (
     <div className="episode-tile">
         <Info
             id={id}
@@ -19,8 +19,13 @@ const EpisodeTile = ({id, date, name, description, url}) => (
         />
         <Description description={description} />
         <div className="play-button-more-info-container">
-            <PlayButton url={url} />
-            <MoreInfo url={url} />
+            <PlayButton
+                id={id}
+                playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+            />
+            <MoreInfo
+                url={url}
+            />
         </div>
     </div>
 );

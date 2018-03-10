@@ -26,6 +26,10 @@ class PageEpisodesList extends React.Component {
             episodesList,
         } = this.state;
 
+        const {
+            playEpisodeInEpisodeBar,
+        } = this.props;
+
         return (
             <div className="page-all-episodes">
                 <h1>{i18n.translate('episode.all')}</h1>
@@ -48,6 +52,7 @@ class PageEpisodesList extends React.Component {
                                     id={id}
                                     name={name}
                                     url={url}
+                                    playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                                 />
                             );
                         }

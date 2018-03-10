@@ -80,9 +80,10 @@ class App extends React.Component {
                             component={PageLanding}
                             playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                         />
-                        <Route
+                        <PropsRoute
                             path={ROUTE_EPISODES_LIST}
                             component={PageEpisodesList}
+                            playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                         />
                     </Switch>
                 </div>
