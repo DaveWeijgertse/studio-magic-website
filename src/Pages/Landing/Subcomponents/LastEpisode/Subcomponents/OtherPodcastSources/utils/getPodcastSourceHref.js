@@ -11,5 +11,5 @@ export default function getPodcastSourceHref(type) {
         [TUNEIN]:   "https://tunein.com/radio/Studio-Magic-p1085711"
     }
 
-    return getPodcastSourceHref[type];
+    return podcastSourceHref[type];
 }
