@@ -33,19 +33,17 @@ class App extends React.Component {
             <div className="App">
                 <HeaderBar />
                 <div className="container">
-                    <Router>
-                        <Switch>
-                            <Route
-                                exact
-                                path={ROUTE_ROOT}
-                                component={PageLanding}
-                            />
-                            <Route
-                                path={ROUTE_EPISODES_LIST}
-                                component={PageEpisodesList}
-                            />
-                        </Switch>
-                    </Router>
+                    <Switch>
+                        <Route
+                            exact
+                            path={ROUTE_ROOT}
+                            component={PageLanding}
+                        />
+                        <Route
+                            path={ROUTE_EPISODES_LIST}
+                            component={PageEpisodesList}
+                        />
+                    </Switch>
                 </div>
             </div>
         );
