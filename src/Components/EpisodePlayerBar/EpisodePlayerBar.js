@@ -11,10 +11,34 @@ import getBuzzsproutMp3Link from './utils/getBuzzsproutMp3Link';
 import PlayPauseButton from './Subcomponents/PlayPauseButton';
 
 class EpisodePlayerBar extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            isPlaying: true,
+        }
+
+        this.togglePlay = this.togglePlay.bind(this);
+    }
+
+    togglePlay() {
+        this.setState({
+            isPlaying: !this.state.isPlaying
+        });
+    }
+
     render() {
+        const {
+            togglePlay,
+        } = this;
+
         const {
             id,
         } = this.props;
+
+        const {
+            isPlaying,
+        } = this.state;
 
         const hasEpisodeId = typeof id !== 'undefined' && id !== null;
 
@@ -23,6 +47,8 @@ class EpisodePlayerBar extends React.Component {
                 {hasEpisodeId ? (
                     <div className="episode-player-bar">
                         <PlayPauseButton
+                            isPlaying={isPlaying}
+                            onClick={togglePlay}
                         />
 
                         <ReactPlayer

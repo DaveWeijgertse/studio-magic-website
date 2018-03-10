@@ -1,10 +1,11 @@
 import React from 'react';
 
 
-const PlayPauseButton = () => (
-    <div className="play-pause-button">
 
-    </div>
+const PlayPauseButton = ({onClick}) => (
+    <div
+        onClick={onClick}
+    />
 );
 
 export default PlayPauseButton;
