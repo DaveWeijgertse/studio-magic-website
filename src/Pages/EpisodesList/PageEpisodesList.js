@@ -19,6 +19,7 @@ class PageEpisodesList extends React.Component {
                         (episode) => {
                             const {
                                 date,
+                                shortDescription,
                                 id,
                                 name,
                             } = episode;
@@ -27,6 +28,7 @@ class PageEpisodesList extends React.Component {
                                 <EpisodeTile
                                     key={id}
                                     date={date}
+                                    description={shortDescription}
                                     id={id}
                                     name={name}
                                 />
