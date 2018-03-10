@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Styling import
+import './Description.scss';
 
 
 const Description = ({description}) => (
