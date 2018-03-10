@@ -1,21 +1,21 @@
-$button-size: 50px;
-$image-size: 40px;
+@import "~appUtils/styling/colors";
+
+$container-size: 35px;
 
 a.social-media-button {
     display: inline-block;
-    height: $button-size;
-    width: $button-size;
-    padding: 5px;
+    vertical-align: top;
+    width: $container-size;
+    height: $container-size;
+    color: $main-color-dark;
     text-align: center;
-    &:not(:last-child) {
-        border-right: 1px solid #616161;
-    }
-
-    > img {
-        max-height: $image-size;
-        max-width: $image-size;
-    }
-
-    }
+    font-family: "FontAwesome";
+    font-size: 1.5em;
+    border: 3px solid transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    &:hover {
+        color: $secondary-color;
+        text-decoration: none;
     }
 }
