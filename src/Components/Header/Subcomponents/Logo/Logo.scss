@@ -14,6 +14,10 @@
         &.studio {
             height: 50px;
             margin-top: 18px;
+            @media screen and (max-width: $phone) {
+                height: 40px;
+                margin-top: 15px;
+            }
         }
         &.emblem {
             margin: 20px 10px 0;
@@ -22,11 +26,18 @@
             & > img {
                 height: 60px;
                 padding: 5px;
+                @media screen and (max-width: $phone) {
+                    height: 50px;
+                }
             }
         }
         &.magic {
             height: 65px;
             margin-top: 23px;
+            @media screen and (max-width: $phone) {
+                height: 55px;
+                margin-top: 20px;
+            }
         }
     }
 }
