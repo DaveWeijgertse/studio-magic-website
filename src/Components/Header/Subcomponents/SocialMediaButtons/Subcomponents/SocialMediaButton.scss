@@ -18,4 +18,8 @@ a.social-media-button {
         color: $secondary-color;
         text-decoration: none;
     }
+
+    &.facebook:before {
+        content: "\f09a";
+    }
 }
