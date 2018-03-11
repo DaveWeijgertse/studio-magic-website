@@ -29,6 +29,7 @@ class PageLanding extends React.Component {
         } = this.state;
 
         const {
+            playingEpisodeId,
             playEpisodeInEpisodeBar,
         } = this.props;
 
@@ -36,6 +37,7 @@ class PageLanding extends React.Component {
             <div className="page-landing">
                 <LastEpisode
                     lastEpisode={lastEpisode}
+                    playingEpisodeId={playingEpisodeId}
                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                 />
             </div>

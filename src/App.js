@@ -86,6 +86,7 @@ class App extends React.Component {
                             exact
                             path={ROUTE_ROOT}
                             component={PageLanding}
+                            playingEpisodeId={playingEpisodeId}
                             playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                         />
                         <PropsRoute
