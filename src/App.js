@@ -48,6 +48,7 @@ class App extends React.Component {
         }
 
         this.playEpisodeInEpisodeBar = this.playEpisodeInEpisodeBar.bind(this);
+        this.onStopPlayingEpisode = this.onStopPlayingEpisode.bind(this);
     }
 
     componentWillMount() {
@@ -60,9 +61,16 @@ class App extends React.Component {
         });
     }
 
+    onStopPlayingEpisode() {
+        this.setState({
+            playingEpisodeId: null
+        });
+    }
+
     render() {
         const {
             playEpisodeInEpisodeBar,
+            onStopPlayingEpisode,
         } = this;
 
         const {
@@ -87,7 +95,10 @@ class App extends React.Component {
                         />
                     </Switch>
                 </div>
-                <EpisodePlayerBar id={playingEpisodeId} />
+                <EpisodePlayerBar
+                    id={playingEpisodeId}
+                    onStopPlayingEpisode={onStopPlayingEpisode}
+                />
             </div>
         );
     }

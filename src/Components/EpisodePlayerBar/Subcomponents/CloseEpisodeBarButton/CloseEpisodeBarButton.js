@@ -4,9 +4,11 @@ import React from 'react';
 import './CloseEpisodeBarButton.scss';
 
 
-const CloseEpisodeBarButton = () => (
-    <div className="close-episode-bar-button">
-    </div>
+const CloseEpisodeBarButton = ({onCloseEpisodeBar}) => (
+    <div
+        className="close-episode-bar-button"
+        onClick={onCloseEpisodeBar}
+    />
 );
 
 export default CloseEpisodeBarButton;

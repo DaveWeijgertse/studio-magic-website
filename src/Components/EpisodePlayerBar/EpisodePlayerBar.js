@@ -30,6 +30,7 @@ class EpisodePlayerBar extends React.Component {
         this.togglePlay = this.togglePlay.bind(this);
         this.startCurrentTimeAndDurationInterval = this.startCurrentTimeAndDurationInterval.bind(this);
         this.updateCurrentTimeAndDuration = this.updateCurrentTimeAndDuration.bind(this);
+        this.onCloseEpisodeBar = this.onCloseEpisodeBar.bind(this);
     }
 
     componentWillMount() {
@@ -72,9 +73,15 @@ class EpisodePlayerBar extends React.Component {
         }
     }
 
+    onCloseEpisodeBar() {
+        // Stop playing the episode and hide the <EpisodePlayerBar>
+        this.props.onStopPlayingEpisode();
+    }
+
     render() {
         const {
             togglePlay,
+            onCloseEpisodeBar,
         } = this;
 
         const {
@@ -107,6 +114,7 @@ class EpisodePlayerBar extends React.Component {
                             name={episodes[id - 1].name}
                         />
                         <CloseEpisodeBarButton
+                            onCloseEpisodeBar={onCloseEpisodeBar}
                         />
 
                         <ReactPlayer
