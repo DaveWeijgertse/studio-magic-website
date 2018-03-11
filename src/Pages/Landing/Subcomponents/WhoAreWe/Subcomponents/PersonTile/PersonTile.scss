@@ -18,6 +18,10 @@ $image-size: 150px;
             height: $image-size;
             border-radius: 50%;
             background-color: $background;
+            background-size: contain;
+            &.daveWeijgertse {
+                background-image: url('../../images/dave.jpg');
+            }
         }
     }
 

@@ -4,14 +4,14 @@ import React from 'react';
 import './PersonTile.scss';
 
 
-const PersonTile = ({data}) => {
+const PersonTile = ({person, data}) => {
     const shortName    = data.info.name.short;
     const introduction = data.whoAmI.introduction;
 
     return (
         <div className="person-tile-container">
             <div className="image-container">
-                <div className="image" />
+                <div className={"image " + person} />
             </div>
             <div className="person-name">
                 {shortName}
