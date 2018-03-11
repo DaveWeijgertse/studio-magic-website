@@ -13,7 +13,7 @@ import './ToAllEpisodesButton.scss';
 const ToAllEpisodesButton = () => (
     <div className="button-container">
         <Link to={ROUTE_EPISODES_LIST}>
-            {i18n.translate('episode.see-all')}
+            {i18n.translate('episode.all')}
         </Link>
     </div>
 );
