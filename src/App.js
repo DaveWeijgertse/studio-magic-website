@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import {
     ROUTE_ROOT,
     ROUTE_EPISODES_LIST,
+    ROUTE_DISCLAIMER,
 } from 'appUtils/routes/paths';
 
 // Translations import
@@ -12,6 +13,7 @@ import i18n from 'i18n-react';
 import NL from './utils/translations/nl-NL.json';
 
 // Pages imports
+import PageDisclaimer from './Pages/Disclaimer/PageDisclaimer';
 import PageEpisodesList from './Pages/EpisodesList/PageEpisodesList';
 import PageLanding from './Pages/Landing/PageLanding';
 
@@ -98,6 +100,11 @@ class App extends React.Component {
                             playingEpisodeId={playingEpisodeId}
                             playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                             onStopPlayingEpisode={onStopPlayingEpisode}
+                        />
+                        <Route
+                            exact
+                            path={ROUTE_DISCLAIMER}
+                            component={PageDisclaimer}
                         />
                     </Switch>
                 </div>
