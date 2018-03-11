@@ -12,7 +12,7 @@ import PlayButton from './Subcomponents/PlayButton';
 import './LastEpisode.scss';
 
 
-const LastEpisode = ({lastEpisode, playingEpisodeId, playEpisodeInEpisodeBar}) => {
+const LastEpisode = ({lastEpisode, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode}) => {
     const {
         date,
         shortDescription,
@@ -37,6 +37,7 @@ const LastEpisode = ({lastEpisode, playingEpisodeId, playEpisodeInEpisodeBar}) =
                     id={id}
                     playingEpisodeId={playingEpisodeId}
                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                    onStopPlayingEpisode={onStopPlayingEpisode}
                 />
                 <OtherPodcastSources />
             </div>

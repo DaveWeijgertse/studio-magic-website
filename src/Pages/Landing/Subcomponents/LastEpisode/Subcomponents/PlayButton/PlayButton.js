@@ -5,7 +5,7 @@ import i18n from 'i18n-react';
 import './PlayButton.scss';
 
 
-const PlayButton = ({id, playingEpisodeId, playEpisodeInEpisodeBar}) => {
+const PlayButton = ({id, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode}) => {
     const isEpisodeCurrentlyPlaying = id === playingEpisodeId;
 
     return (

@@ -88,6 +88,7 @@ class App extends React.Component {
                             component={PageLanding}
                             playingEpisodeId={playingEpisodeId}
                             playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                            onStopPlayingEpisode={onStopPlayingEpisode}
                         />
                         <PropsRoute
                             path={ROUTE_EPISODES_LIST}
