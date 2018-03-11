@@ -3,6 +3,8 @@ import React from 'react';
 // Util imports
 import getSocialMediaHref from 'appUtils/helpers/getSocialMediaHref';
 
+// Styling import
+import './SocialMediaButton.scss';
 
 
 const SocialMediaButton = ({type}) => (
