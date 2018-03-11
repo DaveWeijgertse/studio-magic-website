@@ -85,6 +85,13 @@ class EpisodePlayerBar extends React.Component {
 
         // Stop the time interval
         this.stopCurrentTimeAndDurationInterval();
+
+        // Reset the state
+        this.setState({
+            isPlaying: false,
+            currentTime: null,
+            maxDuration: null
+        });
     }
 
     render() {
