@@ -8,6 +8,7 @@ import { episodes } from 'appUtils/episodes/episodes.json';
 import getBuzzsproutMp3Link from './utils/getBuzzsproutMp3Link';
 
 // Subcomponent import
+import CloseEpisodeBarButton from './Subcomponents/CloseEpisodeBarButton';
 import EpisodeInfo from './Subcomponents/EpisodeInfo';
 import PlayPauseButton from './Subcomponents/PlayPauseButton';
 import TimerDisplay from './Subcomponents/TimerDisplay';
@@ -104,6 +105,8 @@ class EpisodePlayerBar extends React.Component {
                         <EpisodeInfo
                             id={id}
                             name={episodes[id - 1].name}
+                        />
+                        <CloseEpisodeBarButton
                         />
 
                         <ReactPlayer
