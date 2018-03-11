@@ -6,8 +6,14 @@
 
     .footer-page-container {
         @extend %page-container;
+        display: flex;
+        align-content: flex-start;
         padding-bottom: 100px;
         color: white;
+
+        > * {
+            margin-right: 25px;
+        }
 
         .footer-header {
             font-size: 0.9em;
