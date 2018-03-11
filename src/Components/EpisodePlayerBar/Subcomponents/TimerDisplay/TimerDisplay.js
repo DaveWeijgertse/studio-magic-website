@@ -7,8 +7,8 @@ import formatTimeFromSeconds from './utils/formatTimeFromSeconds';
 import './TimerDisplay.scss';
 
 
-const TimerDisplay = ({time}) => (
-    <div className="timer-display">
+const TimerDisplay = ({type, time}) => (
+    <div className={"timer-display " + type}>
         {formatTimeFromSeconds(time)}
     </div>
 );

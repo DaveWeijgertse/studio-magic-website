@@ -1,4 +1,13 @@
+@import "~appUtils/styling/colors";
+
 .timer-display {
-    color: white;
     font-size: 0.8em;
+
+    &.currentTime {
+        color: $main-color-light;
+        font-weight: 500;
+    }
+    &.maxDuration {
+        color: white;
+    }
 }
