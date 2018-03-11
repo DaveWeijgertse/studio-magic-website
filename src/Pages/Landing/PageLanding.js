@@ -9,6 +9,7 @@ import { episodes } from 'appUtils/data/episodes.json';
 import { staff } from 'appUtils/data/staff.json';
 
 // Subcomponent imports
+import Contact from './Subcomponents/Contact';
 import EarlierEpisodes from './Subcomponents/EarlierEpisodes';
 import LastEpisode from './Subcomponents/LastEpisode';
 import WhoAreWe from './Subcomponents/WhoAreWe';
@@ -58,6 +59,7 @@ class PageLanding extends React.Component {
                 <WhoAreWe
                     staff={staff}
                 />
+                <Contact />
             </div>
         )
     }
