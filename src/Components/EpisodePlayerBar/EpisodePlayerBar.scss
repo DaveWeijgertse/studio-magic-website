@@ -7,6 +7,7 @@ $bar-height: 60px;
     bottom: 0;
     width: 100%;
     height: $bar-height;
+    padding: 0 20px;
     border-top: 2px solid $main-color;
     background: $background-dark;
     z-index: 9999;

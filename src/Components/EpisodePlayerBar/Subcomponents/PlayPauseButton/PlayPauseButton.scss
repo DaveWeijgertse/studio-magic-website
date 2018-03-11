@@ -8,6 +8,7 @@ $button-size: 40px;
     justify-content: center;
     width: $button-size;
     height: $button-size;
+    margin-right: 5px;
     cursor: pointer;
     &:before {
         font-family: "FontAwesome";
