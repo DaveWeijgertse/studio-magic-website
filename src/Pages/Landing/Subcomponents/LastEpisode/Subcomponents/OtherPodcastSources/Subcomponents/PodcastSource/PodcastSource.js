@@ -12,6 +12,7 @@ const PodcastSource = ({source}) => (
     <div className="podcast-source-container">
         <a
             href={getPodcastSourceHref(source)}
+            rel="noopener noreferrer"
             target="_blank"
         >
             <img

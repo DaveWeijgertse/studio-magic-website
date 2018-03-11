@@ -9,6 +9,7 @@ const MoreInfo = ({url}) => (
     <a
         className="episode-more-info"
         href={url}
+        rel="noopener noreferrer"
         target="_blank"
     >
         {i18n.translate('more-info')}

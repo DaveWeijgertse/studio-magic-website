@@ -15,6 +15,7 @@ class SocialMediaButton extends React.Component {
             <a
                 className={"social-media-button " + type}
                 href={getSocialMediaHref(type)}
+                rel="noopener noreferrer"
                 target="_blank"
             >
             </a>

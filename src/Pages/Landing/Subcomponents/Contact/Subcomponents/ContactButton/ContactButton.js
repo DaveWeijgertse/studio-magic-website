@@ -11,8 +11,10 @@ const ContactButton = ({type}) => (
     <a
         className={"contact-button " + type}
         href={getSocialMediaHref(type)}
+        rel="noopener noreferrer"
         target="_blank"
-    />
+    >
+    </a>
 );
 
 export default ContactButton;
