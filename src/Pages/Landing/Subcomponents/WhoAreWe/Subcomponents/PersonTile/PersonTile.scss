@@ -2,4 +2,9 @@
 
 .person-tile-container {
     @extend %tile;
+
+    .person-name {
+        font-size: 1.8em;
+        font-weight: 700;
+    }
 }
