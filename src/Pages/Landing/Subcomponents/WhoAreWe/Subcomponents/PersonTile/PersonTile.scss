@@ -1,8 +1,25 @@
+@import '~appUtils/styling/colors';
 @import '~appUtils/styling/placeholders';
+
+$image-size: 150px;
 
 .person-tile-container {
     @extend %tile;
     padding: 20px;
+
+    .image-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+
+        .image {
+            width: $image-size;
+            height: $image-size;
+            border-radius: 50%;
+            background-color: $background;
+        }
+    }
 
     .person-name {
         font-size: 1.8em;

@@ -10,6 +10,9 @@ const PersonTile = ({data}) => {
 
     return (
         <div className="person-tile-container">
+            <div className="image-container">
+                <div className="image" />
+            </div>
             <div className="person-name">
                 {shortName}
             </div>
