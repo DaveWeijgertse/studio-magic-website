@@ -5,7 +5,7 @@ import {
 } from 'lodash';
 
 // Data imports
-import { episodes } from 'appUtils/episodes/episodes.json';
+import { episodes } from 'appUtils/data/episodes.json';
 
 // Subcomponent imports
 import EarlierEpisodes from './Subcomponents/EarlierEpisodes';

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 
 // Data import
-import { episodes } from 'appUtils/episodes/episodes.json';
+import { episodes } from 'appUtils/data/episodes.json';
 
 // Utils import
 import getBuzzsproutMp3Link from './utils/getBuzzsproutMp3Link';
