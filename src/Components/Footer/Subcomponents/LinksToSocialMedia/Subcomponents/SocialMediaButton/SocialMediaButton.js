@@ -9,7 +9,7 @@ import './SocialMediaButton.scss';
 
 const SocialMediaButton = ({type}) => (
     <a
-        className="footer-social-media-button"
+        className={"footer-social-media-button " + type}
         href={getSocialMediaHref(type)}
         target="_blank"
     />
