@@ -30,6 +30,9 @@ $footer-content-margin: 25px;
             align-self: flex-end;
             margin-right: 0;
             text-align: right;
+            @media screen and (max-width: $phone) {
+                text-align: left;
+            }
         }
 
         .footer-header {
