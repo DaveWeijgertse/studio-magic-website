@@ -1,0 +1,15 @@
+@import "~appUtils/styling/colors";
+
+.close-episode-bar-button {
+    color: white;
+    font-size: 1.2em;
+    line-height: 20px;
+    cursor: pointer;
+    &:hover {
+        color: $secondary-color;
+    }
+    &:before {
+        content: "\f00d";
+        font-family: "FontAwesome";
+    }
+}
