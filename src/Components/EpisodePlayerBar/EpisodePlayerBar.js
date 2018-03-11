@@ -89,7 +89,7 @@ class EpisodePlayerBar extends React.Component {
         const hasEpisodeId = typeof id !== 'undefined' && id !== null;
 
         return (
-            <div className="episode-player-bar-container">
+            <div className={"episode-player-bar-container " + (hasEpisodeId ? "active" : "inactive")}>
                 {hasEpisodeId ? (
                     <div className="episode-player-bar">
                         <PlayPauseButton

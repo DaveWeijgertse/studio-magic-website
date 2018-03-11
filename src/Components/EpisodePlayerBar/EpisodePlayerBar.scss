@@ -10,6 +10,10 @@ $bar-height: 60px;
     border-top: 2px solid $main-color;
     background: $background-dark;
     z-index: 9999;
+    transition: bottom 0.5s;
+    &.inactive {
+        bottom: -$bar-height;
+    }
 
     .episode-player-bar {
         display: flex;
