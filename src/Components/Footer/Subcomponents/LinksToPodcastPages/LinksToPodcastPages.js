@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import {
     ROUTE_EPISODES_LIST,
+    ROUTE_DISCLAIMER,
 } from 'appUtils/routes/paths';
 
 
@@ -14,6 +15,9 @@ const LinksToPodcastPages = () => (
         </div>
         <Link to={ROUTE_EPISODES_LIST}>
             {i18n.translate('episode.all')}
+        </Link>
+        <Link to={ROUTE_DISCLAIMER}>
+            {i18n.translate('disclaimer')}
         </Link>
     </div>
 );
