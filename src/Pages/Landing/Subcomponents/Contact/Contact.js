@@ -10,7 +10,13 @@ import './Contact.scss';
 
 const Contact = () => (
     <div className="contact-container">
-        <h1>{i18n.translate('contact.title')}</h1>
+        <div className="contact-page-container">
+            <h1>{i18n.translate('contact.title')}</h1>
+            <div className="contact-links">
+                <ContactButton type="facebook" />
+                <ContactButton type="twitter" />
+            </div>
+        </div>
     </div>
 );
 
