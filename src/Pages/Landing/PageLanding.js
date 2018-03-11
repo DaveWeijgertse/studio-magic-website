@@ -44,6 +44,7 @@ class PageLanding extends React.Component {
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
                 <EarlierEpisodes
+                    episodes={episodes}
                 />
             </div>
         )
