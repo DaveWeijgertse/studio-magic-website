@@ -6,6 +6,9 @@ import './Footer.scss';
 
 const Footer = () => (
     <div className="footer-container">
+        <div className="footer-page-container">
+
+        </div>
     </div>
 );
 

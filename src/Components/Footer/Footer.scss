@@ -1,5 +1,10 @@
 @import '~appUtils/styling/colors';
+@import '~appUtils/styling/placeholders';
 
 .footer-container {
     background: $background-dark;
+
+    .footer-page-container {
+        @extend %page-container;
+    }
 }
