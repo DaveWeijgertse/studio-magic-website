@@ -10,7 +10,7 @@ import {
 const LinksToPodcastPages = () => (
     <div>
         <div className="footer-header">
-            {i18n.translate('episode.plural')}
+            {i18n.translate('podcast')}
         </div>
         <Link to={ROUTE_EPISODES_LIST}>
             {i18n.translate('episode.all')}
