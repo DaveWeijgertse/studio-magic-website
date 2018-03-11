@@ -19,6 +19,12 @@ $image-size: 150px;
             border-radius: 50%;
             background-color: $background;
             background-size: contain;
+            &.jeroenKoster {
+                background-color: $background;
+            }
+            &.arjanAng {
+                background-color: $background;
+            }
             &.daveWeijgertse {
                 background-image: url('../../images/dave.jpg');
             }
