@@ -91,6 +91,7 @@ class App extends React.Component {
                         <PropsRoute
                             path={ROUTE_EPISODES_LIST}
                             component={PageEpisodesList}
+                            playingEpisodeId={playingEpisodeId}
                             playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                         />
                     </Switch>

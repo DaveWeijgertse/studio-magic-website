@@ -9,21 +9,39 @@
     font-size: 1em;
     font-weight: 500;
     border-radius: 2px;
-    background: $main-color;
     text-align: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     cursor: pointer;
     &:hover {
         color: white;
         text-decoration: none;
-        background: $main-color-dark;
     }
     &:before {
-        content: "\f144";
         position: absolute;
         top: 7px;
         left: 10px;
         font-size: 1.1em;
         font-family: "FontAwesome";
+    }
+
+    &.start-playing {
+        background: $main-color;
+
+        &:hover {
+            background: $main-color-dark;
+        }
+        &:before {
+            content: "\f04b";
+        }
+    }
+    &.stop-playing {
+        background: $secondary-color;
+
+        &:hover {
+            background: $secondary-color-dark;
+        }
+        &:before {
+            content: "\f04d";
+        }
     }
 }

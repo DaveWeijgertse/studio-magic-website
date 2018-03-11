@@ -27,6 +27,7 @@ class PageEpisodesList extends React.Component {
         } = this.state;
 
         const {
+            playingEpisodeId,
             playEpisodeInEpisodeBar,
         } = this.props;
 
@@ -52,6 +53,7 @@ class PageEpisodesList extends React.Component {
                                     id={id}
                                     name={name}
                                     url={url}
+                                    playingEpisodeId={playingEpisodeId}
                                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                                 />
                             );
