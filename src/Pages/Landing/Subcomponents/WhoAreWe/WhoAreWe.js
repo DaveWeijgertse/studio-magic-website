@@ -9,6 +9,8 @@ import {
 // Subcomponent imports
 import PersonTile from './Subcomponents/PersonTile';
 
+// Styling import
+import './WhoAreWe.scss';
 
 
 const WhoAreWe = ({staff}) => (

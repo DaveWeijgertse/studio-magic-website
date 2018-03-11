@@ -1,0 +1,9 @@
+@import "~appUtils/styling/placeholders";
+
+.who-are-we-container {
+    @extend %page-container;
+
+    .person-tiles {
+        @extend %tiles-container;
+    }
+}
