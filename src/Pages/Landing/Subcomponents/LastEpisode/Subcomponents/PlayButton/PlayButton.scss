@@ -3,19 +3,21 @@
 .play-button {
     position: relative;
     display: inline-block;
-    padding: 6px 15px 6px 58px;
+    padding: 12px 24px 12px 65px;
     color: white;
-    font-size: $font-size;
+    font-size: 1.5em;
+    line-height: 1.2em;
     border: 5px solid white;
+    border-radius: 2px;
     cursor: pointer;
     &:hover {
         text-decoration: none;
     }
     &:before {
         position: absolute;
-        top: -3px;
-        left: 15px;
-        font-size: $font-size;
+        top: 12px;
+        left: 22px;
+        font-size: 1.2em;
         font-family: "FontAwesome";
     }
 
