@@ -1,8 +1,5 @@
+@import '~appUtils/styling/placeholders';
+
 .page-all-episodes .all-episode-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    align-content: space-around;
-    justify-content: space-around;
-    margin: 0 -10px;
+    @extend %tiles-container;
 }
