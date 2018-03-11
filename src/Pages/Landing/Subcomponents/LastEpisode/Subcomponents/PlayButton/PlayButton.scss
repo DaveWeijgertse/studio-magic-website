@@ -1,64 +1,46 @@
 @import '~appUtils/styling/colors';
 @import '~appUtils/styling/mediaQueries';
 
+
 .play-button {
-    position: relative;
     display: inline-block;
-    padding: 12px 24px 12px 65px;
+    padding: 12px 24px;
     color: white;
+    font-weight: 500;
     font-size: 1.5em;
-    line-height: 1.2em;
-    border: 5px solid white;
+    text-transform: uppercase;
     border-radius: 2px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-                color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
-                border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     cursor: pointer;
     @media screen and (max-width: $phone) {
-        border: 3px solid white;
-        padding: 10px 18px 10px 48px;
-        font-size: 1.35em;
+        padding: 8px 16px;
+        font-size: 1.1em;
     }
 
     &:hover {
         text-decoration: none;
     }
-    &:before {
-        position: absolute;
-        top: 12px;
-        left: 22px;
-        font-size: 1.2em;
+    &:after {
+        margin-left: 16px;
+        font-size: 1em;
         font-family: "FontAwesome";
-        @media screen and (max-width: $phone) {
-            top: 10px;
-            left: 18px;
-            font-size: 0.9em;
-        }
     }
 
     &.start-playing {
-        border-color: white;
-        background: transparent;
-
+        background: $main-color;
         &:hover {
-            color: $main-color;
-            background: white;
+            background: $main-color-dark;
         }
-        &:before {
+        &:after {
             content: "\f04b";
         }
     }
     &.stop-playing {
-        color: white;
-        border-color: $secondary-color;
         background: $secondary-color;
-
         &:hover {
-            color: white;
-            border-color: $secondary-color-dark;
             background: $secondary-color-dark;
         }
-        &:before {
+        &:after {
             content: "\f04d";
         }
     }
