@@ -1,2 +1,2 @@
-import LastEpisode from './LastEpisode';
-export default LastEpisode;
+import EarlierEpisodes from './EarlierEpisodes';
+export default EarlierEpisodes;
