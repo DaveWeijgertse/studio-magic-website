@@ -9,7 +9,8 @@
     "episode": {
         "singular": "Aflevering",
         "plural": "Afleveringen",
-        "all": "Alle afleveringen"
+        "all": "Alle afleveringen",
+        "earlier": "Eerdere afleveringen",
     },
     "months": {
         "january": "Januari",

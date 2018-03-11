@@ -35,6 +35,7 @@ class EarlierEpisodes extends React.Component {
 
         return (
             <div className="earlier-episodes-container">
+                <h1>{i18n.translate('episode.earlier')}</h1>
                 <div className="earlier-episodes">
                     {visibleEpisodes.map(
                         (episode) => {
