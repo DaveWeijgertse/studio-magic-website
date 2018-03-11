@@ -1,0 +1,40 @@
+{
+    "staff": {
+        "jeroenKoster": {
+            "urlToDetailsPage": "",
+            "info": {
+                "name": {
+                    "short": "Jeroen",
+                    "full": "Jeroen Koster"
+                }
+            },
+            "who-am-i": {
+                "introduction": "Magict sinds Tempest (1997). Speelt vooral Modern, Commander en Limited. Heeft een Unstable Cube. Kattenmens."
+            }
+        },
+        "arjanAng": {
+            "urlToDetailsPage": "",
+            "info": {
+                "name": {
+                    "short": "Arjan",
+                    "full": "Arjan Ang"
+                }
+            },
+            "who-am-i": {
+                "introduction": ""
+            }
+        },
+        "daveWeijgertse": {
+            "urlToDetailsPage": "",
+            "info": {
+                "name": {
+                    "short": "Dave",
+                    "full": "Dave Weijgertse"
+                }
+            },
+            "who-am-i": {
+                "introduction": "Speelt sinds Theros (eind 2013). Speelt vooral Modern. Bekend als trouwe volgeling van Karn Liberated. Leeft geen dag zonder muziek."
+            }
+        }
+    }
+}
