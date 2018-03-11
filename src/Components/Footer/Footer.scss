@@ -8,5 +8,11 @@
         @extend %page-container;
         padding-bottom: 100px;
         color: white;
+
+        .footer-header {
+            font-size: 0.9em;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
     }
 }
