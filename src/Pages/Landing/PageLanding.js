@@ -10,6 +10,7 @@ import { episodes } from 'appUtils/data/episodes.json';
 // Subcomponent imports
 import EarlierEpisodes from './Subcomponents/EarlierEpisodes';
 import LastEpisode from './Subcomponents/LastEpisode';
+import WhoAreWe from './Subcomponents/WhoAreWe';
 
 // Styling import
 import './PageLanding.scss';
@@ -52,6 +53,8 @@ class PageLanding extends React.Component {
                     playingEpisodeId={playingEpisodeId}
                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                     onStopPlayingEpisode={onStopPlayingEpisode}
+                />
+                <WhoAreWe
                 />
             </div>
         )
