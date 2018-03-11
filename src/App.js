@@ -16,6 +16,7 @@ import PageEpisodesList from './Pages/EpisodesList/PageEpisodesList';
 import PageLanding from './Pages/Landing/PageLanding';
 
 // Component imports
+import Disclaimer from './Components/Disclaimer';
 import EpisodePlayerBar from './Components/EpisodePlayerBar';
 import Footer from './Components/Footer';
 import HeaderBar from './Components/Header/HeaderBar';
@@ -105,6 +106,7 @@ class App extends React.Component {
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
                 <Footer />
+                <Disclaimer />
             </div>
         );
     }
