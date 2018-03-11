@@ -1,0 +1,5 @@
+@import '~appUtils/styling/placeholders';
+
+.person-tile-container {
+    @extend %tile;
+}

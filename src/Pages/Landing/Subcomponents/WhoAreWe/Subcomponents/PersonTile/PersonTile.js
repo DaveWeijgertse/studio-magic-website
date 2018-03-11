@@ -1,5 +1,7 @@
 import React from 'react';
 
+// Styling import
+import './PersonTile.scss';
 
 
 const PersonTile = ({data}) => {
