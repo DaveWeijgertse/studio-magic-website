@@ -1,6 +1,9 @@
 import React from 'react';
 import i18n from 'i18n-react';
 
+// Subcomponent import
+import ContactButton from './Subcomponents/ContactButton';
+
 // Styling import
 import './Contact.scss';
 

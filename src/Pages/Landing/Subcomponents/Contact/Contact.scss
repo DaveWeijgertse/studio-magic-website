@@ -1,5 +1,9 @@
 @import "~appUtils/styling/placeholders";
 
 .contact-container {
-    @extend %page-container;
+    background: white;
+
+    .contact-page-container {
+        @extend %page-container;
+    }
 }
