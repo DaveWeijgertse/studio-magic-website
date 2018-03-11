@@ -45,6 +45,9 @@ class PageLanding extends React.Component {
                 />
                 <EarlierEpisodes
                     episodes={episodes}
+                    playingEpisodeId={playingEpisodeId}
+                    playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                    onStopPlayingEpisode={onStopPlayingEpisode}
                 />
             </div>
         )
