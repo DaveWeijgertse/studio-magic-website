@@ -8,7 +8,7 @@ import {
 } from 'appUtils/routes/paths';
 
 // Subcomponent imports
-import EpisodeTile from '../../../../Components/EpisodeTile';
+import VisibleEpisodes from './Subcomponents/VisibleEpisodes';
 
 // Styling import
 import './EarlierEpisodes.scss';
@@ -42,33 +42,12 @@ class EarlierEpisodes extends React.Component {
         return (
             <div className="earlier-episodes-container">
                 <h1>{i18n.translate('episode.earlier')}</h1>
-                <div className="earlier-episodes">
-                    {visibleEpisodes.map(
-                        (episode) => {
-                            const {
-                                date,
-                                shortDescription,
-                                id,
-                                name,
-                                url,
-                            } = episode;
-
-                            return (
-                                <EpisodeTile
-                                    key={id}
-                                    date={date}
-                                    description={shortDescription}
-                                    id={id}
-                                    name={name}
-                                    url={url}
-                                    playingEpisodeId={playingEpisodeId}
-                                    playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
-                                    onStopPlayingEpisode={onStopPlayingEpisode}
-                                />
-                            );
-                        }
-                    )}
-                </div>
+                <VisibleEpisodes
+                    visibleEpisodes={visibleEpisodes}
+                    playingEpisodeId={playingEpisodeId}
+                    playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                    onStopPlayingEpisode={onStopPlayingEpisode}
+                />
                 <div className="button-container">
                     <Link to={ROUTE_EPISODES_LIST}>
                         {i18n.translate('episode.see-all')}
