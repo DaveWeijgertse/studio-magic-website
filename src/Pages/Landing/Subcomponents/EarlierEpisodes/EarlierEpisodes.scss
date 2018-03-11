@@ -1,3 +1,4 @@
+@import '~appUtils/styling/colors';
 @import "~appUtils/styling/placeholders";
 
 .earlier-episodes-container {
@@ -10,5 +11,28 @@
         align-content: space-around;
         justify-content: space-around;
         margin: 0 -10px;
+    }
+
+    .button-container {
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+
+        > a {
+            padding: 8px 16px;
+            color: white;
+            font-size: 1em;
+            font-weight: 500;
+            border-radius: 2px;
+            text-align: center;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            background: $secondary-color;
+            cursor: pointer;
+            &:hover {
+                color: white;
+                text-decoration: none;
+                background: $secondary-color-dark;
+            }
+        }
     }
 }
