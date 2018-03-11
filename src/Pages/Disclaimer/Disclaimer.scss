@@ -1,0 +1,7 @@
+@import '~appUtils/styling/colors';
+
+.page-disclaimer {
+    > div:not(:last-child) {
+        margin-bottom: 10px;
+    }
+}
