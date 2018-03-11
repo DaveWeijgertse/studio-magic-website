@@ -1,5 +1,8 @@
 @import '~appUtils/styling/colors';
+@import '~appUtils/styling/mediaQueries';
 @import '~appUtils/styling/placeholders';
+
+$footer-content-margin: 25px;
 
 .footer-container {
     background: $background-dark;
@@ -10,9 +13,16 @@
         align-content: flex-start;
         padding-bottom: 100px;
         color: white;
+        @media screen and (max-width: $phone) {
+            flex-direction: column;
+        }
 
         > * {
-            margin-right: 25px;
+            margin-right: $footer-content-margin;
+            @media screen and (max-width: $phone) {
+                width: 100%;
+                margin: 0 0 $footer-content-margin 0;
+            }
         }
 
         .copyright-and-site-credits-container {
