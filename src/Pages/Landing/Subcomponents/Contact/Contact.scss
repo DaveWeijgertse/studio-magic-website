@@ -5,5 +5,11 @@
 
     .contact-page-container {
         @extend %page-container;
+
+        .contact-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
 }
