@@ -98,6 +98,7 @@ class EpisodePlayerBar extends React.Component {
                         />
                         <div className="current-time-max-duration">
                             <TimerDisplay type="currentTime" time={currentTime} />
+                            <div className="divider">/</div>
                             <TimerDisplay type="maxDuration" time={maxDuration} />
                         </div>
                         <EpisodeInfo
