@@ -1,6 +1,9 @@
 import React from 'react';
 import i18n from 'i18n-react';
 
+// Styling import
+import './SiteCredits.scss';
+
 
 const SiteCredits = () => (
     <div className="footer-site-credits-container">
