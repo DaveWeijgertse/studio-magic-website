@@ -1,13 +1,9 @@
 import React from 'react';
 import i18n from 'i18n-react';
 import { reverse } from 'lodash';
-import { Link } from 'react-router-dom';
-
-import {
-    ROUTE_EPISODES_LIST,
-} from 'appUtils/routes/paths';
 
 // Subcomponent imports
+import ToAllEpisodesButton from './Subcomponents/ToAllEpisodesButton';
 import VisibleEpisodes from './Subcomponents/VisibleEpisodes';
 
 // Styling import
@@ -48,11 +44,7 @@ class EarlierEpisodes extends React.Component {
                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
-                <div className="button-container">
-                    <Link to={ROUTE_EPISODES_LIST}>
-                        {i18n.translate('episode.see-all')}
-                    </Link>
-                </div>
+                <ToAllEpisodesButton />
             </div>
         )
     }
