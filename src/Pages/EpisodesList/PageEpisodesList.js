@@ -6,7 +6,7 @@ import { reverse } from 'lodash';
 import { episodes } from 'appUtils/episodes/episodes.json';
 
 // Subcomponent imports
-import EpisodeTile from './Subcomponents/EpisodeTile';
+import EpisodeTile from '../../Components/EpisodeTile';
 
 // Styling imports
 import './PageEpisodesList.scss';

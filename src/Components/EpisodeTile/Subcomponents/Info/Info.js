@@ -2,7 +2,7 @@ import React from 'react';
 
 // Subcomponent imports
 import AiringDate from './Subcomponents/AiringDate';
-import EpisodeImage from '../../../../../../Components/EpisodeImage';
+import EpisodeImage from '../../../EpisodeImage';
 import EpisodeNumber from './Subcomponents/EpisodeNumber';
 import Name from './Subcomponents/Name';
 
