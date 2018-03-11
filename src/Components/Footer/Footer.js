@@ -2,7 +2,7 @@ import React from 'react';
 
 // Subcomponent imports
 import CopyrightInfo from './Subcomponents/CopyrightInfo';
-import LinksToEpisodes from './Subcomponents/LinksToEpisodes';
+import LinksToPodcastPages from './Subcomponents/LinksToPodcastPages';
 import LinksToSocialMedia from './Subcomponents/LinksToSocialMedia';
 import SiteCredits from './Subcomponents/SiteCredits';
 
@@ -13,7 +13,7 @@ import './Footer.scss';
 const Footer = () => (
     <div className="footer-container">
         <div className="footer-page-container">
-            <LinksToEpisodes />
+            <LinksToPodcastPages />
             <LinksToSocialMedia />
             <div className="copyright-and-site-credits-container">
                 <CopyrightInfo />

@@ -7,7 +7,7 @@ import {
 } from 'appUtils/routes/paths';
 
 
-const LinksToEpisodes = () => (
+const LinksToPodcastPages = () => (
     <div>
         <div className="footer-header">
             {i18n.translate('episode.plural')}
@@ -18,4 +18,4 @@ const LinksToEpisodes = () => (
     </div>
 );
 
-export default LinksToEpisodes;
+export default LinksToPodcastPages;
