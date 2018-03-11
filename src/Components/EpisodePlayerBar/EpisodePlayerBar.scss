@@ -16,6 +16,12 @@ $bar-height: 60px;
         justify-content: center;
         height: $bar-height;
 
+        .current-time-max-duration {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         .sound-source {
             display: none;
         }
