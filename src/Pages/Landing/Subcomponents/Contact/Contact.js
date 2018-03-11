@@ -1,6 +1,8 @@
 import React from 'react';
 import i18n from 'i18n-react';
 
+// Styling import
+import './Contact.scss';
 
 
 const Contact = () => (
