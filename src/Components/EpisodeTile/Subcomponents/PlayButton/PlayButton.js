@@ -9,11 +9,13 @@ const PlayButton = ({id, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayin
     const isEpisodeCurrentlyPlaying = id === playingEpisodeId;
 
     return (
-        <div
-            className={"episode-tile-play-button " + (isEpisodeCurrentlyPlaying ? "stop-playing" : "start-playing")}
-            onClick={() => isEpisodeCurrentlyPlaying ? onStopPlayingEpisode() : playEpisodeInEpisodeBar(id)}
-        >
-            {isEpisodeCurrentlyPlaying ? i18n.translate('stop-listening') : i18n.translate('listen')}
+        <div className="episode-tile-play-button-container">
+            <div
+                className={"episode-tile-play-button " + (isEpisodeCurrentlyPlaying ? "stop-playing" : "start-playing")}
+                onClick={() => isEpisodeCurrentlyPlaying ? onStopPlayingEpisode() : playEpisodeInEpisodeBar(id)}
+            >
+                {isEpisodeCurrentlyPlaying ? i18n.translate('stop-listening') : i18n.translate('listen')}
+            </div>
         </div>
     );
 }

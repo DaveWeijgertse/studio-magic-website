@@ -1,47 +1,47 @@
 @import '~appUtils/styling/colors';
 
-.episode-tile-play-button {
-    position: relative;
+.episode-tile-play-button-container {
     display: inline-block;
     margin: 10px 5px 10px 15px;
-    padding: 8px 16px 8px 32px;
-    color: white;
-    font-size: 1em;
-    font-weight: 500;
-    border-radius: 2px;
-    text-align: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    cursor: pointer;
-    &:hover {
+
+    .episode-tile-play-button {
+        position: relative;
+        padding: 8px 16px;
         color: white;
-        text-decoration: none;
-    }
-    &:before {
-        position: absolute;
-        top: 7px;
-        left: 10px;
-        font-size: 1.1em;
-        font-family: "FontAwesome";
-    }
-
-    &.start-playing {
-        background: $main-color;
-
+        font-weight: 500;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        border-radius: 2px;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        cursor: pointer;
         &:hover {
-            background: $main-color-dark;
+            color: white;
+            text-decoration: none;
         }
-        &:before {
-            content: "\f04b";
+        &:after {
+            margin-left: 12px;
+            font-size: 1em;
+            font-family: "FontAwesome";
         }
-    }
-    &.stop-playing {
-        background: $secondary-color;
 
-        &:hover {
-            background: $secondary-color-dark;
+        &.start-playing {
+            background: $main-color;
+            &:hover {
+                background: $main-color-dark;
+            }
+            &:after {
+                content: "\f04b";
+            }
         }
-        &:before {
-            content: "\f04d";
+
+        &.stop-playing {
+            background: $secondary-color;
+            &:hover {
+                background: $secondary-color-dark;
+            }
+            &:after {
+                content: "\f04d";
+            }
         }
     }
 }
