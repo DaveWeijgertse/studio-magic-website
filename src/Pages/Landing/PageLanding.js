@@ -6,6 +6,7 @@ import {
 
 // Data imports
 import { episodes } from 'appUtils/data/episodes.json';
+import { staff } from 'appUtils/data/staff.json';
 
 // Subcomponent imports
 import EarlierEpisodes from './Subcomponents/EarlierEpisodes';
@@ -55,6 +56,7 @@ class PageLanding extends React.Component {
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
                 <WhoAreWe
+                    staff={staff}
                 />
             </div>
         )
