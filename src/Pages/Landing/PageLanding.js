@@ -4,11 +4,12 @@ import {
     last,
 } from 'lodash';
 
-// Subcomponent imports
-import LastEpisode from './Subcomponents/LastEpisode';
-
 // Data imports
 import { episodes } from 'appUtils/episodes/episodes.json';
+
+// Subcomponent imports
+import EarlierEpisodes from './Subcomponents/EarlierEpisodes';
+import LastEpisode from './Subcomponents/LastEpisode';
 
 // Styling import
 import './PageLanding.scss';
@@ -41,6 +42,8 @@ class PageLanding extends React.Component {
                     playingEpisodeId={playingEpisodeId}
                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                     onStopPlayingEpisode={onStopPlayingEpisode}
+                />
+                <EarlierEpisodes
                 />
             </div>
         )
