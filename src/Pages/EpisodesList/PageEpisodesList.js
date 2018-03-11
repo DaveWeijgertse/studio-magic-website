@@ -29,6 +29,7 @@ class PageEpisodesList extends React.Component {
         const {
             playingEpisodeId,
             playEpisodeInEpisodeBar,
+            onStopPlayingEpisode,
         } = this.props;
 
         return (
@@ -55,6 +56,7 @@ class PageEpisodesList extends React.Component {
                                     url={url}
                                     playingEpisodeId={playingEpisodeId}
                                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                                    onStopPlayingEpisode={onStopPlayingEpisode}
                                 />
                             );
                         }

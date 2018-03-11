@@ -93,6 +93,7 @@ class App extends React.Component {
                             component={PageEpisodesList}
                             playingEpisodeId={playingEpisodeId}
                             playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                            onStopPlayingEpisode={onStopPlayingEpisode}
                         />
                     </Switch>
                 </div>
