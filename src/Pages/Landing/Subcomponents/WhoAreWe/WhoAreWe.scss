@@ -2,7 +2,6 @@
 
 .who-are-we-container {
     @extend %page-container;
-    padding-bottom: 40px;
 
     .person-tiles {
         @extend %tiles-container;
