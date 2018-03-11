@@ -1,4 +1,5 @@
 import React from 'react';
+import i18n from 'i18n-react';
 
 import {
     ARJAN_ANG,
@@ -15,6 +16,7 @@ import './WhoAreWe.scss';
 
 const WhoAreWe = ({staff}) => (
     <div className="who-are-we-container">
+        <h1>{i18n.translate('who-are-we.title')}</h1>
         <div className="person-tiles">
             <PersonTile
                 person={JEROEN_KOSTER}
