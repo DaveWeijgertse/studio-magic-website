@@ -4,6 +4,7 @@ import React from 'react';
 import CopyrightInfo from './Subcomponents/CopyrightInfo';
 import LinksToEpisodes from './Subcomponents/LinksToEpisodes';
 import LinksToSocialMedia from './Subcomponents/LinksToSocialMedia';
+import SiteCredits from './Subcomponents/SiteCredits';
 
 // Styling import
 import './Footer.scss';
@@ -16,6 +17,7 @@ const Footer = () => (
             <LinksToSocialMedia />
             <div className="copyright-and-site-credits-container">
                 <CopyrightInfo />
+                <SiteCredits />
             </div>
         </div>
     </div>
