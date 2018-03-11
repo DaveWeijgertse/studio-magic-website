@@ -7,9 +7,12 @@ import {
     ROUTE_DISCLAIMER,
 } from 'appUtils/routes/paths';
 
+// Styling imports
+import './LinksToPodcastPages.scss';
+
 
 const LinksToPodcastPages = () => (
-    <div>
+    <div className="links-to-podcast-pages-container">
         <div className="footer-header">
             {i18n.translate('podcast')}
         </div>
