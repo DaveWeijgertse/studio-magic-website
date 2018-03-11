@@ -2,6 +2,7 @@
 
 .person-tile-container {
     @extend %tile;
+    padding: 20px;
 
     .person-name {
         font-size: 1.8em;
