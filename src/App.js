@@ -17,6 +17,7 @@ import PageLanding from './Pages/Landing/PageLanding';
 
 // Component imports
 import EpisodePlayerBar from './Components/EpisodePlayerBar';
+import Footer from './Components/Footer';
 import HeaderBar from './Components/Header/HeaderBar';
 
 // Styling imports
@@ -103,6 +104,7 @@ class App extends React.Component {
                     id={playingEpisodeId}
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
+                <Footer />
             </div>
         );
     }
