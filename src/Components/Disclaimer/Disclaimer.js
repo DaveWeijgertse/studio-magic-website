@@ -1,5 +1,8 @@
 import React from 'react';
 
+// Styling import
+import './Disclaimer.scss';
+
 
 const Disclaimer = () => (
     <div className="disclaimer">
