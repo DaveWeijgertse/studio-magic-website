@@ -3,6 +3,7 @@
 @import '~appUtils/styling/mediaQueries';
 
 $container-height: calc(100vh - 134px); // 100% of the viewport, minus the height of the header + pay-off text
+$container-height-mobile: calc(100vh - 144px);
 
 .last-episode-container {
     position: relative;
@@ -17,7 +18,7 @@ $container-height: calc(100vh - 134px); // 100% of the viewport, minus the heigh
         padding-bottom: 0;
         z-index: 300;
         @media screen and (max-width: $phone) {
-            min-height: $container-height;
+            min-height: $container-height-mobile;
             height: 100%;
         }
     }
@@ -26,7 +27,7 @@ $container-height: calc(100vh - 134px); // 100% of the viewport, minus the heigh
         height: $container-height;
         width: 100%;
         @media screen and (max-width: $phone) {
-            min-height: $container-height;
+            min-height: $container-height-mobile;
             height: 100%;
         }
     }
