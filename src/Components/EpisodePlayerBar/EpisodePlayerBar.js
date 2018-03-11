@@ -30,6 +30,7 @@ class EpisodePlayerBar extends React.Component {
         this.togglePlay = this.togglePlay.bind(this);
         this.startCurrentTimeAndDurationInterval = this.startCurrentTimeAndDurationInterval.bind(this);
         this.updateCurrentTimeAndDuration = this.updateCurrentTimeAndDuration.bind(this);
+        this.stopCurrentTimeAndDurationInterval = this.stopCurrentTimeAndDurationInterval.bind(this);
         this.onCloseEpisodeBar = this.onCloseEpisodeBar.bind(this);
     }
 
@@ -65,7 +66,7 @@ class EpisodePlayerBar extends React.Component {
     }
 
     updateCurrentTimeAndDuration() {
-        if (typeof this.player !== 'undefined') {
+        if (typeof this.player !== 'undefined' && this.player !== null) {
             this.setState({
                 currentTime: this.player.getCurrentTime(),
                 maxDuration: this.player.getDuration()
@@ -73,9 +74,17 @@ class EpisodePlayerBar extends React.Component {
         }
     }
 
+    stopCurrentTimeAndDurationInterval() {
+        clearInterval(window.currentTimeAndDurationInterval);
+        window.currentTimeAndDurationInterval = null;
+    }
+
     onCloseEpisodeBar() {
         // Stop playing the episode and hide the <EpisodePlayerBar>
         this.props.onStopPlayingEpisode();
+
+        // Stop the time interval
+        this.stopCurrentTimeAndDurationInterval();
     }
 
     render() {
