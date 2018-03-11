@@ -1,7 +1,7 @@
 import {
     FACEBOOK,
     TWITTER,
-} from './socialMediaTypes';
+} from 'appUtils/constants/socialMediaTypes';
 
 export default function getSocialMediaHref(type) {
     const socialMediaHref = {
