@@ -9,7 +9,7 @@ import './ContactButton.scss';
 
 const ContactButton = ({type}) => (
     <a
-        className="contact-button"
+        className={"contact-button " + type}
         href={getSocialMediaHref(type)}
         target="_blank"
     />

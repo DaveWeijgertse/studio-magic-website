@@ -1,6 +1,8 @@
 @import '~appUtils/styling/colors';
 
 $button-size: 50px;
+$facebook-color: #3b5998;
+$twitter-color: #1da1f2;
 
 .contact-button {
     position: relative;
@@ -20,5 +22,28 @@ $button-size: 50px;
     &:hover {
         color: white;
         text-decoration: none;
+    }
+    &:before {
+        color: white;
+        font-family: "FontAwesome";
+    }
+
+    &.facebook {
+        background: $facebook-color;
+        &:hover {
+            background: darken($facebook-color, 10%);
+        }
+        &:before {
+            content: "\f230";
+        }
+    }
+    &.twitter {
+        background: $twitter-color;
+        &:hover {
+            background: darken($twitter-color, 10%);
+        }
+        &:before {
+            content: "\f099";
+        }
     }
 }
