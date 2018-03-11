@@ -19,15 +19,17 @@ const EpisodeTile = ({id, date, name, description, url, playingEpisodeId, playEp
         />
         <Description description={description} />
         <div className="play-button-more-info-container">
-            <PlayButton
-                id={id}
-                playingEpisodeId={playingEpisodeId}
-                playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
-                onStopPlayingEpisode={onStopPlayingEpisode}
-            />
-            <MoreInfo
-                url={url}
-            />
+            <div className="play-button-more-info">
+                <PlayButton
+                    id={id}
+                    playingEpisodeId={playingEpisodeId}
+                    playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                    onStopPlayingEpisode={onStopPlayingEpisode}
+                />
+                <MoreInfo
+                    url={url}
+                />
+            </div>
         </div>
     </div>
 );

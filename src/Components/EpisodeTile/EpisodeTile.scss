@@ -3,8 +3,18 @@
 .episode-tile {
     @extend %tile;
 
-    .play-button-more-info-container > * {
-        display: inline-block;
-        vertical-align: middle;
+    .play-button-more-info-container {
+        display: flex;
+        align-items: flex-end;
+        flex-grow: 1;
+
+        .play-button-more-info {
+            align-self: flex-end;
+
+            > * {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
     }
 }
