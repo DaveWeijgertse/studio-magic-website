@@ -14,6 +14,7 @@ const Footer = () => (
         <div className="footer-page-container">
             <LinksToEpisodes />
             <LinksToSocialMedia />
+            <CopyrightInfo />
         </div>
     </div>
 );
