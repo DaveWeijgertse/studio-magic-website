@@ -5,6 +5,8 @@
 $container-height: calc(100vh - 134px); // 100% of the viewport, minus the height of the header + pay-off text
 
 .last-episode-container {
+    position: relative;
+
     .content {
         @extend %page-container;
         position: relative;
