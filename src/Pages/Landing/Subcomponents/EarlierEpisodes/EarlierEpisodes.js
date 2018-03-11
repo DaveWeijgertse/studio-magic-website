@@ -4,6 +4,8 @@ import { reverse } from 'lodash';
 // Subcomponent imports
 import EpisodeTile from '../../../../Components/EpisodeTile';
 
+// Styling import
+import './EarlierEpisodes.scss';
 
 
 class EarlierEpisodes extends React.Component {

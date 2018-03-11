@@ -1,0 +1,14 @@
+@import "~appUtils/styling/placeholders";
+
+.earlier-episodes-container {
+    @extend %page-container;
+
+    .earlier-episodes {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: space-around;
+        justify-content: space-around;
+        margin: 0 -10px;
+    }
+}
