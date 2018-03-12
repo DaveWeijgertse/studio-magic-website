@@ -1,0 +1,28 @@
+@import '~appUtils/styling/colors';
+
+$icon-size: 40px;
+
+.rss-feed-source-container {
+    height: $icon-size;
+    width: $icon-size;
+    margin: 0 4px;
+
+    > a {
+        display: block;
+        height: $icon-size;
+        width: $icon-size;
+        text-align: center;
+        &:hover {
+            color: $text-color-gray;
+            text-decoration: none;
+            background: rgba(white, 0.25);
+        }
+        &:before {
+            content: "\f09e";
+            color: $text-color-gray;
+            font-size: 1.3em;
+            font-family: "FontAwesome";
+            line-height: $icon-size;
+        }
+    }
+}
