@@ -12,6 +12,7 @@ a.footer-social-media-button {
     background: white;
     cursor: pointer;
     &:hover {
+        color: $background-dark;
         text-decoration: none;
         background: $main-color;
     }
@@ -19,9 +20,6 @@ a.footer-social-media-button {
         color: $background-dark;
         font-family: "FontAwesome";
         font-size: 18px;
-    }
-    &:hover:before {
-        color: white;
     }
 
     &.facebook:before {
