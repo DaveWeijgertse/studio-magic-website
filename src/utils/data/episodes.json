@@ -496,6 +496,59 @@
                     "url": "https://www.youtube.com/watch?v=PAF8RxIPP48"
                 }
             ]
+        },
+        {
+            "id": 10,
+            "name": "Masters 25: Doomsday of Renewed Faith?",
+            "date": "2018-03-12",
+            "url": "https://www.buzzsprout.com/133608/659567-masters-25-doomsday-of-renewed-faith-010",
+            "description": [
+                "Met themaset Masters 25 (A25) viert Wizards of the Coast het 25-jarig bestaan van Magic: The Gathering. Arjan, Dave en Jeroen vertellen wat hun indrukken zijn van de nostalgische én monetaire waarde van het jubileumproduct.",
+                "Verder aandacht voor de nieuwe Challenger Decks en de huidige Standard metagame, en de prestaties van Bloodbraid Elf en Jace, the Mind Sculptor tijdens de meest recente editie van de Dutch Open Series (februari 2018)."
+            ],
+            "shortDescription": "Themaset Masters 25 barst van de MTG-nostalgie. Maar is dat de enige value van dit jubileumproduct?",
+            "schedule": [
+                {
+                    "timestamp": "0:00:43",
+                    "topic": "Zelfs Homelands vertegenwoordigd in A25"
+                },{
+                    "timestamp": "0:05:03",
+                    "topic": "Bespreking A25-booster"
+                },{
+                    "timestamp": "0:29:09",
+                    "topic": "Combo's in A25"
+                },{
+                    "timestamp": "0:34:58",
+                    "topic": "ndrukken, verwachtingen en toffe kaarten"
+                },{
+                    "timestamp": "1:05:03",
+                    "topic": "Afrondende gedachtes over A25"
+                },{
+                    "timestamp": "1:08:54",
+                    "topic": "Challenger decks en de Standard metagame"
+                },{
+                    "timestamp": "1:17:37",
+                    "topic": "Terugblik op de Dutch Open Series: JTMS en BBE in Modern"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Draftsim: virtuele boosters",
+                    "url": "http://draftsim.com/"
+                },{
+                    "title": "Arcane Denial in Prosperous Bloom",
+                    "url": "http://www.starcitygames.com/magic/misc/5270_The_First_Combo_Deck_What_Was_Prosperous_Bloom.html"
+                },{
+                    "title": "Framing 25 Years of Magic (over kaartvormgeving)",
+                    "url": "https://www.youtube.com/watch?v=qOE-lNs6qe4"
+                },{
+                    "title": "Token Resonance (Reef Worm in Masters 25)",
+                    "url": "https://magic.wizards.com/en/articles/archive/card-preview/token-resonance-2018-02-28"
+                },{
+                    "title": "Sherlock Homes Consulting Detective",
+                    "url": "https://boardgamegeek.com/boardgame/2511/sherlock-holmes-consulting-detective-thames-murder"
+                }
+            ]
         }
     ]
 }
