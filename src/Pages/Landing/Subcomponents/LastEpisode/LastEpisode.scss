@@ -7,6 +7,12 @@ $container-height-mobile: calc(100vh - 144px);
 
 .last-episode-container {
     position: relative;
+    display: flex;
+    height: $container-height;
+    @media screen and (max-width: $phone) {
+        min-height: $container-height-mobile;
+        height: 100%;
+    }
 
     .content {
         @extend %page-container;
@@ -14,8 +20,6 @@ $container-height-mobile: calc(100vh - 144px);
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        height: $container-height;
-        padding-bottom: 0;
         z-index: 300;
         @media screen and (max-width: $phone) {
             min-height: $container-height-mobile;
