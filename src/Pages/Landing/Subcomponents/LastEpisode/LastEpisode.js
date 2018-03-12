@@ -39,8 +39,8 @@ const LastEpisode = ({lastEpisode, playingEpisodeId, playEpisodeInEpisodeBar, on
                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
-                <OtherPodcastSources />
             </div>
+            <OtherPodcastSources />
             <EpisodeImage
                 episodeNumber={id}
             />
