@@ -9,6 +9,7 @@ import {
 
 // Subcomponents import
 import PodcastSource from './Subcomponents/PodcastSource';
+import RssFeedSource from './Subcomponents/RssFeedSource';
 
 // Styling import
 import './OtherPodcastSources.scss';
@@ -23,6 +24,7 @@ const OtherPodcastSources = () => {
                     <PodcastSource source={ITUNES} />
                     <PodcastSource source={STITCHER} />
                     <PodcastSource source={TUNEIN} />
+                    <RssFeedSource />
                 </div>
             </div>
         </div>
