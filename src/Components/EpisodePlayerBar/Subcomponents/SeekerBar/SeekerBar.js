@@ -3,6 +3,8 @@ import React from 'react';
 // Library import
 import InputRange from 'react-input-range';
 
+// Styling import
+import './SeekerBar.scss';
 
 
 const SeekerBar = ({ played, onSeekChange, onSeekMouseDown, onSeekMouseUp }) => (

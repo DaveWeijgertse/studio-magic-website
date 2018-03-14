@@ -1,0 +1,31 @@
+@import "~appUtils/styling/colors";
+
+.seeker-bar {
+    margin: 6px 0 3px;
+
+    .input-range {
+        .input-range__label {
+            display: none;
+        }
+
+        .input-range__track {
+            position: relative;
+            height: 5px;
+            background: white;
+            cursor: pointer;
+        }
+
+        .input-range__track--active {
+            background: $text-color-gray;
+        }
+
+        .input-range__slider-container {
+            width: 14px;
+            height: 14px;
+            margin-top: -10px;
+            margin-left: -7px;
+            border-radius: 50%;
+            background: $main-color;
+        }
+    }
+}
