@@ -12,6 +12,7 @@ import CloseEpisodeBarButton from './Subcomponents/CloseEpisodeBarButton';
 import CurrentTimeAndMaxDuration from './Subcomponents/CurrentTimeAndMaxDuration';
 import EpisodeInfo from './Subcomponents/EpisodeInfo';
 import PlayPauseButton from './Subcomponents/PlayPauseButton';
+import SeekerBar from './Subcomponents/SeekerBar';
 
 // Styling import
 import './EpisodePlayerBar.scss';
@@ -133,6 +134,7 @@ class EpisodePlayerBar extends React.Component {
         const {
             currentTime,
             isPlaying,
+            played,
             maxDuration,
         } = this.state;
 
@@ -146,10 +148,14 @@ class EpisodePlayerBar extends React.Component {
                             isPlaying={isPlaying}
                             onClick={togglePlay}
                         />
-                        <CurrentTimeAndMaxDuration
-                            currentTime={currentTime}
-                            maxDuration={maxDuration}
-                        />
+                        <div>
+                            <SeekerBar
+                                played={played}
+                            <CurrentTimeAndMaxDuration
+                                currentTime={currentTime}
+                                maxDuration={maxDuration}
+                            />
+                        </div>
                         <EpisodeInfo
                             id={id}
                             name={episodes[id - 1].name}
