@@ -31,6 +31,9 @@ class EpisodePlayerBar extends React.Component {
         this.stopCurrentTimeAndDurationInterval = this.stopCurrentTimeAndDurationInterval.bind(this);
         this.onCloseEpisodeBar = this.onCloseEpisodeBar.bind(this);
         this.onProgress = this.onProgress.bind(this);
+        this.onSeekChange = this.onSeekChange.bind(this);
+        this.onSeekMouseDown = this.onSeekMouseDown.bind(this);
+        this.onSeekMouseUp = this.onSeekMouseUp.bind(this);
     }
 
     componentWillMount() {
@@ -100,6 +103,31 @@ class EpisodePlayerBar extends React.Component {
         }
     }
 
+    onSeekMouseDown() {
+        this.setState({
+            seeking: true,
+        });
+    }
+
+    onSeekMouseUp(e) {
+        const newPlayedValue = parseFloat(e.target.value);
+
+        this.setState({
+            seeking: false,
+        });
+
+        // Move the seeker
+        this.player.seekTo(newPlayedValue);
+    }
+
+    onSeekChange(e) {
+        const newPlayedValue = parseFloat(e.target.value);
+
+        this.setState({
+            played: newPlayedValue
+        });
+    }
+
     onCloseEpisodeBar() {
         const {
             setInitialState,
@@ -125,6 +153,9 @@ class EpisodePlayerBar extends React.Component {
             togglePlay,
             onCloseEpisodeBar,
             onProgress,
+            onSeekChange,
+            onSeekMouseDown,
+            onSeekMouseUp,
         } = this;
 
         const {
@@ -151,6 +182,10 @@ class EpisodePlayerBar extends React.Component {
                         <div>
                             <SeekerBar
                                 played={played}
+                                onSeekChange={onSeekChange}
+                                onSeekMouseDown={onSeekMouseDown}
+                                onSeekMouseUp={onSeekMouseUp}
+                            />
                             <CurrentTimeAndMaxDuration
                                 currentTime={currentTime}
                                 maxDuration={maxDuration}

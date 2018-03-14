@@ -1,6 +1,7 @@
 import React from 'react';
 
 
+const SeekerBar = ({ played, onSeekChange, onSeekMouseDown, onSeekMouseUp }) => (
     <div className="seeker-bar">
         <input
             type="range"
@@ -8,6 +9,9 @@ import React from 'react';
             max={1}
             step="any"
             value={played}
+            onChange={onSeekChange}
+            onMouseDown={onSeekMouseDown}
+            onMouseUp={onSeekMouseUp}
         />
     </div>
 );
