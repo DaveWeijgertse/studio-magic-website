@@ -9,9 +9,9 @@ import getBuzzsproutMp3Link from './utils/getBuzzsproutMp3Link';
 
 // Subcomponent import
 import CloseEpisodeBarButton from './Subcomponents/CloseEpisodeBarButton';
+import CurrentTimeAndMaxDuration from './Subcomponents/CurrentTimeAndMaxDuration';
 import EpisodeInfo from './Subcomponents/EpisodeInfo';
 import PlayPauseButton from './Subcomponents/PlayPauseButton';
-import TimerDisplay from './Subcomponents/TimerDisplay';
 
 // Styling import
 import './EpisodePlayerBar.scss';
@@ -131,11 +131,10 @@ class EpisodePlayerBar extends React.Component {
                             isPlaying={isPlaying}
                             onClick={togglePlay}
                         />
-                        <div className="current-time-max-duration">
-                            <TimerDisplay type="currentTime" time={currentTime} />
-                            <div className="divider">/</div>
-                            <TimerDisplay type="maxDuration" time={maxDuration} />
-                        </div>
+                        <CurrentTimeAndMaxDuration
+                            currentTime={currentTime}
+                            maxDuration={maxDuration}
+                        />
                         <EpisodeInfo
                             id={id}
                             name={episodes[id - 1].name}
