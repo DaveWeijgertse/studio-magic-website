@@ -109,9 +109,7 @@ class EpisodePlayerBar extends React.Component {
         });
     }
 
-    onSeekMouseUp(e) {
-        const newPlayedValue = parseFloat(e.target.value);
-
+    onSeekMouseUp(newPlayedValue) {
         this.setState({
             seeking: false,
         });
@@ -120,9 +118,7 @@ class EpisodePlayerBar extends React.Component {
         this.player.seekTo(newPlayedValue);
     }
 
-    onSeekChange(e) {
-        const newPlayedValue = parseFloat(e.target.value);
-
+    onSeekChange(newPlayedValue) {
         this.setState({
             played: newPlayedValue
         });

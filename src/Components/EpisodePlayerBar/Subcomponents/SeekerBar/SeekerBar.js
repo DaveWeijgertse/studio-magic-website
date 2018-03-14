@@ -1,17 +1,20 @@
 import React from 'react';
 
+// Library import
+import InputRange from 'react-input-range';
+
+
 
 const SeekerBar = ({ played, onSeekChange, onSeekMouseDown, onSeekMouseUp }) => (
     <div className="seeker-bar">
-        <input
-            type="range"
-            min={0}
-            max={1}
-            step="any"
+        <InputRange
+            minValue={0}
+            maxValue={1}
+            step={0.000000001}
             value={played}
             onChange={onSeekChange}
-            onMouseDown={onSeekMouseDown}
-            onMouseUp={onSeekMouseUp}
+            onChangeStart={onSeekMouseDown}
+            onChangeComplete={onSeekMouseUp}
         />
     </div>
 );
