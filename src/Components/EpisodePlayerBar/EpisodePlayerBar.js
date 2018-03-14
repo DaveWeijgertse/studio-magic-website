@@ -21,12 +21,9 @@ class EpisodePlayerBar extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-            isPlaying: true,
-            currentTime: null,
-            maxDuration: null,
-        }
+        this.state = this.setInitialState();
 
+        this.setInitialState = this.setInitialState.bind(this);
         this.togglePlay = this.togglePlay.bind(this);
         this.startCurrentTimeAndDurationInterval = this.startCurrentTimeAndDurationInterval.bind(this);
         this.updateCurrentTimeAndDuration = this.updateCurrentTimeAndDuration.bind(this);
@@ -41,21 +38,26 @@ class EpisodePlayerBar extends React.Component {
     componentWillReceiveProps(nextProps) {
         const {
             startCurrentTimeAndDurationInterval,
+            setInitialState,
         } = this;
 
         const hasEpisodeIdChanged = this.props.id !== nextProps.id;
 
         if (hasEpisodeIdChanged) {
-            this.setState({
-                isPlaying: true,
-                currentTime: null,
-                maxDuration: null,
-            });
+            this.setState(setInitialState());
 
             // Set the interval to refresh the timers, if none was set already
             if (window.currentTimeAndDurationInterval === null) {
                 startCurrentTimeAndDurationInterval();
             }
+        }
+    }
+
+    setInitialState() {
+        return {
+            isPlaying:   true,
+            currentTime: null,
+            maxDuration: null,
         }
     }
 
@@ -85,6 +87,7 @@ class EpisodePlayerBar extends React.Component {
 
     onCloseEpisodeBar() {
         const {
+            setInitialState,
             stopCurrentTimeAndDurationInterval,
         } = this;
 
@@ -99,11 +102,7 @@ class EpisodePlayerBar extends React.Component {
         stopCurrentTimeAndDurationInterval();
 
         // Reset the state
-        this.setState({
-            isPlaying: false,
-            currentTime: null,
-            maxDuration: null
-        });
+        this.setState(setInitialState());
     }
 
     render() {
