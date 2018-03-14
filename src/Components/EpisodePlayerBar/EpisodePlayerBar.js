@@ -39,6 +39,10 @@ class EpisodePlayerBar extends React.Component {
     }
 
     componentWillReceiveProps(nextProps) {
+        const {
+            startCurrentTimeAndDurationInterval,
+        } = this;
+
         const hasEpisodeIdChanged = this.props.id !== nextProps.id;
 
         if (hasEpisodeIdChanged) {
@@ -50,7 +54,7 @@ class EpisodePlayerBar extends React.Component {
 
             // Set the interval to refresh the timers, if none was set already
             if (window.currentTimeAndDurationInterval === null) {
-                this.startCurrentTimeAndDurationInterval();
+                startCurrentTimeAndDurationInterval();
             }
         }
     }
@@ -80,11 +84,19 @@ class EpisodePlayerBar extends React.Component {
     }
 
     onCloseEpisodeBar() {
+        const {
+            stopCurrentTimeAndDurationInterval,
+        } = this;
+
+        const {
+            onStopPlayingEpisode,
+        } = this.props;
+
         // Stop playing the episode and hide the <EpisodePlayerBar>
-        this.props.onStopPlayingEpisode();
+        onStopPlayingEpisode();
 
         // Stop the time interval
-        this.stopCurrentTimeAndDurationInterval();
+        stopCurrentTimeAndDurationInterval();
 
         // Reset the state
         this.setState({
