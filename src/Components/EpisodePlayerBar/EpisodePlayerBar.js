@@ -60,7 +60,7 @@ class EpisodePlayerBar extends React.Component {
 
     setInitialState() {
         return {
-            isPlaying:   true,
+            isPlaying:   false,
             currentTime: null,
             maxDuration: null,
             played:      0,
