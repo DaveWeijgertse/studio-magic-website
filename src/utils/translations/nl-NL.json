@@ -24,6 +24,12 @@
         "title": "Contact",
         "via": "Neem contact met ons op via"
     },
+    "podcast-sources": {
+        "itunes": "iTunes",
+        "stitcher": "Stitcher",
+        "tune-in": "TuneIn",
+        "rss": "RSS"
+    },
     "months": {
         "january": "Januari",
         "february": "Februari",
