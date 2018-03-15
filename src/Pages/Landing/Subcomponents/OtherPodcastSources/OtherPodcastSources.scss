@@ -1,0 +1,18 @@
+@import '~appUtils/styling/colors';
+@import "~appUtils/styling/placeholders";
+@import '~appUtils/styling/mediaQueries';
+
+
+.other-podcast-sources-container {
+    background: white;
+
+    .other-podcast-sources {
+        @extend %page-container;
+
+        .podcast-sources-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

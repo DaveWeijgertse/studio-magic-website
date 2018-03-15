@@ -12,6 +12,7 @@ import { staff } from 'appUtils/data/staff.json';
 import Contact from './Subcomponents/Contact';
 import EarlierEpisodes from './Subcomponents/EarlierEpisodes';
 import LastEpisode from './Subcomponents/LastEpisode';
+import OtherPodcastSources from './Subcomponents/OtherPodcastSources';
 import WhoAreWe from './Subcomponents/WhoAreWe';
 
 // Styling import
@@ -56,6 +57,7 @@ class PageLanding extends React.Component {
                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
+                <OtherPodcastSources />
                 <WhoAreWe
                     staff={staff}
                 />
