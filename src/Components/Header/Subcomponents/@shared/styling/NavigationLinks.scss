@@ -1,0 +1,17 @@
+%navigation-link {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 12px 3px 7px;
+    color: $background;
+    font-weight: 900;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    line-height: 1em;
+    border-bottom: 5px solid transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    &:hover {
+        color: $background;
+        text-decoration: none;
+        border-color: $background;
+    }
+}
