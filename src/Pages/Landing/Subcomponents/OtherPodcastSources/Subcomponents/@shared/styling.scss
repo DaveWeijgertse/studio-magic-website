@@ -1,0 +1,26 @@
+@import '~appUtils/styling/colors';
+
+$button-size: 60px;
+
+
+%other-podcast-source-container {
+    height: $button-size;
+    width: $button-size;
+    margin: 0 4px;
+}
+
+%other-podcast-source-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: $button-size;
+    width: $button-size;
+    padding: 5px;
+    border-radius: 50%;
+    background: $background-dark;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    &:hover {
+        background: $main-color-dark;
+    }
+}

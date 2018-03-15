@@ -1,29 +1,21 @@
 @import '~appUtils/styling/colors';
+@import '../@shared/styling';
 
 $icon-size: 60px;
 
 .rss-feed-source-container {
-    height: $icon-size;
-    width: $icon-size;
-    margin: 0 4px;
+    @extend %other-podcast-source-container;
 
     > a {
-        display: block;
-        height: $icon-size;
-        width: $icon-size;
-        text-align: center;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+        @extend %other-podcast-source-button;
         &:hover {
-            color: $text-color-gray;
             text-decoration: none;
-            background: rgba(white, 0.25);
         }
         &:before {
             content: "\f09e";
-            color: $text-color-gray;
+            color: white;
             font-size: 1.3em;
             font-family: "FontAwesome";
-            line-height: $icon-size;
         }
     }
 }
