@@ -175,22 +175,24 @@ class EpisodePlayerBar extends React.Component {
                             isPlaying={isPlaying}
                             onClick={togglePlay}
                         />
-                        <div>
-                            <SeekerBar
-                                played={played}
-                                onSeekChange={onSeekChange}
-                                onSeekMouseDown={onSeekMouseDown}
-                                onSeekMouseUp={onSeekMouseUp}
+                        <div className="episode-player-bar-info-seeker-container">
+                            <EpisodeInfo
+                                id={id}
+                                name={episodes[id - 1].name}
                             />
-                            <CurrentTimeAndMaxDuration
-                                currentTime={currentTime}
-                                maxDuration={maxDuration}
-                            />
+                            <div>
+                                <SeekerBar
+                                    played={played}
+                                    onSeekChange={onSeekChange}
+                                    onSeekMouseDown={onSeekMouseDown}
+                                    onSeekMouseUp={onSeekMouseUp}
+                                />
+                                <CurrentTimeAndMaxDuration
+                                    currentTime={currentTime}
+                                    maxDuration={maxDuration}
+                                />
+                            </div>
                         </div>
-                        <EpisodeInfo
-                            id={id}
-                            name={episodes[id - 1].name}
-                        />
                         <CloseEpisodeBarButton
                             onCloseEpisodeBar={onCloseEpisodeBar}
                         />
