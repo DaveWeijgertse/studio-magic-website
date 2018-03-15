@@ -1,6 +1,7 @@
 .social-media-button-container {
     display: flex;
+    align-items: flex-end;
     justify-content: flex-end;
-    width: 100%;
-    margin-top: 5px;
+    flex-grow: 1;
+    margin-left: 15px;
 }

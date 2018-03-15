@@ -17,8 +17,8 @@ class HeaderBar extends React.Component {
                 <div className="header-bar">
                     <Logo />
                     <div className="social-navigation-container">
-                        <SocialMediaButtons />
                         <Navigation />
+                        <SocialMediaButtons />
                     </div>
                 </div>
                 <PayOffText />
