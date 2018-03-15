@@ -7,10 +7,10 @@
 
     > a {
         display: inline-block;
-        padding: 8px 16px;
+        padding: 10px 18px;
         color: white;
         font-weight: 500;
-        font-size: 0.875rem;
+        font-size: 1em;
         text-transform: uppercase;
         border-radius: 2px;
         background: $secondary-color;
@@ -24,7 +24,7 @@
         &:after {
             content: "\f178";
             margin-left: 12px;
-            font-size: 1em;
+            font-size: 1.1em;
             font-family: "FontAwesome";
         }
     }
