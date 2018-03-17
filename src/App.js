@@ -104,7 +104,7 @@ class App extends React.Component {
                             onStopPlayingEpisode={onStopPlayingEpisode}
                         />
                         <Route
-                            path={ROUTE_EPISODE_DETAIL + ':episodeId'}
+                            path={ROUTE_EPISODE_DETAIL + '/:episodeId'}
                             component={PageEpisodeDetail}
                         />
                         <Route
