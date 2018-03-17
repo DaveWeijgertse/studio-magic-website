@@ -47,7 +47,6 @@ class PageEpisodesList extends React.Component {
                                 shortDescription,
                                 id,
                                 name,
-                                url,
                             } = episode;
 
                             return (
@@ -57,7 +56,6 @@ class PageEpisodesList extends React.Component {
                                     description={shortDescription}
                                     id={id}
                                     name={name}
-                                    url={url}
                                     playingEpisodeId={playingEpisodeId}
                                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                                     onStopPlayingEpisode={onStopPlayingEpisode}

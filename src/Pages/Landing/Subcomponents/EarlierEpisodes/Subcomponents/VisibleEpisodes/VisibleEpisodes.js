@@ -16,7 +16,6 @@ const VisibleEpisodes = ({visibleEpisodes, playingEpisodeId, playEpisodeInEpisod
                     shortDescription,
                     id,
                     name,
-                    url,
                 } = episode;
 
                 return (
@@ -26,7 +25,6 @@ const VisibleEpisodes = ({visibleEpisodes, playingEpisodeId, playEpisodeInEpisod
                         description={shortDescription}
                         id={id}
                         name={name}
-                        url={url}
                         playingEpisodeId={playingEpisodeId}
                         playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                         onStopPlayingEpisode={onStopPlayingEpisode}
