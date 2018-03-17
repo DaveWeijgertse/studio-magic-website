@@ -1,0 +1,5 @@
+@import '~appUtils/styling/placeholders';
+
+.episode-detail-container-description {
+    @extend %page-container;
+}

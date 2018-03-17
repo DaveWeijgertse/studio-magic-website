@@ -33,7 +33,7 @@ html, body {
                 height: calc(100% - 105px);
                 padding: 0;
 
-                div[class^="page-"]:not(.page-landing) {
+                div[class^="page-"]:not(.page-landing):not(.page-episode-detail) {
                     @extend %page-container;
                 }
 
