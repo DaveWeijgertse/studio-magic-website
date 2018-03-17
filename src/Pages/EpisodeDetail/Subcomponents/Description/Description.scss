@@ -2,4 +2,8 @@
 
 .episode-detail-container-description {
     @extend %page-container;
+
+    .description-part:not(:last-child) {
+        padding-bottom: 20px;
+    }
 }
