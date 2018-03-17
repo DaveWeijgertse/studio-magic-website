@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 // Routes import
 import {
     ROUTE_ROOT,
+    ROUTE_EPISODE_DETAIL,
     ROUTE_EPISODES_LIST,
     ROUTE_DISCLAIMER,
 } from 'appUtils/routes/paths';
@@ -14,6 +15,7 @@ import NL from './utils/translations/nl-NL.json';
 
 // Pages imports
 import PageDisclaimer from './Pages/Disclaimer/PageDisclaimer';
+import PageEpisodeDetail from './Pages/EpisodeDetail/PageEpisodeDetail';
 import PageEpisodesList from './Pages/EpisodesList/PageEpisodesList';
 import PageLanding from './Pages/Landing/PageLanding';
 
@@ -94,11 +96,16 @@ class App extends React.Component {
                             onStopPlayingEpisode={onStopPlayingEpisode}
                         />
                         <PropsRoute
+                            exact
                             path={ROUTE_EPISODES_LIST}
                             component={PageEpisodesList}
                             playingEpisodeId={playingEpisodeId}
                             playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                             onStopPlayingEpisode={onStopPlayingEpisode}
+                        />
+                        <Route
+                            path={ROUTE_EPISODE_DETAIL + ':episodeId'}
+                            component={PageEpisodeDetail}
                         />
                         <Route
                             exact
