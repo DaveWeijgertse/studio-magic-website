@@ -5,6 +5,7 @@
 
     .contact-page-container {
         @extend %page-container;
+        @extend %page-container-alternate;
 
         .contact-links {
             display: flex;
