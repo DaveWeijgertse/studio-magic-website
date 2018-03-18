@@ -16,6 +16,7 @@ class PageEpisodeDetail extends React.Component {
 
         const {
             description,
+            links,
         } = episodeData;
 
         return (
