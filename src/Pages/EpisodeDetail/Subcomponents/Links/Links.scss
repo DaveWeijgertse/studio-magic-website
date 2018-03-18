@@ -9,6 +9,12 @@
             display: block;
             color: $text-color;
             text-decoration: underline;
+            &:after {
+                content: "\f08e";
+                margin-left: 7px;
+                font-family: "FontAwesome";
+                font-size: 12px;
+            }
             &:hover {
                 color: $main-color;
             }
