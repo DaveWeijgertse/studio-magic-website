@@ -1,0 +1,47 @@
+@import '~appUtils/styling/colors';
+@import '~appUtils/styling/mediaQueries';
+
+
+.play-button {
+    display: inline-block;
+    padding: 12px 24px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    cursor: pointer;
+    @media screen and (max-width: $phone) {
+        padding: 8px 16px;
+        font-size: 1.1em;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+    &:after {
+        margin-left: 16px;
+        font-size: 1em;
+        font-family: "FontAwesome";
+    }
+
+    &.start-playing {
+        background: $main-color;
+        &:hover {
+            background: $main-color-dark;
+        }
+        &:after {
+            content: "\f04b";
+        }
+    }
+    &.stop-playing {
+        background: $secondary-color;
+        &:hover {
+            background: $secondary-color-dark;
+        }
+        &:after {
+            content: "\f04d";
+        }
+    }
+}
