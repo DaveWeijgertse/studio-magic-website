@@ -1,9 +1,9 @@
 @import '~appUtils/styling/mediaQueries';
 
-.episode-name {
-    margin-bottom: 40px;
+.episode-detail-container-episode-info .episode-name {
+    margin: 0;
     color: white;
-    font-size: 3.8em;
+    font-size: 2.5em;
     font-weight: 500;
     line-height: 1.1em;
     @media screen and (max-width: $phone) {
