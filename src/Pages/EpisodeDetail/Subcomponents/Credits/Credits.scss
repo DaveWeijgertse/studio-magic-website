@@ -19,5 +19,21 @@
             min-width: 120px;
             font-weight: 500;
         }
+            .creative-commons-link {
+                display: block;
+                color: $text-color;
+                text-decoration: none;
+                &:after {
+                    content: "\f08e";
+                    margin-left: 7px;
+                    font-family: "FontAwesome";
+                    font-size: 12px;
+                    text-decoration: none;
+                }
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
     }
 }
