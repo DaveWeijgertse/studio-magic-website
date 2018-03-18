@@ -6,6 +6,10 @@
     @extend %page-container-alternate;
 
     .credit-container {
+        &:not(:last-child) {
+            margin-bottom: 5px;
+        }
+
         .credits-type,
         .credits-names {
             display: inline-block;
