@@ -5,6 +5,7 @@ import { withRouter } from 'react-router';
 import { episodes } from 'appUtils/data/episodes.json';
 
 // Subcomponent imports
+import Credits from './Subcomponents/Credits';
 import Description from './Subcomponents/Description';
 import EpisodeInfo from './Subcomponents/EpisodeInfo';
 import Links from './Subcomponents/Links';
@@ -23,6 +24,7 @@ class PageEpisodeDetail extends React.Component {
             description,
             links,
             schedule,
+            credits,
         } = episodeData;
 
         const hasLinks = links.length > 0;
@@ -45,6 +47,9 @@ class PageEpisodeDetail extends React.Component {
                         links={links}
                     />
                 )}
+                <Credits
+                    credits={credits}
+                />
             </div>
         );
     }
