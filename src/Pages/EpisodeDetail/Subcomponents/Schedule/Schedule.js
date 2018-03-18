@@ -1,4 +1,5 @@
 import React from 'react';
+import i18n from 'i18n-react';
 
 // Styling import
 import './Schedule.scss';
@@ -6,6 +7,7 @@ import './Schedule.scss';
 
 const Schedule = ({ schedule }) => (
     <div className="episode-detail-container-schedule">
+        <h1>{i18n.translate('time-schedule.title')}</h1>
         <div className="schedule-container">
             {schedule.map(
                 (scheduleMoment) => {

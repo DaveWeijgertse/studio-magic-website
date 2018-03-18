@@ -24,6 +24,9 @@
         "title": "Contact",
         "via": "Neem contact met ons op via"
     },
+    "time-schedule": {
+        "title": "Tijdschema"
+    },
     "links": {
         "title": "Links"
     },
