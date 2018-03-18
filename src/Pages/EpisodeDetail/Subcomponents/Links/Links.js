@@ -4,8 +4,28 @@ import React from 'react';
 import './Links.scss';
 
 
-const Links = () => (
+const Links = ({ links }) => (
     <div className="episode-detail-container-links">
+        <div className="links-container">
+            {links.map(
+                (link) => {
+                    const {
+                        title,
+                        url,
+                    } = link;
+
+                    return (
+                        <a
+                            href={url}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            {title}
+                        </a>
+                    );
+                }
+            )}
+        </div>
     </div>
 );
 
