@@ -13,6 +13,7 @@ const Credits = ({ credits }) => {
 
     return (
         <div className="episode-detail-container-credits">
+            <h1>{i18n.translate('credits.title')}</h1>
             <div className="credit-container">
                 <div className="credits-type">
                     {i18n.translate('credits.editing')}
