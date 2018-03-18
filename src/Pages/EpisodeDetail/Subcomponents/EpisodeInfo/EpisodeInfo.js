@@ -4,12 +4,13 @@ import React from 'react';
 import EpisodeImage from '../../../../Components/EpisodeImage';
 import EpisodeName from './Subcomponents/EpisodeName';
 import EpisodeNumberAndDate from './Subcomponents/EpisodeNumberAndDate';
+import PlayButton from './Subcomponents/PlayButton';
 
 // Styling imports
 import './EpisodeInfo.scss';
 
 
-const EpisodeInfo = ({ episodeNumber, date, name }) => (
+const EpisodeInfo = ({ episodeNumber, date, name, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode }) => (
     <div className="episode-detail-container-episode-info">
         <div className="episode-info-container">
             <EpisodeNumberAndDate
@@ -18,6 +19,12 @@ const EpisodeInfo = ({ episodeNumber, date, name }) => (
             />
             <EpisodeName
                 name={name}
+            />
+            <PlayButton
+                id={episodeNumber}
+                playingEpisodeId={playingEpisodeId}
+                playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                onStopPlayingEpisode={onStopPlayingEpisode}
             />
         </div>
 

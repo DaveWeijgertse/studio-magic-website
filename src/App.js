@@ -103,9 +103,12 @@ class App extends React.Component {
                             playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                             onStopPlayingEpisode={onStopPlayingEpisode}
                         />
-                        <Route
+                        <PropsRoute
                             path={ROUTE_EPISODE_DETAIL + '/:episodeId'}
                             component={PageEpisodeDetail}
+                            playingEpisodeId={playingEpisodeId}
+                            playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                            onStopPlayingEpisode={onStopPlayingEpisode}
                         />
                         <Route
                             exact

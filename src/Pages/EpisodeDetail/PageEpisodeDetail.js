@@ -31,6 +31,12 @@ class PageEpisodeDetail extends React.Component {
             credits,
         } = episodeData;
 
+        const {
+            playingEpisodeId,
+            playEpisodeInEpisodeBar,
+            onStopPlayingEpisode,
+        } = this.props;
+
         const hasLinks = links.length > 0;
 
         return (
@@ -39,6 +45,9 @@ class PageEpisodeDetail extends React.Component {
                     episodeNumber={id}
                     name={name}
                     date={date}
+                    playingEpisodeId={playingEpisodeId}
+                    playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                    onStopPlayingEpisode={onStopPlayingEpisode}
                 />
                 <Description
                     description={description}
