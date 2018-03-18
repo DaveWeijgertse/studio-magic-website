@@ -2,10 +2,10 @@ import React from 'react';
 import i18n from 'i18n-react';
 
 // Styling imports
-import './PlayButton.scss';
+import './PlayButtonAndMoreInfo.scss';
 
 
-const PlayButton = ({id, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode}) => {
+const PlayButtonAndMoreInfo = ({id, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode}) => {
     const isEpisodeCurrentlyPlaying = id === playingEpisodeId;
 
     return (
@@ -20,4 +20,4 @@ const PlayButton = ({id, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayin
     );
 }
 
-export default PlayButton;
+export default PlayButtonAndMoreInfo;

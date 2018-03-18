@@ -5,7 +5,7 @@ import Description from './Subcomponents/Description';
 import EpisodeImage from '../../../../Components/EpisodeImage';
 import EpisodeName from './Subcomponents/EpisodeName';
 import EpisodeNumberAndDate from './Subcomponents/EpisodeNumberAndDate';
-import PlayButton from './Subcomponents/PlayButton';
+import PlayButtonAndMoreInfo from './Subcomponents/PlayButtonAndMoreInfo';
 
 // Styling imports
 import './LastEpisode.scss';
@@ -32,7 +32,7 @@ const LastEpisode = ({lastEpisode, playingEpisodeId, playEpisodeInEpisodeBar, on
                 <Description
                     description={shortDescription}
                 />
-                <PlayButton
+                <PlayButtonAndMoreInfo
                     id={id}
                     playingEpisodeId={playingEpisodeId}
                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
