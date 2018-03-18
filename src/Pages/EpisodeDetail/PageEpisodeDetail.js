@@ -6,6 +6,7 @@ import { episodes } from 'appUtils/data/episodes.json';
 
 // Subcomponent imports
 import Description from './Subcomponents/Description';
+import Links from './Subcomponents/Links';
 
 
 class PageEpisodeDetail extends React.Component {
@@ -21,6 +22,9 @@ class PageEpisodeDetail extends React.Component {
             <div className="page-episode-detail">
                 <Description
                     description={description}
+                />
+                <Links
+                    links={links}
                 />
             </div>
         );
