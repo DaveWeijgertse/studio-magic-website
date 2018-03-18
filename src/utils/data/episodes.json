@@ -49,7 +49,11 @@
                     "title": "'Guy Steals my Deck and Wins $5k Tournament!!!' ",
                     "url": "https://www.youtube.com/watch?v=XjRDzLDm-ts"
                 }
-            ]
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster"
+            }
         },
         {
             "id": 2,
@@ -99,7 +103,11 @@
                     "title": "Magic Rules Chat with Judges",
                     "url": "http://chat.magicjudges.org/mtgrules/"
                 }
-            ]
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster en Dave Weijgertse",
+                "editing": "Jeroen Koster"
+            }
         },
         {
             "id": 3,
@@ -166,7 +174,11 @@
                     "title": "Aankondigigen van Dustin's toernooien: Evenementenlijst van P60  (Magic Draft (Amstelveen))",
                     "url": "https://www.facebook.com/pg/PoppodiumP60/events/?ref=page_internal"
                 }
-            ]
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster en Dave Weijgertse",
+                "editing": "Jeroen Koster"
+            }
         },
         {
             "id": 4,
@@ -235,7 +247,15 @@
                     "title": "Unstable FAQAWASLFAQPAFTIDAWABIAJTBT (een soort release notes) door Mark Rosewater",
                     "url": "https://magic.wizards.com/en/articles/archive/news/unstable-faqawaslfaqpaftidawabiajtbt-2017-12-06"
                 }
-            ]
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster"
+            },
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster"
+            }
         },
         {
             "id": 5,
@@ -284,7 +304,11 @@
                     "topic": "Hoe word je een betere speler?"
                 }
             ],
-            "links": []
+            "links": [],
+            "credits": {
+                "presentation": "Jeroen Koster en Arjan Ang",
+                "editing": "Jeroen Koster"
+            }
         },
         {
             "id": 6,
@@ -326,7 +350,11 @@
                     "topic": "Goede Magicvoornemens"
                 }
             ],
-            "links": []
+            "links": [],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster"
+            }
         },
         {
             "id": 7,
@@ -375,7 +403,11 @@
                     "title": "Magic in de Twee Klaveren (Amsterdam)",
                     "url": "http://fnm.mtg4you.nl/"
                 }
-            ]
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster"
+            }
         },
         {
             "id": 8,
@@ -438,7 +470,11 @@
                     "title": "Wie is Van Rommelen",
                     "url": "http://www.wieisvanrommelen.com/"
                 }
-            ]
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster"
+            }
         },
         {
             "id": 9,
@@ -495,7 +531,11 @@
                     "title": "Gaby Spartz' DDLC full playthrough (met spoilers)",
                     "url": "https://www.youtube.com/watch?v=PAF8RxIPP48"
                 }
-            ]
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster en Arjan Ang",
+                "editing": "Jeroen Koster"
+            }
         },
         {
             "id": 10,
@@ -548,7 +588,11 @@
                     "title": "Sherlock Homes Consulting Detective",
                     "url": "https://boardgamegeek.com/boardgame/2511/sherlock-holmes-consulting-detective-thames-murder"
                 }
-            ]
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster"
+            }
         }
     ]
 }
