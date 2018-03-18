@@ -2,6 +2,7 @@
 
 .episode-detail-container-schedule {
     @extend %page-container;
+    @extend %page-container-alternate;
 
     .schedule-container {
         .time-schedule {
