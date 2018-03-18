@@ -25,6 +25,8 @@ class PageEpisodeDetail extends React.Component {
             schedule,
         } = episodeData;
 
+        const hasLinks = links.length > 0;
+
         return (
             <div className="page-episode-detail">
                 <EpisodeInfo
@@ -38,9 +40,11 @@ class PageEpisodeDetail extends React.Component {
                 <Schedule
                     schedule={schedule}
                 />
-                <Links
-                    links={links}
-                />
+                {hasLinks && (
+                    <Links
+                        links={links}
+                    />
+                )}
             </div>
         );
     }
