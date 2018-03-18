@@ -2,4 +2,12 @@
 
 .episode-detail-container-schedule {
     @extend %page-container;
+
+    .schedule-container {
+        .time-schedule {
+            &:not(:last-child) {
+                margin-bottom: 5px;
+            }
+        }
+    }
 }
