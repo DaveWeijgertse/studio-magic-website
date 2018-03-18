@@ -1,5 +1,11 @@
 .episode-detail-container-episode-info {
     position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 300px;
+
     .episode-info-container {
         position: relative;
         z-index: 300;
