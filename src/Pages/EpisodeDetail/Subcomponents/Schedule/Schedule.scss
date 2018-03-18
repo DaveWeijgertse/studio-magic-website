@@ -8,6 +8,11 @@
             &:not(:last-child) {
                 margin-bottom: 5px;
             }
+
+            .time-stamp,
+            .topic {
+                display: inline-block;
+            }
         }
     }
 }
