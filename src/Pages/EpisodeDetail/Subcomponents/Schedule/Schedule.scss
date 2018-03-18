@@ -13,11 +13,16 @@
             .time-stamp,
             .topic {
                 display: inline-block;
+                vertical-align: top;
             }
 
             .time-stamp {
                 min-width: 80px;
                 font-weight: 500;
+            }
+
+            .topic {
+                max-width: calc(100% - 90px);
             }
         }
     }

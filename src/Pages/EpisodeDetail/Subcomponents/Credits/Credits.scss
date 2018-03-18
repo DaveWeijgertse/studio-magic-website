@@ -13,12 +13,17 @@
         .credits-type,
         .credits-names {
             display: inline-block;
+            vertical-align: top;
         }
 
         .credits-type {
             min-width: 120px;
             font-weight: 500;
         }
+
+        .credits-names {
+            max-width: calc(100% - 150px);
+
             .creative-commons-link {
                 display: block;
                 color: $text-color;
