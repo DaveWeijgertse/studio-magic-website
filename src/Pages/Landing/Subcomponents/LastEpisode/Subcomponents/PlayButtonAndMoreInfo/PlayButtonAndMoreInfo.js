@@ -12,7 +12,7 @@ const PlayButtonAndMoreInfo = ({id, playingEpisodeId, playEpisodeInEpisodeBar, o
     const isEpisodeCurrentlyPlaying = id === playingEpisodeId;
 
     return (
-        <div className="play-button-container">
+        <div className="play-button-and-more-info-container">
             <div
                 className={"play-button " + (isEpisodeCurrentlyPlaying ? "stop-playing" : "start-playing")}
                 onClick={() => isEpisodeCurrentlyPlaying ? onStopPlayingEpisode() : playEpisodeInEpisodeBar(id)}
