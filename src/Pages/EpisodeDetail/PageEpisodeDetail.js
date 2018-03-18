@@ -18,6 +18,7 @@ class PageEpisodeDetail extends React.Component {
 
         const {
             id,
+            date,
             description,
             links,
             schedule,
@@ -27,6 +28,7 @@ class PageEpisodeDetail extends React.Component {
             <div className="page-episode-detail">
                 <EpisodeInfo
                     episodeNumber={id}
+                    date={date}
                 />
                 <Description
                     description={description}
