@@ -1,5 +1,15 @@
+@import '~appUtils/styling/colors';
 @import '~appUtils/styling/placeholders';
 
 .episode-detail-container-links {
     @extend %page-container;
+
+    .links-container {
+        a {
+            display: block;
+            &:not(:last-child) {
+                margin-bottom: 5px;
+            }
+        }
+    }
 }
