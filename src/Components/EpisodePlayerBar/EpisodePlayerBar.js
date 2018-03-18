@@ -30,7 +30,6 @@ class EpisodePlayerBar extends React.Component {
         this.updateCurrentTimeAndDuration = this.updateCurrentTimeAndDuration.bind(this);
         this.stopCurrentTimeAndDurationInterval = this.stopCurrentTimeAndDurationInterval.bind(this);
         this.onCloseEpisodeBar = this.onCloseEpisodeBar.bind(this);
-        this.onReady = this.onReady.bind(this);
         this.onProgress = this.onProgress.bind(this);
         this.onSeekChange = this.onSeekChange.bind(this);
         this.onSeekMouseDown = this.onSeekMouseDown.bind(this);
@@ -90,12 +89,6 @@ class EpisodePlayerBar extends React.Component {
     stopCurrentTimeAndDurationInterval() {
         clearInterval(window.currentTimeAndDurationInterval);
         window.currentTimeAndDurationInterval = null;
-    }
-
-    onReady() {
-        this.setState({
-            isPlaying: true
-        });
     }
 
     onProgress({ played }) {
@@ -159,7 +152,6 @@ class EpisodePlayerBar extends React.Component {
             onSeekChange,
             onSeekMouseDown,
             onSeekMouseUp,
-            onReady,
         } = this;
 
         const {
@@ -210,7 +202,6 @@ class EpisodePlayerBar extends React.Component {
                             ref={(player) => { this.player = player}}
                             url={getBuzzsproutMp3Link(id, episodes) + ".mp3"}
                             playing={isPlaying}
-                            onReady={onReady}
                             onProgress={onProgress}
                         />
                     </div>
