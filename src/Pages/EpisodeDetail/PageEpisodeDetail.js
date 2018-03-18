@@ -7,6 +7,7 @@ import { episodes } from 'appUtils/data/episodes.json';
 // Subcomponent imports
 import Description from './Subcomponents/Description';
 import Links from './Subcomponents/Links';
+import Schedule from './Subcomponents/Schedule';
 
 
 class PageEpisodeDetail extends React.Component {
@@ -17,12 +18,16 @@ class PageEpisodeDetail extends React.Component {
         const {
             description,
             links,
+            schedule,
         } = episodeData;
 
         return (
             <div className="page-episode-detail">
                 <Description
                     description={description}
+                />
+                <Schedule
+                    schedule={schedule}
                 />
                 <Links
                     links={links}
