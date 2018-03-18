@@ -30,6 +30,22 @@ const Credits = ({ credits }) => {
                     {presentation}
                 </div>
             </div>
+            <div className="credit-container">
+                <div className="credits-type">
+                    {i18n.translate('credits.music')}
+                </div>
+                <div className="credits-names">
+                    Surf Shimmy - Kevin MacLeod (incompetech.com).
+                    <a
+                        className="creative-commons-link"
+                        href="http://creativecommons.org/licenses/by/3.0/"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        Licensed under Creative Commons: By Attribution 3.0 License.
+                    </a>
+                </div>
+            </div>
         </div>
     );
 }
