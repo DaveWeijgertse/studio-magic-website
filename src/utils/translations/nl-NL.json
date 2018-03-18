@@ -30,6 +30,10 @@
     "links": {
         "title": "Links"
     },
+    "credits": {
+        "presentation": "Presentatie",
+        "editing": "Montage"
+    },
     "podcast-sources": {
         "itunes": "iTunes",
         "stitcher": "Stitcher",
