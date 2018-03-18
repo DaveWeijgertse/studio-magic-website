@@ -13,6 +13,10 @@ import Schedule from './Subcomponents/Schedule';
 
 
 class PageEpisodeDetail extends React.Component {
+    componentDidMount () {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         const episodeId   = this.props.match.params.episodeId;
         const episodeData = episodes[episodeId - 1];
