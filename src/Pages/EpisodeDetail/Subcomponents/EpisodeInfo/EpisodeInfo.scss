@@ -1,3 +1,7 @@
 .episode-detail-container-episode-info {
     position: relative;
+    .episode-info-container {
+        position: relative;
+        z-index: 300;
+    }
 }
