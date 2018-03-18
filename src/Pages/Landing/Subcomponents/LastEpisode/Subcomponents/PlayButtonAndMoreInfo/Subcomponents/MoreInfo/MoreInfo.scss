@@ -1,0 +1,16 @@
+@import '~appUtils/styling/colors';
+
+.episode-more-info a {
+    padding: 8px 16px;
+    color: $text-color;
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    &:hover {
+        color: $text-color;
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.12);
+    }
+}
