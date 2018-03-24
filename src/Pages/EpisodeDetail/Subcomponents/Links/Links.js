@@ -10,14 +10,17 @@ const Links = ({ links }) => (
         <h1>{i18n.translate('links.title')}</h1>
         <div className="links-container">
             {links.map(
-                (link) => {
+                (link, i) => {
                     const {
                         title,
                         url,
                     } = link;
 
                     return (
-                        <div className="link">
+                        <div
+                            key={i}
+                            className="link"
+                        >
                             <a
                                 href={url}
                                 rel="noopener noreferrer"

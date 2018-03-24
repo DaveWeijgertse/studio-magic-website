@@ -7,9 +7,12 @@ import './Description.scss';
 const Description = ({ description }) => (
     <div className="episode-detail-container-description">
         {description.map(
-            (descriptionPart) => {
+            (descriptionPart, i) => {
                 return (
-                    <div className="description-part">
+                    <div
+                        key={i}
+                        className="description-part"
+                    >
                         {descriptionPart}
                     </div>
                 );

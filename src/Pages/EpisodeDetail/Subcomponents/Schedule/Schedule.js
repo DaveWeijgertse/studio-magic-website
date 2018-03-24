@@ -10,14 +10,17 @@ const Schedule = ({ schedule }) => (
         <h1>{i18n.translate('time-schedule.title')}</h1>
         <div className="schedule-container">
             {schedule.map(
-                (scheduleMoment) => {
+                (scheduleMoment, i) => {
                     const {
                         timestamp,
                         topic,
                     } = scheduleMoment;
 
                     return (
-                        <div className="time-schedule">
+                        <div
+                            key={i}
+                            className="time-schedule"
+                        >
                             <div className="time-stamp">
                                 {timestamp}
                             </div>
