@@ -21,10 +21,10 @@
 
             a {
                 display: inline-block;
-                color: $text-color;
+                color: $main-color;
                 text-decoration: none;
                 &:hover {
-                    color: $main-color;
+                    color: $main-color-dark;
                 }
             }
         }
