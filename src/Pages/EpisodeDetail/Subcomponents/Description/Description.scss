@@ -3,6 +3,7 @@
 .episode-detail-container-description {
     @extend %page-container;
     padding: 40px 20px 20px 20px;
+    font-size: 1.1em;
 
     .description-part:not(:last-child) {
         padding-bottom: 20px;
