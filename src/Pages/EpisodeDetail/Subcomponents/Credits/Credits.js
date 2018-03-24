@@ -37,14 +37,15 @@ const Credits = ({ credits }) => {
                 </div>
                 <div className="credits-names">
                     Surf Shimmy - Kevin MacLeod (incompetech.com).
-                    <a
-                        className="creative-commons-link"
-                        href="http://creativecommons.org/licenses/by/3.0/"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                    >
-                        Licensed under Creative Commons: By Attribution 3.0 License.
-                    </a>
+                    <div className="link creative-commons">
+                        <a
+                            href="http://creativecommons.org/licenses/by/3.0/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            Licensed under Creative Commons: By Attribution 3.0 License.
+                        </a>
+                    </div>
                 </div>
             </div>
             <div className="credit-container">

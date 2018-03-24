@@ -24,19 +24,25 @@
         .credits-names {
             max-width: calc(100% - 150px);
 
-            .creative-commons-link {
+            .link {
                 display: block;
                 color: $text-color;
                 text-decoration: none;
-                &:after {
+                &.creative-commons:after {
                     content: "\f08e";
                     margin-left: 7px;
                     font-family: "FontAwesome";
                     font-size: 12px;
                     text-decoration: none;
                 }
-                &:hover {
+
+                a {
+                    display: inline-block;
                     color: $main-color;
+                    text-decoration: none;
+                    &:hover {
+                        color: $main-color-dark;
+                    }
                 }
             }
         }
