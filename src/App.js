@@ -23,6 +23,7 @@ import PageLanding from './Pages/Landing/PageLanding';
 import EpisodePlayerBar from './Components/EpisodePlayerBar';
 import Footer from './Components/Footer';
 import HeaderBar from './Components/Header/HeaderBar';
+import MobileNavigationMenu from './Components/MobileNavigationMenu';
 
 // Styling imports
 import 'bootstrap';
@@ -85,6 +86,7 @@ class App extends React.Component {
         return (
             <div className="App">
                 <HeaderBar />
+                <MobileNavigationMenu />
                 <div className="container">
                     <Switch>
                         <PropsRoute
