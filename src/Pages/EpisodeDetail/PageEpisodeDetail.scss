@@ -1,8 +1,12 @@
+@import '~appUtils/styling/mediaQueries';
 @import '~appUtils/styling/placeholders';
 
 .episode-detail-container {
     display: flex;
     align-items: flex-start;
+    @media screen and (max-width: $phone) {
+        flex-wrap: wrap;
+    }
 
     .episode-detail-info-container,
     .episode-navigation-container {
@@ -12,5 +16,9 @@
 
     .episode-navigation-container {
         margin: 0;
+        @media screen and (max-width: $phone) {
+            width: 100%;
+            text-align: center;
+        }
     }
 }
