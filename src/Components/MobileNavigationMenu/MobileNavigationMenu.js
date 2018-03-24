@@ -17,25 +17,57 @@ import SocialMediaButton from '../Header/Subcomponents/SocialMediaButtons/Subcom
 import './MobileNavigationMenu.scss';
 
 
-const MobileNavigationMenu = () => (
-    <div className="mobile-navigation-menu-container">
-        <Menu
-            right
-            width={225}
-        >
-            <Link to={ROUTE_ROOT}>
-                {i18n.translate('home')}
-            </Link>
-            <Link to={ROUTE_EPISODES_LIST}>
-                {i18n.translate('episode.plural')}
-            </Link>
-            <div className="social-media-title">
-                {i18n.translate('social-media')}
+class MobileNavigationMenu extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            isOpen: false,
+        }
+
+        this.onClickItem = this.onClickItem.bind(this);
+    }
+
+    onClickItem() {
+        this.setState({
+            isOpen: false,
+        })
+    }
+
+    render() {
+        const {
+            onClickItem,
+            state: {
+                isOpen,
+            }
+        } = this;
+
+        return (
+            <div className="mobile-navigation-menu-container">
+                <Menu
+                    right
+                    width={225}
+                    isOpen={isOpen}
+                >
+                    <div onClick={onClickItem}>
+                        <Link to={ROUTE_ROOT}>
+                            {i18n.translate('home')}
+                        </Link>
+                    </div>
+                    <div onClick={onClickItem}>
+                        <Link to={ROUTE_EPISODES_LIST}>
+                            {i18n.translate('episode.plural')}
+                        </Link>
+                    </div>
+                    <div className="social-media-title">
+                        {i18n.translate('social-media')}
+                    </div>
+                    <SocialMediaButton type="facebook" />
+                    <SocialMediaButton type="twitter" />
+                </Menu>
             </div>
-            <SocialMediaButton type="facebook" />
-            <SocialMediaButton type="twitter" />
-        </Menu>
-    </div>
-);
+        );
+    }
+}
 
 export default MobileNavigationMenu;
