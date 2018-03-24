@@ -8,6 +8,7 @@ import { episodes } from 'appUtils/data/episodes.json';
 import Credits from './Subcomponents/Credits';
 import Description from './Subcomponents/Description';
 import EpisodeInfo from './Subcomponents/EpisodeInfo';
+import EpisodeNavigation from './Subcomponents/EpisodeNavigation';
 import Links from './Subcomponents/Links';
 import Schedule from './Subcomponents/Schedule';
 
@@ -49,20 +50,27 @@ class PageEpisodeDetail extends React.Component {
                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
-                <Description
-                    description={description}
-                />
-                <Schedule
-                    schedule={schedule}
-                />
-                {hasLinks && (
-                    <Links
-                        links={links}
-                    />
-                )}
-                <Credits
-                    credits={credits}
-                />
+                <div className="episode-detail-container">
+                    <div className="episode-detail-info-container">
+                        <Description
+                            description={description}
+                        />
+                        <Schedule
+                            schedule={schedule}
+                        />
+                        {hasLinks && (
+                            <Links
+                                links={links}
+                            />
+                        )}
+                        <Credits
+                            credits={credits}
+                        />
+                    </div>
+                    <div className="episode-navigation-container">
+                        <EpisodeNavigation />
+                    </div>
+                </div>
             </div>
         );
     }
