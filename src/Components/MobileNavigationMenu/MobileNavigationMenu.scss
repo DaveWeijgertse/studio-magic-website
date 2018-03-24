@@ -9,12 +9,14 @@
     right: 0;
     bottom: 0;
     z-index: 3000;
+    pointer-events: none;
     @media screen and (min-width: $phone) {
         display: none;
     }
 
     .bm-menu-wrap {
         background: $background-dark;
+        pointer-events: all;
 
         .bm-menu {
             margin-top: 40px;
@@ -54,6 +56,7 @@
         right: 25px;
         width: 28px;
         height: 26px;
+        pointer-events: all;
 
         .bm-burger-bars {
             background: white;
