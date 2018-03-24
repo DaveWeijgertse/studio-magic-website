@@ -3,7 +3,7 @@
 
 .episode-detail-container-credits {
     @extend %page-container;
-    @extend %page-container-alternate;
+    @extend %page-container-episode-detail;
 
     .credit-container {
         &:not(:last-child) {
