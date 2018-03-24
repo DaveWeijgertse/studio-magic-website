@@ -9,5 +9,15 @@
     .bm-menu-wrap {
         background: $background-dark;
 
+    .bm-burger-button {
+        position: absolute;
+        top: 30px;
+        right: 25px;
+        width: 28px;
+        height: 26px;
+
+        .bm-burger-bars {
+            background: white;
+        }
     }
 }
