@@ -12,6 +12,9 @@ import EpisodeNavigation from './Subcomponents/EpisodeNavigation';
 import Links from './Subcomponents/Links';
 import Schedule from './Subcomponents/Schedule';
 
+// Styling import
+import './PageEpisodeDetail.scss';
+
 
 class PageEpisodeDetail extends React.Component {
     componentDidMount () {

@@ -1,9 +1,7 @@
 @import '~appUtils/styling/colors';
-@import '~appUtils/styling/placeholders';
 
 .episode-detail-container-credits {
-    @extend %page-container;
-    @extend %page-container-episode-detail;
+    padding-top: 20px;
 
     .credit-container {
         &:not(:last-child) {

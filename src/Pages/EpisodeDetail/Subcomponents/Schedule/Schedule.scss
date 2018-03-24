@@ -1,8 +1,5 @@
-@import '~appUtils/styling/placeholders';
-
 .episode-detail-container-schedule {
-    @extend %page-container;
-    @extend %page-container-episode-detail;
+    padding-top: 20px;
 
     .schedule-container {
         .time-schedule {

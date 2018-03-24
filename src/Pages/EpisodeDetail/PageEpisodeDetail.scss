@@ -1,0 +1,15 @@
+@import '~appUtils/styling/placeholders';
+
+.episode-detail-container {
+    display: flex;
+
+    .episode-detail-info-container,
+    .episode-navigation-container {
+        @extend %page-container;
+        @extend %page-container-episode-detail;
+    }
+
+    .episode-navigation-container {
+        width: 200px;
+    }
+}
