@@ -4,9 +4,6 @@
     display: inline-block;
     vertical-align: top;
     height: 100%;
-    @media screen and (max-width: $phone) {
-        text-align: center;
-    }
 
     .logo {
         display: inline-block;
