@@ -52,7 +52,11 @@
             ],
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
-                "editing": "Jeroen Koster"
+                "editing": "Jeroen Koster",
+                "art": {
+                    "name": "Thalia's Lieutenant",
+                    "artist": "Johannes Voss"
+                }
             }
         },
         {
@@ -106,7 +110,11 @@
             ],
             "credits": {
                 "presentation": "Jeroen Koster en Dave Weijgertse",
-                "editing": "Jeroen Koster"
+                "editing": "Jeroen Koster",
+                "art": {
+                    "name": "Snapcaster Mage",
+                    "artist": "Volkan Baga"
+                }
             }
         },
         {
@@ -177,7 +185,11 @@
             ],
             "credits": {
                 "presentation": "Jeroen Koster en Dave Weijgertse",
-                "editing": "Jeroen Koster"
+                "editing": "Jeroen Koster",
+                "art": {
+                    "name": "Bouncing Beebles",
+                    "artist": "Jeff Miracola"
+                }
             }
         },
         {
@@ -250,11 +262,11 @@
             ],
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
-                "editing": "Jeroen Koster"
-            },
-            "credits": {
-                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
-                "editing": "Jeroen Koster"
+                "editing": "Jeroen Koster",
+                "art": {
+                    "name": "Adorable | Kitten",
+                    "artist": "Andrea Radeck"
+                }
             }
         },
         {
@@ -307,7 +319,11 @@
             "links": [],
             "credits": {
                 "presentation": "Jeroen Koster en Arjan Ang",
-                "editing": "Jeroen Koster"
+                "editing": "Jeroen Koster",
+                "art": {
+                    "name": "Lightning Bolt",
+                    "artist": "Christopher Rush"
+                }
             }
         },
         {
@@ -353,7 +369,11 @@
             "links": [],
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
-                "editing": "Jeroen Koster"
+                "editing": "Jeroen Koster",
+                "art": {
+                    "name": "Day's Undoing",
+                    "artist": "Jonas De Ro"
+                }
             }
         },
         {
@@ -406,7 +426,11 @@
             ],
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
-                "editing": "Jeroen Koster"
+                "editing": "Jeroen Koster",
+                "art": {
+                    "name": "Negate",
+                    "artist": "Magali Villeneuve"
+                }
             }
         },
         {
@@ -473,7 +497,11 @@
             ],
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
-                "editing": "Jeroen Koster"
+                "editing": "Jeroen Koster",
+                "art": {
+                    "name": "Mox Opal",
+                    "artist": "Volkan Baga"
+                }
             }
         },
         {
@@ -534,7 +562,11 @@
             ],
             "credits": {
                 "presentation": "Jeroen Koster en Arjan Ang",
-                "editing": "Jeroen Koster"
+                "editing": "Jeroen Koster",
+                "art": {
+                    "name": "Jace, the Mind Sculptor",
+                    "artist": "Jason Chan"
+                }
             }
         },
         {
@@ -591,7 +623,11 @@
             ],
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
-                "editing": "Jeroen Koster"
+                "editing": "Jeroen Koster",
+                "art": {
+                    "name": "Reef Worm",
+                    "artist": "Dan Scott"
+                }
             }
         }
     ]
