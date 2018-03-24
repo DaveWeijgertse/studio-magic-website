@@ -6,6 +6,8 @@ import {
     ROUTE_EPISODE_DETAIL,
 } from 'appUtils/routes/paths';
 
+// Styling import
+import './PreviousEpisodeButton.scss';
 
 
 const PreviousEpisodeButton = ({ previousEpisode }) => (
