@@ -1,5 +1,10 @@
 import React from 'react';
 import i18n from 'i18n-react';
+import { Link } from 'react-router-dom';
+
+import {
+    ROUTE_DISCLAIMER,
+} from 'appUtils/routes/paths';
 
 // Styling import
 import './Credits.scss';
@@ -54,6 +59,11 @@ const Credits = ({ credits }) => {
                 </div>
                 <div className="credits-names">
                     {art.name}{i18n.translate('credits.art.created-by')} {art.artist}
+                    <div className="link">
+                        <Link to={ROUTE_DISCLAIMER}>
+                            {i18n.translate('disclaimer')}
+                        </Link>
+                    </div>
                 </div>
             </div>
         </div>
