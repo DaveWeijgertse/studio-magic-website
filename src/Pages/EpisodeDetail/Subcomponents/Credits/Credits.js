@@ -7,6 +7,7 @@ import './Credits.scss';
 // @todo: move the different credit parts to seperate subcomponent files
 const Credits = ({ credits }) => {
     const {
+        art,
         editing,
         presentation,
     } = credits;
@@ -44,6 +45,14 @@ const Credits = ({ credits }) => {
                     >
                         Licensed under Creative Commons: By Attribution 3.0 License.
                     </a>
+                </div>
+            </div>
+            <div className="credit-container">
+                <div className="credits-type">
+                    {i18n.translate('credits.art.singular')}
+                </div>
+                <div className="credits-names">
+                    {art.name}{i18n.translate('credits.art.created-by')} {art.artist}
                 </div>
             </div>
         </div>

@@ -34,7 +34,11 @@
         "title": "Credits",
         "presentation": "Presentatie",
         "editing": "Montage",
-        "music": "Muziek"
+        "music": "Muziek",
+        "art": {
+            "singular": "Afbeelding",
+            "created-by": ", gemaakt door"
+        }
     },
     "podcast-sources": {
         "itunes": "iTunes",
