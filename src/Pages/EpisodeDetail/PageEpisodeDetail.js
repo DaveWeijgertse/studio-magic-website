@@ -22,8 +22,9 @@ class PageEpisodeDetail extends React.Component {
     }
 
     render() {
-        const episodeId   = this.props.match.params.episodeId;
-        const episodeData = episodes[episodeId - 1];
+        const episodeId     = this.props.match.params.episodeId;
+        const episodeData   = episodes[episodeId - 1];
+        const totalEpisodes = episodes.length;
 
         const {
             id,
@@ -71,7 +72,10 @@ class PageEpisodeDetail extends React.Component {
                         />
                     </div>
                     <div className="episode-navigation-container">
-                        <EpisodeNavigation />
+                        <EpisodeNavigation
+                            currentEpisode={id}
+                            totalEpisodes={totalEpisodes}
+                        />
                     </div>
                 </div>
             </div>
