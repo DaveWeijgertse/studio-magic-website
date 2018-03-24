@@ -10,8 +10,11 @@ import {
 import './NextEpisodeButton.scss';
 
 
-const NextEpisodeButton = ({ nextEpisode }) => (
-    <div className="episode-button next">
+const NextEpisodeButton = ({ nextEpisode, onClick }) => (
+    <div
+        className="episode-button next"
+        onClick={onClick}
+    >
         <Link to={ROUTE_EPISODE_DETAIL + '/' + nextEpisode}>
             {i18n.translate('episode.next')}
         </Link>

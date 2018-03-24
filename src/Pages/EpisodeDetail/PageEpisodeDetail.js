@@ -17,8 +17,23 @@ import './PageEpisodeDetail.scss';
 
 
 class PageEpisodeDetail extends React.Component {
+    constructor(props) {
+        super(props);
+
+        this.scrollToTop = this.scrollToTop.bind(this);
+        this.onClickEpisodeButton = this.onClickEpisodeButton.bind(this);
+    }
+
     componentDidMount () {
-        window.scrollTo(0, 0)
+        this.scrollToTop();
+    }
+
+    onClickEpisodeButton() {
+        this.scrollToTop();
+    }
+
+    scrollToTop() {
+        window.scrollTo(0, 0);
     }
 
     render() {
@@ -35,6 +50,10 @@ class PageEpisodeDetail extends React.Component {
             schedule,
             credits,
         } = episodeData;
+
+        const {
+            onClickEpisodeButton,
+        } = this;
 
         const {
             playingEpisodeId,
@@ -75,6 +94,7 @@ class PageEpisodeDetail extends React.Component {
                         <EpisodeNavigation
                             currentEpisode={id}
                             totalEpisodes={totalEpisodes}
+                            onClickEpisodeButton={onClickEpisodeButton}
                         />
                     </div>
                 </div>

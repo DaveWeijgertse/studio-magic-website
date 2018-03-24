@@ -6,7 +6,7 @@ import NextEpisodeButton from './Subcomponents/NextEpisodeButton';
 import PreviousEpisodeButton from './Subcomponents/PreviousEpisodeButton';
 
 
-const EpisodeNavigation = ({ currentEpisode, totalEpisodes }) => {
+const EpisodeNavigation = ({ currentEpisode, totalEpisodes, onClickEpisodeButton }) => {
     const isFirstEpisode = currentEpisode === 1;
     const isLastEpisode  = currentEpisode === totalEpisodes;
 
@@ -15,11 +15,13 @@ const EpisodeNavigation = ({ currentEpisode, totalEpisodes }) => {
             {!isLastEpisode && (
                 <NextEpisodeButton
                     nextEpisode={currentEpisode + 1}
+                    onClick={onClickEpisodeButton}
                 />
             )}
             {!isFirstEpisode && (
                 <PreviousEpisodeButton
                     previousEpisode={currentEpisode - 1}
+                    onClick={onClickEpisodeButton}
                 />
             )}
             <AllEpisodesButton />

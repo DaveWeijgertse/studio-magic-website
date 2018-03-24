@@ -10,8 +10,11 @@ import {
 import './PreviousEpisodeButton.scss';
 
 
-const PreviousEpisodeButton = ({ previousEpisode }) => (
-    <div className="episode-button previous">
+const PreviousEpisodeButton = ({ previousEpisode, onClick }) => (
+    <div
+        className="episode-button previous"
+        onClick={onClick}
+    >
         <Link to={ROUTE_EPISODE_DETAIL + '/' + previousEpisode}>
             {i18n.translate('episode.previous')}
         </Link>
