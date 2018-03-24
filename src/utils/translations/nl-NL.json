@@ -15,7 +15,9 @@
         "singular": "Aflevering",
         "plural": "Afleveringen",
         "all": "Alle afleveringen",
-        "earlier": "Eerdere afleveringen"
+        "earlier": "Eerdere afleveringen",
+        "next": "Volgende aflevering",
+        "previous": "Vorige aflevering"
     },
     "who-are-we": {
         "title": "Wie zijn wij?"
