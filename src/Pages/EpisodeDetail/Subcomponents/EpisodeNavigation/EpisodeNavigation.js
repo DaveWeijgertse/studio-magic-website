@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Subcomponent imports
+import AllEpisodesButton from './Subcomponents/AllEpisodeButton';
 import NextEpisodeButton from './Subcomponents/NextEpisodeButton';
 import PreviousEpisodeButton from './Subcomponents/PreviousEpisodeButton';
 
@@ -21,6 +22,7 @@ const EpisodeNavigation = ({ currentEpisode, totalEpisodes }) => {
                     previousEpisode={currentEpisode - 1}
                 />
             )}
+            <AllEpisodesButton />
         </div>
     );
 }
