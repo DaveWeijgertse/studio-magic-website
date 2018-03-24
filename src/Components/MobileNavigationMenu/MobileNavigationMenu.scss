@@ -1,4 +1,5 @@
 @import '~appUtils/styling/colors';
+@import '~appUtils/styling/mediaQueries';
 @import '../Header/Subcomponents/@shared/styling/NavigationLinks';
 
 .mobile-navigation-menu-container {
@@ -8,6 +9,9 @@
     right: 0;
     bottom: 0;
     z-index: 3000;
+    @media screen and (min-width: $phone) {
+        display: none;
+    }
 
     .bm-menu-wrap {
         background: $background-dark;
