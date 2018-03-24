@@ -1,3 +1,6 @@
+@import '~appUtils/styling/colors';
+@import '../Header/Subcomponents/@shared/styling/NavigationLinks';
+
 .mobile-navigation-menu-container {
     position: absolute;
     top: 0;
@@ -8,6 +11,19 @@
 
     .bm-menu-wrap {
         background: $background-dark;
+
+        .bm-menu {
+            padding: 0 15px;
+
+            .bm-item-list {
+                a {
+                    @extend %navigation-link;
+                    margin-bottom: 5px;
+                    border-color: $background;
+                }
+            }
+        }
+    }
 
     .bm-burger-button {
         position: absolute;
