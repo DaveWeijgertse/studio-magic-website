@@ -10,6 +10,9 @@ import {
 // Library imports
 import { slide as Menu } from 'react-burger-menu';
 
+// Subcomponent imports
+import SocialMediaButton from '../Header/Subcomponents/SocialMediaButtons/Subcomponents/SocialMediaButton';
+
 // Styling import
 import './MobileNavigationMenu.scss';
 
@@ -26,6 +29,11 @@ const MobileNavigationMenu = () => (
             <Link to={ROUTE_EPISODES_LIST}>
                 {i18n.translate('episode.plural')}
             </Link>
+            <div className="social-media-title">
+                {i18n.translate('social-media')}
+            </div>
+            <SocialMediaButton type="facebook" />
+            <SocialMediaButton type="twitter" />
         </Menu>
     </div>
 );
