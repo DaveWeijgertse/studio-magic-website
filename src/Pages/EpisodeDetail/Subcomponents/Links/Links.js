@@ -17,13 +17,15 @@ const Links = ({ links }) => (
                     } = link;
 
                     return (
-                        <a
-                            href={url}
-                            rel="noopener noreferrer"
-                            target="_blank"
-                        >
-                            {title}
-                        </a>
+                        <div className="link">
+                            <a
+                                href={url}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                {title}
+                            </a>
+                        </div>
                     );
                 }
             )}

@@ -6,10 +6,8 @@
     @extend %page-container-episode-detail;
 
     .links-container {
-        a {
-            display: block;
-            color: $text-color;
-            text-decoration: none;
+
+        .link {
             &:after {
                 content: "\f08e";
                 margin-left: 7px;
@@ -17,11 +15,17 @@
                 font-size: 12px;
                 text-decoration: none;
             }
-            &:hover {
-                color: $main-color;
-            }
             &:not(:last-child) {
                 margin-bottom: 5px;
+            }
+
+            a {
+                display: inline-block;
+                color: $text-color;
+                text-decoration: none;
+                &:hover {
+                    color: $main-color;
+                }
             }
         }
     }
