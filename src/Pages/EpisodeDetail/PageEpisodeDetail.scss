@@ -2,6 +2,7 @@
 
 .episode-detail-container {
     display: flex;
+    align-items: flex-start;
 
     .episode-detail-info-container,
     .episode-navigation-container {
@@ -10,6 +11,6 @@
     }
 
     .episode-navigation-container {
-        width: 200px;
+        margin: 0;
     }
 }
