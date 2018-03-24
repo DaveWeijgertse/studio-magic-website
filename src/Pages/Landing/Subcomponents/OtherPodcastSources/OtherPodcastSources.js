@@ -3,6 +3,7 @@ import i18n from 'i18n-react';
 
 import {
     ITUNES,
+    SPOTIFY,
     STITCHER,
     TUNEIN,
 } from './utils/podcastSourceTypes';
@@ -22,6 +23,7 @@ const OtherPodcastSources = () => {
                 <h1>{i18n.translate('listen-also-via')}</h1>
                 <div className="podcast-sources-container">
                     <PodcastSource source={ITUNES} />
+                    <PodcastSource source={SPOTIFY} />
                     <PodcastSource source={STITCHER} />
                     <PodcastSource source={TUNEIN} />
                     <RssFeedSource />
