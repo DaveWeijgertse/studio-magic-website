@@ -3,6 +3,7 @@ import i18n from 'i18n-react';
 import { Link } from 'react-router-dom';
 
 import {
+    ROUTE_ROOT,
     ROUTE_EPISODES_LIST,
 } from 'appUtils/routes/paths';
 
@@ -19,6 +20,9 @@ const MobileNavigationMenu = () => (
             right
             width={225}
         >
+            <Link to={ROUTE_ROOT}>
+                {i18n.translate('home')}
+            </Link>
             <Link to={ROUTE_EPISODES_LIST}>
                 {i18n.translate('episode.plural')}
             </Link>
