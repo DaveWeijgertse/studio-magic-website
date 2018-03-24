@@ -13,6 +13,7 @@
         background: $background-dark;
 
         .bm-menu {
+            margin-top: 40px;
             padding: 0 15px;
 
             .bm-item-list {
@@ -22,6 +23,10 @@
                     border-color: $background;
                 }
             }
+        }
+
+        .bm-cross-button .bm-cross {
+            background: white;
         }
     }
 
