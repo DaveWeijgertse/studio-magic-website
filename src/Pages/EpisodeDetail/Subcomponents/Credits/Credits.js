@@ -14,6 +14,7 @@ const Credits = ({ credits }) => {
     const {
         art,
         editing,
+        extraMusic,
         presentation,
     } = credits;
 
@@ -51,6 +52,17 @@ const Credits = ({ credits }) => {
                             Licensed under Creative Commons: By Attribution 3.0 License.
                         </a>
                     </div>
+                    {extraMusic.length > 0 ? (
+                        extraMusic.map(
+                            (extraMusicCredit) => {
+                                return (
+                                    <div className="extra-music-credit">
+                                        {extraMusicCredit}
+                                    </div>
+                                );
+                            }
+                        )
+                    ) : null}
                 </div>
             </div>
             <div className="credit-container">

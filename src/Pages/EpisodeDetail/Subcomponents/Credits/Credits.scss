@@ -22,6 +22,10 @@
         .credits-names {
             max-width: calc(100% - 150px);
 
+            .extra-music-credit {
+                margin-top: 5px;
+            }
+
             .link {
                 display: block;
                 color: $text-color;
