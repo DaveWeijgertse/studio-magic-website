@@ -3,7 +3,7 @@
 @import '~appUtils/styling/mediaQueries';
 
 $container-height: calc(100vh - 134px); // 100% of the viewport, minus the height of the header + pay-off text
-$container-height-mobile: calc(100vh - 144px);
+$container-height-mobile: calc(100vh - 128px);
 
 .last-episode-container {
     position: relative;
