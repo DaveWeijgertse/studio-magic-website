@@ -1,6 +1,11 @@
+@import '~appUtils/styling/mediaQueries';
+
 .episode-detail-container-description {
     padding-top: 40px;
     font-size: 1.1em;
+    @media screen and (max-width: $phone) {
+        padding-top: 0;
+    }
 
     .description-part:not(:last-child) {
         padding-bottom: 20px;

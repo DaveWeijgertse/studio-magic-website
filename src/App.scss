@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~appUtils/styling/colors";
+@import '~appUtils/styling/mediaQueries';
 @import "~appUtils/styling/placeholders";
 
 html, body {
@@ -35,6 +36,10 @@ html, body {
 
                 div[class^="page-"]:not(.page-landing):not(.page-episode-detail) {
                     @extend %page-container;
+
+                    @media screen and (max-width: $phone) {
+                        padding-top: 20px;
+                    }
                 }
 
                 h1 {
