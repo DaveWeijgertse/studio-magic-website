@@ -42,14 +42,14 @@ const Credits = ({ credits }) => {
                     {i18n.translate('credits.music')}
                 </div>
                 <div className="credits-names">
-                    Surf Shimmy - Kevin MacLeod (incompetech.com).
+                    <div>Surf Shimmy - Kevin MacLeod (incompetech.com)</div>
                     <div className="link creative-commons">
                         <a
                             href="http://creativecommons.org/licenses/by/3.0/"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
-                            Licensed under Creative Commons: By Attribution 3.0 License.
+                            Licensed under Creative Commons: By Attribution 3.0 License
                         </a>
                     </div>
                     {extraMusic.length > 0 ? (
