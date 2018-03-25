@@ -53,6 +53,7 @@
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
                 "editing": "Jeroen Koster",
+                "extraMusic": [],
                 "art": {
                     "name": "Thalia's Lieutenant",
                     "artist": "Johannes Voss"
@@ -111,6 +112,7 @@
             "credits": {
                 "presentation": "Jeroen Koster en Dave Weijgertse",
                 "editing": "Jeroen Koster",
+                "extraMusic": [],
                 "art": {
                     "name": "Snapcaster Mage",
                     "artist": "Volkan Baga"
@@ -186,6 +188,7 @@
             "credits": {
                 "presentation": "Jeroen Koster en Dave Weijgertse",
                 "editing": "Jeroen Koster",
+                "extraMusic": [],
                 "art": {
                     "name": "Bouncing Beebles",
                     "artist": "Jeff Miracola"
@@ -263,6 +266,7 @@
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
                 "editing": "Jeroen Koster",
+                "extraMusic": [],
                 "art": {
                     "name": "Adorable | Kitten",
                     "artist": "Andrea Radeck"
@@ -320,6 +324,7 @@
             "credits": {
                 "presentation": "Jeroen Koster en Arjan Ang",
                 "editing": "Jeroen Koster",
+                "extraMusic": [],
                 "art": {
                     "name": "Lightning Bolt",
                     "artist": "Christopher Rush"
@@ -370,6 +375,7 @@
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
                 "editing": "Jeroen Koster",
+                "extraMusic": [],
                 "art": {
                     "name": "Day's Undoing",
                     "artist": "Jonas De Ro"
@@ -427,6 +433,7 @@
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
                 "editing": "Jeroen Koster",
+                "extraMusic": [],
                 "art": {
                     "name": "Negate",
                     "artist": "Magali Villeneuve"
@@ -498,6 +505,7 @@
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
                 "editing": "Jeroen Koster",
+                "extraMusic": [],
                 "art": {
                     "name": "Mox Opal",
                     "artist": "Volkan Baga"
@@ -563,6 +571,9 @@
             "credits": {
                 "presentation": "Jeroen Koster en Arjan Ang",
                 "editing": "Jeroen Koster",
+                "extraMusic": [
+                    "Jace the Mind Sculptor - Tha Gatherin (Bill Boulden & Patrick Chapin)"
+                ],
                 "art": {
                     "name": "Jace, the Mind Sculptor",
                     "artist": "Jason Chan"
@@ -624,6 +635,7 @@
             "credits": {
                 "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
                 "editing": "Jeroen Koster",
+                "extraMusic": [],
                 "art": {
                     "name": "Reef Worm",
                     "artist": "Dan Scott"
