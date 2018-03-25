@@ -37,7 +37,7 @@ class PageEpisodeDetail extends React.Component {
     }
 
     render() {
-        const episodeId     = this.props.match.params.episodeId;
+        const episodeId     = this.props.episodeId;
         const episodeData   = episodes[episodeId - 1];
         const totalEpisodes = episodes.length;
 

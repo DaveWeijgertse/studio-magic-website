@@ -4,10 +4,13 @@ import { Switch, Route } from 'react-router-dom';
 // Routes import
 import {
     ROUTE_ROOT,
-    ROUTE_EPISODE_DETAIL,
     ROUTE_EPISODES_LIST,
     ROUTE_DISCLAIMER,
 } from 'appUtils/routes/paths';
+
+import {
+    ROUTE_EPISODE_DETAIL,
+ } from 'appUtils/routes/episodeDetailPaths';
 
 // Translations import
 import i18n from 'i18n-react';
@@ -105,13 +108,24 @@ class App extends React.Component {
                             playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                             onStopPlayingEpisode={onStopPlayingEpisode}
                         />
-                        <PropsRoute
-                            path={ROUTE_EPISODE_DETAIL + '/:episodeId'}
-                            component={PageEpisodeDetail}
-                            playingEpisodeId={playingEpisodeId}
-                            playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
-                            onStopPlayingEpisode={onStopPlayingEpisode}
-                        />
+                        {Object.entries(ROUTE_EPISODE_DETAIL).map(
+                            (episodePathData) => {
+                                const episodeId  = episodePathData[0];
+                                const episodeUrl = episodePathData[1];
+
+                                return (
+                                    <PropsRoute
+                                        key={episodeId}
+                                        path={episodeUrl}
+                                        episodeId={episodeId}
+                                        component={PageEpisodeDetail}
+                                        playingEpisodeId={playingEpisodeId}
+                                        playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                                        onStopPlayingEpisode={onStopPlayingEpisode}
+                                    />
+                                );
+                            }
+                        )}
                         <Route
                             exact
                             path={ROUTE_DISCLAIMER}

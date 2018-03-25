@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 import {
     ROUTE_EPISODE_DETAIL,
-} from 'appUtils/routes/paths';
+ } from 'appUtils/routes/episodeDetailPaths';
 
 // Styling import
 import './NextEpisodeButton.scss';
@@ -15,7 +15,7 @@ const NextEpisodeButton = ({ nextEpisode, onClick }) => (
         className="episode-button next"
         onClick={onClick}
     >
-        <Link to={ROUTE_EPISODE_DETAIL + '/' + nextEpisode}>
+        <Link to={ROUTE_EPISODE_DETAIL[nextEpisode]}>
             {i18n.translate('episode.next')}
         </Link>
     </div>
