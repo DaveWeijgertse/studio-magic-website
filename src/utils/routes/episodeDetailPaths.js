@@ -9,4 +9,5 @@ export const ROUTE_EPISODE_DETAIL = {
     8:  "/aflevering/008-de-modern-pro-tour-weer-terug-van-weggeweest",
     9:  "/aflevering/009-jace-the-mind-sculptor-beter-dan-alles",
     10: "/aflevering/010-masters-25-doomsday-of-renewed-faith",
+    11: "/aflevering/011-domweg-gelukkig-op-dominaria",
 }

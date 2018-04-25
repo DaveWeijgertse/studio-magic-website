@@ -641,6 +641,82 @@
                     "artist": "Dan Scott"
                 }
             }
+        },
+        {
+            "id": 11,
+            "name": "Domweg gelukkig, op Dominaria",
+            "date": "2018-04-25",
+            "url": "https://www.buzzsprout.com/133608/689680-domweg-gelukkig-op-dominaria-011",
+            "description": [
+                "Met de nieuwe set Dominaria keren we terug naar de gelijknamige plane waar Magic: The Gathering 25 jaar geleden begon. Hoe is het nu gesteld met deze rijke bron van Magicgeschiedenis? Jeroen, Arjan en Dave bespreken nieuwe en terugkerende mechanics, plus enkele van de vele nieuwe kaarten waarvan zij domweg gelukkig worden.",
+                "Ook is er aandacht voor het nieuwe format Brawl, dat Wizards of the Coast tegelijk met Dominaria introduceert. Ligt er een mooie toekomst in het verschiet voor deze 'light-versie' van Commander?",
+                "Verder: Jeroen vertelt waarom hij er even een paar weken tussenuit was en Dave heeft de Studio Magic-website vernieuwd.",
+                "Dominaria bevat 269 kaarten en komt uit op vrijdag 27 april 2018."
+            ],
+            "shortDescription": "25 jaar geleden begon Magic op Dominaria. De gelijknamige nieuwe set staat dan ook bol van geschiedenis.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:29",
+                    "topic": "Jeroen heeft zijn gezin uitgebreid"
+                },{
+                    "timestamp": "0:01:00",
+                    "topic": "Wat is Dominaria?"
+                },{
+                    "timestamp": "0:05:12",
+                    "topic": "Nieuw: Saga's"
+                },{
+                    "timestamp": "0:10:43",
+                    "topic": "Nieuw: Historic"
+                },{
+                    "timestamp": "0:24:29",
+                    "topic": "Terugkerend: Kicker"
+                },{
+                    "timestamp": "0:27:27",
+                    "topic": "Semi-nieuw: Hexproof from"
+                },{
+                    "timestamp": "0:29:21",
+                    "topic": "Nieuw: Damage aan 'any target'"
+                },{
+                    "timestamp": "0:32:05",
+                    "topic": "Noemenswaardige kaarten"
+                },{
+                    "timestamp": "1:05:43",
+                    "topic": "Dominaria limited"
+                },{
+                    "timestamp": "1:08:53",
+                    "topic": "Nieuw Magic-format: Brawl"
+                },{
+                    "timestamp": "1:25:57",
+                    "topic": "Firesong and Sunspeaker controversieel?"
+                },{
+                    "timestamp": "1:29:19",
+                    "topic": "Studio Magic op Spotify en vernieuwde website"
+                },{
+                    "timestamp": "1:31:41",
+                    "topic": "Bonus"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Artikel Mark Rosewater over de historic mechanic",
+                    "url": "https://magic.wizards.com/en/articles/archive/making-magic/historic-story-2018-04-09"
+                },{
+                    "title": "Artikel Gavin Verhey: Join the Brawl",
+                    "url": "https://magic.wizards.com/en/articles/archive/ways-play/join-brawl-2018-03-22"
+                },{
+                    "title": "Studio Magic nu ook in Spotify",
+                    "url": "https://open.spotify.com/show/5ysm4jDqPj8bNHG169pbSH"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "History of Benalia",
+                    "artist": "Noah Bradley"
+                }
+            }
         }
     ]
 }
