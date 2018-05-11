@@ -10,28 +10,15 @@ import PlayButtonAndMoreInfo from './PlayButtonAndMoreInfo';
 // Styling imports
 import './LastEpisode.scss';
 
-
-const LastEpisode = ({lastEpisode, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode}) => {
-    const {
-        date,
-        shortDescription,
-        id,
-        name,
-    } = lastEpisode;
+const LastEpisode = ({ lastEpisode, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode }) => {
+    const { date, shortDescription, id, name } = lastEpisode;
 
     return (
         <div className="last-episode-container">
             <div className="content">
-                <EpisodeNumberAndDate
-                    number={id}
-                    date={date}
-                />
-                <EpisodeName
-                    name={name}
-                />
-                <Description
-                    description={shortDescription}
-                />
+                <EpisodeNumberAndDate number={id} date={date} />
+                <EpisodeName name={name} />
+                <Description description={shortDescription} />
                 <PlayButtonAndMoreInfo
                     id={id}
                     playingEpisodeId={playingEpisodeId}
@@ -39,11 +26,9 @@ const LastEpisode = ({lastEpisode, playingEpisodeId, playEpisodeInEpisodeBar, on
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
             </div>
-            <EpisodeImage
-                episodeNumber={id}
-            />
+            <EpisodeImage episodeNumber={id} />
         </div>
     );
-}
+};
 
 export default LastEpisode;

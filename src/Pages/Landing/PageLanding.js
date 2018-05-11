@@ -1,8 +1,6 @@
 import React from 'react';
 
-import {
-    last,
-} from 'lodash';
+import { last } from 'lodash';
 
 // Data imports
 import { episodes } from 'appUtils/data/episodes.json';
@@ -18,30 +16,23 @@ import WhoAreWe from './WhoAreWe';
 // Styling import
 import './PageLanding.scss';
 
-
 class PageLanding extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            lastEpisode: last(episodes)
-        }
+            lastEpisode: last(episodes),
+        };
     }
 
-    componentDidMount () {
-        window.scrollTo(0, 0)
+    componentDidMount() {
+        window.scrollTo(0, 0);
     }
 
     render() {
-        const {
-            lastEpisode,
-        } = this.state;
+        const { lastEpisode } = this.state;
 
-        const {
-            playingEpisodeId,
-            playEpisodeInEpisodeBar,
-            onStopPlayingEpisode,
-        } = this.props;
+        const { playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode } = this.props;
 
         return (
             <div className="page-landing">
@@ -58,12 +49,10 @@ class PageLanding extends React.Component {
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
                 <OtherPodcastSources />
-                <WhoAreWe
-                    staff={staff}
-                />
+                <WhoAreWe staff={staff} />
                 <Contact />
             </div>
-        )
+        );
     }
 }
 

@@ -9,17 +9,18 @@ import PlayButton from './PlayButton';
 // Styling imports
 import './EpisodeInfo.scss';
 
-
-const EpisodeInfo = ({ episodeNumber, date, name, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode }) => (
+const EpisodeInfo = ({
+    episodeNumber,
+    date,
+    name,
+    playingEpisodeId,
+    playEpisodeInEpisodeBar,
+    onStopPlayingEpisode,
+}) => (
     <div className="episode-detail-container-episode-info">
         <div className="episode-info-container">
-            <EpisodeNumberAndDate
-                number={episodeNumber}
-                date={date}
-            />
-            <EpisodeName
-                name={name}
-            />
+            <EpisodeNumberAndDate number={episodeNumber} date={date} />
+            <EpisodeName name={name} />
             <PlayButton
                 id={episodeNumber}
                 playingEpisodeId={playingEpisodeId}
@@ -28,9 +29,7 @@ const EpisodeInfo = ({ episodeNumber, date, name, playingEpisodeId, playEpisodeI
             />
         </div>
 
-        <EpisodeImage
-            episodeNumber={episodeNumber}
-        />
+        <EpisodeImage episodeNumber={episodeNumber} />
     </div>
 );
 

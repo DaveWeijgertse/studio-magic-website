@@ -15,7 +15,6 @@ import Schedule from './Schedule';
 // Styling import
 import './PageEpisodeDetail.scss';
 
-
 class PageEpisodeDetail extends React.Component {
     constructor(props) {
         super(props);
@@ -24,7 +23,7 @@ class PageEpisodeDetail extends React.Component {
         this.onClickEpisodeButton = this.onClickEpisodeButton.bind(this);
     }
 
-    componentDidMount () {
+    componentDidMount() {
         this.scrollToTop();
     }
 
@@ -37,29 +36,15 @@ class PageEpisodeDetail extends React.Component {
     }
 
     render() {
-        const episodeId     = this.props.episodeId;
-        const episodeData   = episodes[episodeId - 1];
+        const episodeId = this.props.episodeId;
+        const episodeData = episodes[episodeId - 1];
         const totalEpisodes = episodes.length;
 
-        const {
-            id,
-            name,
-            date,
-            description,
-            links,
-            schedule,
-            credits,
-        } = episodeData;
+        const { id, name, date, description, links, schedule, credits } = episodeData;
 
-        const {
-            onClickEpisodeButton,
-        } = this;
+        const { onClickEpisodeButton } = this;
 
-        const {
-            playingEpisodeId,
-            playEpisodeInEpisodeBar,
-            onStopPlayingEpisode,
-        } = this.props;
+        const { playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode } = this.props;
 
         const hasLinks = links.length > 0;
 
@@ -75,20 +60,10 @@ class PageEpisodeDetail extends React.Component {
                 />
                 <div className="episode-detail-container">
                     <div className="episode-detail-info-container">
-                        <Description
-                            description={description}
-                        />
-                        <Schedule
-                            schedule={schedule}
-                        />
-                        {hasLinks && (
-                            <Links
-                                links={links}
-                            />
-                        )}
-                        <Credits
-                            credits={credits}
-                        />
+                        <Description description={description} />
+                        <Schedule schedule={schedule} />
+                        {hasLinks && <Links links={links} />}
+                        <Credits credits={credits} />
                     </div>
                     <div className="episode-navigation-container">
                         <EpisodeNavigation

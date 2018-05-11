@@ -9,7 +9,6 @@ import SocialMediaButtons from './SocialMediaButtons';
 // Styling import
 import './HeaderBar.scss';
 
-
 class HeaderBar extends React.Component {
     render() {
         return (
@@ -23,7 +22,7 @@ class HeaderBar extends React.Component {
                 </div>
                 <PayOffText />
             </div>
-        )
+        );
     }
 }
 

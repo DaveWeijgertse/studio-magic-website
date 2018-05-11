@@ -8,19 +8,10 @@ import getTooltipText from '../utils/getTooltipText';
 // Styling import
 import './PodcastSource.scss';
 
-
-const PodcastSource = ({source}) => (
+const PodcastSource = ({ source }) => (
     <div className="podcast-source-container">
-        <a
-            href={getPodcastSourceHref(source)}
-            rel="noopener noreferrer"
-            target="_blank"
-        >
-            <img
-                alt={source}
-                title={getTooltipText(source)}
-                src={getPodcastSourceIcon(source)}
-            />
+        <a href={getPodcastSourceHref(source)} rel="noopener noreferrer" target="_blank">
+            <img alt={source} title={getTooltipText(source)} src={getPodcastSourceIcon(source)} />
         </a>
     </div>
 );

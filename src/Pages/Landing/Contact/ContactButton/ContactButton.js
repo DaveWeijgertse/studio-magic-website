@@ -6,15 +6,8 @@ import getSocialMediaHref from 'appUtils/helpers/getSocialMediaHref';
 // Styling import
 import './ContactButton.scss';
 
-
-const ContactButton = ({type}) => (
-    <a
-        className={"contact-button " + type}
-        href={getSocialMediaHref(type)}
-        rel="noopener noreferrer"
-        target="_blank"
-    >
-    </a>
+const ContactButton = ({ type }) => (
+    <a className={'contact-button ' + type} href={getSocialMediaHref(type)} rel="noopener noreferrer" target="_blank" />
 );
 
 export default ContactButton;

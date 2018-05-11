@@ -2,15 +2,9 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 // Routes import
-import {
-    ROUTE_ROOT,
-    ROUTE_EPISODES_LIST,
-    ROUTE_DISCLAIMER,
-} from 'appUtils/routes/paths';
+import { ROUTE_ROOT, ROUTE_EPISODES_LIST, ROUTE_DISCLAIMER } from 'appUtils/routes/paths';
 
-import {
-    ROUTE_EPISODE_DETAIL,
- } from 'appUtils/routes/episodeDetailPaths';
+import { ROUTE_EPISODE_DETAIL } from 'appUtils/routes/episodeDetailPaths';
 
 // Translations import
 import i18n from 'i18n-react';
@@ -32,29 +26,29 @@ import MobileNavigationMenu from './Components/MobileNavigationMenu';
 import 'bootstrap';
 import './App.scss';
 
-
 const renderMergedProps = (component, ...rest) => {
     const finalProps = Object.assign({}, ...rest);
-    return (
-        React.createElement(component, finalProps)
-    );
-}
+    return React.createElement(component, finalProps);
+};
 
 const PropsRoute = ({ component, ...rest }) => {
     return (
-        <Route {...rest} render={routeProps => {
-            return renderMergedProps(component, routeProps, rest);
-        }}/>
+        <Route
+            {...rest}
+            render={(routeProps) => {
+                return renderMergedProps(component, routeProps, rest);
+            }}
+        />
     );
-}
+};
 
 class App extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            playingEpisodeId: null
-        }
+            playingEpisodeId: null,
+        };
 
         this.playEpisodeInEpisodeBar = this.playEpisodeInEpisodeBar.bind(this);
         this.onStopPlayingEpisode = this.onStopPlayingEpisode.bind(this);
@@ -66,25 +60,20 @@ class App extends React.Component {
 
     playEpisodeInEpisodeBar(playingEpisodeId) {
         this.setState({
-            playingEpisodeId
+            playingEpisodeId,
         });
     }
 
     onStopPlayingEpisode() {
         this.setState({
-            playingEpisodeId: null
+            playingEpisodeId: null,
         });
     }
 
     render() {
-        const {
-            playEpisodeInEpisodeBar,
-            onStopPlayingEpisode,
-        } = this;
+        const { playEpisodeInEpisodeBar, onStopPlayingEpisode } = this;
 
-        const {
-            playingEpisodeId,
-        } = this.state;
+        const { playingEpisodeId } = this.state;
 
         return (
             <div className="App">
@@ -108,35 +97,26 @@ class App extends React.Component {
                             playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                             onStopPlayingEpisode={onStopPlayingEpisode}
                         />
-                        {Object.entries(ROUTE_EPISODE_DETAIL).map(
-                            (episodePathData) => {
-                                const episodeId  = episodePathData[0];
-                                const episodeUrl = episodePathData[1];
+                        {Object.entries(ROUTE_EPISODE_DETAIL).map((episodePathData) => {
+                            const episodeId = episodePathData[0];
+                            const episodeUrl = episodePathData[1];
 
-                                return (
-                                    <PropsRoute
-                                        key={episodeId}
-                                        path={episodeUrl}
-                                        episodeId={episodeId}
-                                        component={PageEpisodeDetail}
-                                        playingEpisodeId={playingEpisodeId}
-                                        playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
-                                        onStopPlayingEpisode={onStopPlayingEpisode}
-                                    />
-                                );
-                            }
-                        )}
-                        <Route
-                            exact
-                            path={ROUTE_DISCLAIMER}
-                            component={PageDisclaimer}
-                        />
+                            return (
+                                <PropsRoute
+                                    key={episodeId}
+                                    path={episodeUrl}
+                                    episodeId={episodeId}
+                                    component={PageEpisodeDetail}
+                                    playingEpisodeId={playingEpisodeId}
+                                    playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
+                                    onStopPlayingEpisode={onStopPlayingEpisode}
+                                />
+                            );
+                        })}
+                        <Route exact path={ROUTE_DISCLAIMER} component={PageDisclaimer} />
                     </Switch>
                 </div>
-                <EpisodePlayerBar
-                    id={playingEpisodeId}
-                    onStopPlayingEpisode={onStopPlayingEpisode}
-                />
+                <EpisodePlayerBar id={playingEpisodeId} onStopPlayingEpisode={onStopPlayingEpisode} />
                 <Footer />
             </div>
         );

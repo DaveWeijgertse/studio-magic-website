@@ -7,11 +7,8 @@ import formatEpisodeNumber from 'appUtils/formatters/formatEpisodeNumber';
 // Styling import
 import './EpisodeNumberLabel.scss';
 
-
-const EpisodeNumberLabel = ({number}) => (
-    <div className="episode-number-label">
-        {i18n.translate('episode.singular') + formatEpisodeNumber(number)}
-    </div>
+const EpisodeNumberLabel = ({ number }) => (
+    <div className="episode-number-label">{i18n.translate('episode.singular') + formatEpisodeNumber(number)}</div>
 );
 
 export default EpisodeNumberLabel;

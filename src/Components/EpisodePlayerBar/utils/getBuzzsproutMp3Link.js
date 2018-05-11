@@ -3,5 +3,5 @@ export default function getBuzzsproutMp3Link(id, episodeData) {
     const urlParts = episodeUrl.split('/');
     const urlWithoutProtocol = urlParts.splice(2).join('/');
 
-    return "https://" + urlWithoutProtocol;
+    return 'https://' + urlWithoutProtocol;
 }

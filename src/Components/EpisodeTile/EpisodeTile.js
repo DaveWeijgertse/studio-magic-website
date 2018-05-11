@@ -9,14 +9,17 @@ import PlayButton from './PlayButton';
 // Styling import
 import './EpisodeTile.scss';
 
-
-const EpisodeTile = ({id, date, name, description, playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode}) => (
+const EpisodeTile = ({
+    id,
+    date,
+    name,
+    description,
+    playingEpisodeId,
+    playEpisodeInEpisodeBar,
+    onStopPlayingEpisode,
+}) => (
     <div className="episode-tile">
-        <Info
-            id={id}
-            date={date}
-            name={name}
-        />
+        <Info id={id} date={date} name={name} />
         <Description description={description} />
         <div className="play-button-more-info-container">
             <div className="play-button-more-info">
@@ -26,9 +29,7 @@ const EpisodeTile = ({id, date, name, description, playingEpisodeId, playEpisode
                     playEpisodeInEpisodeBar={playEpisodeInEpisodeBar}
                     onStopPlayingEpisode={onStopPlayingEpisode}
                 />
-                <MoreInfo
-                    id={id}
-                />
+                <MoreInfo id={id} />
             </div>
         </div>
     </div>

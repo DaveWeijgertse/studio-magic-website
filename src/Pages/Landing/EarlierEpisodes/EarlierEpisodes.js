@@ -9,7 +9,6 @@ import VisibleEpisodes from './VisibleEpisodes';
 // Styling import
 import './EarlierEpisodes.scss';
 
-
 class EarlierEpisodes extends React.Component {
     constructor(props) {
         super(props);
@@ -20,20 +19,14 @@ class EarlierEpisodes extends React.Component {
         const visibleEpisodes = episodesList.splice(1, 3);
 
         this.state = {
-            visibleEpisodes
-        }
+            visibleEpisodes,
+        };
     }
 
     render() {
-        const {
-            visibleEpisodes,
-        } = this.state;
+        const { visibleEpisodes } = this.state;
 
-        const {
-            playingEpisodeId,
-            playEpisodeInEpisodeBar,
-            onStopPlayingEpisode,
-        } = this.props;
+        const { playingEpisodeId, playEpisodeInEpisodeBar, onStopPlayingEpisode } = this.props;
 
         return (
             <div className="earlier-episodes-container">
@@ -46,7 +39,7 @@ class EarlierEpisodes extends React.Component {
                 />
                 <ToAllEpisodesButton />
             </div>
-        )
+        );
     }
 }
 

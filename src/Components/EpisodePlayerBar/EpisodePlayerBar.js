@@ -17,7 +17,6 @@ import SeekerBar from './SeekerBar';
 // Styling import
 import './EpisodePlayerBar.scss';
 
-
 class EpisodePlayerBar extends React.Component {
     constructor(props) {
         super(props);
@@ -41,10 +40,7 @@ class EpisodePlayerBar extends React.Component {
     }
 
     componentWillReceiveProps(nextProps) {
-        const {
-            startCurrentTimeAndDurationInterval,
-            setInitialState,
-        } = this;
+        const { startCurrentTimeAndDurationInterval, setInitialState } = this;
 
         const hasEpisodeIdChanged = this.props.id !== nextProps.id;
 
@@ -60,16 +56,16 @@ class EpisodePlayerBar extends React.Component {
 
     setInitialState() {
         return {
-            isPlaying:   false,
+            isPlaying: false,
             currentTime: null,
             maxDuration: null,
-            played:      0,
-        }
+            played: 0,
+        };
     }
 
     togglePlay() {
         this.setState({
-            isPlaying: !this.state.isPlaying
+            isPlaying: !this.state.isPlaying,
         });
     }
 
@@ -81,7 +77,7 @@ class EpisodePlayerBar extends React.Component {
         if (typeof this.player !== 'undefined' && this.player !== null) {
             this.setState({
                 currentTime: this.player.getCurrentTime(),
-                maxDuration: this.player.getDuration()
+                maxDuration: this.player.getDuration(),
             });
         }
     }
@@ -92,9 +88,7 @@ class EpisodePlayerBar extends React.Component {
     }
 
     onProgress({ played }) {
-        const {
-            seeking,
-        } = this.state;
+        const { seeking } = this.state;
 
         if (!seeking) {
             this.setState({
@@ -120,19 +114,14 @@ class EpisodePlayerBar extends React.Component {
 
     onSeekChange(newPlayedValue) {
         this.setState({
-            played: newPlayedValue
+            played: newPlayedValue,
         });
     }
 
     onCloseEpisodeBar() {
-        const {
-            setInitialState,
-            stopCurrentTimeAndDurationInterval,
-        } = this;
+        const { setInitialState, stopCurrentTimeAndDurationInterval } = this;
 
-        const {
-            onStopPlayingEpisode,
-        } = this.props;
+        const { onStopPlayingEpisode } = this.props;
 
         // Stop playing the episode and hide the <EpisodePlayerBar>
         onStopPlayingEpisode();
@@ -145,41 +134,21 @@ class EpisodePlayerBar extends React.Component {
     }
 
     render() {
-        const {
-            togglePlay,
-            onCloseEpisodeBar,
-            onProgress,
-            onSeekChange,
-            onSeekMouseDown,
-            onSeekMouseUp,
-        } = this;
+        const { togglePlay, onCloseEpisodeBar, onProgress, onSeekChange, onSeekMouseDown, onSeekMouseUp } = this;
 
-        const {
-            id,
-        } = this.props;
+        const { id } = this.props;
 
-        const {
-            currentTime,
-            isPlaying,
-            played,
-            maxDuration,
-        } = this.state;
+        const { currentTime, isPlaying, played, maxDuration } = this.state;
 
         const hasEpisodeId = typeof id !== 'undefined' && id !== null;
 
         return (
-            <div className={"episode-player-bar-container " + (hasEpisodeId ? "active" : "inactive")}>
+            <div className={'episode-player-bar-container ' + (hasEpisodeId ? 'active' : 'inactive')}>
                 {hasEpisodeId ? (
                     <div className="episode-player-bar">
-                        <PlayPauseButton
-                            isPlaying={isPlaying}
-                            onClick={togglePlay}
-                        />
+                        <PlayPauseButton isPlaying={isPlaying} onClick={togglePlay} />
                         <div className="episode-player-bar-info-seeker-container">
-                            <EpisodeInfo
-                                id={id}
-                                name={episodes[id - 1].name}
-                            />
+                            <EpisodeInfo id={id} name={episodes[id - 1].name} />
                             <div>
                                 <SeekerBar
                                     played={played}
@@ -187,27 +156,24 @@ class EpisodePlayerBar extends React.Component {
                                     onSeekMouseDown={onSeekMouseDown}
                                     onSeekMouseUp={onSeekMouseUp}
                                 />
-                                <CurrentTimeAndMaxDuration
-                                    currentTime={currentTime}
-                                    maxDuration={maxDuration}
-                                />
+                                <CurrentTimeAndMaxDuration currentTime={currentTime} maxDuration={maxDuration} />
                             </div>
                         </div>
-                        <CloseEpisodeBarButton
-                            onCloseEpisodeBar={onCloseEpisodeBar}
-                        />
+                        <CloseEpisodeBarButton onCloseEpisodeBar={onCloseEpisodeBar} />
 
                         <ReactPlayer
                             className="sound-source"
-                            ref={(player) => { this.player = player}}
-                            url={getBuzzsproutMp3Link(id, episodes) + ".mp3"}
+                            ref={(player) => {
+                                this.player = player;
+                            }}
+                            url={getBuzzsproutMp3Link(id, episodes) + '.mp3'}
                             playing={isPlaying}
                             onProgress={onProgress}
                         />
                     </div>
                 ) : null}
             </div>
-        )
+        );
     }
 }
 

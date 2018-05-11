@@ -1,12 +1,7 @@
 import React from 'react';
 import i18n from 'i18n-react';
 
-import {
-    ITUNES,
-    SPOTIFY,
-    STITCHER,
-    TUNEIN,
-} from './utils/podcastSourceTypes';
+import { ITUNES, SPOTIFY, STITCHER, TUNEIN } from './utils/podcastSourceTypes';
 
 // Subcomponents import
 import PodcastSource from './PodcastSource';
@@ -14,7 +9,6 @@ import RssFeedSource from './RssFeedSource';
 
 // Styling import
 import './OtherPodcastSources.scss';
-
 
 const OtherPodcastSources = () => {
     return (
@@ -31,6 +25,6 @@ const OtherPodcastSources = () => {
             </div>
         </div>
     );
-}
+};
 
 export default OtherPodcastSources;
