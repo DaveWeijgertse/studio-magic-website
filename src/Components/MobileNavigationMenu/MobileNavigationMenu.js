@@ -11,7 +11,7 @@ import {
 import { slide as Menu } from 'react-burger-menu';
 
 // Subcomponent imports
-import SocialMediaButton from '../Header/Subcomponents/SocialMediaButtons/Subcomponents/SocialMediaButton';
+import SocialMediaButton from '../Header/SocialMediaButtons/SocialMediaButton';
 
 // Styling import
 import './MobileNavigationMenu.scss';

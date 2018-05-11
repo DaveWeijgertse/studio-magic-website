@@ -1,10 +1,10 @@
 import React from 'react';
 
 // Subcomponent imports
-import CopyrightInfo from './Subcomponents/CopyrightInfo';
-import LinksToPodcastPages from './Subcomponents/LinksToPodcastPages';
-import LinksToSocialMedia from './Subcomponents/LinksToSocialMedia';
-import SiteCredits from './Subcomponents/SiteCredits';
+import CopyrightInfo from './CopyrightInfo';
+import LinksToPodcastPages from './LinksToPodcastPages';
+import LinksToSocialMedia from './LinksToSocialMedia';
+import SiteCredits from './SiteCredits';
 
 // Styling import
 import './Footer.scss';

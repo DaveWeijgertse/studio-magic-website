@@ -1,0 +1,10 @@
+@import '~appUtils/styling/colors';
+@import '../@shared/styling';
+
+.episode-button.next a {
+    @extend %episode-navigation-button;
+    background-color: $main-color;
+    &:hover {
+        background-color: $main-color-dark;
+    }
+}

@@ -8,11 +8,11 @@ import { episodes } from 'appUtils/data/episodes.json';
 import getBuzzsproutMp3Link from './utils/getBuzzsproutMp3Link';
 
 // Subcomponent import
-import CloseEpisodeBarButton from './Subcomponents/CloseEpisodeBarButton';
-import CurrentTimeAndMaxDuration from './Subcomponents/CurrentTimeAndMaxDuration';
-import EpisodeInfo from './Subcomponents/EpisodeInfo';
-import PlayPauseButton from './Subcomponents/PlayPauseButton';
-import SeekerBar from './Subcomponents/SeekerBar';
+import CloseEpisodeBarButton from './CloseEpisodeBarButton';
+import CurrentTimeAndMaxDuration from './CurrentTimeAndMaxDuration';
+import EpisodeInfo from './EpisodeInfo';
+import PlayPauseButton from './PlayPauseButton';
+import SeekerBar from './SeekerBar';
 
 // Styling import
 import './EpisodePlayerBar.scss';

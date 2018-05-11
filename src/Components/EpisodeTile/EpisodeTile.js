@@ -1,10 +1,10 @@
 import React from 'react';
 
 // Subcomponent imports
-import Description from './Subcomponents/Description';
-import Info from './Subcomponents/Info';
-import MoreInfo from './Subcomponents/MoreInfo';
-import PlayButton from './Subcomponents/PlayButton';
+import Description from './Description';
+import Info from './Info';
+import MoreInfo from './MoreInfo';
+import PlayButton from './PlayButton';
 
 // Styling import
 import './EpisodeTile.scss';

@@ -1,10 +1,10 @@
 import React from 'react';
 
 // Subcomponent imports
-import Logo from './Subcomponents/Logo';
-import Navigation from './Subcomponents/Navigation';
-import PayOffText from './Subcomponents/PayOffText';
-import SocialMediaButtons from './Subcomponents/SocialMediaButtons';
+import Logo from './Logo';
+import Navigation from './Navigation';
+import PayOffText from './PayOffText';
+import SocialMediaButtons from './SocialMediaButtons';
 
 // Styling import
 import './HeaderBar.scss';

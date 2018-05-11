@@ -5,12 +5,12 @@ import { withRouter } from 'react-router';
 import { episodes } from 'appUtils/data/episodes.json';
 
 // Subcomponent imports
-import Credits from './Subcomponents/Credits';
-import Description from './Subcomponents/Description';
-import EpisodeInfo from './Subcomponents/EpisodeInfo';
-import EpisodeNavigation from './Subcomponents/EpisodeNavigation';
-import Links from './Subcomponents/Links';
-import Schedule from './Subcomponents/Schedule';
+import Credits from './Credits';
+import Description from './Description';
+import EpisodeInfo from './EpisodeInfo';
+import EpisodeNavigation from './EpisodeNavigation';
+import Links from './Links';
+import Schedule from './Schedule';
 
 // Styling import
 import './PageEpisodeDetail.scss';

@@ -9,11 +9,11 @@ import { episodes } from 'appUtils/data/episodes.json';
 import { staff } from 'appUtils/data/staff.json';
 
 // Subcomponent imports
-import Contact from './Subcomponents/Contact';
-import EarlierEpisodes from './Subcomponents/EarlierEpisodes';
-import LastEpisode from './Subcomponents/LastEpisode';
-import OtherPodcastSources from './Subcomponents/OtherPodcastSources';
-import WhoAreWe from './Subcomponents/WhoAreWe';
+import Contact from './Contact';
+import EarlierEpisodes from './EarlierEpisodes';
+import LastEpisode from './LastEpisode';
+import OtherPodcastSources from './OtherPodcastSources';
+import WhoAreWe from './WhoAreWe';
 
 // Styling import
 import './PageLanding.scss';
