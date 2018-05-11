@@ -1,0 +1,12 @@
+/.vscode
+/build
+/config
+/node_modules
+/public
+/scripts
+
+.gitignore
+.prettierignore
+package.json
+README.md
+yarn.lock
