@@ -2,7 +2,11 @@
   "name": "studio-magic-website",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {},
+  "devDependencies": {
+    "husky": "^1.0.0-rc.4",
+    "prettier": "^1.12.1",
+    "pretty-quick": "^1.4.1"
+  },
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -101,5 +105,10 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
