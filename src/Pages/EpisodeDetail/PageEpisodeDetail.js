@@ -60,7 +60,7 @@ class PageEpisodeDetail extends React.Component {
                 />
                 <div className="episode-detail-container">
                     <div className="episode-detail-info-container">
-                        <Description description={description} />
+                        <Description episodeId={episodeId} description={description} />
                         <Schedule schedule={schedule} />
                         {hasLinks && <Links links={links} />}
                         <Credits credits={credits} />

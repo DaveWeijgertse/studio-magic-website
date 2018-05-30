@@ -4,26 +4,32 @@
             "id": 1,
             "name": "Is Iconic Masters de moeite waard? | Hype! 5c Humans in Modern",
             "date": "2017-11-02",
-            "url": "http://www.buzzsprout.com/133608/591357-is-iconic-masters-de-moeite-waard-hype-5c-humans-in-modern-001",
+            "url":
+                "http://www.buzzsprout.com/133608/591357-is-iconic-masters-de-moeite-waard-hype-5c-humans-in-modern-001",
             "description": [
                 "De volledige spoiler van Iconic Masters is bekend. Is de reprint-set de moeite waard, en gaat hij leuke sealed games opleveren? Collins Mullen schreef de StarCity Modern Open van Cincinnati op zijn naam met 5c Humans. Wat maakt deze nieuwe iteratie van het Humans-deck zo goed, wie heeft het eigenlijk bedacht, en wat is er nog meer mogelijk met deze mana base?",
                 "Verder bespreken Jeroen, Arjan en Dave vier nieuwe promo's en hun verwachtingen van ProTour Ixalan."
             ],
-            "shortDescription": "Jeroen, Dave en Arjan bespreken de spoiler van Iconic Masters en het 5c Humans-deck dat momenteel hoge ogen gooit in Modern.",
+            "shortDescription":
+                "Jeroen, Dave en Arjan bespreken de spoiler van Iconic Masters en het 5c Humans-deck dat momenteel hoge ogen gooit in Modern.",
             "schedule": [
                 {
                     "timestamp": "0:00:46",
                     "topic": "Voorstelrondje. Wie zijn wij eigenlijk?"
-                }, {
+                },
+                {
                     "timestamp": "0:01:09",
                     "topic": "Vier nieuwe promo's"
-                }, {
+                },
+                {
                     "timestamp": "0:11:17",
                     "topic": "Iconic Masters. Wat is er iconisch aan?"
-                }, {
+                },
+                {
                     "timestamp": "0:22:30",
                     "topic": "De 5c Humans-hype in Modern"
-                }, {
+                },
+                {
                     "timestamp": "0:33:03",
                     "topic": "Pro Tour Ixalan: onze verwachtingen"
                 }
@@ -69,24 +75,30 @@
                 "De Dutch Open Series (DOS) van 11 en 12 november 2017 staat centraal in deze tweede aflevering. Dave weet er alles van af en Jeroen is ernaartoe geweest met zijn Modern deck én zijn microfoon. Hij sprak daar met Magic-spelers Laurens van der Beek, Toon Fokkema, Glenn van Roey en Jeroen Verhallen over onder andere hun toernooiverloop, memorabele spelmomenten, decks en Magic-carrière.",
                 "Verder demonstreert Jeroen een handige website voor als je met een regelvraag zit, maar geen judge in de buurt hebt."
             ],
-            "shortDescription": "Een terugblik op de Dutch Open Series, inclusief vier interviews, en een handige website voor Magic-regelvragen.",
+            "shortDescription":
+                "Een terugblik op de Dutch Open Series, inclusief vier interviews, en een handige website voor Magic-regelvragen.",
             "schedule": [
                 {
                     "timestamp": "0:01:17",
                     "topic": "Dutch Open Series (DOS): een introductie"
-                },{
+                },
+                {
                     "timestamp": "0:03:53",
                     "topic": "Interview met Toon Fokkema (Team Prometheus)"
-                },{
+                },
+                {
                     "timestamp": "0:10:38",
                     "topic": "Interview met Jeroen Verhallen (limited-expert)"
-                },{
+                },
+                {
                     "timestamp": "0:15:46",
                     "topic": "Interview met Glenn van Roey (Magic Masters Mol)"
-                },{
+                },
+                {
                     "timestamp": "0:23:13",
                     "topic": "Interview met Laurens van der Beek (Finalist Modern Open)"
-                },{
+                },
+                {
                     "timestamp": "0:34:23",
                     "topic": "Tip: Magic Rules Chat with Judges"
                 }
@@ -95,16 +107,20 @@
                 {
                     "title": "Dutch Open Series",
                     "url": "http://www.dutchopenseries.nl/"
-                },{
+                },
+                {
                     "title": "DOS op Facebook",
                     "url": "https://www.facebook.com/dutchopenseries/"
-                },{
+                },
+                {
                     "title": "Magic Masters Mol",
                     "url": "http://www.magicmastersmol.be/"
-                },{
+                },
+                {
                     "title": "Magic Masters Mol op Facebook",
                     "url": "https://www.facebook.com/groups/914305108620568/about/"
-                },{
+                },
+                {
                     "title": "Magic Rules Chat with Judges",
                     "url": "http://chat.magicjudges.org/mtgrules/"
                 }
@@ -123,40 +139,53 @@
             "id": 3,
             "name": "All is Dustin: Interview met Magic Judge Dustin de Leeuw",
             "date": "2017-11-28",
-            "url": "http://www.buzzsprout.com/133608/601307-all-is-dustin-interview-met-magic-judge-dustin-de-leeuw-003",
+            "url":
+                "http://www.buzzsprout.com/133608/601307-all-is-dustin-interview-met-magic-judge-dustin-de-leeuw-003",
             "description": [
                 "Dustin de Leeuw is een gepassioneerde, internationaal gerespecteerde Level 3 Magic Judge uit Amsterdam. Jeroen en Dave praten met hem over hoe hij ooit begonnen is met Magic en met judgen, over wat daar leuk aan is, over zijn held Riccardo Tessitori, over zijn kat Luce, over hoe hij dankzij zijn hobby zijn partner ontmoette, over hoe je judge wordt, over Girls und Panzer en over nog veel meer."
             ],
-            "shortDescription": "Interview met Dustin de Leeuw, Level 3 Magic: The Gathering Judge, over zijn helden, zijn passies, zijn kat en nog veel meer.",
+            "shortDescription":
+                "Interview met Dustin de Leeuw, Level 3 Magic: The Gathering Judge, over zijn helden, zijn passies, zijn kat en nog veel meer.",
             "schedule": [
                 {
                     "timestamp": "0:00:53",
                     "topic": "Draften met Dustin: wat is zijn pick 1 uit onze Iconic Masters-booster?"
-                },{
+                },
+                {
                     "timestamp": "0:15:22",
                     "topic": "Van 3 keer per week draften naar 20 uur per week judgen"
-                },{
+                },
+                {
                     "timestamp": "0:22:14",
-                    "topic": "Hoe Dustin met Magic begon en judge werd (en wat Michiel Smit (NederMagic) daarmee te maken had)"
-                },{
+                    "topic":
+                        "Hoe Dustin met Magic begon en judge werd (en wat Michiel Smit (NederMagic) daarmee te maken had)"
+                },
+                {
                     "timestamp": "0:29:21",
-                    "topic": "Over genderneutraliteit en persoonlijke expressie: het belang van 'inclusiveness' en diversiteit in Magic"
-                },{
+                    "topic":
+                        "Over genderneutraliteit en persoonlijke expressie: het belang van 'inclusiveness' en diversiteit in Magic"
+                },
+                {
                     "timestamp": "0:38:36",
                     "topic": "Favoriete steden van een rondreizende judge"
-                },{
+                },
+                {
                     "timestamp": "0:40:13",
                     "topic": "BREKEND: Dustin is een kattenmens!"
-                },{
+                },
+                {
                     "timestamp": "0:41:23",
                     "topic": "Een ontmoeting tussen 2 judges tijdens Grand Prix Amsterdam"
-                },{
+                },
+                {
                     "timestamp": "0:44:40",
                     "topic": "Dustin over zijn grote voorbeeld(en), en over zelf mentor zijn"
-                },{
+                },
+                {
                     "timestamp": "0:52:18",
                     "topic": "Vragen van luisteraars: over prize splits, omkoping en scouting"
-                },{
+                },
+                {
                     "timestamp": "1:00:58",
                     "topic": "Hoe kom je in contact met Dustin?"
                 }
@@ -165,23 +194,32 @@
                 {
                     "title": "Become a Magic Judge",
                     "url": "https://blogs.magicjudges.org/o/judge-levels/become-a-magic-judge/"
-                },{
+                },
+                {
                     "title": "Cranial Insertion (regel- en policyvragen oefenen)",
                     "url": "http://www.cranialinsertion.com/"
-                },{
+                },
+                {
                     "title": "Girls und Panzer (anime)",
                     "url": "https://myanimelist.net/anime/14131/Girls_und_Panzer/"
-                },{
+                },
+                {
                     "title": "Dustin op NederMagic",
                     "url": "http://www.nedermagic.nl/pp_item.asp?userid=34474"
-                },{
-                    "title": "Aankondigigen van Dustin's toernooien: Kalender van KV Deckmasters (Budget Sealed, Legacy Bimonthly (Amsterdam))",
+                },
+                {
+                    "title":
+                        "Aankondigigen van Dustin's toernooien: Kalender van KV Deckmasters (Budget Sealed, Legacy Bimonthly (Amsterdam))",
                     "url": "http://www.kvdeckmasters.org/Forum/index.php?action=calendar"
-                },{
-                    "title": "Aankondigigen van Dustin's toernooien: Facebookpagina MtG Legacy Amsterdam (Legacy Bimonthly)",
+                },
+                {
+                    "title":
+                        "Aankondigigen van Dustin's toernooien: Facebookpagina MtG Legacy Amsterdam (Legacy Bimonthly)",
                     "url": "https://www.facebook.com/LegacyAmsterdam/"
-                },{
-                    "title": "Aankondigigen van Dustin's toernooien: Evenementenlijst van P60  (Magic Draft (Amstelveen))",
+                },
+                {
+                    "title":
+                        "Aankondigigen van Dustin's toernooien: Evenementenlijst van P60  (Magic Draft (Amstelveen))",
                     "url": "https://www.facebook.com/pg/PoppodiumP60/events/?ref=page_internal"
                 }
             ],
@@ -205,42 +243,54 @@
                 "Een Team Unified Modern Grand Prix, wat is dat eigenlijk? Die van Madrid is in het weekend van 9 en 10 december en Dave doet mee, dus een goed moment om het uitgebreid over zijn voorbereiding te hebben.",
                 "Verder blikt Arjan nog even kort terug op de World Magic Cup 2017."
             ],
-            "shortDescription": "Unstable is een set vol knotsgekke steampunk. Wat vinden Jeroen, Arjan en Dave ervan? Verder: Dave bereidt zich voor op een Team Unified Modern Grand Prix.",
+            "shortDescription":
+                "Unstable is een set vol knotsgekke steampunk. Wat vinden Jeroen, Arjan en Dave ervan? Verder: Dave bereidt zich voor op een Team Unified Modern Grand Prix.",
             "schedule": [
                 {
                     "timestamp": "0:01:05",
                     "topic": "Wat is Unstable en wat ging eraan vooraf?"
-                },{
+                },
+                {
                     "timestamp": "0:08:39",
                     "topic": "Mark Rosewaters 3 uitgangspunten voor Unstable"
-                },{
+                },
+                {
                     "timestamp": "0:12:08",
                     "topic": "Un-sets tijdelijk legaal in Commander"
-                },{
+                },
+                {
                     "timestamp": "0:14:52",
                     "topic": "Steampunk en mad science"
-                },{
+                },
+                {
                     "timestamp": "0:17:39",
                     "topic": "Uitleg: hoe werken contraptions?"
-                },{
+                },
+                {
                     "timestamp": "0:19:37",
                     "topic": "5 factions"
-                },{
+                },
+                {
                     "timestamp": "0:21:18",
                     "topic": "Uitleg: hoe werkt host + augment?"
-                },{
+                },
+                {
                     "timestamp": "0:23:50",
                     "topic": "De top 3's van Dave, Arjan en Jeroen"
-                },{
+                },
+                {
                     "timestamp": "0:38:32",
                     "topic": "Nét buiten de top 3's: de special mentions"
-                },{
+                },
+                {
                     "timestamp": "0:45:01",
                     "topic": "Waar moet je heen met je Unstable regelvragen?"
-                },{
+                },
+                {
                     "timestamp": "0:47:02",
                     "topic": "Dave's voorbereiding op GP Madrid (Team Unified Modern)"
-                },{
+                },
+                {
                     "timestamp": "1:00:30",
                     "topic": "Arjan over de World Magic Cup 2017"
                 }
@@ -249,18 +299,23 @@
                 {
                     "title": "Alle Unstable-kaarten op Mythic Spoiler (scroll omlaag voor de contraptions)",
                     "url": "http://mythicspoiler.com/ust/"
-                },{
+                },
+                {
                     "title": "Un-sets tijdelijk legaal in Commander",
                     "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=18749"
-                },{
+                },
+                {
                     "title": "Interview met Jesper Ejsing (artiest achter Baron Von Count) in The Command Zone",
                     "url": "https://www.youtube.com/watch?v=qLhGE66i-vw"
-                },{
+                },
+                {
                     "title": "Ask Urza",
                     "url": "AskUrza.com"
-                },{
+                },
+                {
                     "title": "Unstable FAQAWASLFAQPAFTIDAWABIAJTBT (een soort release notes) door Mark Rosewater",
-                    "url": "https://magic.wizards.com/en/articles/archive/news/unstable-faqawaslfaqpaftidawabiajtbt-2017-12-06"
+                    "url":
+                        "https://magic.wizards.com/en/articles/archive/news/unstable-faqawaslfaqpaftidawabiajtbt-2017-12-06"
                 }
             ],
             "credits": {
@@ -281,7 +336,8 @@
             "description": [
                 "Tweevoudig Nederlands kampioen Daan Pruijt is een competitieve Magicspeler die graag een edge voor zichzelf creëert door met innovatieve decks op de proppen te komen. Jeroen en Arjan praten met hem over (onder andere) Magic als competitieve outlet, decks b(r)ouwen, het Standard-formaat, de Pro Tour, het Nederlands Kampioenschap, de World Magic Cup en een playsetje Tarmogoyfs voor 15 euro."
             ],
-            "shortDescription": "Tweevoudig Nederlands kampioen Daan Pruijt over innovatieve decks, Magic als competitieve outlet, bannings in Standard, het Nederlands kampioenschap en de World Magic Cup.",
+            "shortDescription":
+                "Tweevoudig Nederlands kampioen Daan Pruijt over innovatieve decks, Magic als competitieve outlet, bannings in Standard, het Nederlands kampioenschap en de World Magic Cup.",
             "schedule": [
                 {
                     "timestamp": "0:00:59",
@@ -339,7 +395,8 @@
             "description": [
                 "In sneltreinvaart bespreken Jeroen, Arjan en Dave het Magicjaar 2017, van memorabele kaarten tot dubieuze banlist announcements en van interessante nieuwe mechanics tot persoonlijke top 3-lijstjes."
             ],
-            "shortDescription": "Magicjaar 2017 in sneltreinvaart, van memorabele kaarten tot dubieuze banlist announcements en van interessante nieuwe mechanics tot persoonlijke top 3-lijstjes.",
+            "shortDescription":
+                "Magicjaar 2017 in sneltreinvaart, van memorabele kaarten tot dubieuze banlist announcements en van interessante nieuwe mechanics tot persoonlijke top 3-lijstjes.",
             "schedule": [
                 {
                     "timestamp": "0:00:53",
@@ -348,25 +405,32 @@
                 {
                     "timestamp": "0:20:39",
                     "topic": "Aether Revolt"
-                },{
+                },
+                {
                     "timestamp": "0:27:10",
                     "topic": "Amonkhet + Hour of Devastation"
-                },{
+                },
+                {
                     "timestamp": "0:38:44",
                     "topic": "Commander 2017"
-                },{
+                },
+                {
                     "timestamp": "0:45:23",
                     "topic": "Ixalan"
-                },{
+                },
+                {
                     "timestamp": "0:51:45",
                     "topic": "Iconic Masters + Modern Masters 2017"
-                },{
+                },
+                {
                     "timestamp": "0:55:23",
                     "topic": "Unstable"
-                },{
+                },
+                {
                     "timestamp": "0:59:08",
                     "topic": "De 2017-top 3's van Jeroen, Arjan en Dave"
-                },{
+                },
+                {
                     "timestamp": "1:05:43",
                     "topic": "Goede Magicvoornemens"
                 }
@@ -392,7 +456,8 @@
                 "Jeroen vormt een Two-Headed Giant-team met een andere Jeroen (Verhallen, die eerder te horen was in Studio Magic #002) - Two-Headed Jeroen dus! Bij de nabespreking schuift ook limited-specialist en recente PPTQ-winnaar Sven Dijt nog even aan.",
                 "Setnaam: Rivals of Ixalan. Expansion code: RIX. Hashtag: #mtgrix. Aantal kaarten: 196."
             ],
-            "shortDescription": "Jeroen, Arjan en Dave doen mee aan prerelease van Rivals of Ixalan en brengen meteen verslag uit. Hoe bevalt de nieuwe Magic: The Gathering-set?",
+            "shortDescription":
+                "Jeroen, Arjan en Dave doen mee aan prerelease van Rivals of Ixalan en brengen meteen verslag uit. Hoe bevalt de nieuwe Magic: The Gathering-set?",
             "schedule": [
                 {
                     "timestamp": "0:00:32",
@@ -401,25 +466,32 @@
                 {
                     "timestamp": "0:06:45",
                     "topic": "2HJ: Terugblik op 2HG ronde 2 en 3"
-                },{
+                },
+                {
                     "timestamp": "0:12:10",
                     "topic": "2HJ: Terugblik op 2HG ronde 4 en 5"
-                },{
+                },
+                {
                     "timestamp": "0:13:00",
                     "topic": "Arjan, Dave en Jeroen over hun prerelease en de set"
-                },{
+                },
+                {
                     "timestamp": "0:19:17",
                     "topic": "Nieuwe mechanic: Ascend en de city's blessing"
-                },{
+                },
+                {
                     "timestamp": "0:24:26",
                     "topic": "Tetzimoc, Dire Fleet Daredevil en andere nieuwe kaarten"
-                },{
+                },
+                {
                     "timestamp": "0:29:07",
                     "topic": "Removal"
-                },{
+                },
+                {
                     "timestamp": "0:32:02",
                     "topic": "Sven Dijt over snelheid en interactie in RIX"
-                },{
+                },
+                {
                     "timestamp": "0:37:53",
                     "topic": "Conlusies van Sven, Dave, Jeroen en Arjan"
                 }
@@ -449,7 +521,8 @@
                 "Modern is weer terug op de Pro Tour! Maar is dat een goede zaak of niet? Arjan, Dave en Jeroen bespreken de haken en ogen. Ook gaan ze in op de geschiedenis en de huidige staat van het format en bespreken ze welke decks, Rivals of Ixalan-kaarten en spelers ze op de PT (van 2 tot 4 januari 2018) hopen te zien. (Een paar decks die aan bod komen: Lantern Control, Living End + As Foretold, Mardu Pyromancer en Hollow One.)",
                 "Verder praten ze over hun tweede indrukken van Rivals of Ixalan en laten ze hun licht schijnen over de recente bans in Standard."
             ],
-            "shortDescription": "Modern is weer terug op de Magic: The Gathering Pro Tour, maar is dat een goede zaak of niet?",
+            "shortDescription":
+                "Modern is weer terug op de Magic: The Gathering Pro Tour, maar is dat een goede zaak of niet?",
             "schedule": [
                 {
                     "timestamp": "0:01:47",
@@ -458,25 +531,32 @@
                 {
                     "timestamp": "0:10:30",
                     "topic": "Tweede indrukken van Rivals of Ixalan"
-                },{
+                },
+                {
                     "timestamp": "0:14:02",
                     "topic": "Pro Tour Rivals of Ixalan: Modern"
-                },{
+                },
+                {
                     "timestamp": "0:14:23",
                     "topic": "Wat is Modern eigenlijk?"
-                },{
+                },
+                {
                     "timestamp": "0:16:27",
                     "topic": "Geschiedenis en staat van Modern"
-                },{
+                },
+                {
                     "timestamp": "0:40:31",
                     "topic": "Welke decks verwachten we op de PT?"
-                },{
+                },
+                {
                     "timestamp": "0:48:39",
                     "topic": "Welke RIX-kaarten verwachten we op de PT?"
-                },{
+                },
+                {
                     "timestamp": "1:01:12",
                     "topic": "Welke spelers hopen we te zien op de PT?"
-                },{
+                },
+                {
                     "timestamp": "1:04:41",
                     "topic": "Niet-Magicgerelateerd gedeelte zonder fatsoenlijke titel"
                 }
@@ -484,20 +564,27 @@
             "links": [
                 {
                     "title": "Melissa DeTora over 'block monsters'",
-                    "url": "https://magic.wizards.com/en/articles/archive/play-design/block-monsters-and-how-we-avoid-them-2018-01-05"
-                },{
+                    "url":
+                        "https://magic.wizards.com/en/articles/archive/play-design/block-monsters-and-how-we-avoid-them-2018-01-05"
+                },
+                {
                     "title": "Wizards' Banned and Restricted Announcement van 15 januari 2018",
-                    "url": "https://magic.wizards.com/en/articles/archive/news/january-15-2018-banned-and-restricted-announcement-2018-01-15"
-                },{
+                    "url":
+                        "https://magic.wizards.com/en/articles/archive/news/january-15-2018-banned-and-restricted-announcement-2018-01-15"
+                },
+                {
                     "title": "Alles over Merfolk op Reddit",
                     "url": "https://www.reddit.com/r/FishMTG/"
-                },{
+                },
+                {
                     "title": "Inside",
                     "url": "http://www.playdead.com/games/inside/"
-                },{
+                },
+                {
                     "title": "Doki Doki Literature Club",
                     "url": "https://ddlc.moe/"
-                },{
+                },
+                {
                     "title": "Wie is Van Rommelen",
                     "url": "http://www.wieisvanrommelen.com/"
                 }
@@ -521,7 +608,8 @@
                 "Bloodbraid Elf en (vooral) Jace, the Mind Sculptor zijn geünband in Modern! Jeroen en Arjan laten hun licht schijnen over de meest spraakmakende unban-announcement in de geschiedenis van het format. Gaat JTMS Modern breken?",
                 "Verder: hoe is het nu met Standard, (iets meer dan) een maand na de bans? En Wizards heeft een paar nieuwe producten aangekondigd voor later dit jaar."
             ],
-            "shortDescription": "Jace, the Mind Sculptor en Bloodbraid Elf zijn de meest recente unbans in Modern. Gaat JTMS het format breken?",
+            "shortDescription":
+                "Jace, the Mind Sculptor en Bloodbraid Elf zijn de meest recente unbans in Modern. Gaat JTMS het format breken?",
             "schedule": [
                 {
                     "timestamp": "0:00:59",
@@ -530,16 +618,20 @@
                 {
                     "timestamp": "0:34:17",
                     "topic": "Standard, een maand na de bans"
-                },{
+                },
+                {
                     "timestamp": "0:40:14",
                     "topic": "2HG-set Battlebond aangekondigd"
-                },{
+                },
+                {
                     "timestamp": "0:48:58",
                     "topic": "Nieuwe Commanderproducten aangekondigd"
-                },{
+                },
+                {
                     "timestamp": "0:52:07",
                     "topic": "Huishoudelijke mededeling"
-                },{
+                },
+                {
                     "timestamp": "0:53:57",
                     "topic": "Niet-Magicgerelateerd gedeelte zonder fatsoenlijke titel"
                 }
@@ -547,23 +639,31 @@
             "links": [
                 {
                     "title": "Banned & restricted announcement van 12 februari 2018",
-                    "url": "https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12"
-                },{
+                    "url":
+                        "https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12"
+                },
+                {
                     "title": "Jace, the Mind Sculptor rap featuring Patrick Chapin",
                     "url": "https://www.youtube.com/watch?v=gnYhG_ekoH8"
-                },{
+                },
+                {
                     "title": "Jund met BBE (Brad Nelson) versus Jeskai Control met JTMS (Todd Stevens)",
                     "url": "https://www.youtube.com/watch?v=snqupx3QHNo"
-                },{
+                },
+                {
                     "title": "Winnaars & verliezers na de unbans volgens LSV",
                     "url": "https://www.youtube.com/watch?v=So5bsQS83H0"
-                },{
+                },
+                {
                     "title": "Team Modern Super League",
                     "url": "https://vintagesuperleague.com/tmsl-info/"
-                },{
+                },
+                {
                     "title": "Aankondiging Battlebond, Commander Anthology Volume II, Commander 2018 en meer",
-                    "url": "https://magic.wizards.com/en/articles/archive/news/valentines-day-mini-announcement-day-2018-02-14"
-                },{
+                    "url":
+                        "https://magic.wizards.com/en/articles/archive/news/valentines-day-mini-announcement-day-2018-02-14"
+                },
+                {
                     "title": "Gaby Spartz' DDLC full playthrough (met spoilers)",
                     "url": "https://www.youtube.com/watch?v=PAF8RxIPP48"
                 }
@@ -571,9 +671,7 @@
             "credits": {
                 "presentation": "Jeroen Koster en Arjan Ang",
                 "editing": "Jeroen Koster",
-                "extraMusic": [
-                    "Jace the Mind Sculptor - Tha Gatherin (Bill Boulden & Patrick Chapin)"
-                ],
+                "extraMusic": ["Jace the Mind Sculptor - Tha Gatherin (Bill Boulden & Patrick Chapin)"],
                 "art": {
                     "name": "Jace, the Mind Sculptor",
                     "artist": "Jason Chan"
@@ -589,27 +687,34 @@
                 "Met themaset Masters 25 (A25) viert Wizards of the Coast het 25-jarig bestaan van Magic: The Gathering. Arjan, Dave en Jeroen vertellen wat hun indrukken zijn van de nostalgische én monetaire waarde van het jubileumproduct.",
                 "Verder aandacht voor de nieuwe Challenger Decks en de huidige Standard metagame, en de prestaties van Bloodbraid Elf en Jace, the Mind Sculptor tijdens de meest recente editie van de Dutch Open Series (februari 2018)."
             ],
-            "shortDescription": "Themaset Masters 25 barst van de MTG-nostalgie. Maar is dat de enige value van dit jubileumproduct?",
+            "shortDescription":
+                "Themaset Masters 25 barst van de MTG-nostalgie. Maar is dat de enige value van dit jubileumproduct?",
             "schedule": [
                 {
                     "timestamp": "0:00:43",
                     "topic": "Zelfs Homelands vertegenwoordigd in A25"
-                },{
+                },
+                {
                     "timestamp": "0:05:03",
                     "topic": "Bespreking A25-booster"
-                },{
+                },
+                {
                     "timestamp": "0:29:09",
                     "topic": "Combo's in A25"
-                },{
+                },
+                {
                     "timestamp": "0:34:58",
                     "topic": "Indrukken, verwachtingen en toffe kaarten"
-                },{
+                },
+                {
                     "timestamp": "1:05:03",
                     "topic": "Afrondende gedachtes over A25"
-                },{
+                },
+                {
                     "timestamp": "1:08:54",
                     "topic": "Challenger decks en de Standard metagame"
-                },{
+                },
+                {
                     "timestamp": "1:17:37",
                     "topic": "Terugblik op de Dutch Open Series: JTMS en BBE in Modern"
                 }
@@ -618,16 +723,21 @@
                 {
                     "title": "Draftsim: virtuele boosters",
                     "url": "http://draftsim.com/"
-                },{
+                },
+                {
                     "title": "Arcane Denial in Prosperous Bloom",
-                    "url": "http://www.starcitygames.com/magic/misc/5270_The_First_Combo_Deck_What_Was_Prosperous_Bloom.html"
-                },{
+                    "url":
+                        "http://www.starcitygames.com/magic/misc/5270_The_First_Combo_Deck_What_Was_Prosperous_Bloom.html"
+                },
+                {
                     "title": "Framing 25 Years of Magic (over kaartvormgeving)",
                     "url": "https://www.youtube.com/watch?v=qOE-lNs6qe4"
-                },{
+                },
+                {
                     "title": "Token Resonance (Reef Worm in Masters 25)",
                     "url": "https://magic.wizards.com/en/articles/archive/card-preview/token-resonance-2018-02-28"
-                },{
+                },
+                {
                     "title": "Sherlock Homes Consulting Detective",
                     "url": "https://boardgamegeek.com/boardgame/2511/sherlock-holmes-consulting-detective-thames-murder"
                 }
@@ -653,45 +763,58 @@
                 "Verder: Jeroen vertelt waarom hij er even een paar weken tussenuit was en Dave heeft de Studio Magic-website vernieuwd.",
                 "Dominaria bevat 269 kaarten en komt uit op vrijdag 27 april 2018."
             ],
-            "shortDescription": "25 jaar geleden begon Magic op Dominaria. De gelijknamige nieuwe set staat dan ook bol van geschiedenis.",
+            "shortDescription":
+                "25 jaar geleden begon Magic op Dominaria. De gelijknamige nieuwe set staat dan ook bol van geschiedenis.",
             "schedule": [
                 {
                     "timestamp": "0:00:29",
                     "topic": "Jeroen heeft zijn gezin uitgebreid"
-                },{
+                },
+                {
                     "timestamp": "0:01:00",
                     "topic": "Wat is Dominaria?"
-                },{
+                },
+                {
                     "timestamp": "0:05:12",
                     "topic": "Nieuw: Saga's"
-                },{
+                },
+                {
                     "timestamp": "0:10:43",
                     "topic": "Nieuw: Historic"
-                },{
+                },
+                {
                     "timestamp": "0:24:29",
                     "topic": "Terugkerend: Kicker"
-                },{
+                },
+                {
                     "timestamp": "0:27:27",
                     "topic": "Semi-nieuw: Hexproof from"
-                },{
+                },
+                {
                     "timestamp": "0:29:21",
                     "topic": "Nieuw: Damage aan 'any target'"
-                },{
+                },
+                {
                     "timestamp": "0:32:05",
                     "topic": "Noemenswaardige kaarten"
-                },{
+                },
+                {
                     "timestamp": "1:05:43",
                     "topic": "Dominaria limited"
-                },{
+                },
+                {
                     "timestamp": "1:08:53",
                     "topic": "Nieuw Magic-format: Brawl"
-                },{
+                },
+                {
                     "timestamp": "1:25:57",
                     "topic": "Firesong and Sunspeaker controversieel?"
-                },{
+                },
+                {
                     "timestamp": "1:29:19",
                     "topic": "Studio Magic op Spotify en vernieuwde website"
-                },{
+                },
+                {
                     "timestamp": "1:31:41",
                     "topic": "Bonus"
                 }
@@ -700,10 +823,12 @@
                 {
                     "title": "Artikel Mark Rosewater over de historic mechanic",
                     "url": "https://magic.wizards.com/en/articles/archive/making-magic/historic-story-2018-04-09"
-                },{
+                },
+                {
                     "title": "Artikel Gavin Verhey: Join the Brawl",
                     "url": "https://magic.wizards.com/en/articles/archive/ways-play/join-brawl-2018-03-22"
-                },{
+                },
+                {
                     "title": "Studio Magic nu ook in Spotify",
                     "url": "https://open.spotify.com/show/5ysm4jDqPj8bNHG169pbSH"
                 }
@@ -715,6 +840,91 @@
                 "art": {
                     "name": "History of Benalia",
                     "artist": "Noah Bradley"
+                }
+            }
+        },
+        {
+            "id": 12,
+            "name": "Cube 101: Een introductie tot het format",
+            "date": "2018-05-30",
+            "url": "https://www.buzzsprout.com/133608/715412-cube-101-een-introductie-tot-het-format-012",
+            "description": [
+                "Aan een goede Cube kun je met veel spelers bijna eindeloos Magicplezier beleven. Maar wat is een Cube eigenlijk, en hoe bouw je er zelf een?",
+                "De Cubes van Arjan en Jeroen zijn totaal verschillend: die van Arjan is een op Innistrad geïnspireerde Modern-frame variant en Jeroen heeft een multiplayer UN-Cube. Dave ondervraagt ze over hun designkeuzes, speelervaringen en nog veel meer."
+            ],
+            "shortDescription":
+                "Aan een goede Cube kun je met veel spelers bijna eindeloos Magicplezier beleven. Maar wat is een Cube eigenlijk, en hoe bouw je er zelf een?",
+            "schedule": [
+                {
+                    "timestamp": "0:00:46",
+                    "topic": "Sponsorbericht: werken bij DGN?"
+                },
+                {
+                    "timestamp": "0:02:12",
+                    "topic": "Wat is Cube?"
+                },
+                {
+                    "timestamp": "0:08:36",
+                    "topic": "Arjan heeft een Cube"
+                },
+                {
+                    "timestamp": "0:13:14",
+                    "topic": "Jeroen heeft een Cube"
+                },
+                {
+                    "timestamp": "0:16:05",
+                    "topic": "Designkeuzes en eigen stempels"
+                },
+                {
+                    "timestamp": "0:27:32",
+                    "topic": "Mono rood: 1 van de betere archetypes?"
+                },
+                {
+                    "timestamp": "0:32:11",
+                    "topic": "Verwachtingen van Cubedrafters"
+                },
+                {
+                    "timestamp": "0:40:08",
+                    "topic": "Feedback op je Cube"
+                },
+                {
+                    "timestamp": "0:49:15",
+                    "topic": "Hoe begin je een Cube te bouwen?"
+                },
+                {
+                    "timestamp": "0:57:33",
+                    "topic": "Handig: Cubetutor"
+                },
+                {
+                    "timestamp": "1:02:38",
+                    "topic": "Win een boosterbox Dominaria!"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Arjan's Modern-Frame Cube",
+                    "url": "http://www.cubetutor.com/viewcube/50"
+                },
+                {
+                    "title": "Jeroens UN-Cube",
+                    "url": "http://www.cubetutor.com/viewcube/102857"
+                },
+                {
+                    "title": "Cube-threads op Reddit",
+                    "url": "https://www.reddit.com/r/mtgcube"
+                },
+                {
+                    "title": "Het Cube-forum van MTG Salvation",
+                    "url": "https://www.mtgsalvation.com/forums/the-game/the-cube-forum"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Mana Vault",
+                    "artist": "Kirsten Zirngibl"
                 }
             }
         }
