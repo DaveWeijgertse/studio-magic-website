@@ -927,6 +927,64 @@
                     "artist": "Kirsten Zirngibl"
                 }
             }
+        },
+        {
+            "id": 13,
+            "name": "Battlebond: Scoort Wizards met zijn eerste teamdraftset?",
+            "date": "2018-06-06",
+            "url":
+                "https://www.buzzsprout.com/133608/720685-battlebond-scoort-wizards-met-zijn-eerste-teamdraftset-013",
+            "description": [
+                "De 'draft innovation' set van 2018 heet Battlebond, is bedoeld als Wizards' ode aan sport en games en is de eerste set in de Magicgeschiedenis die speciaal ontworpen is voor het Two-Headed Giant-format. Heeft Wizards of the Coast hiermee een homerun te pakken?",
+                "Battlebond komt op 8 juni 2018 uit en bevat 254 kaarten, waarvan 85 gloednieuwe. Jeroen, Dave en Arjan spreken de nieuwe en terugkerende mechanics door en vertellen welke kaarten hen het meest opvielen."
+            ],
+            "shortDescription":
+                "Battlebond is de eerste Two-Headed Giant draftset en is geïnspireerd op sport en games. Is het een homerun voor Wizards?",
+            "schedule": [
+                {
+                    "timestamp": "0:00:33",
+                    "topic": "Battlebond: introductie"
+                },
+                {
+                    "timestamp": "0:08:15",
+                    "topic": "2HG draftregels"
+                },
+                {
+                    "timestamp": "0:11:16",
+                    "topic": "Nieuwe en terugkerende mechanics"
+                },
+                {
+                    "timestamp": "0:21:07",
+                    "topic": "Enkele kaarten uitgelicht"
+                },
+                {
+                    "timestamp": "0:37:11",
+                    "topic": "Monetaire waarde"
+                },
+                {
+                    "timestamp": "0:40:24",
+                    "topic": "Conclusie"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Gavin Verheys Battlebond-aankondiging",
+                    "url": "https://magic.wizards.com/en/articles/archive/news/announcing-battlebond-2018-02-14"
+                },
+                {
+                    "title": "Visueel overzicht van alle Battlebond-kaarten",
+                    "url": "http://mythicspoiler.com/bbd/index.html"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "The Crowd Goes Wild",
+                    "artist": "Mike Burns"
+                }
+            }
         }
     ]
 }

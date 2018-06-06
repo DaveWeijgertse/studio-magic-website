@@ -11,4 +11,5 @@ export const ROUTE_EPISODE_DETAIL = {
     10: '/aflevering/010-masters-25-doomsday-of-renewed-faith',
     11: '/aflevering/011-domweg-gelukkig-op-dominaria',
     12: '/aflevering/012-cube-101-een-introductie-tot-het-format',
+    13: '/aflevering/013-battlebond-scoort-wizards-met-zijn-eerste-teamdraftset',
 };

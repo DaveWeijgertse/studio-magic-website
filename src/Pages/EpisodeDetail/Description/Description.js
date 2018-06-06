@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Styling import
 import './Description.scss';
@@ -77,6 +78,14 @@ const Description = ({ episodeId, description }) => (
                         Klik hier om naar DGN's recruitment pagina te gaan
                     </a>.
                 </div>
+            </div>
+        )}
+        {episodeId === '13' && (
+            <div>
+                Oh en trouwens, wil jij een <strong>boosterbox Dominaria</strong> winnen? Luister en{' '}
+                <Link to="/aflevering/012-cube-101-een-introductie-tot-het-format">
+                    lees bij onze vorige aflevering hoe je kans maakt
+                </Link>.
             </div>
         )}
     </div>
