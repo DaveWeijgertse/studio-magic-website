@@ -16,7 +16,7 @@ const Description = ({ episodeId, description }) => (
         {/* @todo: add support for hyperlinks and markdown formatting in the description of the episodeData */}
         {episodeId === '12' && (
             <div>
-                <strong>Winactie Dominaria</strong>
+                <strong>Winactie Dominaria - deelname niet meer mogelijk</strong>
                 <div>
                     <span>Dankzij de sponsor van deze aflevering, DGN* (</span>
                     <a href="https://dgngroep.homerun.co" target="_blank" rel="noopener noreferrer">
@@ -78,14 +78,6 @@ const Description = ({ episodeId, description }) => (
                         Klik hier om naar DGN's recruitment pagina te gaan
                     </a>.
                 </div>
-            </div>
-        )}
-        {episodeId === '13' && (
-            <div>
-                Oh en trouwens, wil jij een <strong>boosterbox Dominaria</strong> winnen? Luister en{' '}
-                <Link to="/aflevering/012-cube-101-een-introductie-tot-het-format">
-                    lees bij onze vorige aflevering hoe je kans maakt
-                </Link>.
             </div>
         )}
     </div>
