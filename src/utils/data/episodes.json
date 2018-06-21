@@ -985,6 +985,92 @@
                     "artist": "Mike Burns"
                 }
             }
+        },
+        {
+            "id": 14,
+            "name": "DOS Modern-finalisten Pascal en Dave over hun toernooi",
+            "date": "2018-06-21",
+            "url":
+                "https://www.buzzsprout.com/133608/731943-dos-modern-finalisten-pascal-en-dave-over-hun-toernooi-014",
+            "description": [
+                "Pascal van Alphen won met Burn het Dutch Open Series Modern-toernooi van 26 mei 2018. In de finale versloeg hij Studio Magics eigen Dave Weijgertse met zijn vertrouwde Tron. Samen brengen Pascal en Dave hun verslag uit.",
+                "Hoe zijn ze tot hun deckkeuze gekomen?  Wat waren hun sideboardoverwegingen? Op welke momenten hing hun toernooileven aan een zijden draadje? En hoe hebben ze het toernooi in het algemeen en de finale in het bijzonder beleefd? Over deze en andere vragen praten ze uitgebreid met Jeroen en Arjan."
+            ],
+            "shortDescription":
+                "Een dubbel toernooiverslag: winnaar Pascal (Burn) en runner-up Dave (Tron) over Modern op de Dutch Open Series.",
+            "schedule": [
+                {
+                    "timestamp": "0:07:14",
+                    "topic": "Dave: waarom Tron?"
+                },
+                {
+                    "timestamp": "0:09:30",
+                    "topic": "Pascal: waarom Burn?"
+                },
+                {
+                    "timestamp": "0:13:21",
+                    "topic": "Daves Swiss-rondes"
+                },
+                {
+                    "timestamp": "0:19:58",
+                    "topic": "Pascals Swiss-rondes"
+                },
+                {
+                    "timestamp": "0:27:50",
+                    "topic": "Daves Tron-sideboard"
+                },
+                {
+                    "timestamp": "0:34:43",
+                    "topic": "Pascals Burn-sideboard"
+                },
+                {
+                    "timestamp": "0:39:32",
+                    "topic": "Daves kwartfinale (Bogles)"
+                },
+                {
+                    "timestamp": "0:43:00",
+                    "topic": "Pascals kwartfinale (Mardu Pyromancer)"
+                },
+                {
+                    "timestamp": "0:46:23",
+                    "topic": "Daves halve finale (Jeskai Control)"
+                },
+                {
+                    "timestamp": "0:50:44",
+                    "topic": "Pascals halve finale (Grixis Goryo's Vengeance)"
+                },
+                {
+                    "timestamp": "0:53:24",
+                    "topic": "De finale"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Daves Tron-deck",
+                    "url": "http://mtgtop8.com/event?e=19302&d=322512&f=MO"
+                },
+                {
+                    "title": "Pascals Burn-deck",
+                    "url": "http://mtgtop8.com/event?e=19302&d=322508&f=MO"
+                },
+                {
+                    "title": "Daves toernooiverslag op Untap.nl",
+                    "url": "https://untap.nl/finaleplaats-op-het-dutch-modern-open-met-mono-groen-tron"
+                },
+                {
+                    "title": "Dutch Open Series: Modern top 8 lijsten",
+                    "url": "http://mtgtop8.com/event?e=19302&f=MO"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Eidolon of the Great Revel",
+                    "artist": "Cyril Van Der Haegen"
+                }
+            }
         }
     ]
 }
