@@ -7,7 +7,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    min-height: 300px;
+    min-height: 60vh;
 
     .episode-info-container {
         @extend %page-container;
