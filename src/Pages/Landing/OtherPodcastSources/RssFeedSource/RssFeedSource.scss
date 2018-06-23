@@ -11,11 +11,12 @@ $icon-size: 60px;
         &:hover {
             text-decoration: none;
         }
-        &:before {
-            content: "\f09e";
+
+        .icon:before {
+            content: '\f09e';
             color: white;
             font-size: 1.3em;
-            font-family: "FontAwesome";
+            font-family: 'FontAwesome';
         }
     }
 }

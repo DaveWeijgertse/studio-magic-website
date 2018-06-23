@@ -11,8 +11,9 @@ const SocialMediaButton = ({ type }) => (
         className={'footer-social-media-button ' + type}
         href={getSocialMediaHref(type)}
         rel="noopener noreferrer"
-        target="_blank"
-    />
+        target="_blank">
+        <div className="icon" />
+    </a>
 );
 
 export default SocialMediaButton;

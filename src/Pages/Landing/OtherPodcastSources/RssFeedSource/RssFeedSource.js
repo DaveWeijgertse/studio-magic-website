@@ -16,8 +16,9 @@ const RssFeedSource = ({ source }) => (
             title={getTooltipText(RSS)}
             href={getPodcastSourceHref(RSS)}
             rel="noopener noreferrer"
-            target="_blank"
-        />
+            target="_blank">
+            <div className="icon" />
+        </a>
     </div>
 );
 

@@ -11,8 +11,9 @@ const SiteCredits = () => (
             className="link-to-github"
             href="https://github.com/DaveWeijgertse/studio-magic-website"
             rel="noopener noreferrer"
-            target="_blank"
-        />
+            target="_blank">
+            <div className="github-icon" />
+        </a>
     </div>
 );
 

@@ -20,14 +20,14 @@ $twitter-color: #1da1f2;
     text-align: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     cursor: pointer;
-
     &:hover {
         color: white;
         text-decoration: none;
     }
-    &:before {
+
+    .icon:before {
         color: white;
-        font-family: "FontAwesome";
+        font-family: 'FontAwesome';
     }
 
     &.facebook {
@@ -35,8 +35,9 @@ $twitter-color: #1da1f2;
         &:hover {
             background: darken($facebook-color, 10%);
         }
-        &:before {
-            content: "\f230";
+
+        .icon:before {
+            content: '\f230';
         }
     }
     &.twitter {
@@ -44,8 +45,9 @@ $twitter-color: #1da1f2;
         &:hover {
             background: darken($twitter-color, 10%);
         }
-        &:before {
-            content: "\f099";
+
+        .icon:before {
+            content: '\f099';
         }
     }
 }
