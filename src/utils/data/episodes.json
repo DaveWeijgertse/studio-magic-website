@@ -1071,6 +1071,75 @@
                     "artist": "Cyril Van Der Haegen"
                 }
             }
+        },
+        {
+            "id": 15,
+            "name": "Weet Core Set 2019 te bekoren?",
+            "date": "2018-07-13",
+            "url": "https://www.buzzsprout.com/133608/750013-weet-core-set-2019-te-bekoren-015",
+            "description": [
+                "M19 markeert de herintroductie van core sets in Magic. Jeroen, Arjan en Dave bespreken hun eerste indrukken, onder andere op basis van de prerelease, en hun verwachtingen van de impact op formats als Standard, Modern, Commander en Cube.",
+                "Verder hoor je in deze aflevering wie de winnaar is van de Dominaria boosterbox-weggeefactie uit aflevering 12!"
+            ],
+            "shortDescription":
+                "Met M19 zijn de core sets weer terug! Jeroen, Arjan en Dave bespreken hun indrukken van deze eerste sinds lange tijd.",
+            "schedule": [
+                {
+                    "timestamp": "0:04:24",
+                    "topic": "Eindelijk weer eens een core set!"
+                },
+                {
+                    "timestamp": "0:14:28",
+                    "topic": "Eerste indrukken va de prerelease"
+                },
+                {
+                    "timestamp": "0:27:32",
+                    "topic": "Planeswalkers"
+                },
+                {
+                    "timestamp": "0:39:45",
+                    "topic": "Kaarten met opmerkelijke effecten"
+                },
+                {
+                    "timestamp": "0:51:56",
+                    "topic": "Opvallende reprints"
+                },
+                {
+                    "timestamp": "1:00:54",
+                    "topic": "(Meer) kaarten voor Standard, Modern, Commander en Cube"
+                },
+                {
+                    "timestamp": "1:12:53",
+                    "topic": "7 special mentions in 3 minuten (en een beetje)"
+                },
+                {
+                    "timestamp": "1:17:44",
+                    "topic": "(Voorlopige) conclusies"
+                },
+                {
+                    "timestamp": "1:20:53",
+                    "topic": "Bekendmaking winnaar Dominaria boosterbox-weggeefactie"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Crucible of Worlds, met art van Ron Spencer",
+                    "url": "https://scryfall.com/card/m19/229"
+                },
+                {
+                    "title": "Scapeshift, met art van Fred Fields",
+                    "url": "https://scryfall.com/card/mor/136"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": ["Drum roll - Bigjoedrummer"],
+                "art": {
+                    "name": "Nicol Bolas, the Ravager",
+                    "artist": "Svetlin Velinov"
+                }
+            }
         }
     ]
 }
