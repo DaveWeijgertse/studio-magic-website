@@ -7,7 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    background-position: center;
+    background-position: top;
     z-index: 250;
     &:after {
         content: '';
@@ -65,5 +65,8 @@
     }
     &.episode-15 {
         background-image: url('./images/15.jpg');
+    }
+    &.episode-16 {
+        background-image: url('./images/16.jpg');
     }
 }

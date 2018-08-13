@@ -14,4 +14,5 @@ export const ROUTE_EPISODE_DETAIL = {
     13: '/aflevering/013-battlebond-scoort-wizards-met-zijn-eerste-teamdraftset',
     14: '/aflevering/014-dos-modern-finalisten-pascal-en-dave-over-hun-toernooi',
     15: '/aflevering/015-weet-core-set-2019-te-bekoren',
+    16: '/aflevering/016-in-gesprek-met-magic-illustrator-titus-lunter',
 };

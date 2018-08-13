@@ -1140,6 +1140,63 @@
                     "artist": "Svetlin Velinov"
                 }
             }
+        },
+        {
+            "id": 16,
+            "name": "In gesprek met Magic-illustrator Titus Lunter",
+            "date": "2018-08-13",
+            "url": "http://www.buzzsprout.com/133608/775181-in-gesprek-met-magic-illustrator-titus-lunter-016",
+            "description": [
+                "De Nederlandse illustrator en concept artist Titus Lunter maakte zijn debuut als Magictekenaar in 2014, met onder andere Frontier Bivouac (Khans of Tarkir). In de jaren die volgden voorzag hij niet alleen tientallen basic lands van een afbeelding, maar illustreerde hij ook vijf Expeditions, drie Invocations en diverse andere iconische kaarten (zoals God-Pharaoh's Gift, Ensnaring Bridge en Icy Manipulator). Inmiddels is hij betrokken bij de conceptuele uitwerking van veel nieuwe sets en is hij een geliefd figuur binnen de Magic community.",
+                "Jeroen, Arjan en Dave zoeken hem thuis op en spreken met hem onder andere over hoe hij begon als illustrator en concept artist, hoe hij bij Wizards of the Coast terechtkwam (spoiler: deels hard werken, deels stom geluk), hoe een concept push in zijn werk gaat, zijn fascinatie voor architectuur en world building, hoe hij nog steeds nieuwe dingen leert als artiest en natuurlijk over (de easter eggs in) een aantal van zijn MTG-pieces."
+            ],
+            "shortDescription":
+                "Interview met de Nederlandse Magic-illustrator Titus Lunter over hard werken, stom geluk en iconische MTG-art.",
+            "schedule": [
+                {
+                    "timestamp": "0:02:00",
+                    "topic": "Hoe Titus Magic-illustrator werd"
+                },
+                {
+                    "timestamp": "0:27:54",
+                    "topic": "In drie weken een Magicwereld conceptueel uitwerken"
+                },
+                {
+                    "timestamp": "0:41:16",
+                    "topic": "Over Ravnica en Titus' artistieke groei"
+                },
+                {
+                    "timestamp": "0:55:51",
+                    "topic": "Het verschil tussen de concept artist en de world builder"
+                },
+                {
+                    "timestamp": "1:26:39",
+                    "topic": "Heel veel leren dankzij een common"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Titus' website",
+                    "url": "http://www.tituslunter.com/"
+                },
+                {
+                    "title": "Titus op Twitter",
+                    "url": "https://twitter.com/TitusLunter"
+                },
+                {
+                    "title": "(Een deel van) Titus' Magic art",
+                    "url": "https://scryfall.com/search?as=grid&order=name&q=%28a%3Atitus+a%3Alunter%29"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Ancient Animus",
+                    "artist": "Titus Lunter"
+                }
+            }
         }
     ]
 }
