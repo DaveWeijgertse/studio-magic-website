@@ -1197,6 +1197,71 @@
                     "artist": "Titus Lunter"
                 }
             }
+        },
+        {
+            "id": 17,
+            "name": "Daan Pruijt: Nederlands kampioen met een Sai deck",
+            "date": "2018-09-05",
+            "url": "http://www.buzzsprout.com/133608/794348-daan-pruijt-nederlands-kampioen-met-een-sai-deck-17",
+            "description": [
+                "Daan Pruijt is voor de derde keer Nederlands kampioen Magic: The Gathering, en ditmaal is de titel officieel! Hij wist het NK op zijn naam te schrijven dankzij een 'thinking man's combo deck' in Standard: Mono-Blue Storm. Arjan en Jeroen bespreken met hem hoe hij tot die keuze gekomen is, hoe hij het toernooi heeft beleefd en hoe het deck nou eigenlijk werkt.",
+                "Samen met Tijmen Blankevoort (zijn tegenstander in de NK-finale) en Thomas Hendriks (de Nederlander met de meeste Pro Points) maakt Daan nu opnieuw deel uit van het team dat Nederland zal vertegenwoordigen op de World Magic Cup in december. 'Het is verdomd moeilijk om het slechter te doen dan vorig jaar', aldus Daan. Hoe kijkt hij aan tegen de voorbereiding voor dit jaar en hoe gaat hij om met druk op hoog niveau? Ook daarover praat hij met het team van Studio Magic."
+            ],
+            "shortDescription": "Interview met Daan Pruijt, Nederlands kampioen Magic: The Gathering 2018.",
+            "schedule": [
+                {
+                    "timestamp": "0:01:56",
+                    "topic": "Hoe Daan uitkwam op Mono-Blue Storm (en hoe het werkt, deel 1)"
+                },
+                {
+                    "timestamp": "0:09:16",
+                    "topic": "Voorbereiding op het NK"
+                },
+                {
+                    "timestamp": "0:10:20",
+                    "topic": "Wat betekent de titel voor Daan?"
+                },
+                {
+                    "timestamp": "0:13:10",
+                    "topic": "Hoe het deck werkt, deel 2"
+                },
+                {
+                    "timestamp": "0:20:58",
+                    "topic": "Draften op het NK"
+                },
+                {
+                    "timestamp": "0:28:19",
+                    "topic": "Verslag van de top 8"
+                },
+                {
+                    "timestamp": "0:34:49",
+                    "topic": "Op naar de World Magic Cup"
+                },
+                {
+                    "timestamp": "0:39:31",
+                    "topic": "Kennis over decks delen"
+                },
+                {
+                    "timestamp": "0:43:00",
+                    "topic": "Limited op de Pro Tour: interessant voor de kijker?"
+                }
+            ],
+            "links": [
+                {
+                    "title":
+                        "Daans uitleg van Mono-Blue Storm op Channel Fireball (inclusief sideboard guide, én audioversie)",
+                    "url": "https://www.channelfireball.com/articles/mono-blue-storm-in-standard/"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster en Arjan Ang",
+                "editing": "Dave Weijgertse",
+                "extraMusic": [],
+                "art": {
+                    "name": "Sai, Master Thopterist",
+                    "artist": "Adam Paquette"
+                }
+            }
         }
     ]
 }
