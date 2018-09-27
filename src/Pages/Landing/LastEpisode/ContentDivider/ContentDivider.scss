@@ -1,0 +1,26 @@
+$content-divider-circle-size: 60px;
+
+.content-divider {
+    position: absolute;
+    bottom: calc(#{$content-divider-circle-size} / 2 * -1);
+    width: 100%;
+    z-index: 350;
+
+    .content-divider-circle {
+        width: $content-divider-circle-size;
+        height: $content-divider-circle-size;
+        margin: auto;
+        padding-top: 5px;
+        text-align: center;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        background: #fafafa;
+        &:before {
+            content: '\f078';
+            color: #26a69a;
+            font-family: FontAwesome;
+            font-size: 24px;
+        }
+    }
+}

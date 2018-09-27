@@ -1,6 +1,7 @@
 import React from 'react';
 
 // Subcomponent imports
+import ContentDivider from './ContentDivider';
 import Description from './Description';
 import EpisodeImage from '../../../Components/EpisodeImage';
 import EpisodeName from './EpisodeName';
@@ -27,6 +28,7 @@ const LastEpisode = ({ lastEpisode, playingEpisodeId, playEpisodeInEpisodeBar, o
                 />
             </div>
             <EpisodeImage episodeNumber={id} />
+            <ContentDivider />
         </div>
     );
 };
