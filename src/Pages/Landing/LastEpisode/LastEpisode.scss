@@ -1,10 +1,9 @@
 @import '~appUtils/styling/colors';
-@import "~appUtils/styling/placeholders";
+@import '~appUtils/styling/placeholders';
 @import '~appUtils/styling/mediaQueries';
 
-$container-height: calc(100vh - 134px); // 100% of the viewport, minus the height of the header + pay-off text
-$container-height-mobile: calc(100vh - 128px);
-$content-divider-circle-size: 60px;
+$container-height: calc(100vh - 143px); // 100% of the viewport, minus the height of the header + pay-off text
+$container-height-mobile: calc(100vh - 134px);
 
 .last-episode-container {
     position: relative;
