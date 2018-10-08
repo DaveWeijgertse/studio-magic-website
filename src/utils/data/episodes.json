@@ -1262,6 +1262,67 @@
                     "artist": "Adam Paquette"
                 }
             }
+        },
+        {
+            "id": 18,
+            "name": "Verguld met Guilds of Ravnica",
+            "date": "2018-10-08",
+            "url": "http://www.buzzsprout.com/133608/823796-verguld-met-guilds-of-ravnica-018",
+            "description": [
+                "Met Guilds of Ravnica keren we opnieuw terug naar de plane die we eerder bezochten in 2005 (Ravnica: City of Guilds) en 2012 (Return to Ravnica). De nieuwe set (releasedatum: 5 oktober 2018) is dus eigenlijk een soort Return to Return to Ravnica. Doet de geliefde stad-wereld ook anno 2018 de harten van Magicspelers sneller kloppen?",
+                "Jeroen, Arjan en Dave bespreken de vijf guilds waar de set om draait (Boros, Selesnya, Golgari, Dimir en Izzet) en de bijbehorende mechanics (mentor, convoke, undergrowth, surveil en jump-start) en cycles. Ook gaan ze in op diverse kaarten en hun (verwachte) impact op Standard, Modern en Commander."
+            ],
+            "shortDescription":
+                "Wéér terug op Ravnica: doet de geliefde stad-wereld ook anno 2018 de harten van Magicspelers sneller kloppen?",
+            "schedule": [
+                {
+                    "timestamp": "0:02:15",
+                    "topic": "In welke guilds horen Jeroen, Arjan en Dave?"
+                },
+                {
+                    "timestamp": "0:06:59",
+                    "topic": "Vijf guilds, vijf mechanics"
+                },
+                {
+                    "timestamp": "0:21:45",
+                    "topic": "Lockets, guildmages en andere cycles"
+                },
+                {
+                    "timestamp": "0:36:02",
+                    "topic": "Interessante kaarten voor Standard volgens Arjan"
+                },
+                {
+                    "timestamp": "0:44:28",
+                    "topic": "Interessante kaarten voor Modern volgens Dave"
+                },
+                {
+                    "timestamp": "0:55:31",
+                    "topic": "Interessante kaarten voor Commander volgens Jeroen"
+                },
+                {
+                    "timestamp": "1:07:20",
+                    "topic": "Special mentions in drie minuten en een beetje"
+                },
+                {
+                    "timestamp": "1:13:04",
+                    "topic": "Conclusies en verwachtingen"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Wat is jouw Ravnica guild? Doe de test!",
+                    "url": "https://app.snapapp.com/RavnicaGuildQuizN"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Knight of Autumn",
+                    "artist": "Ryan Pancoast"
+                }
+            }
         }
     ]
 }

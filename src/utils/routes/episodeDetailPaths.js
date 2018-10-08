@@ -16,4 +16,5 @@ export const ROUTE_EPISODE_DETAIL = {
     15: '/aflevering/015-weet-core-set-2019-te-bekoren',
     16: '/aflevering/016-in-gesprek-met-magic-illustrator-titus-lunter',
     17: '/aflevering/017-daan-pruijt-nederlands-kampioen-met-een-sai-deck',
+    18: '/aflevering/018-verguld-met-guilds-of-ravnica',
 };
