@@ -21,5 +21,8 @@ $image-height: 200px;
 
     .episode-image {
         height: $image-height;
+        &:after {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25));
+        }
     }
 }
