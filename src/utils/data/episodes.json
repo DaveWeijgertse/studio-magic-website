@@ -1323,6 +1323,71 @@
                     "artist": "Ryan Pancoast"
                 }
             }
+        },
+        {
+            "id": 19,
+            "name": "Suzanne Helmigh: Artiest met Penseel en Zwaard",
+            "date": "2018-11-14",
+            "url": "http://www.buzzsprout.com/133608/860803-suzanne-helmigh-artiest-met-penseel-en-zwaard-019",
+            "description": [
+                "De Nederlandse concept artist en illustrator Suzanne Helmigh heeft al aan heel wat boeken, (video)games, films en speelgoedproducten bijgedragen. Zo werkte ze onder andere voor Valve, LEGO, HBO, Warner Bros en Guerilla Games en aan IP's als Lord of the Rings, God of War en Horizon Zero Dawn. Wizards of the Coast heeft haar inmiddels ook opgemerkt en sinds Rivals of Ixalan kun je haar schilderingen op Magickaarten aantreffen.",
+                "Met Jeroen, Arjan en Dave bespreekt ze haar carrière tot nu toe. Hoe is ze illustrator geworden, welke kaarten heeft ze zoal gemaakt, en waarom vindt ze engelen ongeloofwaardig? Verder vertelt ze uitgebreid over haar sport HEMA (Historical European Martial Arts) en haar grote passion project Caldyra. En hoe heeft ze haar man en collega-illustrator Titus Lunter eigenlijk veroverd?"
+            ],
+            "shortDescription":
+                "Interview met de Nederlandse Magic-artiest Suzanne Helmigh over realisme in fantasy, konten tekenen en haar project Caldyra.",
+            "schedule": [
+                {
+                    "timestamp": "0:02:54",
+                    "topic": "Hoe Suzanne illustrator werd"
+                },
+                {
+                    "timestamp": "0:35:33",
+                    "topic": "Hoe kwam Magic op haar pad?"
+                },
+                {
+                    "timestamp": "0:55:11",
+                    "topic": "Suzannes passion project: Caldyra"
+                },
+                {
+                    "timestamp": "1:07:57",
+                    "topic": "Realistisch wapens en gevechten tekenen"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Suzannes Magic: The Gathering art",
+                    "url": "https://scryfall.com/search?as=grid&order=name&q=%28artist%3Asuzanne+artist%3Ahelmigh%29"
+                },
+                {
+                    "title": "Titus Lunters Ixalan Island",
+                    "url": "https://scryfall.com/card/xln/265/island"
+                },
+                {
+                    "title": "Achtergrond van Silent Gravestone (op basis van de bovenstaande Island)",
+                    "url": "https://scryfall.com/card/rix/182/silent-gravestone"
+                },
+                {
+                    "title": "Caldyra, Suzannes illustrated fantasy novel",
+                    "url": "https://www.caldyra.com/"
+                },
+                {
+                    "title": "Suzanne Helmigh op Twitter (@shelmigh)",
+                    "url": "https://twitter.com/SHelmigh"
+                },
+                {
+                    "title": "Titus Lunter op Twitter (@tituslunter)",
+                    "url": "https://twitter.com/TitusLunter"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Soulblade Renewer",
+                    "artist": "Suzanne Helmigh"
+                }
+            }
         }
     ]
 }

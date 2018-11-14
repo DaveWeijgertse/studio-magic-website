@@ -17,4 +17,5 @@ export const ROUTE_EPISODE_DETAIL = {
     16: '/aflevering/016-in-gesprek-met-magic-illustrator-titus-lunter',
     17: '/aflevering/017-daan-pruijt-nederlands-kampioen-met-een-sai-deck',
     18: '/aflevering/018-verguld-met-guilds-of-ravnica',
+    19: '/aflevering/019-suzanne-helmigh-artiest-met-penseel-en-zwaard',
 };
