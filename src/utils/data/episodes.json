@@ -1390,6 +1390,93 @@
                     "artist": "Suzanne Helmigh"
                 }
             }
+        },
+        {
+            "id": 20,
+            "name": "Ultimate Masters: Box Topper of Box Flopper?",
+            "date": "2018-12-13",
+            "url": "https://www.buzzsprout.com/133608/888627-ultimate-masters-box-topper-of-box-flopper-020",
+            "description": [
+                "Met de 'Ultimate Box Toppers' en een karrenvracht aan (vooral) Modern staples wist  Wizards of the Coast aardig wat hype te creëren rondom Ultimate Masters (UMA). Maar is de (voorlopig?) laatste loot aan de Masters-stam echt meer dan alleen 'reprintset nummer zoveel'?",
+                "Arjan, Dave en Jeroen bespreken de 254 kaarten tellende verzameling. Wat zijn de meest welkome reprints en de mooiste Box Toppers? Welke archetypes en mechanics kom je tegen als je de set gaat draften? En is deze duurste Masters-set ooit eigenlijk het geld waard?",
+                "Releasedatum: 7 december 2018. Aantal kaarten: 254. Aantal boosters per doos: 24. Bijzonderheden: 1 Ultimate Box Topper per doos.",
+                "Oh en trouwens: in deze aflevering hebben we het over Gurmag Angler. Die delve-kaart kost natuurlijk 7 mana (6B) en niet 8. Sorry zombie vis! En de programmeurs van Straight to Video zijn niet allebei redacteur van Schokkend Nieuws: een van hen werkt voor LAB111. Sorry Willem!"
+            ],
+            "shortDescription": "Is Ultimate Masters echt meer dan alleen 'reprintset nummer zoveel'?",
+            "schedule": [
+                {
+                    "timestamp": "0:11:55",
+                    "topic": "Meest welkome reprints, mooiste Box Toppers, gemiste kansen"
+                },
+                {
+                    "timestamp": "0:34:42",
+                    "topic": "Archetypes en mechanics"
+                },
+                {
+                    "timestamp": "0:44:34",
+                    "topic": "Special mentions en een zijstraatje over card art"
+                },
+                {
+                    "timestamp": "0:55:38",
+                    "topic": "Verwachte monetaire waarde en conclusie"
+                },
+                {
+                    "timestamp": "1:08:30",
+                    "topic": "De laatste! Hoe erg is dat? En de prijs van Magic"
+                },
+                {
+                    "timestamp": "1:13:08",
+                    "topic": "Afsluitende gedachten"
+                },
+                {
+                    "timestamp": "1:15:40",
+                    "topic": "Wat Verder Ter Tafel Komt"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Announcing Ultimate Masters (UMA-onthulling van Blake Rasmussen)",
+                    "url": "https://magic.wizards.com/en/articles/archive/news/announcing-ultimate-masters-2018-11-05"
+                },
+                {
+                    "title": "The Expected Value of Ultimate Masters (artikel van Saffron Olive op MTG Goldfish)",
+                    "url": "https://www.mtggoldfish.com/articles/the-price-of-ultimate-masters"
+                },
+                {
+                    "title": "Beeld van alle 254 UMA-kaarten",
+                    "url": "https://scryfall.com/sets/uma?as=grid&order=name"
+                },
+                {
+                    "title": "Beeld van alle Ultimate Box Toppers",
+                    "url": "https://scryfall.com/sets/puma?as=grid&order=name"
+                },
+                {
+                    "title": "UMA archetypes (artikel van Ryan Saxe op StarCityGames.com)",
+                    "url": "http://www.starcitygames.com/articles/38033_Ultimate-Masters-Draft-Archetypes.html"
+                },
+                {
+                    "title": "Twee versies van Restoration Angel",
+                    "url":
+                        "https://scryfall.com/search?as=grid&order=released&q=%21%E2%80%9CRestoration+Angel%E2%80%9D&unique=prints"
+                },
+                {
+                    "title": "Wat betekent UMA voor Modern prijzen? (artikel van Saffron Olive op MTG Goldfish)",
+                    "url": "https://www.mtggoldfish.com/articles/how-much-is-ultimate-masters-helping-modern-prices"
+                },
+                {
+                    "title": "Straight to Video (genoemd in WVTTK)",
+                    "url": "https://www.lab111.nl/straight-to-video/"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Bitterblossom",
+                    "artist": "Jesper Ejsing"
+                }
+            }
         }
     ]
 }

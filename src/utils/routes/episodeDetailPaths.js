@@ -18,4 +18,5 @@ export const ROUTE_EPISODE_DETAIL = {
     17: '/aflevering/017-daan-pruijt-nederlands-kampioen-met-een-sai-deck',
     18: '/aflevering/018-verguld-met-guilds-of-ravnica',
     19: '/aflevering/019-suzanne-helmigh-artiest-met-penseel-en-zwaard',
+    20: '/aflevering/020-ultimate-masters-box-topper-of-box-flopper',
 };
