@@ -19,4 +19,6 @@ export const ROUTE_EPISODE_DETAIL = {
     18: '/aflevering/018-verguld-met-guilds-of-ravnica',
     19: '/aflevering/019-suzanne-helmigh-artiest-met-penseel-en-zwaard',
     20: '/aflevering/020-ultimate-masters-box-topper-of-box-flopper',
+    21: '/aflevering/022-flashback-2018-terugblik-op-het-magicjaar-deel-2',
+    22: '/aflevering/021-flashback-2018-terugblik-op-het-magicjaar-deel-1',
 };

@@ -1477,6 +1477,128 @@
                     "artist": "Jesper Ejsing"
                 }
             }
+        },
+        {
+            "id": 21,
+            "name": "Flashback 2018: Terugblik op het Magicjaar, deel 2",
+            "date": "2018-12-30",
+            "url": "https://www.buzzsprout.com/133608/903682-flashback-2018-terugblik-op-het-magicjaar-deel-2-022",
+            "description": [
+                "In deel 2 van hun terugblik op het Magicjaar bespreken Jeroen, Dave en Arjan de bans en unbans van het afgelopen jaar en het effect daarvan op de formats Modern, Standard en Legacy. Ook de opkomst van Magic: The Gathering Arena en Wizards' inzet op e-sports komen aan bod. En wat is er eigenlijk gebeurd met Brawl?",
+                "Verder onthullen de drie presentatoren hun persoonlijke top 3-lijstjes met Magic-hoogtepunten van 2018 en goede voornemens voor het nieuwe jaar. En was 2018 echt het jubileumjaar dat het had moeten zijn om het 25-jarig bestaan van hun geliefde kaartspel te vieren?",
+                "Beluister ook deel 1 van Studio Magics Flashback 2018 (aflevering 21) voor een bespreking van de belangrijkste Magicsets van 2018!"
+            ],
+            "shortDescription":
+                "Brawl, Arena, 25 jaar Magic, bans en unbans, Beta Rochester drafts, top 3-lijstjes en meer in Studio Magics terugblik op 2018.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:28",
+                    "topic": "Bans en unbans"
+                },
+                {
+                    "timestamp": "0:11:42",
+                    "topic": "Brawl"
+                },
+                {
+                    "timestamp": "0:15:55",
+                    "topic": "Rochester drafts en Silver Showcase"
+                },
+                {
+                    "timestamp": "0:20:49",
+                    "topic": "Magic: the Gathering Arena"
+                },
+                {
+                    "timestamp": "0:25:14",
+                    "topic": "2018 als jubileumjaar: feest?"
+                },
+                {
+                    "timestamp": "0:28:13",
+                    "topic": "De 2018-top 3's van Jeroen, Arjan en Dave"
+                },
+                {
+                    "timestamp": "0:34:38",
+                    "topic": "Vooruitblik op 2019: Arena, e-sports en MagicFests"
+                },
+                {
+                    "timestamp": "0:46:15",
+                    "topic": "Goede Magicvoornemens"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Grand Prix Las Vegas Beta Rochester Draft",
+                    "url": "https://www.youtube.com/watch?v=2rGoY4A4isg"
+                },
+                {
+                    "title": "Alpha Set Review door Luis-Scott Vargas en Ben Seck (Limited Resources)",
+                    "url": "http://lrcast.com/limited-resources-427-alpha-set-review-with-ben-seck/"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Bloodbraid Elf",
+                    "artist": "Steve Argyle"
+                }
+            }
+        },
+        {
+            "id": 22,
+            "name": "Flashback 2018: Terugblik op het Magicjaar, deel 1",
+            "date": "2018-12-30",
+            "url": "https://www.buzzsprout.com/133608/903667-flashback-2018-terugblik-op-het-magicjaar-deel-1-021",
+            "description": [
+                "In deel 1 van hun terugblik op het Magicjaar bespreken Jeroen, Dave en Arjan de belangrijkste sets die in 2018 uitkwamen. In chronologische volgorde waren dat: Rivals of Ixalan (RIX), Masters 25 (A25), Dominaria (DOM), Battlebond (BBD), Core Set 2019 (M19), Commander 2018 (C18), Guilds of Ravnica (GRN) en Ultimate Masters (UMA). Wat waren noemenswaardige kaarten en welke rapportcijfers verdienen de sets?",
+                "Beluister ook deel 2 van Studio Magics Flashback 2018 (aflevering 21) voor bespiegelingen over banlist announcements, andere noemenswaardige Magicgebeurtenissen, top 3-lijstjes, een vooruitblik op 2019 en goede voornemens!"
+            ],
+            "shortDescription":
+                "Van Dominaria tot Battlebond en van Masters 25 tot Guilds of Ravnica: een bespreking van de belangrijkste Magicsets van 2018.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:57",
+                    "topic": "Rivals of Ixalan"
+                },
+                {
+                    "timestamp": "0:12:17",
+                    "topic": "Masters 25"
+                },
+                {
+                    "timestamp": "0:18:57",
+                    "topic": "Dominaria"
+                },
+                {
+                    "timestamp": "0:33:54",
+                    "topic": "Battlebond"
+                },
+                {
+                    "timestamp": "0:40:51",
+                    "topic": "Core Set 2019"
+                },
+                {
+                    "timestamp": "0:59:51",
+                    "topic": "Commander 2018"
+                },
+                {
+                    "timestamp": "1:08:20",
+                    "topic": "Guilds of Ravnica"
+                },
+                {
+                    "timestamp": "1:25:01",
+                    "topic": "Ultimate Masters"
+                }
+            ],
+            "links": [],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Teferi, Hero of Dominaria",
+                    "artist": "Chris Rallis"
+                }
+            }
         }
     ]
 }
