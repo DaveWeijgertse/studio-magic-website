@@ -3,7 +3,7 @@ import i18n from 'i18n-react';
 import { reverse } from 'lodash';
 
 // Data imports
-import { episodes } from 'appUtils/data/episodes.json';
+import { episodes } from 'utils/data/episodes.json';
 
 // Subcomponent imports
 import EpisodeTile from '../../Components/EpisodeTile';

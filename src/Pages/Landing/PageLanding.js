@@ -3,8 +3,8 @@ import React from 'react';
 import { last } from 'lodash';
 
 // Data imports
-import { episodes } from 'appUtils/data/episodes.json';
-import { staff } from 'appUtils/data/staff.json';
+import { episodes } from 'utils/data/episodes.json';
+import { staff } from 'utils/data/staff.json';
 
 // Subcomponent imports
 import Contact from './Contact';

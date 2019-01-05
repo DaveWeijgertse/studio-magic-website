@@ -2,7 +2,7 @@ import React from 'react';
 import i18n from 'i18n-react';
 import { Link } from 'react-router-dom';
 
-import { ROUTE_EPISODES_LIST, ROUTE_DISCLAIMER } from 'appUtils/routes/paths';
+import { ROUTE_EPISODES_LIST, ROUTE_DISCLAIMER } from 'utils/routes/paths';
 
 // Styling imports
 import './LinksToPodcastPages.scss';

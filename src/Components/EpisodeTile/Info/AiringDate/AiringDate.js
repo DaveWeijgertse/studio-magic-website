@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Formatters import
-import formatDate from 'appUtils/formatters/formatDate';
+import formatDate from 'utils/formatters/formatDate';
 
 // Styling imports
 import './AiringDate.scss';

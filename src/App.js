@@ -2,13 +2,13 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 // Routes import
-import { ROUTE_ROOT, ROUTE_EPISODES_LIST, ROUTE_DISCLAIMER } from 'appUtils/routes/paths';
+import { ROUTE_ROOT, ROUTE_EPISODES_LIST, ROUTE_DISCLAIMER } from 'utils/routes/paths';
 
-import { ROUTE_EPISODE_DETAIL } from 'appUtils/routes/episodeDetailPaths';
+import { ROUTE_EPISODE_DETAIL } from 'utils/routes/episodeDetailPaths';
 
 // Translations import
 import i18n from 'i18n-react';
-import NL from './utils/translations/nl-NL.json';
+import NL from 'utils/translations/nl-NL.json';
 
 // Pages imports
 import PageDisclaimer from './Pages/Disclaimer/PageDisclaimer';

@@ -2,7 +2,7 @@ import React from 'react';
 import i18n from 'i18n-react';
 import { Link } from 'react-router-dom';
 
-import { ROUTE_EPISODE_DETAIL } from 'appUtils/routes/episodeDetailPaths';
+import { ROUTE_EPISODE_DETAIL } from 'utils/routes/episodeDetailPaths';
 
 // Styling import
 import './MoreInfo.scss';

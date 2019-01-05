@@ -2,7 +2,7 @@ import React from 'react';
 import i18n from 'i18n-react';
 import { Link } from 'react-router-dom';
 
-import { ROUTE_DISCLAIMER } from 'appUtils/routes/paths';
+import { ROUTE_DISCLAIMER } from 'utils/routes/paths';
 
 // Styling import
 import './Credits.scss';

@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router';
 
 // Data imports
-import { episodes } from 'appUtils/data/episodes.json';
+import { episodes } from 'utils/data/episodes.json';
 
 // Subcomponent imports
 import Credits from './Credits';

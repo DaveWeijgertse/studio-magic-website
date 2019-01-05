@@ -2,7 +2,7 @@ import React from 'react';
 import i18n from 'i18n-react';
 import { Link } from 'react-router-dom';
 
-import { ROUTE_ROOT, ROUTE_EPISODES_LIST } from 'appUtils/routes/paths';
+import { ROUTE_ROOT, ROUTE_EPISODES_LIST } from 'utils/routes/paths';
 
 // Library imports
 import { slide as Menu } from 'react-burger-menu';

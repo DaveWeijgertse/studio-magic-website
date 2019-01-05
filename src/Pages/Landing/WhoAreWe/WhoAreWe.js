@@ -1,7 +1,7 @@
 import React from 'react';
 import i18n from 'i18n-react';
 
-import { ARJAN_ANG, DAVE_WEIJGERTSE, JEROEN_KOSTER } from 'appUtils/constants/persons';
+import { ARJAN_ANG, DAVE_WEIJGERTSE, JEROEN_KOSTER } from 'utils/constants/persons';
 
 // Subcomponent imports
 import PersonTile from './PersonTile';

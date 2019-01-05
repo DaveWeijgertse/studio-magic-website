@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Util imports
-import getSocialMediaHref from 'appUtils/helpers/getSocialMediaHref';
+import getSocialMediaHref from 'utils/helpers/getSocialMediaHref';
 
 // Styling import
 import './SocialMediaButton.scss';

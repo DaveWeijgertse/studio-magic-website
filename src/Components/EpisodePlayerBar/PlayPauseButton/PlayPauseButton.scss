@@ -1,4 +1,4 @@
-@import "~appUtils/styling/colors";
+@import '~utils/styling/colors';
 
 $button-size: 40px;
 
@@ -10,7 +10,7 @@ $button-size: 40px;
     height: $button-size;
     cursor: pointer;
     &:before {
-        font-family: "FontAwesome";
+        font-family: 'FontAwesome';
         color: white;
         font-size: 20px;
     }
@@ -18,9 +18,9 @@ $button-size: 40px;
         color: $main-color;
     }
     &.playing:before {
-        content: "\f04c";
+        content: '\f04c';
     }
     &.paused:before {
-        content: "\f04b";
+        content: '\f04b';
     }
 }

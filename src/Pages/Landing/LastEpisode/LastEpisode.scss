@@ -1,6 +1,6 @@
-@import '~appUtils/styling/colors';
-@import '~appUtils/styling/placeholders';
-@import '~appUtils/styling/mediaQueries';
+@import '~utils/styling/colors';
+@import '~utils/styling/placeholders';
+@import '~utils/styling/mediaQueries';
 
 $container-height: calc(100vh - 134px); // 100% of the viewport, minus the height of the header + pay-off text
 $container-height-mobile: calc(100vh - 127px);

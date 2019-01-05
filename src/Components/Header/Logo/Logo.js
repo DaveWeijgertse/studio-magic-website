@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { ROUTE_ROOT } from 'appUtils/routes/paths';
+import { ROUTE_ROOT } from 'utils/routes/paths';
 
 // Logo imports
 import logoStudio from './images/logo-studio_magic-STUDIO_wit.png';

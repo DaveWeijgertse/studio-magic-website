@@ -1,8 +1,8 @@
 import React from 'react';
 import i18n from 'i18n-react';
 
-// Utils imports
-import formatEpisodeNumber from 'appUtils/formatters/formatEpisodeNumber';
+// Utils import
+import formatEpisodeNumber from 'utils/formatters/formatEpisodeNumber';
 
 // Styling imports
 import './EpisodeInfo.scss';

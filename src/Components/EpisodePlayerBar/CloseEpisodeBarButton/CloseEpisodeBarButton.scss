@@ -1,4 +1,4 @@
-@import "~appUtils/styling/colors";
+@import '~utils/styling/colors';
 
 .close-episode-bar-button {
     color: white;
@@ -9,7 +9,7 @@
         color: $secondary-color;
     }
     &:before {
-        content: "\f00d";
-        font-family: "FontAwesome";
+        content: '\f00d';
+        font-family: 'FontAwesome';
     }
 }

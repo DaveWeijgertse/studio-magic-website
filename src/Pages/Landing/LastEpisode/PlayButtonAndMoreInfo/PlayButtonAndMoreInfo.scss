@@ -1,6 +1,5 @@
-@import '~appUtils/styling/colors';
-@import '~appUtils/styling/mediaQueries';
-
+@import '~utils/styling/colors';
+@import '~utils/styling/mediaQueries';
 
 .play-button {
     display: inline-block;
@@ -23,7 +22,7 @@
     &:after {
         margin-left: 16px;
         font-size: 1em;
-        font-family: "FontAwesome";
+        font-family: 'FontAwesome';
     }
 
     &.start-playing {
@@ -32,7 +31,7 @@
             background: $main-color-dark;
         }
         &:after {
-            content: "\f04b";
+            content: '\f04b';
         }
     }
     &.stop-playing {
@@ -41,7 +40,7 @@
             background: $secondary-color-dark;
         }
         &:after {
-            content: "\f04d";
+            content: '\f04d';
         }
     }
 }
