@@ -1562,6 +1562,77 @@
                     "artist": "Steve Argyle"
                 }
             }
+        },
+        {
+            "id": 23,
+            "name": "Ravnica Allegiance is een guildy pleasure",
+            "date": "2019-01-27",
+            "url": "https://www.buzzsprout.com/133608/933731-ravnica-allegiance-is-een-guildy-pleasure-023",
+            "description": [
+                "In Ravnica Allegiance, de opvolger van het immens populaire Guilds of Ravnica, staan wederom vijf guilds centraal. Kan 'RNA' zich meten met zijn geslaagde voorganger?",
+                "Jeroen, Arjan en Dave bespreken wederom de vijf guilds waar de set om draait (Azorius, Rakdos, Gruul, Orzhov, Simic)) en de bijbehorende mechanics (addendum, spectacle, riot, afterlife en adapt) en cycles. Ook gaan ze weer in op diverse kaarten en hun (verwachte) impact op Standard, Modern en Commander."
+            ],
+            "shortDescription": "Kan Ravnica Allegiance zich meten met zijn immens populaire voorganger, Guilds of Ravnica?",
+            "schedule": [
+                {
+                    "timestamp": "0:00:55",
+                    "topic": "Guilds of Ravnica Allegiance"
+                },
+                {
+                    "timestamp": "0:02:23",
+                    "topic": "Vijf nieuwe mechanics"
+                },
+                {
+                    "timestamp": "0:15:30",
+                    "topic": "Guildmages"
+                },
+                {
+                    "timestamp": "0:20:50",
+                    "topic": "‘2+2’ / MMNN creatures"
+                },
+                {
+                    "timestamp": "0:24:23",
+                    "topic": "Drie nieuwe planeswalkers"
+                },
+                {
+                    "timestamp": "0:32:43",
+                    "topic": "Interessante kaarten voor Standard volgens Arjan"
+                },
+                {
+                    "timestamp": "0:45:46",
+                    "topic": "Interessante kaarten voor Modern volgens Dave"
+                },
+                {
+                    "timestamp": "0:52:22",
+                    "topic": "Interessante kaarten voor Commander volgens Jeroen"
+                },
+                {
+                    "timestamp": "1:01:39",
+                    "topic": "Special mentions"
+                },
+                {
+                    "timestamp": "1:09:35",
+                    "topic": "Mythic Edition en Buy a Box promo"
+                },
+                {
+                    "timestamp": "1:12:30",
+                    "topic": "Conclusies en verwachtingen"
+                },
+                {
+                    "timestamp": "1:18:05",
+                    "topic": "Wat Verder Ter Tafel Komt"
+                }
+            ],
+            "links": [],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Dave Weijgertse",
+                "extraMusic": [],
+                "art": {
+                    "name": "Cult Guildmage",
+                    "artist": "Victor Adame Minguez"
+                }
+            }
         }
     ]
 }
