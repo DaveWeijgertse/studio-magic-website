@@ -22,4 +22,5 @@ export const ROUTE_EPISODE_DETAIL = {
     21: '/aflevering/021-flashback-2018-terugblik-op-het-magicjaar-deel-1',
     22: '/aflevering/022-flashback-2018-terugblik-op-het-magicjaar-deel-2',
     23: '/aflevering/023-ravnica-allegiance-is-een-guildy-pleasure',
+    24: '/aflevering/024-mtg-arena-duim-omhoog-voor-digitaal-magic',
 };

@@ -1633,6 +1633,63 @@
                     "artist": "Victor Adame Minguez"
                 }
             }
+        },
+        {
+            "id": 24,
+            "name": "MTG Arena: Duim omhoog voor digitaal Magic",
+            "date": "2019-03-10",
+            "url": "https://www.buzzsprout.com/133608/988325-mtg-arena-duim-omhoog-voor-digitaal-magic-024",
+            "description": [
+                "Met Magic: The Gathering Arena zet Wizards of the Coast vol in op e-sport - en met succes, naar het zich laat aanzien. In korte tijd is deze nieuwe manier om het kaartspel online te beleven razend populair geworden bij zowel casual spelers als professionals en bij zowel streamers als kijkers.",
+                "Kasper Zijl ('de gezelligste Magiccer van Amsterdam!') schuift aan bij Jeroen en Arjan om te praten over wat Arena precies is, wat de verschillen zijn met Magic: The Gathering Online en Hearthstone, en wat het programma betekent voor de toekomst van Magic.",
+                "Deze aflevering is mede mogelijk gemaakt door The Flipped Table, webshop voor Magic-accessoires en sealed producten."
+            ],
+            "shortDescription": "Het populaire Magic: The Gathering Arena is de nieuwe manier om online Magic te spelen, maar wat betekent dat voor het papieren kaartspel?",
+            "schedule": [
+                {
+                    "timestamp": "0:00:31",
+                    "topic": "Even voorstellen: Kasper Zijl"
+                },
+                {
+                    "timestamp": "0:04:17",
+                    "topic": "Wat is Magic: The Gathering Arena?"
+                },
+                {
+                    "timestamp": "0:11:45",
+                    "topic": "Zo kom je aan kaarten in Arena"
+                },
+                {
+                    "timestamp": "0:18:56",
+                    "topic": "Het H-woord: lijkt Arena niet best veel op Hearthstone?"
+                },
+                {
+                    "timestamp": "0:24:56",
+                    "topic": "Best-of-1 versus best-of-3: verschillende meta's"
+                },
+                {
+                    "timestamp": "0:33:16",
+                    "topic": "De Arena-ervaring voor speler én kijker"
+                },
+                {
+                    "timestamp": "0:49:27",
+                    "topic": "Arena en de toekomst van Magic"
+                }
+            ],
+            "links": [
+                {
+                    "title": "The Flipped Table",
+                    "url": "https://www.flippedtable.nl/"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Kasper Zijl",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Brainstorm (Signature Spellbook: Jace versie)",
+                    "artist": "Daarken"
+                }
+            }
         }
     ]
 }
