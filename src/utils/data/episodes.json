@@ -1690,6 +1690,72 @@
                     "artist": "Daarken"
                 }
             }
+        },
+        {
+            "id": 25,
+            "name": "Commander 101: Kom anders multiplayer Magic spelen!",
+            "date": "2019-04-18",
+            "url": "https://www.buzzsprout.com/133608/1045164-commander-101-kom-anders-multiplayer-magic-spelen-025",
+            "description": [
+                "'There can be only one', het motto van de onsterfelijken in de film Highlander, is ook het basisprincipe van het gelijknamige Magicformat: elke kaart (met uitzondering van basic land) mag maar één keer in je deck zitten. De meest bekende en populaire variant van highlander Magic is Commander, dat fans van het eerste uur ook nog wel aanduiden als Elder Dragon Highlander (EDH).",
+                "Het casual multiplayerformat is ooit bedacht door een groepje Magicfans. In de loop der jaren heeft de rest van de community het omarmd en is Wizards of the Coast zelfs begonnen met het ontwerpen van kaarten specifiek voor Commander. Hoog tijd dus om er een aflevering van Studio Magic aan te wijden!",
+                "Jeroen Koster, Jeroen Verhallen en Dave Weijgertse zijn alle drie enthousiaste Commanderspelers. Zij bespreken de grondbeginselen van het format, de geschiedenis en hoe ze zelf decks bouwen en finetunen.",
+                "Hierbij mogen deck techs natuurlijk niet ontbreken! Jeroen Verhallen vertelt over zijn Atraxa Superfriends-deck met 26(!) Planeswalkers, Jeroen Koster is trots op zijn Breya-deck dat draait om tokens en het 'blinken' van creatures, en Dave presenteert zijn Azusa-deck propvol land en mana ramp."
+            ],
+            "shortDescription": "Commander is de manier bij uitstek om multiplayer Magic te spelen. Hoe werkt het en wat is er zo tof aan?",
+            "schedule": [
+                {
+                    "timestamp": "0:00:32",
+                    "topic": "Even voorstellen: Jeroen Verhallen"
+                },
+                {
+                    "timestamp": "0:05:58",
+                    "topic": "Wat is Commander eigenlijk? De basics van het format"
+                },
+                {
+                    "timestamp": "0:20:43",
+                    "topic": "Een beknopte geschiedenis van Commander/EDH"
+                },
+                {
+                    "timestamp": "0:30:13",
+                    "topic": "Een Commanderdeck bouwen en aanpassen - en wat er leuk aan is"
+                },
+                {
+                    "timestamp": "0:38:58",
+                    "topic": "Deck tech 1: Atraxa Superfriends (Jeroen Verhallen)"
+                },
+                {
+                    "timestamp": "0:53:53",
+                    "topic": "Deck tech 2: Breya Blink / Tokens (Jeroen Koster)"
+                },
+                {
+                    "timestamp": "1:02:26",
+                    "topic": "Deck tech 3: Azusa Ramp (Dave Weijgertse)"
+                },
+                {
+                    "timestamp": "1:09:09",
+                    "topic": "Politics in multiplayer Magic"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Decklist van Breya Blink / Tokens (Jeroen Koster)",
+                    "url": "https://deckstats.net/decks/52171/1087548-breya-blinkable-token-maker"
+                },
+                {
+                    "title": "Decklist van Azusa Ramp (Dave Weijgertse)",
+                    "url": "https://www.mtggoldfish.com/deck/1819808#paper"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Dave Weijgertse en Jeroen Verhallen",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Animar, Soul of Elements",
+                    "artist": "Peter Mohrbacher"
+                }
+            }
         }
     ]
 }
