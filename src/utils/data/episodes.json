@@ -1756,6 +1756,81 @@
                     "artist": "Peter Mohrbacher"
                 }
             }
+        },
+        {
+            "id": 26,
+            "name": "War of the Spark is een wirwar aan planeswalkers",
+            "date": "2019-04-27",
+            "url": "https://www.buzzsprout.com/133608/1057715-war-of-the-spark-is-een-wirwar-aan-planeswalkers",
+            "description": [
+                "Gideon, Liliana, Jace, Chandra, Teferi, Ugin, Nicol Bolas en vele, vele anderen: maar liefst 37(!)* planeswalkers zitten in War of the Spark. Daarbij is deze nieuwste Magicset ook nog eens de culminatie van een verhaal waaraan Wizards of the Coast al jaren (en meerdere sets) bezig is.",
+                "Jeroen, Arjan en Dave bespreken de trailers en het verhaal van War of the Spark, en hoe verschillende kaarten daar in passen. Uiteraard lichten ze ook de meest noemenswaardige mechanics toe en proberen ze van diverse kaarten in te schatten wat hun impact zal zijn in formats als Limited, Standard, Modern en Commander.",
+                "Zo maken de drie je wegwijs in de wirwar die dat oplevert. Wat betekent dat enorme aantal planeswalkers voor hun power level? En wordt de climax van dit epische verhaal, behalve voor de ontwerpers, de vertellers en de hoofdrolspelers, ook een hoogtepunt voor de spélers van het spel?",
+                "War of the Spark (WAR / MTGWAR) komt uit op vrijdag 3 mei 2019. De prerelease vindt plaats in het weekend ervoor (27 en 28 april). De set is de 81ste expansion voor Magic: The Gathering en bevat 264 kaarten.",
+                "*: 39 als je de 2 uit de nieuwe Planeswalker Decks meerekent."
+            ],
+            "shortDescription": "Maar liefst 37 planeswalkers in één Magicset, is dat net zo fantastisch als het klinkt?",
+            "schedule": [
+                {
+                    "timestamp": "0:01:05",
+                    "topic": "De trailers en het verhaal van War of the Spark (met spoilers!)"
+                },
+                {
+                    "timestamp": "0:11:39",
+                    "topic": "37 planeswalkers in één set, hoe dan?!"
+                },
+                {
+                    "timestamp": "0:35:50",
+                    "topic": "Terugkerende mechanic: Proliferate"
+                },
+                {
+                    "timestamp": "0:45:54",
+                    "topic": "Nieuwe mechanic: Amass"
+                },
+                {
+                    "timestamp": "0:53:48",
+                    "topic": "Cycle: God-Eternals"
+                },
+                {
+                    "timestamp": "1:02:15",
+                    "topic": "Cycle: Finales"
+                },
+                {
+                    "timestamp": "1:06:26",
+                    "topic": "War of the Spark in Modern"
+                },
+                {
+                    "timestamp": "1:16:56",
+                    "topic": "War of the Spark in Commander"
+                },
+                {
+                    "timestamp": "1:28:23",
+                    "topic": "Special mentions"
+                },
+                {
+                    "timestamp": "1:40:46",
+                    "topic": "Voorlopige conclusies over #MTGWAR"
+                }
+            ],
+            "links": [
+                {
+                    "title": "War of the Spark teaser trailer",
+                    "url": "https://www.youtube.com/watch?v=Zn_0ZjpjntE"
+                },
+                {
+                    "title": "War of the Spark officiële trailer",
+                    "url": "https://www.youtube.com/watch?v=b5W9t62t10I"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Gideon Blackblade",
+                    "artist": "Viktor Titov"
+                }
+            }
         }
     ]
 }

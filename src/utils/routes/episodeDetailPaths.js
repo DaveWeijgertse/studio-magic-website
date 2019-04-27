@@ -24,4 +24,5 @@ export const ROUTE_EPISODE_DETAIL = {
     23: '/aflevering/023-ravnica-allegiance-is-een-guildy-pleasure',
     24: '/aflevering/024-mtg-arena-duim-omhoog-voor-digitaal-magic',
     25: '/aflevering/025-commander-101-kom-anders-multiplayer-magic-spelen',
+    26: '/aflevering/026-war-of-the-spark-is-een-wirwar-aan-planeswalkers',
 };
