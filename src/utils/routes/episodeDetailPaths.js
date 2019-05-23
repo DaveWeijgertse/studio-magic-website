@@ -25,4 +25,5 @@ export const ROUTE_EPISODE_DETAIL = {
     24: '/aflevering/024-mtg-arena-duim-omhoog-voor-digitaal-magic',
     25: '/aflevering/025-commander-101-kom-anders-multiplayer-magic-spelen',
     26: '/aflevering/026-war-of-the-spark-is-een-wirwar-aan-planeswalkers',
+    27: '/aflevering/027-waarom-we-magic-the-gathering-spelen',
 };

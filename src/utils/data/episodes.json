@@ -1831,6 +1831,83 @@
                     "artist": "Viktor Titov"
                 }
             }
+        },
+        {
+            "id": 27,
+            "name": "Waarom we Magic: The Gathering spelen",
+            "date": "2019-05-21",
+            "url": "https://www.buzzsprout.com/133608/1175750-waarom-we-magic-the-gathering-spelen-027",
+            "description": [
+                "Creativiteit, competitie, community, veelzijdigheid, de art, het design, de verhalen: iedereen heeft zo zijn eigen redenen om Magic: The Gathering te spelen. Arjan, Dave en Jeroen vertellen ieder wat hen persoonlijk zo aanspreekt in het spel.",
+                "Ook praten ze over hoe ze ooit zijn begonnen, hoeveel ze spelen, in hoeverre ze competitieve of casual spelers zijn en hoe ze hun hobby in de toekomst zien.",
+                "Herkenbaar? Laat weten hoe jij Magic ervaart en wat je er leuk aan vindt via onze social kanalen! De links vind je hieronder."
+            ],
+            "shortDescription": "Arjan, Dave en Jeroen vertellen wat voor hen (en voor anderen?) de aantrekkingskracht is van MTG.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:45",
+                    "topic": "Hoe begon Arjan ooit met Magic?"
+                },
+                {
+                    "timestamp": "0:05:34",
+                    "topic": "Hoe begon Dave ooit met Magic?"
+                },
+                {
+                    "timestamp": "0:12:30",
+                    "topic": "Hoe begon Jeroen ooit met Magic?"
+                },
+                {
+                    "timestamp": "0:16:54",
+                    "topic": "Casual versus competitief"
+                },
+                {
+                    "timestamp": "0:23:04",
+                    "topic": "Wat is er zo leuk aan Magic?"
+                },
+                {
+                    "timestamp": "0:31:04",
+                    "topic": "Art en design"
+                },
+                {
+                    "timestamp": "0:40:48",
+                    "topic": "Magic lore: de verhalen"
+                },
+                {
+                    "timestamp": "0:45:48",
+                    "topic": "Magiccen Arjan, Dave en Jeroen over vijf jaar nog?"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Horizon Canopy",
+                    "url": "https://scryfall.com/card/fut/177/horizon-canopy"
+                },
+                {
+                    "title": "Karma",
+                    "url": "https://scryfall.com/card/lea/26/karma"
+                },
+                {
+                    "title": "Deathsprout",
+                    "url": "https://scryfall.com/card/war/189/deathsprout"
+                },
+                {
+                    "title": "Growth Spiral",
+                    "url": "https://scryfall.com/card/rna/178/growth-spiral"
+                },
+                {
+                    "title": "Abrupt Decay",
+                    "url": "https://scryfall.com/card/pwcq/2016/abrupt-decay"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Growth Spiral",
+                    "artist": "Seb McKinnon"
+                }
+            }
         }
     ]
 }
