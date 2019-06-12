@@ -1908,6 +1908,70 @@
                     "artist": "Seb McKinnon"
                 }
             }
+        },
+        {
+            "id": 28,
+            "name": "Modern Horizons verbreedt (bijna) alle Magicformats",
+            "date": "2019-06-12",
+            "url": "https://www.buzzsprout.com/133608/1269109-modern-horizons-verbreedt-bijna-alle-magicformats-028",
+            "description": [
+                "Modern Horizons is de meest complexe Magicset sinds Time Spiral block. Het is Wizards' innivationproduct van 2019 en bevat 255 kaarten. Deze zijn deels gloednieuw en deels (variaties op) oude bekende, maar allemaal zijn ze nieuw voor het Modern format: een unicum in de Magicgeschiedenis!",
+                "MH1 is ook meteen legal in Legacy, Vintage en Commander, maar slaat Standard volledig over. Daarin mogen deze kaarten dus niet gespeeld worden, en gezien het enorme aantal verschillende mechanics (40+) is dat misschien maar goed ook...",
+                "Vooral vanwege de vele aanwinsten voor EDH wordt wordt de set ook wel Commander Horizons genoemd. Is dat terecht? Welke kaarten gaan play zien in Modern en Legacy? Is de hoge prijs voor boosters en te billijken? Dave, Arjan en Jeroen bespreken deze en nog een heleboel andere vragen over Modern Horizons, en nemen tientallen kaarten onder de loep."
+            ],
+            "shortDescription": "De meest complexe Magicset sinds Time Spiral block bevat volop nieuwe speeltjes voor Modern, Legacy en Commander.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:27",
+                    "topic": "Introductie: wat is Modern Horizons?"
+                },
+                {
+                    "timestamp": "0:03:52",
+                    "topic": "Wit"
+                },
+                {
+                    "timestamp": "0:15:48",
+                    "topic": "Blauw"
+                },
+                {
+                    "timestamp": "0:40:30",
+                    "topic": "Zwart"
+                },
+                {
+                    "timestamp": "0:54:48",
+                    "topic": "Rood"
+                },
+                {
+                    "timestamp": "1:08:00",
+                    "topic": "Groen"
+                },
+                {
+                    "timestamp": "1:25:28",
+                    "topic": "Multicolored"
+                },
+                {
+                    "timestamp": "1:37:57",
+                    "topic": "Artifacts"
+                },
+                {
+                    "timestamp": "1:41:47",
+                    "topic": "Land"
+                },
+                {
+                    "timestamp": "1:48:55",
+                    "topic": "Conclusies en afsluitende gedachten"
+                }
+            ],
+            "links": [],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Urza, Lord High Artificer",
+                    "artist": "Grzegorz Rutkowski"
+                }
+            }
         }
     ]
 }
