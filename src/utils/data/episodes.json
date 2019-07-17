@@ -1972,6 +1972,80 @@
                     "artist": "Grzegorz Rutkowski"
                 }
             }
+        },
+        {
+            "id": 29,
+            "name": "Core Set 2020: Chandra in haar element",
+            "date": "2019-07-16",
+            "url": "https://www.buzzsprout.com/133608/1420171-core-set-2020-chandra-in-haar-element-029",
+            "description": [
+                "Core Set 2020, kortweg M20, is de negentiende Magic: The Gathering core set. Deze geeft de tribes uit Ixalan nog snel even wat nieuwe speeltjes voordat dat block over een paar maanden uit Standard roteert, en bevat volop hints over de (oude bekende?) plane waar de volgende Magicset zich zal afspelen.",
+                "Maar M20 is meer dan alleen piraten, vampieren, dinosaurussen en merfolk, of kaarten die goed zouden kunnen werken in een enchantment- of devotiondeck. Zo loopt de set over van de elementals (gaat die tribe Standard domineren?) en is er een speciale rol weggelegd voor Chandra Nalaar: de pyromancer van Kaladesh heeft maar liefst drie planeswalkerkaarten (vier als je die uit het Planeswalker Deck meetelt) en nog een aantal spells die aan haar refereren.",
+                "Ook zijn de scrylandjes terug en bevat de set natuurlijk weer diverse nuttige reprints voor Modern - niet in de laatste plaats de Leylines.",
+                "Jeroen en Dave lopen op WUBRG-volgorde door M20 en bespreken van tientallen kaarten wat ze er bijzonder, sterk, slecht, mooi of op wat voor manier dan ook interessant aan vinden, en of ze enige impact zouden kunnen maken in formats als Limited, Standard, Modern en Commander.",
+                "Tot slot doet het duo ook nog een dappere poging om voor eens en voor altijd goed uit te leggen hoe de London Mulligan werkt."
+            ],
+            "shortDescription": "Leylines, color hosers, tribalkaarten en een glansrol voor Chandra in de nieuwe core set M20.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:32",
+                    "topic": "Introductie: wat feitjes over M20"
+                },
+                {
+                    "timestamp": "0:03:04",
+                    "topic": "Mechanics en cycles"
+                },
+                {
+                    "timestamp": "0:21:38",
+                    "topic": "Wit"
+                },
+                {
+                    "timestamp": "0:36:46",
+                    "topic": "Blauw"
+                },
+                {
+                    "timestamp": "0:46:45",
+                    "topic": "Zwart"
+                },
+                {
+                    "timestamp": "0:57:35",
+                    "topic": "Rood"
+                },
+                {
+                    "timestamp": "1:07:10",
+                    "topic": "Groen"
+                },
+                {
+                    "timestamp": "1:16:19",
+                    "topic": "Multicolored"
+                },
+                {
+                    "timestamp": "1:27:13",
+                    "topic": "Artifacts"
+                },
+                {
+                    "timestamp": "1:35:14",
+                    "topic": "Land"
+                },
+                {
+                    "timestamp": "1:40:03",
+                    "topic": "Conclusies en afsluitende gedachten"
+                },
+                {
+                    "timestamp": "1:45:09",
+                    "topic": "De London Mulligan uitgelegd"
+                }
+            ],
+            "links": [],
+            "credits": {
+                "presentation": "Jeroen Koster en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Chandra, Acolyte of Flame",
+                    "artist": "Anna Steinbauer"
+                }
+            }
         }
     ]
 }
