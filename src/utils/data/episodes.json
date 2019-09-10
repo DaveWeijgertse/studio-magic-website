@@ -2046,6 +2046,82 @@
                     "artist": "Anna Steinbauer"
                 }
             }
+        },
+        {
+            "id": 30,
+            "name": "We want morph! (Maar ook de rest van Commander 2019)",
+            "date": "2019-09-10",
+            "url": "https://www.buzzsprout.com/133608/1687087-we-want-morph-maar-ook-de-rest-van-commander-2019-030",
+            "description": [
+                "Vier populaire keyword abilities staan centraal in evenzoveel gloednieuwe decks in Commander 2019 (C19): morph, madness, populate en flashback. Wat zijn de opwindendste nieuwe legendaries? Welke andere kersverse kaarten gaan het format een nieuwe impuls geven? En hoe tof zijn de decks in het algemeen? EDH-fanaat Ido Levy is te gast in Studio Magic om zich over deze en vele andere vragen te buigen.",
+                "Ido Levy (26) is een doorgewinterde Magicspeler. Hij begon ooit met de trading card game ten tijde van Scourge, speelde al Standard toen het nog Type 2 heette en verslond de boeken over de Magic lore.",
+                "Tegenwoordig speelt hij Legacy, maar vooral Commander - heel véél Commander. Van vriendschappelijke potjes Elder Dragon Highlander (EDH) tot competitive EDH (cEDH) op het scherpst van de snede.",
+                "Samen met Dave, die zijn enige Commanderdeck onlangs aan de wilgen hing, en Jeroen, die dol is op cEDH zolang de 'c' staat voor 'casual', bespreekt hij het gloednieuwe commanderproduct.",
+                "Per preconstructed deck bespreken ze: het thema van het deck, de drie mogelijke commanders (nieuwe multicolored legendary creatures), het vierde nieuwe legendary creature (dat een kleur 'mist' ten opzichte van de overige drie), andere interessante nieuwe kaarten, kaarten die eruit en erin zouden kunnen, hun eerste indruk van het deck. Vervolgens nemen ze nog een aantal noemenswaardige reprints door die verspreid over de vier decks in Commander 2019 zitten.",
+                "Over Commander 2019:",
+                "Tientallen nieuwe cadeautjes verspreid over vier surprises, zo zou je het jaarlijkse verschijnen van een nieuwe Commanderset kunnen omschrijven. Op deze zomerse pakjesavond, of Commander Christmas, zoals fans van het format het ook wel noemen, brengt Wizards of the Coast nieuwe preconstructed decks uit voor het populaire casual multiplayerformat.",
+                "Commander 2019 is dus de editie van dit jaar. De verschijningsdatum van de set in vrijdag 23 augustus 2019. Deze bevat 4 decks met in totaal 400 kaarten. 302 daarvan zijn verschillend (de overige zijn een hoop overlappende kaarten, zoals basic lands), 59 zijn gloednieuw en ook meteen speelbaar in Legacy en Vintage.",
+                "Over de opname:",
+                "Zoals ook in de aflevering zelf vermeld hebben Jeroen, Dave en Ido ten tijde van de opname nog niet met de decks gespeeld - dit was namelijk vlak voor de release ervan. Ze baseren zich dus voornamelijk op de spoilers en de decklists van de set, die toen al wel volledig bekend waren."
+            ],
+            "shortDescription": "Morph, madness, populate en flashback keren terug in Commander 2019",
+            "schedule": [
+                {
+                    "timestamp": "0:00:30",
+                    "topic": "Even voorstellen: Ido Levy"
+                },
+                {
+                    "timestamp": "0:07:14",
+                    "topic": "Commander 2019: een paar cijfers"
+                },
+                {
+                    "timestamp": "0:10:54",
+                    "topic": "Primal Genesis"
+                },
+                {
+                    "timestamp": "0:31:55",
+                    "topic": "Faceless Menace"
+                },
+                {
+                    "timestamp": "0:55:46",
+                    "topic": "Mystic Intellect"
+                },
+                {
+                    "timestamp": "1:25:56",
+                    "topic": "Merciless Rage"
+                },
+                {
+                    "timestamp": "1:44:47",
+                    "topic": "Noemenswaardige reprints"
+                },
+                {
+                    "timestamp": "1:54:07",
+                    "topic": "Slotbeschouwing"
+                }
+            ],
+            "links": [
+                {
+                    "title": "De decklijsten van Commander 2019",
+                    "url": "https://magic.wizards.com/en/articles/archive/feature/decks-commander-2019-edition-2019-08-08"
+                },
+                {
+                    "title": "Video: Commander 2019-gameplay in Game Knights",
+                    "url": "https://www.youtube.com/watch?v=dXVFl-N2xOc"
+                },
+                {
+                    "title": "Commander 2019 release notes",
+                    "url": "https://magic.wizards.com/en/articles/archive/feature/commander-2019-edition-release-notes-2019-08-09"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Dave Weijgertse en Ido Levy",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Dockside Extortionist",
+                    "artist": "Forrest Imel"
+                }
+            }
         }
     ]
 }

@@ -28,4 +28,5 @@ export const ROUTE_EPISODE_DETAIL = {
     27: '/aflevering/027-waarom-we-magic-the-gathering-spelen',
     28: '/aflevering/028-modern-horizons-verbreedt-bijna-alle-magicformats',
     29: '/aflevering/029-core-set-2020-chandra-in-haar-element',
+    30: '/aflevering/030-we-want-morph-maar-ook-de-rest-van-commander-2019',
 };
