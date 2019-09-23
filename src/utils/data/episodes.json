@@ -2122,6 +2122,87 @@
                     "artist": "Forrest Imel"
                 }
             }
+        },
+        {
+            "id": 31,
+            "name": "CubeVitational: Krone op de Cube",
+            "date": "2019-09-22",
+            "url": "https://www.buzzsprout.com/133608/1749445-cubevitational-krone-op-de-cube-031",
+            "description": [
+                "Thomas Krone is de curator van één van de oudste Cubes van Nederland én organisator van het 'belangrijkste onbelangrijke Magictoernooi': de CubeVitational! Hij schuift aan bij Arjan en Jeroen in Studio Magic om te vertellen hoe zijn Cube begon als middel om regelmatig te Magiccen, maar in tien jaar tijd uitgroeide tot een jaarlijks evenement dat twaalf maanden in beslag neemt en waarvan maar liefst 32 deelnemers de eindronde spelen.",
+                "Hoe is Thomas ooit begonnen met Magic? Hoe kwam hij op het idee voor het bouwen van een Cube? Hoe besluit hij welke kaarten erin en eruit gaan? Wat voor kaarten zitten er dan zoal in? Hoe is hij de CubeVitational begonnen? En wat vinden anderen eigenlijk van zijn Cube? (Spoiler: 'Het mooiste format dat er is!') Dat alles hoor je in dit uitgebreide interview met Thomas, én in gesprekken met spelers op de toernooivloer.",
+                "De 2019-editie van de CubeVitational is nummer tien - een jubileum dus. Deze eindronde met 32 deelnemers (op 4 tafels en met twee Cubes: die van Thomas en die van Arjan) vindt plaats op 16 november in spellencafé de Twee Klaveren in Amsterdam."
+            ],
+            "shortDescription": "Hoe de Cube van Thomas Krone uitgroeide tot 'het belangrijkste onbelangrijke toernooi van Nederland': de CubeVitational.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:32",
+                    "topic": "Eén van de oudste Cubes van Nederland"
+                },
+                {
+                    "timestamp": "0:02:53",
+                    "topic": "Hoe begon Thomas met Magic?"
+                },
+                {
+                    "timestamp": "0:10:13",
+                    "topic": "Hoe begon Thomas met zijn Cube?"
+                },
+                {
+                    "timestamp": "0:13:21",
+                    "topic": "Een rondje ja/nee (+ discussie)"
+                },
+                {
+                    "timestamp": "0:30:08",
+                    "topic": "Een random booster uit Thomas' Cube"
+                },
+                {
+                    "timestamp": "0:55:34",
+                    "topic": "Wat is de CubeVitational nou eigenlijk?"
+                },
+                {
+                    "timestamp": "1:07:46",
+                    "topic": "Rood draften om 3-0 te gaan: speler-interview met Geert Bosch"
+                },
+                {
+                    "timestamp": "1:22:30",
+                    "topic": "Landje als first pick: speler-interview met Floris de Haan"
+                },
+                {
+                    "timestamp": "1:30:39",
+                    "topic": "'Het mooiste format dat er is!': speler-interview met René Nieuwenburg"
+                },
+                {
+                    "timestamp": "1:34:56",
+                    "topic": "Het plezier en de toekomst van de CubeVitational"
+                }
+            ],
+            "links": [
+                {
+                    "title": "De fameuze Dragonstorm-play van Makihito Mihara (Worlds 2006)",
+                    "url": "https://www.youtube.com/watch?v=WCYMi9JsAsc"
+                },
+                {
+                    "title": "Thomas' Cube op CubeTutor",
+                    "url": "http://www.cubetutor.com/visualspoiler/63"
+                },
+                {
+                    "title": "Thomas' Cube(vitational) op Twitter",
+                    "url": "https://twitter.com/CubeVitational"
+                },
+                {
+                    "title": "Arjans Cube op CubeTutor",
+                    "url": "http://www.cubetutor.com/visualspoiler/50"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster en Arjan Ang",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Mindslaver",
+                    "artist": "Glen Angus"
+                }
+            }
         }
     ]
 }
