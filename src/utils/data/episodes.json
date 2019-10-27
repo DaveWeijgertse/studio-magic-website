@@ -2203,6 +2203,121 @@
                     "artist": "Glen Angus"
                 }
             }
+        },
+        {
+            "id": 32,
+            "name": "Er was eens... Throne of Eldraine",
+            "date": "2019-10-17",
+            "url": "https://www.buzzsprout.com/133608/1883201-er-was-eens-throne-of-eldraine-032",
+            "description": [
+                "Breng de Efteling aan de kook in een grote zwarte ketel. Voeg er al roerend aan toe: een flinke scheut Shrek, een paar veren van Moeder de Gans, twee gebroeders Grimm (gepureerd) en een zwaardpuntje koning Arthur. Breng op smaak met wat Angelsaksische folklore en voilá: je hebt de toverdrank Throne of Eldraine gebrouwen!",
+                "Zo ongeveer moeten de heksen en tovenaars in het hoofdkwartier van Wizards of the Coast de afgelopen jaren te werk zijn gegaan bij de ontwikkeling van de nieuwste Magicset. Deze speelt zich af in een soort verknipte sprookjeswereld, en de tagline is dan ook: 'These fairy tales fight back!'",
+                "Arjan, Jeroen en Dave gaan uitgebreid in op de flavor van het product. Wat hebben zij zelf met sprookjes? En welke zitten er zoal verwerkt in deze nieuwe set?",
+                "Ook staan ze stil bij 'Project Booster Fun': wat is dit en wat voor nieuwe soorten boosters en kaart-uitvoeringen kun je tegenkomen? Daarnaast bespreken ze natuurlijk #MTGTOE-mechanics en enkele tientallen nieuwe kaarten, van Once Upon a Time tot Happily Ever After.",
+                "Throne of Eldraine is vanaf 26 september 2019 beschikbaar in Magic: The Gathering Arena en vanaf 4 oktober 2019 op papier. De set bestaat uit 301 kaarten: een 'basis' van 269, plus een Buy-a-Boxpromo, 10 nieuwe kaarten in Planeswalkerdecks en 20 nieuwe in Brawldecks."
+            ],
+            "shortDescription": "Nog lang en gelukkig Magic spelen met toverdrank van de Efteling, Shrek, Grimm, koning Arthur en Moeder de Gans.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:40",
+                    "topic": "Favoriete sprookjes van Arjan, Dave en Jeroen"
+                },
+                {
+                    "timestamp": "0:06:20",
+                    "topic": "De flavor"
+                },
+                {
+                    "timestamp": "0:09:47",
+                    "topic": "Het design"
+                },
+                {
+                    "timestamp": "0:13:27",
+                    "topic": "'Project Booster Fun': Arjan legt uit wat er nieuw is"
+                },
+                {
+                    "timestamp": "0:22:10",
+                    "topic": "Start van bespreking kaarten en mechanics"
+                },
+                {
+                    "timestamp": "0:22:38",
+                    "topic": "Groen"
+                },
+                {
+                    "timestamp": "0:31:34",
+                    "topic": "Zwart"
+                },
+                {
+                    "timestamp": "0:41:06",
+                    "topic": "Rood"
+                },
+                {
+                    "timestamp": "0:54:02",
+                    "topic": "Blauw"
+                },
+                {
+                    "timestamp": "1:05:39",
+                    "topic": "Land"
+                },
+                {
+                    "timestamp": "1:18:53",
+                    "topic": "Multicolor (exclusief Kenrith)"
+                },
+                {
+                    "timestamp": "1:33:16",
+                    "topic": "Artifact"
+                },
+                {
+                    "timestamp": "1:35:53",
+                    "topic": "Wit (inclusief Kenrith)"
+                },
+                {
+                    "timestamp": "1:44:53",
+                    "topic": "Nog wat extra flavor en noemenswaardige kaarten"
+                },
+                {
+                    "timestamp": "1:48:13",
+                    "topic": "Conclusie"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Officiële Throne of Eldraine-trailer",
+                    "url": "https://www.youtube.com/watch?v=mzBrfW7Ipzg"
+                },
+                {
+                    "title": "Mark Rosewater over Project Booster Fun",
+                    "url": "https://magic.wizards.com/en/articles/archive/making-magic/project-booster-fun-2019-07-20"
+                },
+                {
+                    "title": "Once Upon a Time",
+                    "url": "https://scryfall.com/card/peld/169p/once-upon-a-time"
+                },
+                {
+                    "title": "Happily Ever After",
+                    "url": "https://scryfall.com/card/peld/16p/happily-ever-after"
+                },
+                {
+                    "title": "Kenrith, the Returned King",
+                    "url": "https://scryfall.com/card/eld/303/kenrith-the-returned-king"
+                },
+                {
+                    "title": "Voorbeeld van showcase art: Muderous Rider / Swift End",
+                    "url": "https://scryfall.com/card/eld/287/murderous-rider-swift-end"
+                },
+                {
+                    "title": "Lijst van verwijzingen in Throne of Eldraine",
+                    "url": "https://mtg.gamepedia.com/Throne_of_Eldraine/Trivia"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Kenrith, the Returned King",
+                    "artist": "Kieran Yanner"
+                }
+            }
         }
     ]
 }

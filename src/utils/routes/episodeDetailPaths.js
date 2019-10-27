@@ -30,4 +30,5 @@ export const ROUTE_EPISODE_DETAIL = {
     29: '/aflevering/029-core-set-2020-chandra-in-haar-element',
     30: '/aflevering/030-we-want-morph-maar-ook-de-rest-van-commander-2019',
     31: '/aflevering/031-cubevitational-krone-op-de-cube',
+    32: '/aflevering/032-er-was-eens-throne-of-eldraine',
 };
