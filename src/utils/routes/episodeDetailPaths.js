@@ -31,4 +31,5 @@ export const ROUTE_EPISODE_DETAIL = {
     30: '/aflevering/030-we-want-morph-maar-ook-de-rest-van-commander-2019',
     31: '/aflevering/031-cubevitational-krone-op-de-cube',
     32: '/aflevering/032-er-was-eens-throne-of-eldraine',
+    33: '/aflevering/033-grenzen-verleggen-in-pioneer',
 };

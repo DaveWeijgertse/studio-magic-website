@@ -2318,6 +2318,89 @@
                     "artist": "Kieran Yanner"
                 }
             }
+        },
+        {
+            "id": 33,
+            "name": "Grenzen verleggen in Pioneer",
+            "date": "2019-11-04",
+            "url": "https://www.buzzsprout.com/133608/1986445-grenzen-verleggen-in-pioneer-033",
+            "description": [
+                "Pioneer is een gloednieuw Magicformat. In tegenstelling tot recente andere formats kan dit wél rekenen op een warm onthaal van de community. Waarom is dat eigenlijk? Wat zijn de regels? En wat heeft Pioneer dat bijvoorbeeld Frontier en Historic niet hebben? Arjan, Jeroen en Dave bespreken deze en andere vragen over de nieuwe, niet-roterende kid on the block.",
+                "Over blocks gesproken: per Pioneer-legal block neemt het drietal enkele kaarten door die zeer waarschijnlijk play gaan zien in deze nieuwe omgeving. En wat zijn de kaarten die als eerste een ban riskeren?",
+                "Deze aflevering is mede mogelijk gemaakt door The Flipped Table, de webshop voor al je Magicaccessoires.",
+                "Spelers komen ook aan het woord: Jeroen nam zijn microfoon mee naar de FNM en vroeg Ragnar Allard en Kasper Zijl naar hun eerste indrukken van Pioneer. (Kasper ken je misschien nog van onze aflevering over Arena - beluister daarvoor aflevering #24: 'MTG Arena: Duim omhoog voor digitaal Magic'.)",
+                "Pioneer is officieel speelbaar als format in fysieke toernooien én op Magic: The Gathering Online per 24 oktober 2019. Legaal in het formaat zijn alle Magicsets die ooit Standard-legal zijn geweest vanaf Return to Ravnica en het roteert niet: er komen dus alleen maar meer sets bij."
+            ],
+            "shortDescription": "Waarom het nieuwe Magicformat zo'n warm onthaal krijgt van de community.",
+            "schedule": [
+                {
+                    "timestamp": "0:01:01",
+                    "topic": "Sponsorboodschap: The Flipped Table"
+                },
+                {
+                    "timestamp": "0:02:11",
+                    "topic": "Wat is Pioneer?"
+                },
+                {
+                    "timestamp": "0:06:55",
+                    "topic": "Wat heeft Pioneer dat Frontier niet heeft?"
+                },
+                {
+                    "timestamp": "0:12:14",
+                    "topic": "Interview met Magicspeler Ragnar Allard"
+                },
+                {
+                    "timestamp": "0:19:50",
+                    "topic": "Wat is het verschil met Historic?"
+                },
+                {
+                    "timestamp": "0:26:41",
+                    "topic": "Interview met Magicspeler Kasper Zijl"
+                },
+                {
+                    "timestamp": "0:35:48",
+                    "topic": "De Pioneer-blocks (en noemenswaardige kaarten) in vogelvlucht"
+                },
+                {
+                    "timestamp": "1:07:10",
+                    "topic": "Bans: wat kunnen we van WotC verwachten?"
+                },
+                {
+                    "timestamp": "1:13:06",
+                    "topic": "Wordt Pioneer een succes (en waarom)?"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Sponsor van deze aflevering: webshop The Flipped Table",
+                    "url": "https://www.flippedtable.nl/"
+                },
+                {
+                    "title": "Wizards' introductie van het Pioneer-format",
+                    "url": "https://magic.wizards.com/en/articles/archive/news/announcing-pioneer-format-2019-10-21"
+                },
+                {
+                    "title": "Eerste MTGO deck dump van 137(!) 5-0-Pioneer-lijsten",
+                    "url": "https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-league-2019-10-28"
+                },
+                {
+                    "title": "Resultaten van recente Pioneer-events (Mtgtop8)",
+                    "url": "https://www.mtgtop8.com/format?f=PI"
+                },
+                {
+                    "title": "Pioneer-decks op MtgGoldfish",
+                    "url": "https://www.mtggoldfish.com/metagame/pioneer"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Adventurous Impulse",
+                    "artist": "Titus Lunter"
+                }
+            }
         }
     ]
 }
