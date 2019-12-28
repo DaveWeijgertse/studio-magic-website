@@ -2401,6 +2401,131 @@
                     "artist": "Titus Lunter"
                 }
             }
+        },
+        {
+            "id": 34,
+            "name": "Masterclass (Cube)draften: tips vanaf de CubeVitational",
+            "date": "2019-12-03",
+            "url": "https://www.buzzsprout.com/133608/2212517-masterclass-cube-draften-tips-vanaf-de-cubevitational-034",
+            "description": [
+                "De CubeVitational is het 'belangrijkste onbelangrijke Magictoernooi van Nederland' met 'een sterker deelnemersveld dan een dag-2 op een gemiddelde Grand Prix', aldus mensen die het kunnen weten*. De tiende editie vond plaats op zaterdag 16 november 2019 en Studio Magic was erbij - niet alleen om verslag te doen, maar ook om een aantal van de beste drafters van Nederland** hun drafttips en -strategieën te ontfutselen!",
+                "*: Deze uitspraken zijn van respectievelijk Thomas 'Cubefather' Krone en Level 3 judge-in-ruste Teun Zijp.",
+                "**: Onder de deelnemers van CubeVitational 2019 waren onder andere: een oud-wereldkampioen (Juliën Nuijten), een meervoudig Nederlands kampioen en ProTour-deelnemer (Daan Pruijt), een grandprixwinnaar (Elmer van Eeghen), twee gerenommeerde Level 3 judges (Dustin de Leeuw, Teun Zijp) en een Dutch Open Series-winnaar (Kasper Zijl)."
+            ],
+            "shortDescription": "De CubeVitational 2019 is draften op hoog niveau. Topspelers delen hun tips en strategieën met de luisteraar.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:21",
+                    "topic": "Wat is de CubeVitational?"
+                },
+                {
+                    "timestamp": "0:05:29",
+                    "topic": "Geert Bosch over zijn eerste draft"
+                },
+                {
+                    "timestamp": "0:11:00",
+                    "topic": "Daan Pruijt over zijn eerste draft"
+                },
+                {
+                    "timestamp": "0:13:02",
+                    "topic": "Geert en Daan over hun match"
+                },
+                {
+                    "timestamp": "0:17:30",
+                    "topic": "Elmer van Eeghen over zijn draft en eerste ronde"
+                },
+                {
+                    "timestamp": "0:22:07",
+                    "topic": "Corné Dubelaar over zijn draft en eerste ronde"
+                },
+                {
+                    "timestamp": "0:26:20",
+                    "topic": "Dustin de Leeuw heeft een leuke dag"
+                },
+                {
+                    "timestamp": "0:32:34",
+                    "topic": "Tijs de Kler over zijn tweede draft"
+                },
+                {
+                    "timestamp": "0:36:31",
+                    "topic": "Elmer van Eeghen over zijn finaledraft"
+                },
+                {
+                    "timestamp": "0:44:42",
+                    "topic": "Teun Zijp over Magic versus gezinsleven"
+                },
+                {
+                    "timestamp": "0:50:09",
+                    "topic": "We have a winner! Interview met de kampioen van 2019"
+                },
+                {
+                    "timestamp": "0:52:23",
+                    "topic": "Nabeschouwing met organisatoren Thomas Krone en Arjan Ang"
+                }
+            ],
+            "links": [
+                {
+                    "title": "De CubeVitational op Twitter",
+                    "url": "https://twitter.com/CubeVitational"
+                },
+                {
+                    "title": "Thomas' Cube (visual spoiler op CubeTutor)",
+                    "url": "https://www.cubetutor.com/visualspoiler/63"
+                },
+                {
+                    "title": "Arjans Cube (visual spoiler op CubeTutor)",
+                    "url": "https://www.cubetutor.com/visualspoiler/50"
+                },
+                {
+                    "title": "Noemenswaardige kaart: Burning of Xinye",
+                    "url": "https://scryfall.com/card/vma/151/burning-of-xinye"
+                },
+                {
+                    "title": "Noemenswaardige kaart: Recurring Nightmare",
+                    "url": "https://scryfall.com/card/tpr/113/recurring-nightmare"
+                },
+                {
+                    "title": "Noemenswaardige kaart: Squadron Hawk",
+                    "url": "https://scryfall.com/card/a25/34/squadron-hawk"
+                },
+                {
+                    "title": "Noemenswaardige kaart: Goblin Rabblemaster",
+                    "url": "https://scryfall.com/card/ddt/46/goblin-rabblemaster"
+                },
+                {
+                    "title": "Noemenswaardige kaart: Jace, Vryn's Prodigy",
+                    "url": "https://scryfall.com/card/ori/60/jace-vryns-prodigy-jace-telepath-unbound"
+                },
+                {
+                    "title": "Noemenswaardige kaart: Meloku the Clouded Mirror",
+                    "url": "https://scryfall.com/card/mma/52/meloku-the-clouded-mirror"
+                },
+                {
+                    "title": "Gerelateerde aflevering: Introductie tot het Cube-format / Arjans Cube (#012)",
+                    "url": "http://studiomagic.nl/aflevering/012-cube-101-een-introductie-tot-het-format"
+                },
+                {
+                    "title": "Gerelateerde aflevering: Over de CubeVitational / Thomas' Cube (#031)",
+                    "url": "http://studiomagic.nl/aflevering/031-cubevitational-krone-op-de-cube"
+                },
+                {
+                    "title": "Gerelateerde aflevering: Interview met Level 3 judge Dustin de Leeuw (#003)",
+                    "url": "http://studiomagic.nl/aflevering/003-all-is-dustin-interview-met-magic-judge-dustin-de-leeuw"
+                },
+                {
+                    "title": "Gerelateerde aflevering: Interview met Nederlands kampioen Daan Pruijt (#017)",
+                    "url": "http://studiomagic.nl/aflevering/017-daan-pruijt-nederlands-kampioen-met-een-sai-deck"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Meloku the Clouded Mirror",
+                    "artist": "Scott M. Fischer"
+                }
+            }
         }
     ]
 }

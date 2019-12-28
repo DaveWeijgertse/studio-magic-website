@@ -32,4 +32,5 @@ export const ROUTE_EPISODE_DETAIL = {
     31: '/aflevering/031-cubevitational-krone-op-de-cube',
     32: '/aflevering/032-er-was-eens-throne-of-eldraine',
     33: '/aflevering/033-grenzen-verleggen-in-pioneer',
+    34: '/aflevering/034-masterclass-cube-draften-tips-vanaf-de-cubevitational',
 };
