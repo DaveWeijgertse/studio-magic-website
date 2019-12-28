@@ -2526,6 +2526,106 @@
                     "artist": "Scott M. Fischer"
                 }
             }
+        },
+        {
+            "id": 35,
+            "name": "Flashback 2019: Terugblik op het Magicjaar",
+            "date": "2019-12-29",
+            "url": "https://www.buzzsprout.com/133608/2357945-flashback-2019-terugblik-op-het-magicjaar-035",
+            "description": [
+                "Oko, Thief of Crowns heeft in 2019 zijn stempel flink op diverse Magicformats gedrukt. Daardoor zou je bijna vergeten dat dit ook het jaar was van kaarten als Hogaak, Urza en Field of the Dead, en dat er daarnaast nog veel meer gebeurde in de wereld van het populaire ruilkaartenspel. Jeroen, Arjan en Dave nemen het afgelopen Magicjaar nog even met je door.",
+                "In hun terugblik gaan ze in vogelvlucht door alle sets die in 2019 uitkwamen: Ravnica Allegiance, War of the Spark, Modern Horizons, Core Set 2020, Commander 2019 en Throne of Eldraine. Verder bespreken ze een hoop andere MTG-ontwikkelingen, zoals de vervanging van de Pro Tour door de Mythic Championships, de vele bans en unbans, het nieuwe format Pioneer en het verschijnsel power creep."
+            ],
+            "shortDescription": "Oko, Hogaak, Pioneer, power creep en alle Magicsets van 2019 in vogelvlucht: Jeroen, Arjan en Dave blikken terug.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:36",
+                    "topic": "Podcasts beluisteren op je smartphone"
+                },
+                {
+                    "timestamp": "0:01:47",
+                    "topic": "Ravnica Allegiance"
+                },
+                {
+                    "timestamp": "0:06:55",
+                    "topic": "War of the Spark"
+                },
+                {
+                    "timestamp": "0:18:39",
+                    "topic": "Modern Horizons"
+                },
+                {
+                    "timestamp": "0:37:09",
+                    "topic": "Core Set 2020"
+                },
+                {
+                    "timestamp": "0:42:55",
+                    "topic": "Commander 2019"
+                },
+                {
+                    "timestamp": "0:48:18",
+                    "topic": "Throne of Eldraine"
+                },
+                {
+                    "timestamp": "1:04:18",
+                    "topic": "Mythic Championships (voorheen Pro Tour) en coverage"
+                },
+                {
+                    "timestamp": "1:12:30",
+                    "topic": "London Mulligan"
+                },
+                {
+                    "timestamp": "1:16:22",
+                    "topic": "Pioneer en andere 'nieuwe' formats"
+                },
+                {
+                    "timestamp": "1:25:01",
+                    "topic": "Project Booster Fun"
+                },
+                {
+                    "timestamp": "1:24:20",
+                    "topic": "Bans en unbans"
+                },
+                {
+                    "timestamp": "1:31:12",
+                    "topic": "Secret Lairs"
+                },
+                {
+                    "timestamp": "1:35:33",
+                    "topic": "Power creep: een probleem?"
+                },
+                {
+                    "timestamp": "1:43:11",
+                    "topic": "Arjan, Dave en Jeroen over hun persoonlijke top 3's van 2019"
+                },
+                {
+                    "timestamp": "1:59:20",
+                    "topic": "Vooruitblik op 2020"
+                },
+                {
+                    "timestamp": "2:07:01",
+                    "topic": "Goede voornemens voor 2020"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Oko, Thief of Crowns",
+                    "url": "https://scryfall.com/card/eld/197/oko-thief-of-crowns"
+                },
+                {
+                    "title": "De actuele lijst met banned en restricted kaarten",
+                    "url": "https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/banned-restricted"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Oko, Thief of Crowns",
+                    "artist": "Yongjae Choi"
+                }
+            }
         }
     ]
 }

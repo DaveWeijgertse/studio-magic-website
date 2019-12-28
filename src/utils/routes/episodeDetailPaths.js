@@ -33,4 +33,5 @@ export const ROUTE_EPISODE_DETAIL = {
     32: '/aflevering/032-er-was-eens-throne-of-eldraine',
     33: '/aflevering/033-grenzen-verleggen-in-pioneer',
     34: '/aflevering/034-masterclass-cube-draften-tips-vanaf-de-cubevitational',
+    35: '/aflevering/035-flashback-2019-terugblik-op-het-magicjaar',
 };
