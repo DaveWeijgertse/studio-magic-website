@@ -34,4 +34,5 @@ export const ROUTE_EPISODE_DETAIL = {
     33: '/aflevering/033-grenzen-verleggen-in-pioneer',
     34: '/aflevering/034-masterclass-cube-draften-tips-vanaf-de-cubevitational',
     35: '/aflevering/035-flashback-2019-terugblik-op-het-magicjaar',
+    36: '/aflevering/036-epische-ontsnappingen-in-theros-beyond-death',
 };

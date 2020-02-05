@@ -2626,6 +2626,88 @@
                     "artist": "Yongjae Choi"
                 }
             }
+        },
+        {
+            "id": 36,
+            "name": "Epische ontsnappingen in Theros Beyond Death",
+            "date": "2020-02-05",
+            "url": "https://www.buzzsprout.com/133608/2667991-epische-ontsnappingen-in-theros-beyond-death-036",
+            "description": [
+                "Jeroen, Arjan en Dave zijn ontsnapt aan hun dagelijkse beslommeringen om een podcast op te nemen, en dit keer bespreken ze Theros Beyond Death! Zoals de naam al suggereert neemt Wizards of the Coast je in deze nieuwe Magicset mee terug naar de populaire, op mythologie geïnspireerde (onder)wereld van Theros.",
+                "Het verhaal draait dit keer voor een groot deel om Elspeth, de planeswalker die in het eerste Theros block nog in het dodenrijk eindigde, en daar nu uit probeert te ontsnappen.",
+                "De nieuwe mechanic escape speelt dan ook sleutelrol in 'Theros 2'. De nieuwe versie van Elspeths planeswalkerkaart heeft deze keyword ability, maar ook een hoop andere toverspreuken en creaturen kun je hiermee vanuit de graveyard casten...",
+                "De drie Studio Magic-presentatoren bespreken onder andere wat ze zoal weten van Griekse mythologie (de belangrijkste inspiratiebron voor de wereld van Theros), de mechanics in de nieuwe set en een aantal noemenswaardige kaarten voor verschillende formats. Ook vragen ze zich hardop af welke nieuwe kaarten eventueel tot bans zouden kunnen leiden..."
+            ],
+            "shortDescription": "Orakels, titanen en (half)goden: WotC steekt Griekse mythologie opnieuw in een Magicjasje",
+            "schedule": [
+                {
+                    "timestamp": "0:01:27",
+                    "topic": "Flavor en inspiratie: Griekse mythologie"
+                },
+                {
+                    "timestamp": "0:12:34",
+                    "topic": "Het verhaal van Theros"
+                },
+                {
+                    "timestamp": "0:13:23",
+                    "topic": "Mechanics"
+                },
+                {
+                    "timestamp": "0:23:20",
+                    "topic": "Cycles"
+                },
+                {
+                    "timestamp": "0:48:33",
+                    "topic": "Modern"
+                },
+                {
+                    "timestamp": "1:00:07",
+                    "topic": "Pioneer"
+                },
+                {
+                    "timestamp": "1:07:09",
+                    "topic": "Commander"
+                },
+                {
+                    "timestamp": "1:15:21",
+                    "topic": "Most likely to get banned / cause bans"
+                },
+                {
+                    "timestamp": "1:20:21",
+                    "topic": "Flavor wins"
+                },
+                {
+                    "timestamp": "1:29:45",
+                    "topic": "Reprints"
+                },
+                {
+                    "timestamp": "1:35:32",
+                    "topic": "Conclusie en afronding"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Het verhaal van Theros Beyond Death",
+                    "url": "https://magic.wizards.com/en/articles/archive/feature/theros-beyond-death-story-summary-2020-01-10"
+                },
+                {
+                    "title": "T3 kill met Underworld Breach",
+                    "url": "https://twitter.com/misterorange/status/1220021188161867778?s=08"
+                },
+                {
+                    "title": "Release Notes",
+                    "url": "https://magic.wizards.com/en/articles/archive/feature/theros-beyond-death-release-notes-2020-01-10"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Arjan Ang en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Underworld Breach",
+                    "artist": "Lie Setiawan"
+                }
+            }
         }
     ]
 }
