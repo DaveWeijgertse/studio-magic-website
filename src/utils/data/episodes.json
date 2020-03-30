@@ -2708,6 +2708,74 @@
                     "artist": "Lie Setiawan"
                 }
             }
+        },
+        {
+            "id": 37,
+            "name": "Unsanctioned: Ongestraft spelregels oprekken",
+            "date": "2020-03-30",
+            "url": "https://www.buzzsprout.com/133608/3164731-unsanctioned-ongestraft-spelregels-oprekken-037",
+            "description": [
+                "Un-kaarten zijn terug! Na Unglued (1998), Unhinged (2004) en Unstable (2017) is Unsanctioned Wizards of the Coasts vierde product met kaarten die zó knotsgek zijn dat je ze nooit in een toernooi-legale set zult aantreffen. Ze zijn te herkennen aan de zilverkleurige (in plaats van zwarte) rand en worden daarom ook wel silver-bordered kaarten genoemd.",
+                "Jeroen, Dave en Kasper gaan er vlak na de release (28 februari 2020) eens goed voor zitten in het lokale spellencafé, en doen verslag van enkele games en hun eerste indrukken. Wat vinden ze van de games en hoeveel 'herspeelbaarheid' heeft Unsanctioned? [Disclaimer: deze opnames zijn begin maart 2020 gemaakt, toen er in Nederland nog geen sprake was van coronoamaatregelen (zoals gesloten cafés)!]",
+                "Een paar belangrijke verschillen met de voorgaande UN-sets: dit keer is het geen set waarmee je kunt boosterdraften, maar verschijnen de kaarten in een kant-en-klaar tweespelerproduct waarmee je direct aan de slag kunt. Verder bevat Unsanctioned vooral veel reprints (het is ook de eerste keer dat Wizards UN-kaarten herdrukt) - 74 om precies te zijn, en 16 gloednieuwe kaarten.",
+                "In de doos zitten vijf decks van dertig kaarten. Of eigenlijk zijn het halve decks, want het idee is dat je er steeds twee combineert om een compleet deck van 60 kaarten te maken. Op die manier kun je dus in totaal tien verschillende decks samenstellen.",
+                "Naast 74 reprints en 16 nieuwe kaarten bevat ook dit Un-product weer zeer gewilde full art basic lands. In elke doos zitten er tien, waarvan vijf foils.",
+                "Deze aflevering is mede mogelijk gemaakt door The Flipped Table, dé webshop voor al je Magic-accessoires. Je kunt daar overigens ook terecht voor Unsanctioned-boxen en andere sealed producten!"
+            ],
+            "shortDescription": "Verslag van een paar knotsgekke games met het nieuwste Un-product.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:37",
+                    "topic": "Huishoudelijke mededelingen"
+                },
+                {
+                    "timestamp": "0:05:37",
+                    "topic": "Game 1: Kasper versus Dave"
+                },
+                {
+                    "timestamp": "0:48:13",
+                    "topic": "Game 2: Jeroen versus Kasper"
+                },
+                {
+                    "timestamp": "1:01:49",
+                    "topic": "Eerste bevindingen / conclusies"
+                },
+                {
+                    "timestamp": "01:31:47",
+                    "topic": "Outtro"
+                }
+            ],
+            "links": [
+                {
+                    "title": "The Flipped Table: webshop voor Magic-accessoires",
+                    "url": "https://www.flippedtable.nl/"
+                },
+                {
+                    "title": "Lijst van alle kaarten in Unsanctioned",
+                    "url": "https://scryfall.com/sets/und"
+                },
+                {
+                    "title": "Unsanctioned FAQ",
+                    "url": "https://magic.wizards.com/en/articles/archive/feature/unsanctioned-faq-2020-02-25"
+                },
+                {
+                    "title": "Unsanctioned basic lands: zoek de eekhoorns!",
+                    "url": "https://scryfall.com/search?as=grid&order=name&q=%28type%3Aland+type%3Abasic%29+set%3Aund"
+                },
+                {
+                    "title": "Volg de MTG-streams van Kasper op Twitch",
+                    "url": "https://www.twitch.tv/tonysilencemtg/"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster en Dave Weijgertse, met als gast Kasper Zijl",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Alexander Clamilton",
+                    "artist": "Dmitry Burmak"
+                }
+            }
         }
     ]
 }
