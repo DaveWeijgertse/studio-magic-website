@@ -36,4 +36,5 @@ export const ROUTE_EPISODE_DETAIL = {
     35: '/aflevering/035-flashback-2019-terugblik-op-het-magicjaar',
     36: '/aflevering/036-epische-ontsnappingen-in-theros-beyond-death',
     37: '/aflevering/037-unsanctioned-ongestraft-spelregels-oprekken',
+    38: '/aflevering/038-bans-babys-en-beperkende-maatregelen',
 };

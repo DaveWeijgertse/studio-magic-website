@@ -2776,6 +2776,75 @@
                     "artist": "Dmitry Burmak"
                 }
             }
+        },
+        {
+            "id": 38,
+            "name": "Bans, baby's en beperkende maatregelen",
+            "date": "2020-07-27",
+            "url": "https://www.buzzsprout.com/133608/4736903-bans-baby-s-en-beperkende-maatregelen-038",
+            "description": [
+                "Het heeft even geduurd maar Jeroen en Dave zijn terug! Ze praten bij over wat hen sinds de vorige aflevering heeft beziggehouden en waarom deze nieuwe een tijdje op zich heeft laten wachten. Spoiler alert: dat kwam door méér dan alleen anticoronamaatregelen!",
+                "Verder bespreken de twee hoe het beviel om Magic te spelen in tijden van social distancing (of beter: physical distancing) met behulp van webcams en/of apps. Ook nemen ze nog even in vogelvlucht wat Magicnieuws van de afgelopen maanden door, en vertelt Dave over een ingrijpende beslissing die hij heeft genomen.",
+                "Tot slot lichten de presentatoren een tipje van de sluier op over de komende afleveringen van Studio Magic - die overigens vlotter zullen verschijnen dan deze!"
+            ],
+            "shortDescription": "Bijpraten over Magic in tijden van regelaanpassingen, gezinsuitbreiding en een lockdown.",
+            "schedule": [
+                {
+                    "timestamp": "0:03:07",
+                    "topic": "Hoe gaat het met Dave?"
+                },
+                {
+                    "timestamp": "0:03:50",
+                    "topic": "Hoe gaat het met Jeroen?"
+                },
+                {
+                    "timestamp": "0:05:32",
+                    "topic": "Er wordt weer met papieren kaarten gespeeld!"
+                },
+                {
+                    "timestamp": "0:08:13",
+                    "topic": "Magic spelen via webcams en apps"
+                },
+                {
+                    "timestamp": "0:16:23",
+                    "topic": "Best wel veel bans"
+                },
+                {
+                    "timestamp": "0:22:40",
+                    "topic": "Daves Belangrijke Beslissing"
+                },
+                {
+                    "timestamp": "0:28:19",
+                    "topic": "Wat is er verder gebeurd op Magicgebied?"
+                },
+                {
+                    "timestamp": "0:31:36",
+                    "topic": "Dutch Open Series: hoe nu verder?"
+                },
+                {
+                    "timestamp": "0:35:42",
+                    "topic": "RIVM-approved FNM's?"
+                },
+                {
+                    "timestamp": "0:37:33",
+                    "topic": "Plannen voor volgende podcastafleveringen"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Banned / restricted / aangepast in 2020",
+                    "url": "https://mtg.gamepedia.com/Banned_and_restricted_cards/Timeline#2020"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster en Dave Weijgertse",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Cathartic Reunion",
+                    "artist": "Jakub Kasper"
+                }
+            }
         }
     ]
 }
