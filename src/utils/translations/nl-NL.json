@@ -48,7 +48,7 @@
         }
     },
     "podcast-sources": {
-        "itunes": "iTunes",
+        "applepodcasts": "Apple Podcasts",
         "stitcher": "Stitcher",
         "tune-in": "TuneIn",
         "rss": "RSS"

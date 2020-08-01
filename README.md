@@ -2,7 +2,7 @@
 Studio Magic is a _Dutch_ podcast about everything related to Magic: the Gathering.
 
 Listen to us on:
-* [iTunes](https://itunes.apple.com/us/podcast/studio-magic/id1309473851)
+* [Apple Podcasts](https://podcasts.apple.com/us/podcast/studio-magic/id1309473851)
 * [Spotify](https://open.spotify.com/show/5ysm4jDqPj8bNHG169pbSH?si=bTRLJc8iQied4eH0uf8AvQ)
 * [Stitcher](https://www.stitcher.com/podcast/studio-magic)
 * [TuneIn](https://tunein.com/radio/Studio-Magic-p1085711/)
