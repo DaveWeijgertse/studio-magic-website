@@ -9,6 +9,10 @@ $image-size: 150px;
     height: 100%;
     padding: 20px;
 
+    @media screen and (max-width: $tablet) {
+        height: auto;
+    }
+
     .image-container {
         display: flex;
         align-items: center;
