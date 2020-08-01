@@ -12,12 +12,35 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            @media screen and (max-width: $phone) {
-                display: block;
+            flex-direction: column;
 
-                .contact-links-container {
-                    text-align: center;
+            .contact-links-email {
+                text-decoration: underline;
+            }
+
+            .contact-links-divider {
+                position: relative;
+
+                &::before,
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    width: 10px;
+                    height: 1px;
+                    background: black;
                 }
+
+                &::before {
+                    left: -15px;
+                }
+
+                &::after {
+                    right: -15px;
+                }
+            }
+
+            .contact-links-social {
             }
         }
     }

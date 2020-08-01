@@ -6,6 +6,7 @@
     "site-credits": "Site gemaakt door Dave Weijgertse",
     "home": "Home",
     "disclaimer": "Disclaimer",
+    "or": "Of",
     "extra-topics": "En verder bespreken we",
     "listen": "Beluister",
     "listen-also-via": "Ook beschikbaar via",
@@ -25,7 +26,8 @@
     },
     "contact": {
         "title": "Contact",
-        "via": "Neem contact met ons op via"
+        "via": "Neem contact met ons op via",
+        "email": "info(at)studiomagic.nl"
     },
     "time-schedule": {
         "title": "Tijdschema"
