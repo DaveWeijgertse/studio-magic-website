@@ -5,12 +5,12 @@ import i18n from 'i18n-react';
 import SocialMediaButton from './SocialMediaButton';
 
 // Styling import
-import './LinksToSocialMedia.scss';
+import './LinksToContact.scss';
 
-const LinksToSocialMedia = () => (
-    <div class="footer-links-to-social-media">
-        <div className="footer-header">{i18n.translate('social-media')}</div>
-        <div class="footer-links-to-social-media-email">{i18n.translate('contact.email')}</div>
+const LinksToContact = () => (
+    <div class="footer-contact">
+        <div className="footer-header">{i18n.translate('contact')}</div>
+        <div class="footer-contact-email">{i18n.translate('contact.email')}</div>
         <SocialMediaButton type="instagram" />
         <SocialMediaButton type="facebook" />
         <SocialMediaButton type="twitter" />
@@ -18,4 +18,4 @@ const LinksToSocialMedia = () => (
     </div>
 );
 
-export default LinksToSocialMedia;
+export default LinksToContact;

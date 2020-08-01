@@ -3,7 +3,7 @@ import React from 'react';
 // Subcomponent imports
 import CopyrightInfo from './CopyrightInfo';
 import LinksToPodcastPages from './LinksToPodcastPages';
-import LinksToSocialMedia from './LinksToSocialMedia';
+import LinksToContact from './LinksToContact';
 import SiteCredits from './SiteCredits';
 
 // Styling import
@@ -13,7 +13,7 @@ const Footer = () => (
     <div className="footer-container">
         <div className="footer-page-container">
             <LinksToPodcastPages />
-            <LinksToSocialMedia />
+            <LinksToContact />
             <div className="copyright-and-site-credits-container">
                 <CopyrightInfo />
                 <SiteCredits />
