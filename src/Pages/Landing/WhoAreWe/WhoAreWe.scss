@@ -3,7 +3,48 @@
 .who-are-we-container {
     @extend %page-container;
 
+    .who-are-we-hosts-container {
+        display: flex;
+
+        @media screen and (max-width: $phone) {
+            flex-direction: column;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        .who-are-we-hosts-current {
+            flex-basis: calc(66.666% + 20px);
+
+            .person-tiles {
+                .person-tile-container:first-child {
+                    margin-left: 0;
+                }
+
+                .person-tile-container:last-child {
+                    margin-right: 20px;
+
+                    @media screen and (max-width: $phone) {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+
+        .who-are-we-hosts-former {
+            flex-basis: calc(33.333% - 10px);
+
+            .person-tile-container {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+    }
+
     .person-tiles {
         @extend %tiles-container;
+        margin: 0;
     }
 }

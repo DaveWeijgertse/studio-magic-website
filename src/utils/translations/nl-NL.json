@@ -22,7 +22,9 @@
         "previous": "Vorige aflevering"
     },
     "who-are-we": {
-        "title": "Wie zijn wij?"
+        "title": "Wie zijn wij?",
+        "current-hosts": "Huidige hosts",
+        "former-hosts": "Voormalige hosts"
     },
     "contact": {
         "title": "Contact",
