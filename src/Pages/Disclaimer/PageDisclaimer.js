@@ -24,6 +24,10 @@ class PageDisclaimer extends React.Component {
                     illustrative purposes only and use of such is not to be construed as any attempt to claim any
                     official approval, support, or sponsorship from Wizards of the Coast.
                 </div>
+                <div>
+                    Studio Magic is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed
+                    by Wizards. Portions of the materials used are property of Wizards of the Coast.
+                </div>
             </div>
         );
     }
