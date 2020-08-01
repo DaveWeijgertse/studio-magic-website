@@ -23,10 +23,16 @@ a.footer-social-media-button {
         font-size: 18px;
     }
 
+    &.instagram .icon:before {
+        content: '\f16d';
+    }
     &.facebook .icon:before {
         content: '\f09a';
     }
     &.twitter .icon:before {
         content: '\f099';
+    }
+    &.linkedin .icon:before {
+        content: '\f0e1';
     }
 }
