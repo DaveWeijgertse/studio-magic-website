@@ -2845,6 +2845,95 @@
                     "artist": "Jakub Kasper"
                 }
             }
+        },
+        {
+            "id": 39,
+            "name": "Muterende monsters op elkaar stapelen in Ikoria",
+            "date": "2020-08-06",
+            "url": "https://www.buzzsprout.com/133608/4881680-muterende-monsters-op-elkaar-stapelen-in-ikoria-039",
+            "description": [
+                "Ikoria: Lair of Behemoths biedt nieuwe manieren om je eigen monsters samen te stellen. Zo kun je bijna eindeloos beesten mixen en matchen dankzij de nieuwe mutate mechanic. Ook kun je ze permanent upgraden met de eveneens nieuwe keyword counters.",
+                "Daarnaast introduceert de set met de companion-regel zelfs nog een derde nieuwe mechanic. Door een creature als companion toe te voegen aan je sideboard leg je jezelf de nodige restricties op bij het bouwen van je deck, maar kun je ook flinke spelvoordelen genereren.",
+                "De set is inmiddels al een paar maanden uit (releasedatum: 15 mei 2020) en dus hebben Jeroen, Kasper en Ido er aardig wat potjes met de nieuwe kaarten op zitten. Is de mutate mechanic te complex? Heeft Wizards of the Coast de companion-regel terecht afgezwakt? En heeft er nog iemand een foil Wilt voor Kasper? Dit alles bespreken ze in deze 39ste aflevering - en daarbij passeert ook het aan Ikoria gekoppelde nieuwe Commanderproduct (Commander 2020, met vijf nieuwe preconstructed decks) de revue."
+            ],
+            "shortDescription": "Is beesten bouwen met mutate te complex gebleken? En is de companionregel terecht aangepast?",
+            "schedule": [
+                {
+                    "timestamp": "0:00:34",
+                    "topic": "Even voorstellen: Kasper en Ido elkaar"
+                },
+                {
+                    "timestamp": "0:03:58",
+                    "topic": "Ikoria: setting en flavor"
+                },
+                {
+                    "timestamp": "0:04:54",
+                    "topic": "Nieuwe mechanic: Mutate"
+                },
+                {
+                    "timestamp": "0:10:20",
+                    "topic": "Nieuwe mechanic: Companion"
+                },
+                {
+                    "timestamp": "0:17:13",
+                    "topic": "Nieuwe mechanic: Keyword counters"
+                },
+                {
+                    "timestamp": "0:19:35",
+                    "topic": "Terugkerende mechanic: Cycling"
+                },
+                {
+                    "timestamp": "0:21:33",
+                    "topic": "Tri-lands, apex creatures, mythos spells en ultimatums"
+                },
+                {
+                    "timestamp": "0:27:40",
+                    "topic": "Box Toppers: Godzilla Series Monster Cards"
+                },
+                {
+                    "timestamp": "0:30:20",
+                    "topic": "Ikoria als Limited format"
+                },
+                {
+                    "timestamp": "0:32:51",
+                    "topic": "Welke kaarten hebben we los gekocht?"
+                },
+                {
+                    "timestamp": "0:36:19",
+                    "topic": "Nieuwe staples voor Pioneer, Modern, Commander en andere formats?"
+                },
+                {
+                    "timestamp": "0:47:42",
+                    "topic": "Commander 2020 / Ikoria Commander"
+                },
+                {
+                    "timestamp": "0:50:20",
+                    "topic": "Conclusies"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Kasper Zijl AKA TonySilenceMTG op Twitch",
+                    "url": "https://www.twitch.tv/tonysilencemtg"
+                },
+                {
+                    "title": "Mutate uitgelegd in vijf minuten",
+                    "url": "https://www.youtube.com/watch?v=wl5nAVW3dGg"
+                },
+                {
+                    "title": "Godzilla Series Monster Cards",
+                    "url": "https://mtg.gamepedia.com/Ikoria:_Lair_of_Behemoths/Box_Toppers"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Kasper Zijl en Ido Levy",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Lurrus of the Dream-Den",
+                    "artist": "Slawomir Maniak"
+                }
+            }
         }
     ]
 }

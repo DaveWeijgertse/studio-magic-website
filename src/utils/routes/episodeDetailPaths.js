@@ -37,4 +37,5 @@ export const ROUTE_EPISODE_DETAIL = {
     36: '/aflevering/036-epische-ontsnappingen-in-theros-beyond-death',
     37: '/aflevering/037-unsanctioned-ongestraft-spelregels-oprekken',
     38: '/aflevering/038-bans-babys-en-beperkende-maatregelen',
+    39: '/aflevering/038-muterende-monsters-op-elkaar-stapelen-in-ikoria',
 };
