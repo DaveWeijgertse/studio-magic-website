@@ -2934,6 +2934,115 @@
                     "artist": "Slawomir Maniak"
                 }
             }
+        },
+        {
+            "id": 40,
+            "name": "M21 is de zoveelste 'verrassend leuke' Core Set",
+            "date": "2020-08-26",
+            "url": "https://www.buzzsprout.com/133608/4881680-muterende-monsters-op-elkaar-stapelen-in-ikoria-039",
+            "description": [
+                "Core Sets hebben geen beste naam, en dat terwijl de laatste paar edities toch steeds bij veel spelers in goede aarde vielen. Is het dan nog wel terecht om het 'verrassend' te noemen als zo'n basisset goed uitpakt? En hoe past Core Set 2021, ook wel M21 genoemd, in deze recente trend?",
+                "Behalve deze kwestie bespreken Jeroen, Kasper en Ido vooral weer een heleboel kaarten (enkele tientallen passeren de revue) en de impact ervan op formats als Pioneer, Modern, Legacy en Commander. Ook het met M21 overlappende nieuwe product Jumpstart, met boosters van 20 kaarten waarvan je er steeds 2 kunt samenvoegen tot een direct speelbaar deck, komt aan bod.",
+                "Verder: Zeg Wizards, hoeveel Temple-landjes hebben we nog nodig?? En kun je eigenlijk tegelijk zowel een honden- áls een kattenmens zijn??"
+            ],
+            "shortDescription": "Behalve planeswalkers liggen nu ook honden en katten met elkaar overhoop.",
+            "schedule": [
+                {
+                    "timestamp": "0:01:02",
+                    "topic": "Wat weten we over M21?"
+                },
+                {
+                    "timestamp": "0:02:28",
+                    "topic": "Planeswalkers en signature spells"
+                },
+                {
+                    "timestamp": "0:10:31",
+                    "topic": "Mill is nu een keyword!"
+                },
+                {
+                    "timestamp": "0:11:00",
+                    "topic": "Terugkerende mechanics: Phasing(!) en cycling"
+                },
+                {
+                    "timestamp": "0:11:40",
+                    "topic": "Cycles"
+                },
+                {
+                    "timestamp": "0:14:19",
+                    "topic": "Notable reprints"
+                },
+                {
+                    "timestamp": "0:21:35",
+                    "topic": "Subthema: Honden versus katten"
+                },
+                {
+                    "timestamp": "0:27:14",
+                    "topic": "Welke kaarten zijn goed in Modern?"
+                },
+                {
+                    "timestamp": "0:41:30",
+                    "topic": "Welke kaarten zijn goed in Pioneer?"
+                },
+                {
+                    "timestamp": "0:43:19",
+                    "topic": "Welke kaarten zijn goed in Legacy?"
+                },
+                {
+                    "timestamp": "0:46:03",
+                    "topic": "Welke kaarten zijn goed in Commander?"
+                },
+                {
+                    "timestamp": "0:49:42",
+                    "topic": "Draft-indrukken"
+                },
+                {
+                    "timestamp": "0:50:36",
+                    "topic": "Zijn Core Sets tegenwoordig zowaar gewoon... leuk?!"
+                },
+                {
+                    "timestamp": "0:52:26",
+                    "topic": "Nieuw product: Jumpstart"
+                },
+                {
+                    "timestamp": "1:02:02",
+                    "topic": "Conclusies"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Alle kaarten uit M21 (inclusief reprints)",
+                    "url": "https://scryfall.com/sets/m21"
+                },
+                {
+                    "title": "Alle kaarten uit Jumpstart (inclusief reprints)",
+                    "url": "https://scryfall.com/sets/jmp"
+                },
+                {
+                    "title": "Release notes van Core Set 2021 en Jumpstart",
+                    "url": "https://magic.wizards.com/en/articles/archive/feature/core-set-2021-and-jumpstart-release-notes-2020-06-20"
+                },
+                {
+                    "title": "Een kans van 1 op 121?",
+                    "url": "https://www.reddit.com/r/mtgfinance/comments/hbjd47/question_re_jumpstart_booster_rarity"
+                },
+                {
+                    "title": "Horror-achtige art in Peer into the Abyss",
+                    "url": "https://scryfall.com/card/m21/117/peer-into-the-abyss"
+                },
+                {
+                    "title": "Volg Kasper Zijl AKA TonySilenceMTG op Twitch",
+                    "url": "https://www.twitch.tv/tonysilencemtg"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Kasper Zijl en Ido Levy",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Sublime Epiphany",
+                    "artist": "Lindsey Look"
+                }
+            }
         }
     ]
 }

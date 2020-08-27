@@ -38,4 +38,5 @@ export const ROUTE_EPISODE_DETAIL = {
     37: '/aflevering/037-unsanctioned-ongestraft-spelregels-oprekken',
     38: '/aflevering/038-bans-babys-en-beperkende-maatregelen',
     39: '/aflevering/038-muterende-monsters-op-elkaar-stapelen-in-ikoria',
+    40: '/aflevering/040-m21-is-de-zoveelste-verrassend-leuke-core-set',
 };
