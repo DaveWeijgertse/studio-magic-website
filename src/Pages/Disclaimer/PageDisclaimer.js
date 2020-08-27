@@ -15,7 +15,7 @@ class PageDisclaimer extends React.Component {
                 <h1>{i18n.translate('disclaimer')}</h1>
                 <div>
                     Wizards of the Coast, Magic: The Gathering, and their logos are trademarks of Wizards of the Coast
-                    LLC in the United States and other countries. © 2019 Wizards. All Rights Reserved.
+                    LLC in the United States and other countries. © 2020 Wizards. All Rights Reserved.
                 </div>
                 <div>
                     Magic: the Gathering, the mana symbols and any other official game images including card art remain
