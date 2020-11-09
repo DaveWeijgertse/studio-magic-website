@@ -3043,6 +3043,99 @@
                     "artist": "Lindsey Look"
                 }
             }
+        },
+        {
+            "id": 41,
+            "name": "Zendikar Rising en de opkomst van dubbelzijdige kaarten",
+            "date": "2020-11-09",
+            "url": "https://www.buzzsprout.com/133608/6267097-zendikar-rising-en-de-opkomst-van-dubbelzijdige-kaarten",
+            "description": [
+                "Op de plane Zendikar kunnen avonturiers hun hart ophalen. Het is een spannende wereld vol schatten, maar ook vol gevaren. Die gevaren zijn dit keer niet de Eldrazi, zoals ten tijde van Zendikar en Battle for Zendikar, maar liggen op de loer in de vorm van roofdieren en monsters, én van het terrein zelf. Landjes spelen dan ook een centrale rol in de gameplay die deze nieuwe Magic: The Gathering-uitbreiding met zich meebrengt.",
+                "Jeroen, Kasper en Ido bespreken de nieuwe nieuwe en terugkerende mechanics, een hoop afzonderlijke kaarten, recente bans als gevolg van de release van Zendikar Rising (MTGZNR) en de impact van de set op uiteenlopende formats.",
+                "N.B.: Vanwege een pandemie zijn deze opnames gemaakt tijdens een videobelgesprek. Hierdoor is de geluidskwaliteit helaas niet voor elke spreker even goed. Sorry hiervoor!",
+                "Nieuw: MDFC's en party. De populaire mechanic landfall maakt opnieuw zijn opwachting, maar vooral in het oog springend zijn nieuwe modal double-faced cards (MDFC's). MDFC's zijn dubbelzijdige kaarten, dus met een plaatje aan beide kanten, waarbij je kunt kiezen op welke manier je ze op de stack zet of op de battlefield laat komen.",
+                "In het geval van Zendikar Rising, de eerste set waarin dit type kaart voorkomt, is een MDFC aan de achterkant altijd een landje, en aan de voorkant altijd een van de volgende soorten kaarten: een instant, een sorcery, een creature, en een landje",
+                "Ook nieuw, althans voor Magic: The Gathering, is het concept van party's - in de betekenis van adventuring party, oftewel een groepje avonturiers. Dit is 'geleend' van het eveneens populaire en door Wizards of the Coast uitgegeven fantasy-avonturenspel Dungeons & Dragons. In MTG bestaat een party uit vier leden: een Wizard, een Warrior, een Rogue en een Cleric. ",
+                "Zendikar Rising verscheen op 25 september 2020 en bevat 280 kaarten."
+            ],
+            "shortDescription": "Een nieuw bezoek aan de geliefde avonturen-plane, maar nu met 'modal double-faced cards'.",
+            "schedule": [
+                {
+                    "timestamp": "0:00:43",
+                    "topic": "Wat is Zendikar voor wereld?"
+                },
+                {
+                    "timestamp": "0:02:41",
+                    "topic": "Terugkerende mechanics: landfall en kicker"
+                },
+                {
+                    "timestamp": "0:10:27",
+                    "topic": "Nieuwe mechanic: party"
+                },
+                {
+                    "timestamp": "0:28:52",
+                    "topic": "Nieuw soort kaarten: modal double-faced cards (MDFC's)"
+                },
+                {
+                    "timestamp": "0:40:15",
+                    "topic": "The elemental in the room: Omnath"
+                },
+                {
+                    "timestamp": "0:45:28",
+                    "topic": "MDFC's in deck-constructie"
+                },
+                {
+                    "timestamp": "0:48:35",
+                    "topic": "Kaarten die we zelf al gekocht / aangeruild hebben"
+                },
+                {
+                    "timestamp": "0:58:46",
+                    "topic": "Welke kaarten zijn goed in Modern?"
+                },
+                {
+                    "timestamp": "1:03:53",
+                    "topic": "Welke kaarten zijn goed in Pioneer?"
+                },
+                {
+                    "timestamp": "1:05:46",
+                    "topic": "Ido's Mini Deck Tech: Goblin Charbelcher (Modern / Legacy)"
+                },
+                {
+                    "timestamp": "1:08:51",
+                    "topic": "De nieuwe Standard metagame"
+                },
+                {
+                    "timestamp": "1:12:52",
+                    "topic": "Welke kaarten zijn goed in Commander?"
+                },
+                {
+                    "timestamp": "1:20:50",
+                    "topic": "Conclusies"
+                }
+            ],
+            "links": [
+                {
+                    "title": "Alle kaarten uit Zendikar Rising",
+                    "url": "https://scryfall.com/sets/znr?order=set&as=grid"
+                },
+                {
+                    "title": "Release notes van Zendikar Rising",
+                    "url": "https://magic.wizards.com/en/articles/archive/feature/zendikar-rising-release-notes-2020-09-10"
+                },
+                {
+                    "title": "Volg Kasper Zijl AKA TonySilenceMTG op Twitch",
+                    "url": "https://www.twitch.tv/tonysilencemtg"
+                }
+            ],
+            "credits": {
+                "presentation": "Jeroen Koster, Kasper Zijl en Ido Levy",
+                "editing": "Jeroen Koster",
+                "extraMusic": [],
+                "art": {
+                    "name": "Omnath, Locus of Creation",
+                    "artist": "Chris Rahn"
+                }
+            }
         }
     ]
 }
